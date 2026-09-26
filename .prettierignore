@@ -1,0 +1,7 @@
+dist
+coverage
+.cache
+public/geo
+data/images.json
+data/land.json
+data/country-names.json

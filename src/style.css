@@ -1,0 +1,141 @@
+@import 'tailwindcss';
+
+/* Every colour in the app, map included, is one of these tokens. The map reads
+   them at runtime (AtlasMap.vue), so changing a colour here changes it
+   everywhere, in both themes. The dark set applies when <html data-theme> is
+   "dark", which src/lib/theme.ts sets from the visitor's choice or the system
+   setting (and index.html sets before first paint). */
+:root {
+  --bg: #f6f2ea;
+  --surface: #fffdf8;
+  --surface-2: #efe9dd;
+  --ink: #1f1a14;
+  --muted: #6b6255;
+  --line: #ddd4c4;
+  /* Nightshade purple, the icon's colour (#7b3f9e), for links, the title and
+     selected filters. Every text colour here is at least 4.5:1 on --bg,
+     --surface and --surface-2; src/lib/contrast.test.ts checks. */
+  --accent: #7a3a96;
+  /* Text on an accent background, such as a selected filter. */
+  --on-accent: #ffffff;
+
+  --map-ocean: #dfe7ea;
+  --map-land: #e4e2de;
+  --map-border: #b9ae9c;
+  /* A selected species' native range and record dots: blue for species that
+     live in the water, green for land ones, so the colour says which it is.
+     Introduced (naturalised or invasive) places are hatched orange, and their
+     dots are orange too, so native and introduced never look alike. */
+  --map-range: #1f7a8c;
+  --map-range-land: #5b8c2a;
+  --map-records-land: #2e7d32;
+  --map-introduced: #b35a12;
+  --map-water: #c9d8de;
+  --map-records: #0b6bb1;
+  --map-selected: #1f1a14;
+  --heat-1: #e3cdef;
+  --heat-2: #cfa9e4;
+  --heat-3: #b07fd0;
+  --heat-4: #8a51b0;
+  --heat-5: #5f2c80;
+  /* "Introduced" written out in text, a shade darker than the map's orange. */
+  --introduced-ink: #a0500f;
+
+  /* The danger scale. The dots use --danger-N; its label uses --danger-N-ink,
+     which is darker where the dot colour would be too faint to read. */
+  --danger-1: #6f8f3a;
+  --danger-2: #b8901c;
+  --danger-3: #d06a1f;
+  --danger-4: #c0392b;
+  --danger-5: #7d1d3f;
+  --danger-1-ink: #57702d;
+  --danger-2-ink: #806414;
+  --danger-3-ink: #a25218;
+  --danger-4-ink: #bd382a;
+  --danger-5-ink: #7d1d3f;
+
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --bg: #14120f;
+  --surface: #1d1a16;
+  --surface-2: #27231d;
+  --ink: #f1ebe0;
+  --muted: #a39a8b;
+  --line: #3a342b;
+  --accent: #c69ae4;
+  --on-accent: #14120f;
+
+  --map-ocean: #0e1316;
+  --map-land: #25272a;
+  --map-border: #43454a;
+  --map-range: #4fc1d6;
+  --map-range-land: #93c96a;
+  --map-records-land: #7ddc8a;
+  --map-introduced: #f0a050;
+  --map-water: #1a2429;
+  --map-records: #5cc8ff;
+  --map-selected: #fff4e0;
+  --heat-1: #452a5c;
+  --heat-2: #5c3478;
+  --heat-3: #7a4697;
+  --heat-4: #a064c0;
+  --heat-5: #c994e8;
+  --introduced-ink: #f0a050;
+
+  --danger-1: #97b85a;
+  --danger-2: #dcb440;
+  --danger-3: #ec8c42;
+  --danger-4: #ef5b4b;
+  --danger-5: #e0608f;
+  --danger-1-ink: #97b85a;
+  --danger-2-ink: #dcb440;
+  --danger-3-ink: #ec8c42;
+  --danger-4-ink: #ef5b4b;
+  --danger-5-ink: #e0608f;
+
+  color-scheme: dark;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* MapLibre's controls, restyled to match. Scoped under #app so these win over
+   maplibre-gl.css on specificity rather than with !important. */
+#app .maplibregl-ctrl-group {
+  background: var(--surface);
+  box-shadow: 0 0 0 1px var(--line);
+}
+#app .maplibregl-ctrl-group button + button {
+  border-top-color: var(--line);
+}
+#app .maplibregl-ctrl-attrib {
+  background: color-mix(in srgb, var(--surface) 80%, transparent);
+  color: var(--muted);
+}
+#app .maplibregl-ctrl-attrib a {
+  color: var(--ink);
+}
+:root[data-theme='dark'] #app .maplibregl-ctrl-icon,
+:root[data-theme='dark'] #app .maplibregl-ctrl-attrib-button {
+  filter: invert(1);
+}

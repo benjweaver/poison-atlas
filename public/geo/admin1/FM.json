@@ -1,0 +1,6 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[163.026,5.341],[163.011,5.38],[162.924,5.321],[163.019,5.273],[163.026,5.341]]]},"properties":{"code":"FM-KSA","name":"Kosrae","wikidata":"Q459848"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[158.291,6.938],[158.181,6.979],[158.126,6.907],[158.194,6.793],[158.292,6.795],[158.338,6.879],[158.291,6.938]]]},"properties":{"code":"FM-PNI","name":"Pohnpei","wikidata":"Q7771127"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[151.589,7.384],[151.645,7.336],[151.65,7.369],[151.622,7.392],[151.589,7.384]]]},"properties":{"code":"FM-TRK","name":"Chuuk","wikidata":"Q221684"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[138.192,9.576],[138.126,9.566],[138.134,9.512],[138.189,9.507],[138.192,9.576]]]},"properties":{"code":"FM-YAP","name":"Yap","wikidata":"Q11342951"}}
+]}

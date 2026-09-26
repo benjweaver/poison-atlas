@@ -1,0 +1,30 @@
+# Every push and pull request: validate the species data, lint, typecheck,
+# test and build. Deploying is Cloudflare's job: it builds main from the repo
+# on its own (see wrangler.jsonc).
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run validate
+      - run: npm run lint:check
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build

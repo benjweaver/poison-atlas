@@ -1,0 +1,13 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-60.98,14.044],[-60.936,14.018],[-60.901,14.073],[-60.98,14.044]]]},"properties":{"code":"LC-06","name":"Gros Islet","wikidata":"Q953557"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-60.98,14.044],[-61.027,13.987],[-60.981,13.893],[-60.961,13.879],[-60.961,13.9],[-60.941,13.979],[-60.936,14.018],[-60.98,14.044]]]},"properties":{"code":"LC-02","name":"Castries","wikidata":"Q1049867"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.027,13.987],[-61.067,13.909],[-60.981,13.893],[-61.027,13.987]]]},"properties":{"code":"LC-01","name":"Anse-la-Raye","wikidata":"Q1676934"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-60.981,13.893],[-61.067,13.909],[-61.068,13.792],[-60.982,13.836],[-60.975,13.839],[-60.964,13.845],[-60.961,13.879],[-60.981,13.893]]]},"properties":{"code":"LC-10","name":"Soufrière","wikidata":"Q1472841"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.068,13.792],[-61.019,13.756],[-60.981,13.831],[-60.982,13.836],[-61.068,13.792]]]},"properties":{"code":"LC-03","name":"Choiseul","wikidata":"Q1075816"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-61.019,13.756],[-60.967,13.731],[-60.981,13.831],[-61.019,13.756]]]},"properties":{"code":"LC-07","name":"Laborie","wikidata":"Q599347"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-60.982,13.836],[-60.981,13.831],[-60.967,13.731],[-60.918,13.774],[-60.975,13.839],[-60.982,13.836]]]},"properties":{"code":"LC-11","name":"Vieux Fort","wikidata":"Q1472864"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-60.975,13.839],[-60.918,13.774],[-60.892,13.833],[-60.964,13.845],[-60.975,13.839]]]},"properties":{"code":"LC-08","name":"Micoud","wikidata":"Q1240193"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-60.961,13.879],[-60.964,13.845],[-60.892,13.833],[-60.89,13.908],[-60.961,13.9],[-60.961,13.879]]]},"properties":{"code":"LC-09","name":"Praslin","wikidata":"Q1567791"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-60.961,13.9],[-60.89,13.908],[-60.883,13.981],[-60.941,13.979],[-60.961,13.9]]]},"properties":{"code":"LC-05","name":"Dennery","wikidata":"Q1188890"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-60.936,14.018],[-60.941,13.979],[-60.883,13.981],[-60.901,14.073],[-60.936,14.018]]]},"properties":{"code":"LC-04","name":"Dauphin","wikidata":"Q182988"}}
+]}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Poison Atlas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fffdf8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1d1a16" media="(prefers-color-scheme: dark)" />
+    <script>
+      // Pick the theme before first paint (src/lib/theme.ts takes over once the
+      // app loads), so dark-mode visitors don't see a flash of the light theme.
+      try {
+        var t = localStorage.getItem('theme')
+      } catch (e) {}
+      if (t !== 'light' && t !== 'dark')
+        t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      document.documentElement.dataset.theme = t
+      // Preview builds (*.workers.dev) stay out of search results; only the real
+      // address is indexed.
+      if (/\.workers\.dev$/.test(location.hostname)) {
+        var robots = document.createElement('meta')
+        robots.name = 'robots'
+        robots.content = 'noindex'
+        document.head.append(robots)
+      }
+    </script>
+    <title>Poison Atlas · Poisonous plants, fungi, and animals by country and state</title>
+    <meta
+      name="description"
+      content="An interactive world map of poisonous plants, mushrooms, and animals that can seriously harm people who eat, touch, or breathe them, by country and state, with a source for every claim. Not an identification or foraging guide."
+    />
+    <!-- The app updates the title, description and canonical address for each
+         species and place (src/lib/head.ts). -->
+    <link rel="canonical" href="https://poison-atlas.benjweaver.dev/" />
+    <meta name="author" content="Ben Weaver" />
+
+    <!-- Link previews in chats and social apps. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Poison Atlas" />
+    <meta property="og:title" content="Poison Atlas" />
+    <meta
+      property="og:description"
+      content="An interactive world map of poisonous plants, fungi, and animals by country and state, with a source for every claim."
+    />
+    <meta property="og:url" content="https://poison-atlas.benjweaver.dev/" />
+    <meta property="og:image" content="https://poison-atlas.benjweaver.dev/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Poison Atlas: poisonous plants, fungi, and animals by country and state"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Poison Atlas",
+        "url": "https://poison-atlas.benjweaver.dev/",
+        "description": "An interactive world map of poisonous plants, fungi, and animals by country and state, with a source for every claim.",
+        "inLanguage": "en",
+        "author": { "@type": "Person", "name": "Ben Weaver", "url": "https://benjweaver.dev" },
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
