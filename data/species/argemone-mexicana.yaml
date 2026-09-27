@@ -1,0 +1,218 @@
+name: Mexican prickly poppy
+scientificName: Argemone mexicana
+group: plant
+danger: 4
+summary: >-
+  A spiny yellow-flowered poppy, a weed of fields across the tropics. Oil from its seeds, mixed
+  into cooking oil, causes epidemic dropsy: swelling, heart failure, and blindness.
+exposure:
+  routes: [eaten]
+  text: >-
+    Poisonings come from edible oil, often mustard oil, contaminated with oil from its seeds.
+  sources:
+    - 'Sharma T, Brahma B, Laskar AAM, Paul J. Clinical profile and outcomes of epidemic dropsy patients attending a tertiary care centre in Assam, India. Cureus 2023. https://doi.org/10.7759/cureus.37408'
+toxicParts:
+  text: >-
+    The oil in its seeds.
+  sources:
+    - 'Sharma T, Brahma B, Laskar AAM, Paul J. Clinical profile and outcomes of epidemic dropsy patients attending a tertiary care centre in Assam, India. Cureus 2023. https://doi.org/10.7759/cureus.37408'
+toxins:
+  text: >-
+    Sanguinarine and dehydrosanguinarine, which make small blood vessels dilate and leak.
+  sources:
+    - 'Sharma T, Brahma B, Laskar AAM, Paul J. Clinical profile and outcomes of epidemic dropsy patients attending a tertiary care centre in Assam, India. Cureus 2023. https://doi.org/10.7759/cureus.37408'
+symptoms:
+  text: >-
+    Swelling of both legs, skin changes, vomiting and diarrhea, a racing heart, and heart failure;
+    glaucoma can cause blindness. In one hospital outbreak, 4 of 38 patients died.
+  sources:
+    - 'Sharma T, Brahma B, Laskar AAM, Paul J. Clinical profile and outcomes of epidemic dropsy patients attending a tertiary care centre in Assam, India. Cureus 2023. https://doi.org/10.7759/cureus.37408'
+atRisk:
+  text: >-
+    Families and communities who cook with contaminated oil, mostly in India; outbreaks cluster in
+    a single locality or family.
+  sources:
+    - 'Sharma T, Brahma B, Laskar AAM, Paul J. Clinical profile and outcomes of epidemic dropsy patients attending a tertiary care centre in Assam, India. Cureus 2023. https://doi.org/10.7759/cureus.37408'
+habitat: >-
+  Fields, roadsides, riverbanks, and waste ground.
+size: Up to about 1 m tall
+regions:
+  - BZ
+  - GT
+  - HN
+  - HT
+  - MX-CAM
+  - MX-CHP
+  - MX-COL
+  - MX-DIF
+  - MX-GRO
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-NAY
+  - MX-OAX
+  - MX-PUE
+  - MX-ROO
+  - MX-TAB
+  - MX-YUC
+  - NI
+  - SV
+introduced:
+  - AG
+  - AO
+  - AU-NSW
+  - AU-QLD
+  - AU-WA
+  - AW
+  - BD
+  - BF
+  - BI
+  - BJ
+  - BM
+  - BO
+  - BR-BA
+  - BR-CE
+  - BR-DF
+  - BR-ES
+  - BR-GO
+  - BR-MA
+  - BR-MG
+  - BR-MS
+  - BR-MT
+  - BR-PB
+  - BR-PE
+  - BR-PR
+  - BR-RJ
+  - BR-RN
+  - BR-SE
+  - BR-SP
+  - BS
+  - BW
+  - CA-ON
+  - CD
+  - CI
+  - CM
+  - CO
+  - CR
+  - CU
+  - CV
+  - CW
+  - DE
+  - DJ
+  - DO
+  - EC
+  - EG
+  - ER
+  - ES
+  - ET
+  - FJ
+  - FR
+  - GB
+  - GF
+  - GH
+  - GM
+  - GN
+  - GP
+  - GW
+  - GY
+  - ID
+  - IN-AP
+  - IN-AS
+  - IN-BR
+  - IN-CT
+  - IN-DL
+  - IN-GJ
+  - IN-HP
+  - IN-HR
+  - IN-JH
+  - IN-KA
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-PB
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-UT
+  - IN-WB
+  - JM
+  - KE
+  - KN
+  - LK
+  - LR
+  - LS
+  - MA
+  - ML
+  - MM
+  - MQ
+  - MR
+  - MU
+  - MW
+  - MY
+  - MZ
+  - NC
+  - NE
+  - NG
+  - NP
+  - NU
+  - OM
+  - PE
+  - PH
+  - PK
+  - PR
+  - PT
+  - RE
+  - RW
+  - SA
+  - SD
+  - SH
+  - SL
+  - SN
+  - SR
+  - ST
+  - SZ
+  - TC
+  - TG
+  - TT
+  - TW
+  - TZ
+  - UG
+  - US-AL
+  - US-CT
+  - US-FL
+  - US-GA
+  - US-HI
+  - US-IL
+  - US-IN
+  - US-KS
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-MI
+  - US-MO
+  - US-NC
+  - US-NE
+  - US-NJ
+  - US-NY
+  - US-PA
+  - US-SC
+  - US-TN
+  - US-TX
+  - US-VA
+  - US-VT
+  - UY
+  - VE
+  - VG
+  - VI
+  - VN
+  - YE
+  - ZA-EC
+  - ZA-FS
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZW

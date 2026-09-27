@@ -1,0 +1,63 @@
+name: Western water hemlock
+scientificName: Cicuta douglasii
+group: plant
+danger: 4
+summary: >-
+  A water hemlock of wet ground in western North America, one of the most toxic plants to
+  livestock and people. Its tubers cause violent seizures.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Welch KD, Stonecipher CA, Lee ST, Cook D. The acute toxicity of water hemlock (Cicuta douglasii) in a goat model. Toxicon 2020 (abstract). https://doi.org/10.1016/j.toxicon.2020.02.010'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+toxicParts:
+  text: >-
+    The whole plant, and the tubers above all.
+  sources:
+    - 'Panter KE, Baker DC, Kechele PO. Water hemlock (Cicuta douglasii) toxicoses in sheep: pathologic description and prevention of lesions and death. J Vet Diagn Invest 1996 (abstract). https://doi.org/10.1177/104063879600800413'
+    - 'Welch KD, Stonecipher CA, Lee ST, Cook D. The acute toxicity of water hemlock (Cicuta douglasii) in a goat model. Toxicon 2020 (abstract). https://doi.org/10.1016/j.toxicon.2020.02.010'
+toxins:
+  text: >-
+    Cicutoxin, which blocks the brain’s calming GABA signals.
+  sources:
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+    - 'Welch KD, Stonecipher CA, Lee ST, Cook D. The acute toxicity of water hemlock (Cicuta douglasii) in a goat model. Toxicon 2020 (abstract). https://doi.org/10.1016/j.toxicon.2020.02.010'
+symptoms:
+  text: >-
+    Salivation, tremors, and violent seizures; water hemlock poisoning can end in coma and death.
+  sources:
+    - 'Panter KE, Baker DC, Kechele PO. Water hemlock (Cicuta douglasii) toxicoses in sheep: pathologic description and prevention of lesions and death. J Vet Diagn Invest 1996 (abstract). https://doi.org/10.1177/104063879600800413'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    Water hemlock can cause symptoms within 15 minutes.
+  sources:
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+atRisk:
+  text: >-
+    Foragers who dig wild roots near water, and grazing livestock.
+  sources:
+    - 'Welch KD, Stonecipher CA, Lee ST, Cook D. The acute toxicity of water hemlock (Cicuta douglasii) in a goat model. Toxicon 2020 (abstract). https://doi.org/10.1016/j.toxicon.2020.02.010'
+    - 'Panter KE, Baker DC, Kechele PO. Water hemlock (Cicuta douglasii) toxicoses in sheep: pathologic description and prevention of lesions and death. J Vet Diagn Invest 1996 (abstract). https://doi.org/10.1177/104063879600800413'
+animals:
+  who: [livestock]
+  text: >-
+    It causes many livestock deaths in North America every year.
+  sources:
+    - 'Panter KE, Baker DC, Kechele PO. Water hemlock (Cicuta douglasii) toxicoses in sheep: pathologic description and prevention of lesions and death. J Vet Diagn Invest 1996 (abstract). https://doi.org/10.1177/104063879600800413'
+habitat: >-
+  Stream banks, marshes, ditches, and wet meadows.
+size: Up to about 2 m tall
+regions:
+  - CA-AB
+  - CA-BC
+  - CA-NT
+  - CA-YT
+  - US-AK
+  - US-CA
+  - US-ID
+  - US-MT
+  - US-NV
+  - US-OR
+  - US-WA
+  - US-WY

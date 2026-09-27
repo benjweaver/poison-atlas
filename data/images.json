@@ -75,6 +75,13 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   },
+  "argemone-mexicana": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Argemone_mexicana_flower_2.jpg/960px-Argemone_mexicana_flower_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Argemone_mexicana_flower_2.jpg",
+    "artist": "B.navez",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "aristolochia-clematitis": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Azille_-_Aristolochia_clematitis_02.jpg/960px-Azille_-_Aristolochia_clematitis_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Azille_-_Aristolochia_clematitis_02.jpg",
@@ -150,6 +157,12 @@
     "artist": "Alan Rockefeller",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cicuta-douglasii": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Cicuta_douglasii.jpg/960px-Cicuta_douglasii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cicuta_douglasii.jpg",
+    "artist": "Unknown",
+    "license": "Public domain"
   },
   "cicuta-maculata": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cicuta_maculata.jpg/960px-Cicuta_maculata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -457,6 +470,12 @@
     "artist": "Strobilomyces",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "prunus-laurocerasus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Karayemi%C5%9F-8.jpg/960px-Karayemi%C5%9F-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Karayemi%C5%9F-8.jpg",
+    "artist": "Karduelis",
+    "license": "Public domain"
   },
   "rhododendron-luteum": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Rhododendron_luteum_%28flower%29.jpg/960px-Rhododendron_luteum_%28flower%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

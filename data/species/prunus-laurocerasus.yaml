@@ -1,0 +1,88 @@
+name: Cherry laurel
+scientificName: Prunus laurocerasus
+group: plant
+danger: 2
+summary: >-
+  An evergreen hedge shrub with glossy leaves, common in gardens. Its leaves are picked by mistake
+  for bay leaves, and release cyanide when eaten.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Malaspina P et al. Risk of poisoning from garden plants: misidentification between laurel and cherry laurel. Toxins 2022. https://doi.org/10.3390/toxins14110726'
+toxicParts:
+  text: >-
+    The leaves and the fruit.
+  sources:
+    - 'Malaspina P et al. Risk of poisoning from garden plants: misidentification between laurel and cherry laurel. Toxins 2022. https://doi.org/10.3390/toxins14110726'
+toxins:
+  text: >-
+    Cyanogenic glycosides, prunasin in the leaves and amygdalin in the fruit, which release
+    hydrogen cyanide.
+  sources:
+    - 'Malaspina P et al. Risk of poisoning from garden plants: misidentification between laurel and cherry laurel. Toxins 2022. https://doi.org/10.3390/toxins14110726'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+symptoms:
+  text: >-
+    Symptoms of cyanide poisoning.
+  sources:
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+    - 'Malaspina P et al. Risk of poisoning from garden plants: misidentification between laurel and cherry laurel. Toxins 2022. https://doi.org/10.3390/toxins14110726'
+atRisk:
+  text: >-
+    Amateur foragers and gardeners who pick it instead of bay laurel for cooking.
+  sources:
+    - 'Malaspina P et al. Risk of poisoning from garden plants: misidentification between laurel and cherry laurel. Toxins 2022. https://doi.org/10.3390/toxins14110726'
+lookalikes:
+  - name: Bay laurel
+    scientificName: Laurus nobilis
+    note: >-
+      Often collected by mistake for bay. Crushed cherry-laurel leaves smell of almonds, have
+      finely toothed edges, and green (not red) leaf stalks.
+    sources:
+      - 'Malaspina P et al. Risk of poisoning from garden plants: misidentification between laurel and cherry laurel. Toxins 2022. https://doi.org/10.3390/toxins14110726'
+habitat: >-
+  Gardens, hedges, and woodland where it has escaped.
+size: A shrub or small tree up to about 8 m tall
+regions:
+  - AL
+  - BA
+  - BG
+  - GE
+  - HR
+  - IR
+  - LY
+  - ME
+  - MK
+  - RO
+  - RS
+  - RU
+  - SI
+  - TJ
+  - TR
+introduced:
+  - AR-R
+  - AT
+  - AU-NSW
+  - AU-SA
+  - AU-TAS
+  - BE
+  - BY
+  - CA-BC
+  - CH
+  - DE
+  - DK
+  - ES
+  - FR
+  - GB
+  - IE
+  - IM
+  - IT
+  - LU
+  - NL
+  - NZ
+  - PT
+  - UA
+  - US-CA
+  - US-OR
+  - US-WA
+  - UZ
