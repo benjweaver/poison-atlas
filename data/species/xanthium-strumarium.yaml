@@ -1,0 +1,64 @@
+name: Common cocklebur
+scientificName: Xanthium strumarium
+group: plant
+danger: 3
+summary: >-
+  A weed with hooked burrs that cling to fur and clothes, among the most widespread invasive
+  plants in the world. Its seeds look and taste like sunflower seeds but can destroy the liver.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Are cocklebur seeds safe to eat? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-cocklebur-seeds-safe-to-eat-203'
+toxicParts:
+  text: >-
+    The seeds, two in each burr, and the young seedlings, which are thought to be the most toxic
+    stage. Mature plants are still dangerous.
+  sources:
+    - 'Are cocklebur seeds safe to eat? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-cocklebur-seeds-safe-to-eat-203'
+toxins:
+  text: >-
+    Carboxyatractyloside, which blocks how cells’ mitochondria make energy.
+  sources:
+    - 'Are cocklebur seeds safe to eat? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-cocklebur-seeds-safe-to-eat-203'
+    - 'Woyda-Ploszczyca AM. Direct and indirect targets of carboxyatractyloside, including overlooked toxicity toward nucleoside diphosphate kinase (NDPK) and mitochondrial H+ leak. Pharm Biol 2023. https://doi.org/10.1080/13880209.2023.2168704'
+symptoms:
+  text: >-
+    Nausea and stomach pain, then vomiting, low blood sugar, seizures, and severe liver injury. A
+    girl who ate about 80 seeds developed liver and kidney failure and needed a liver transplant.
+  sources:
+    - 'Are cocklebur seeds safe to eat? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-cocklebur-seeds-safe-to-eat-203'
+onset:
+  text: >-
+    Mild symptoms come first; severe ones can take up to 3 days to appear.
+  delayed: true
+  sources:
+    - 'Are cocklebur seeds safe to eat? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-cocklebur-seeds-safe-to-eat-203'
+atRisk:
+  text: >-
+    Children who eat the seeds, taking them for sunflower seeds.
+  sources:
+    - 'Are cocklebur seeds safe to eat? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-cocklebur-seeds-safe-to-eat-203'
+lookalikes:
+  - name: Sunflower seeds
+    scientificName: Helianthus annuus
+    note: >-
+      Cocklebur seeds look and taste much like sunflower seeds.
+    sources:
+      - 'Are cocklebur seeds safe to eat? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-cocklebur-seeds-safe-to-eat-203'
+animals:
+  who: [livestock]
+  text: >-
+    Dairy cows have died after eating silage contaminated with its seeds.
+  sources:
+    - 'Sosa S et al. Intoxication of dairy cows in Uruguay by ingestion of cocklebur (Xanthium strumarium) seeds in sorghum silage. J Vet Diagn Invest 2025 (abstract). https://doi.org/10.1177/10406387241294206'
+habitat: >-
+  Fields, riverbanks, waste ground, and disturbed soil.
+size: Up to about 1.5 m tall
+taxonomy:
+  note: >-
+    The World Checklist of Vascular Plants, which decides this range, counts the cocklebur common in the
+    Americas (once X. strumarium var. canadense) as a separate species, Xanthium orientale, so this map
+    shows X. strumarium in the narrow sense.
+  source: 'Xanthium strumarium var. canadense, a synonym of Xanthium orientale in the World Checklist of Vascular Plants, via GBIF. https://www.gbif.org/species/206750411'
+regions:
+  - US-KS

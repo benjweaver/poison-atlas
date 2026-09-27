@@ -141,6 +141,20 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
+  "dendrocnide-moroides": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dendrocnide_moroides_foliage_SF20326.jpg/960px-Dendrocnide_moroides_foliage_SF20326.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dendrocnide_moroides_foliage_SF20326.jpg",
+    "artist": "Steve Fitzgerald",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "dermatophyllum-secundiflorum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Calia_secundiflora_flowers.jpg/960px-Calia_secundiflora_flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Calia_secundiflora_flowers.jpg",
+    "artist": "Kretyen at Flickr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
   "digitalis-purpurea": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Digitalis_purpurea_LC0101.jpg/960px-Digitalis_purpurea_LC0101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Digitalis_purpurea_LC0101.jpg",
@@ -190,6 +204,13 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "heracleum-maximum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Heracleum_lanatum_from_High_Trail.jpg/960px-Heracleum_lanatum_from_High_Trail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Heracleum_lanatum_from_High_Trail.jpg",
+    "artist": "Dcrjsr",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "heracleum-sosnowskyi": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Heracleum_sosnowskyi%2C_Truso_Gorge%2C_Georgia_%2852330857616%29.jpg/960px-Heracleum_sosnowskyi%2C_Truso_Gorge%2C_Georgia_%2852330857616%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Heracleum_sosnowskyi,_Truso_Gorge,_Georgia_(52330857616).jpg",
@@ -231,6 +252,13 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
+  "melia-azedarach": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Cinamomo_%28Melia_azedarach%29_em_Bag%C3%A9%2C_RS%2C_Brasil%2C_final_de_outono%2C_frutificado_e_com_folhas_j%C3%A1_ca%C3%ADdas_-_55336704649.jpg/960px-Cinamomo_%28Melia_azedarach%29_em_Bag%C3%A9%2C_RS%2C_Brasil%2C_final_de_outono%2C_frutificado_e_com_folhas_j%C3%A1_ca%C3%ADdas_-_55336704649.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cinamomo_(Melia_azedarach)_em_Bag%C3%A9,_RS,_Brasil,_final_de_outono,_frutificado_e_com_folhas_j%C3%A1_ca%C3%ADdas_-_55336704649.jpg",
+    "artist": "O Tupinólogo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
   "nerium-oleander": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nerium_oleander_flowers_leaves.jpg/960px-Nerium_oleander_flowers_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Nerium_oleander_flowers_leaves.jpg",
@@ -259,6 +287,13 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "pastinaca-sativa": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Pastinaca_sativa_MHNT.BOT.2004.0.jpg/960px-Pastinaca_sativa_MHNT.BOT.2004.0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pastinaca_sativa_MHNT.BOT.2004.0.jpg",
+    "artist": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "paxillus-involutus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Navadne_podvihanke_%28Paxillus_involutus%29.jpg/960px-Navadne_podvihanke_%28Paxillus_involutus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Navadne_podvihanke_(Paxillus_involutus).jpg",
@@ -272,6 +307,13 @@
     "artist": "Jakec",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "rhododendron-ponticum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Rhododendron_ponticum_ssp._baeticum_in_Cambarinho_Botanical_Reserve%2C_Portugal.JPG/960px-Rhododendron_ponticum_ssp._baeticum_in_Cambarinho_Botanical_Reserve%2C_Portugal.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rhododendron_ponticum_ssp._baeticum_in_Cambarinho_Botanical_Reserve,_Portugal.JPG",
+    "artist": "Duartefrade",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   "ricinus-communis": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Ricinus_March_2010-1.jpg/960px-Ricinus_March_2010-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -335,11 +377,25 @@
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
+  "urtica-ferox": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Urtica_ferox_63303968.jpg/960px-Urtica_ferox_63303968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Urtica_ferox_63303968.jpg",
+    "artist": "Steve Kerr",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
   "veratrum-album": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Veratrum_album_Aubrac.JPG/960px-Veratrum_album_Aubrac.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Veratrum_album_Aubrac.JPG",
     "artist": "Planchon",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "xanthium-strumarium": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Xanthium_strumarium_2026_G1.jpg/960px-Xanthium_strumarium_2026_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Xanthium_strumarium_2026_G1.jpg",
+    "artist": "George Chernilevsky",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   }
 }

@@ -1,0 +1,42 @@
+name: Texas mountain laurel
+scientificName: Dermatophyllum secundiflorum
+group: plant
+danger: 2
+summary: >-
+  A shrub of the southwestern United States and Mexico whose hard red seeds, mescal beans, are
+  made into jewelry.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Mescal bean toxicity. Poison Control (National Capital Poison Center). https://www.poison.org/articles/mescal-bean-toxicity-212'
+toxicParts:
+  text: >-
+    The seeds (mescal beans).
+  sources:
+    - 'Mescal bean toxicity. Poison Control (National Capital Poison Center). https://www.poison.org/articles/mescal-bean-toxicity-212'
+toxins:
+  text: >-
+    Cytisine, which acts on the same nerve receptors as nicotine.
+  sources:
+    - 'Mescal bean toxicity. Poison Control (National Capital Poison Center). https://www.poison.org/articles/mescal-bean-toxicity-212'
+symptoms:
+  text: >-
+    Hours of severe vomiting and stomach pain, with low blood pressure, a racing heart, confusion,
+    agitation, tremors, and sometimes hallucinations.
+  sources:
+    - 'Mescal bean toxicity. Poison Control (National Capital Poison Center). https://www.poison.org/articles/mescal-bean-toxicity-212'
+atRisk:
+  text: >-
+    Teenagers and others who eat the beans hoping to get high, and children drawn to the bright
+    seeds. A taste of one bean is not expected to be toxic.
+  sources:
+    - 'Mescal bean toxicity. Poison Control (National Capital Poison Center). https://www.poison.org/articles/mescal-bean-toxicity-212'
+habitat: >-
+  Rocky limestone hills, canyons, and dry scrub.
+size: A shrub or small tree up to about 8 m tall
+taxonomy:
+  note: >-
+    Long known as Sophora secundiflora, the name most sources use.
+  source: 'Sophora secundiflora, a synonym of Dermatophyllum secundiflorum in the World Checklist of Vascular Plants, via GBIF. https://www.gbif.org/species/207043645'
+regions:
+  - US-TX

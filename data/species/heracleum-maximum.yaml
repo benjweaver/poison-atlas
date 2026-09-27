@@ -1,0 +1,57 @@
+name: Cow parsnip
+scientificName: Heracleum maximum
+group: plant
+danger: 3
+summary: >-
+  A tall native relative of giant hogweed, found across much of North America. Its sap burns skin
+  in sunlight, and it is often mistaken for giant hogweed.
+exposure:
+  routes: [skin, sunlight]
+  sources:
+    - 'Cow parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/cow-parsnip'
+    - 'Skin problems from outdoor plants. Poison Control (National Capital Poison Center). https://www.poison.org/articles/skin-problems-from-outdoor-plants'
+toxicParts:
+  text: >-
+    The sap.
+  sources:
+    - 'Cow parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/cow-parsnip'
+toxins:
+  text: >-
+    Furanocoumarins, which make skin react to ultraviolet light.
+  sources:
+    - 'Cow parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/cow-parsnip'
+symptoms:
+  text: >-
+    From a mild rash to severe blistering burns that take weeks or months to heal and can scar. A
+    boy who cleared it with his bare arms needed burn care, and the skin stayed dark for months.
+  sources:
+    - 'Cow parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/cow-parsnip'
+    - 'Skin problems from outdoor plants. Poison Control (National Capital Poison Center). https://www.poison.org/articles/skin-problems-from-outdoor-plants'
+onset:
+  text: >-
+    The next day, with blisters growing over the following days.
+  delayed: true
+  sources:
+    - 'Skin problems from outdoor plants. Poison Control (National Capital Poison Center). https://www.poison.org/articles/skin-problems-from-outdoor-plants'
+atRisk:
+  text: >-
+    People clearing weeds or working along streams and roadsides with bare skin.
+  sources:
+    - 'Skin problems from outdoor plants. Poison Control (National Capital Poison Center). https://www.poison.org/articles/skin-problems-from-outdoor-plants'
+    - 'Cow parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/cow-parsnip'
+lookalikes:
+  - name: Giant hogweed
+    scientificName: Heracleum mantegazzianum
+    note: >-
+      Often mistaken for it; giant hogweed has purple-blotched stems and more sharply cut leaves.
+    sources:
+      - 'Cow parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/cow-parsnip'
+habitat: >-
+  Stream banks, moist meadows, wet ditches, forest openings, and roadsides.
+size: Flower stems up to about 2 m tall
+taxonomy:
+  note: >-
+    Also known as Heracleum lanatum.
+  source: 'Skin problems from outdoor plants. Poison Control (National Capital Poison Center). https://www.poison.org/articles/skin-problems-from-outdoor-plants'
+regions:
+  - US-AK

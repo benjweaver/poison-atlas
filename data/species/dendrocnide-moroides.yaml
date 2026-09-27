@@ -1,0 +1,51 @@
+name: Gympie-gympie
+scientificName: Dendrocnide moroides
+group: plant
+danger: 2
+summary: >-
+  A stinging shrub of eastern Australian rainforest, arguably the most brutal of all stinging
+  plants. Its soft-looking hairs inject a nerve toxin.
+exposure:
+  routes: [skin]
+  sources:
+    - 'Gilding EK et al. Neurotoxic peptides from the venom of the giant Australian stinging tree. Sci Adv 2020. https://doi.org/10.1126/sciadv.abb8828'
+    - 'DeVore AC, McGovern TW. Botanical briefs: Australian stinging tree (Dendrocnide moroides). Cutis 2023 (abstract). https://doi.org/10.12788/cutis.0885'
+toxicParts:
+  text: >-
+    The fine stinging hairs covering the leaves and stems.
+  sources:
+    - 'Gilding EK et al. Neurotoxic peptides from the venom of the giant Australian stinging tree. Sci Adv 2020. https://doi.org/10.1126/sciadv.abb8828'
+toxins:
+  text: >-
+    Small proteins that keep pain nerves firing by holding sodium channels open.
+  sources:
+    - 'Gilding EK et al. Neurotoxic peptides from the venom of the giant Australian stinging tree. Sci Adv 2020. https://doi.org/10.1126/sciadv.abb8828'
+symptoms:
+  text: >-
+    Immediate, intense stinging pain with raised skin and swelling, then flares of pain that can
+    go on for weeks or months. Nerve and breathing symptoms have also been reported.
+  sources:
+    - 'Gilding EK et al. Neurotoxic peptides from the venom of the giant Australian stinging tree. Sci Adv 2020. https://doi.org/10.1126/sciadv.abb8828'
+    - 'DeVore AC, McGovern TW. Botanical briefs: Australian stinging tree (Dendrocnide moroides). Cutis 2023 (abstract). https://doi.org/10.12788/cutis.0885'
+onset:
+  text: >-
+    Immediate.
+  sources:
+    - 'Gilding EK et al. Neurotoxic peptides from the venom of the giant Australian stinging tree. Sci Adv 2020. https://doi.org/10.1126/sciadv.abb8828'
+    - 'DeVore AC, McGovern TW. Botanical briefs: Australian stinging tree (Dendrocnide moroides). Cutis 2023 (abstract). https://doi.org/10.12788/cutis.0885'
+atRisk:
+  text: >-
+    Walkers, researchers, and workers in north Queensland rainforest, where signs warn of it.
+  sources:
+    - 'Gilding EK et al. Neurotoxic peptides from the venom of the giant Australian stinging tree. Sci Adv 2020. https://doi.org/10.1126/sciadv.abb8828'
+animals:
+  who: [dogs, horses]
+  text: >-
+    Stings have killed dogs and horses in rare cases.
+  sources:
+    - 'DeVore AC, McGovern TW. Botanical briefs: Australian stinging tree (Dendrocnide moroides). Cutis 2023 (abstract). https://doi.org/10.12788/cutis.0885'
+habitat: >-
+  Rainforest clearings, edges, and tracks.
+size: A shrub usually 1 to 3 m tall
+regions:
+  - AU-QLD

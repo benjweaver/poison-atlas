@@ -1,0 +1,51 @@
+name: Chinaberry
+scientificName: Melia azedarach
+group: plant
+danger: 3
+summary: >-
+  An ornamental tree with clusters of yellow berries, now invasive in the United States. Every
+  part can poison.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Are chinaberry trees poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-chinaberry-trees-poisonous-223'
+toxicParts:
+  text: >-
+    Every part; the ripe yellow berries are the most toxic.
+  sources:
+    - 'Are chinaberry trees poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-chinaberry-trees-poisonous-223'
+    - 'Chinaberry tree. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/chinaberry-tree'
+toxins:
+  text: >-
+    Tetranortriterpenes (meliatoxins).
+  sources:
+    - 'Chinaberry tree. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/chinaberry-tree'
+symptoms:
+  text: >-
+    Vomiting and diarrhea after small amounts. Large amounts can cause sleepiness, muscle
+    weakness, seizures, liver injury, failing breathing, and coma.
+  sources:
+    - 'Are chinaberry trees poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-chinaberry-trees-poisonous-223'
+onset:
+  text: >-
+    As soon as 1 hour, sometimes several hours, and after repeated use, weeks.
+  sources:
+    - 'Are chinaberry trees poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-chinaberry-trees-poisonous-223'
+atRisk:
+  text: >-
+    Children who eat the berries, though their bitter taste limits how many, and people who take
+    remedies made from its leaves. Serious human cases are rare.
+  sources:
+    - 'Are chinaberry trees poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-chinaberry-trees-poisonous-223'
+animals:
+  who: [dogs, cats, horses]
+  text: >-
+    Most reports of severe poisoning are in animals.
+  sources:
+    - 'Chinaberry tree. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/chinaberry-tree'
+    - 'Are chinaberry trees poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-chinaberry-trees-poisonous-223'
+habitat: >-
+  Roadsides, woodland edges, and disturbed ground, and planted in yards and streets.
+size: A tree up to about 15 m tall
+regions:
+  - IN

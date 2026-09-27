@@ -1,0 +1,37 @@
+name: Tree nettle
+scientificName: Urtica ferox
+group: plant
+danger: 2
+summary: >-
+  A shrubby nettle found only in New Zealand, whose sting is among the most painful of any nettle
+  and can cause symptoms through the whole body.
+exposure:
+  routes: [skin]
+  sources:
+    - 'Xie J et al. Neurotoxic and cytotoxic peptides underlie the painful stings of the tree nettle Urtica ferox. J Biol Chem 2022. https://doi.org/10.1016/j.jbc.2022.102218'
+toxicParts:
+  text: >-
+    The stinging hairs.
+  sources:
+    - 'Xie J et al. Neurotoxic and cytotoxic peptides underlie the painful stings of the tree nettle Urtica ferox. J Biol Chem 2022. https://doi.org/10.1016/j.jbc.2022.102218'
+toxins:
+  text: >-
+    Two kinds of peptide: one that ruptures cell membranes and one that acts on the body’s sodium
+    channels, including the heart’s.
+  sources:
+    - 'Xie J et al. Neurotoxic and cytotoxic peptides underlie the painful stings of the tree nettle Urtica ferox. J Biol Chem 2022. https://doi.org/10.1016/j.jbc.2022.102218'
+symptoms:
+  text: >-
+    Severe pain, and systemic symptoms that can even be life-threatening.
+  sources:
+    - 'Xie J et al. Neurotoxic and cytotoxic peptides underlie the painful stings of the tree nettle Urtica ferox. J Biol Chem 2022. https://doi.org/10.1016/j.jbc.2022.102218'
+atRisk:
+  text: >-
+    Walkers and trampers who brush against it.
+  sources:
+    - 'Xie J et al. Neurotoxic and cytotoxic peptides underlie the painful stings of the tree nettle Urtica ferox. J Biol Chem 2022. https://doi.org/10.1016/j.jbc.2022.102218'
+habitat: >-
+  Forest margins and scrub.
+size: A shrub up to about 4 m tall
+regions:
+  - NZ

@@ -1,0 +1,58 @@
+name: Pontic rhododendron
+scientificName: Rhododendron ponticum
+group: plant
+danger: 3
+summary: >-
+  An evergreen shrub whose nectar, in Turkey’s eastern Black Sea region, makes “mad honey,” which
+  slows the heart dangerously.
+exposure:
+  routes: [eaten]
+  text: >-
+    Almost all poisonings come from honey made from its nectar, not from eating the plant itself.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+    - 'Azaleas and rhododendrons: “mad honey” and other surprising dangers. Poison Control (National Capital Poison Center). https://www.poison.org/articles/azaleas-and-rhododendrons'
+toxicParts:
+  text: >-
+    Leaves, twigs, flowers, and nectar, and honey made from it.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+toxins:
+  text: >-
+    Grayanotoxins, which keep nerve sodium channels open, driving up the vagal nerve’s braking of
+    the heart.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+    - 'Azaleas and rhododendrons: “mad honey” and other surprising dangers. Poison Control (National Capital Poison Center). https://www.poison.org/articles/azaleas-and-rhododendrons'
+symptoms:
+  text: >-
+    Dizziness, nausea, vomiting, sweating, and very low blood pressure, with a slow heart, heart
+    block, or brief cardiac arrest, and sometimes fainting, blurred vision, or seizures. Symptoms
+    last a day or two, and deaths in people are rare.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+    - 'Azaleas and rhododendrons: “mad honey” and other surprising dangers. Poison Control (National Capital Poison Center). https://www.poison.org/articles/azaleas-and-rhododendrons'
+onset:
+  text: >-
+    Within 20 minutes to 3 hours of eating the honey.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+atRisk:
+  text: >-
+    People who eat honey from small beekeepers in the eastern Black Sea region of Turkey, or
+    exported from there, often for its supposed health benefits.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+    - 'Azaleas and rhododendrons: “mad honey” and other surprising dangers. Poison Control (National Capital Poison Center). https://www.poison.org/articles/azaleas-and-rhododendrons'
+animals:
+  who: [dogs, cats, horses, livestock]
+  text: >-
+    Sheep and cattle that graze on it are poisoned, sometimes fatally.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+    - 'Rhododendron. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/rhododendron'
+habitat: >-
+  Woods, heaths, and stream sides, forming dense thickets.
+size: A shrub up to about 5 m tall
+regions:
+  - TR

@@ -1,0 +1,43 @@
+name: Wild parsnip
+scientificName: Pastinaca sativa
+group: plant
+danger: 2
+summary: >-
+  A plant from Europe and Asia, now common across the United States and Canada. Its sap causes
+  burns in sunlight.
+exposure:
+  routes: [skin, sunlight]
+  sources:
+    - 'Wild parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/wild-parsnip'
+toxicParts:
+  text: >-
+    The sap, released by brushing against or breaking the plant.
+  sources:
+    - 'Wild parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/wild-parsnip'
+toxins:
+  text: >-
+    Furanocoumarins, which make skin more vulnerable to ultraviolet light.
+  sources:
+    - 'Wild parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/wild-parsnip'
+symptoms:
+  text: >-
+    Painful burning and blistering, then darkened skin and sensitivity to sunlight that can last
+    for years.
+  sources:
+    - 'Wild parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/wild-parsnip'
+onset:
+  text: >-
+    A severe burn can develop within 24 to 48 hours.
+  delayed: true
+  sources:
+    - 'Wild parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/wild-parsnip'
+atRisk:
+  text: >-
+    Anyone working or walking among it along roadsides, fields, and pastures.
+  sources:
+    - 'Wild parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/wild-parsnip'
+habitat: >-
+  Roadsides, fields, pastures, and disturbed ground.
+size: Up to about 1.5 m tall
+regions:
+  - FR
