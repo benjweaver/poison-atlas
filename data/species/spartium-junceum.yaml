@@ -1,0 +1,108 @@
+name: Spanish broom
+scientificName: Spartium junceum
+group: plant
+danger: 3
+summary: >-
+  A tall Mediterranean shrub with slim branching stems and yellow pea flowers, now wild on the
+  west coast of North America. Every part holds nicotine-like alkaloids.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Is Spanish broom (Spartium junceum) toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-spanish-broom-toxic-222'
+toxicParts:
+  text: >-
+    All parts, seeds and flowers included.
+  sources:
+    - 'Is Spanish broom (Spartium junceum) toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-spanish-broom-toxic-222'
+toxins:
+  text: >-
+    Cytisine and sparteine, alkaloids that act on the same nerve receptors as nicotine; sparteine
+    can also disturb the heart’s rhythm.
+  sources:
+    - 'Is Spanish broom (Spartium junceum) toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-spanish-broom-toxic-222'
+symptoms:
+  text: >-
+    Mouth and throat irritation, salivating, vomiting, stomach pain, and diarrhea, with wide
+    pupils, headache, confusion, drowsiness, tremors, and hallucinations. Severe poisoning can
+    bring seizures, paralysis, and failing breathing.
+  sources:
+    - 'Is Spanish broom (Spartium junceum) toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-spanish-broom-toxic-222'
+onset:
+  text: >-
+    Usually within an hour of eating it; in one case, at once.
+  sources:
+    - 'Is Spanish broom (Spartium junceum) toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-spanish-broom-toxic-222'
+atRisk:
+  text: >-
+    People who gather wild plants for food: three older adults were poisoned by rice cooked with
+    its flowers, picked from a meadow.
+  sources:
+    - 'Is Spanish broom (Spartium junceum) toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-spanish-broom-toxic-222'
+habitat: >-
+  Dry, sunny slopes, roadsides, and scrub.
+size: Up to about 4 m tall
+regions:
+  - AL
+  - ES
+  - FR
+  - GR
+  - HR
+  - IL
+  - IT
+  - LB
+  - ME
+  - PS
+  - PT
+  - SI
+  - SY
+  - TR
+introduced:
+  - AF
+  - AO
+  - AR-B
+  - AR-C
+  - AR-L
+  - AR-X
+  - AU-ACT
+  - AU-NSW
+  - AU-QLD
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
+  - BE
+  - BG
+  - BO
+  - CL
+  - CO
+  - DE
+  - DZ
+  - EC
+  - ET
+  - GB
+  - GE
+  - GT
+  - ID
+  - IQ
+  - KE
+  - LK
+  - LY
+  - MA
+  - MX-HID
+  - MX-MEX
+  - NZ
+  - PE
+  - PK
+  - RO
+  - RU
+  - TM
+  - TN
+  - TZ
+  - UA
+  - US-CA
+  - US-HI
+  - US-OR
+  - US-TX
+  - US-WA
+  - UY
+  - ZA-EC
+  - ZA-WC

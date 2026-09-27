@@ -545,6 +545,13 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "spartium-junceum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Spartium_junceum_%28habitus%29.jpg/960px-Spartium_junceum_%28habitus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Spartium_junceum_(habitus).jpg",
+    "artist": "Hans Hillewaert",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "sphoeroides-testudineus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Sphoeroides_testudineus_%28checkered_pufferfish%29_%28San_Salvador_Island%2C_Bahamas%29_%2815548625654%29.jpg/960px-Sphoeroides_testudineus_%28checkered_pufferfish%29_%28San_Salvador_Island%2C_Bahamas%29_%2815548625654%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Sphoeroides_testudineus_(checkered_pufferfish)_(San_Salvador_Island,_Bahamas)_(15548625654).jpg",
