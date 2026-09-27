@@ -55,4 +55,16 @@ habitat: >-
   Abandoned fields, roadsides, riverbanks, and forest edges.
 size: Up to about 4 m tall
 regions:
+  - AM
   - GE
+  - RU
+  - TR
+introduced:
+  - BG
+  - DE
+  - EE
+  - LT
+  - LV
+  - PL
+  - SE
+  - UA

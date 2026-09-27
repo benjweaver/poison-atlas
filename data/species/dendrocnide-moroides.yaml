@@ -48,4 +48,6 @@ habitat: >-
   Rainforest clearings, edges, and tracks.
 size: A shrub usually 1 to 3 m tall
 regions:
+  - AU-NSW
   - AU-QLD
+  - VU

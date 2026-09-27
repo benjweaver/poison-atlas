@@ -50,7 +50,59 @@ habitat: >-
   Shallow coastal waters, estuaries, mangroves, and seagrass beds.
 aquatic: marine
 regions:
-  - BR
+  - AG
+  - AW
+  - BR-AL
+  - BR-AP
+  - BR-BA
+  - BR-CE
+  - BR-ES
+  - BR-MA
+  - BR-PA
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-PR
+  - BR-RJ
+  - BR-RN
+  - BR-SC
+  - BR-SE
+  - BR-SP
+  - BS
+  - BZ
+  - CO
+  - CR
+  - CU
+  - CW
+  - DM
+  - DO
+  - GD
+  - GF
+  - GP
+  - GT
+  - GY
+  - HN
+  - HT
+  - JM
+  - LC
+  - MQ
+  - MX-CAM
+  - MX-ROO
+  - MX-TAB
+  - MX-VER
+  - MX-YUC
+  - NI
+  - PA
+  - PR
+  - SR
+  - SX
+  - TC
+  - TT
+  - US-FL
+  - US-MS
+  - VE
+  - VG
+  - VI
 gbif:
   exclude:
     - code: MX-BCS

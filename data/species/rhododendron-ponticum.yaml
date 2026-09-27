@@ -55,4 +55,19 @@ habitat: >-
   Woods, heaths, and stream sides, forming dense thickets.
 size: A shrub up to about 5 m tall
 regions:
+  - BG
+  - ES
+  - GE
+  - LB
+  - PT
+  - RU
   - TR
+introduced:
+  - BE
+  - DE
+  - FR
+  - GB
+  - IE
+  - IM
+  - MM
+  - NL

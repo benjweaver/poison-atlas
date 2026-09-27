@@ -59,4 +59,16 @@ habitat: >-
   Stream and river banks, ditches, marshes, and wet woodland.
 size: Up to about 1.5 m tall
 regions:
+  - BE
+  - ES
+  - FR
   - GB
+  - GG
+  - IE
+  - IM
+  - IT
+  - JE
+  - MA
+  - PT
+introduced:
+  - DE

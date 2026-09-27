@@ -39,4 +39,19 @@ taxonomy:
     Long known as Sophora secundiflora, the name most sources use.
   source: 'Sophora secundiflora, a synonym of Dermatophyllum secundiflorum in the World Checklist of Vascular Plants, via GBIF. https://www.gbif.org/species/207043645'
 regions:
+  - MX-CHH
+  - MX-COA
+  - MX-HID
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-SLP
+  - MX-TAM
+  - MX-VER
+  - MX-ZAC
+  - US-NM
   - US-TX
+introduced:
+  - KE
+  - PK

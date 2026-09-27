@@ -39,6 +39,18 @@ habitat: >-
   Broadleaf and mixed forest.
 regions:
   - CN-GX
+  - JP-08
+  - JP-10
+  - JP-12
+  - JP-13
+  - JP-14
+  - JP-23
+  - JP-26
+  - JP-27
+  - JP-28
+  - JP-29
+  - KR
+  - TW
 gbif:
   include:
     - code: CN-GX

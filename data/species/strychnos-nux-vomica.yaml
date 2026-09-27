@@ -44,4 +44,24 @@ habitat: >-
   Dry forest and scrub.
 size: A tree up to about 25 m tall
 regions:
-  - IN
+  - BD
+  - IN-AP
+  - IN-GJ
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-TG
+  - IN-TN
+  - KH
+  - LA
+  - LK
+  - MM
+  - MY
+  - TH
+  - VN
+introduced:
+  - CN-HI
+  - CU
+  - PH
+  - TT
+  - TW

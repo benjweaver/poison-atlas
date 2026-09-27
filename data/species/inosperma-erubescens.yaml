@@ -47,4 +47,21 @@ taxonomy:
     use.
   source: 'Inocybe erubescens, a synonym of Inosperma erubescens in the GBIF Backbone Taxonomy. https://www.gbif.org/species/2527939'
 regions:
+  - AT
+  - BE
+  - CH
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
   - GB
+  - IT
+  - LU
+  - LV
+  - NL
+  - NO
+  - PL
+  - SE
+  - SI

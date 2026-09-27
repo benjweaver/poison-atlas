@@ -41,4 +41,17 @@ habitat: >-
   Mangroves, estuaries, and muddy shores.
 aquatic: marine
 regions:
+  - BD
+  - BN
+  - CN-GD
+  - CN-GX
+  - CN-HI
+  - CN-ZJ
+  - ID
+  - IN-OR
+  - IN-WB
+  - KH
+  - MM
   - MY
+  - TH
+  - VN

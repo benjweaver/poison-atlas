@@ -41,4 +41,36 @@ habitat: >-
   Swamps, bogs, and wet woods.
 size: A shrub or small tree up to about 6 m tall
 regions:
+  - CA-NS
+  - CA-ON
+  - CA-QC
+  - US-AL
+  - US-CT
+  - US-DC
+  - US-DE
+  - US-FL
+  - US-GA
+  - US-IL
+  - US-IN
+  - US-KY
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-ME
   - US-MI
+  - US-MN
+  - US-MS
+  - US-NC
+  - US-NH
+  - US-NJ
+  - US-NY
+  - US-OH
+  - US-PA
+  - US-RI
+  - US-SC
+  - US-TN
+  - US-TX
+  - US-VA
+  - US-VT
+  - US-WI
+  - US-WV

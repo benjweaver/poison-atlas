@@ -40,7 +40,83 @@ atRisk:
 habitat: >-
   Woods and parkland under birch, pine, and spruce.
 regions:
+  - AT
+  - BE
+  - BY
+  - CA-AB
+  - CA-BC
+  - CA-NB
+  - CA-NS
+  - CA-ON
+  - CA-PE
+  - CA-QC
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
   - GB
+  - IE
+  - IT
+  - LT
+  - LU
+  - MX-CHH
+  - MX-DIF
+  - MX-DUR
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-PUE
+  - MX-TLA
+  - MX-VER
+  - NL
+  - NO
+  - PL
+  - PT
+  - RO
+  - RU
+  - SE
+  - SI
+  - SK
+  - UA
+  - US-AK
+  - US-AZ
+  - US-CA
+  - US-CO
+  - US-IN
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-NC
+  - US-NH
+  - US-NJ
+  - US-NM
+  - US-NY
+  - US-OH
+  - US-OR
+  - US-PA
+  - US-VA
+  - US-VT
+  - US-WA
+  - US-WI
+introduced:
+  - AR
+  - AU-ACT
+  - AU-NSW
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
+  - AU-WA
+  - BR-RS
+  - CL
+  - CO
+  - NZ
+  - ZA-WC
 gbif:
   include:
     - code: AR

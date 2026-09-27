@@ -36,4 +36,34 @@ atRisk:
 habitat: >-
   Rotting conifer logs and stumps.
 regions:
-  - JP-15
+  - AT
+  - CA-BC
+  - CA-NB
+  - CA-NL
+  - CA-NS
+  - CA-ON
+  - CA-PE
+  - CA-QC
+  - CH
+  - DE
+  - DK
+  - ES
+  - FI
+  - FR
+  - GB
+  - JP
+  - NO
+  - PL
+  - SE
+  - SI
+  - US-AK
+  - US-CA
+  - US-MI
+  - US-NC
+  - US-NH
+  - US-NY
+  - US-OR
+  - US-PA
+  - US-VA
+  - US-VT
+  - US-WA

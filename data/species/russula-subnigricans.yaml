@@ -43,7 +43,18 @@ atRisk:
 habitat: >-
   Broadleaf and mixed forest.
 regions:
+  - CN-HN
   - CN-YN
+  - CN-ZJ
+  - JP-04
+  - JP-07
+  - JP-08
+  - JP-10
+  - JP-12
+  - JP-26
+  - JP-27
+  - KR
+  - NP
 gbif:
   include:
     - code: CN-YN

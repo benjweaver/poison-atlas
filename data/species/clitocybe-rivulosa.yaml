@@ -46,4 +46,30 @@ taxonomy:
     medical sources and GBIF still use.
   source: 'Collybia rivulosa. Species Fungorum, record 847245. https://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=847245'
 regions:
+  - AT
+  - BE
+  - CA-BC
+  - CA-ON
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
   - GB
+  - IE
+  - IM
+  - IS
+  - IT
+  - LU
+  - NL
+  - NO
+  - PL
+  - RU
+  - SE
+  - SI
+  - UA
+  - US-CA
+  - US-WA

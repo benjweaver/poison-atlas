@@ -37,4 +37,33 @@ habitat: >-
   Mountain woods and scrub, and gardens and parks.
 size: A small tree up to about 7 m tall
 regions:
+  - AL
+  - AT
+  - CH
+  - CZ
+  - FR
+  - HR
+  - HU
   - IT
+  - RO
+  - RS
+  - SI
+  - SK
+introduced:
+  - AU-TAS
+  - BE
+  - BG
+  - BY
+  - DE
+  - ES
+  - GB
+  - GE
+  - ID
+  - IE
+  - IM
+  - LU
+  - NZ
+  - PK
+  - PL
+  - RU
+  - UA

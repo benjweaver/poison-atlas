@@ -42,7 +42,50 @@ atRisk:
 habitat: >-
   Woods, parks, and grassy places, usually near trees.
 regions:
+  - AT
+  - BE
+  - BY
+  - CA-BC
+  - CA-NB
+  - CA-ON
+  - CA-QC
+  - CH
+  - CZ
   - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - HU
+  - IE
+  - IM
+  - IT
+  - KZ
+  - LT
+  - LU
+  - LV
+  - NL
+  - NO
+  - PL
+  - PT
+  - RU
+  - SE
+  - SI
+  - UA
+  - US-AK
+  - US-CA
+  - US-MI
+  - US-MN
+  - US-NY
+  - US-OR
+  - US-PA
+  - US-VT
+  - US-WA
+introduced:
+  - AU-VIC
+  - NZ
 gbif:
   include:
     - code: AU-VIC
