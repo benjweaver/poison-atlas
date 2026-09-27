@@ -1,4 +1,5 @@
 /// <reference types="vitest/config" />
+import { readFileSync } from 'node:fs'
 import { fileURLToPath, URL } from 'node:url'
 
 import tailwindcss from '@tailwindcss/vite'
@@ -8,7 +9,16 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 import { speciesPlugin } from './scripts/vite-plugin-species.ts'
 
+// Countries and territories on the world map, for the headline. Venom Atlas
+// and Poison Atlas share the map, so they show the same number.
+const mapCountries = (
+  JSON.parse(readFileSync(new URL('./public/geo/countries.json', import.meta.url), 'utf8')) as {
+    features: unknown[]
+  }
+).features.length
+
 export default defineConfig({
+  define: { __MAP_COUNTRIES__: mapCountries },
   plugins: [
     vue(),
     tailwindcss(),

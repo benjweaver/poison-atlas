@@ -281,7 +281,7 @@ const stepOutLabel = computed(() => {
   return null
 })
 
-const countryTotal = countsByCountry(allSpecies).size
+const MAP_COUNTRIES = __MAP_COUNTRIES__
 
 // Optional support payments (a Stripe Payment Link, pay what you want).
 const SUPPORT_URL = 'https://buy.stripe.com/14AdRa94WcuJbMYfNp2ZO02'
@@ -363,7 +363,7 @@ addEventListener('keydown', (e) => {
               </p>
             </div>
             <p class="text-xs text-(--muted)">
-              {{ allSpecies.length }} poisonous species across {{ countryTotal }} countries
+              {{ allSpecies.length }} poisonous species across {{ MAP_COUNTRIES }} countries
             </p>
           </div>
           <ThemeToggle />
