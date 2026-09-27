@@ -163,6 +163,13 @@
     "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
     "license": "Public domain"
   },
+  "cleistanthus-collinus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Cleistanthus_collinus_%28Garari%29_in_Narsapur_forest%2C_AP_W_IMG_0165.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Cleistanthus_collinus_(Garari)_in_Narsapur_forest,_AP_W_IMG_0165.jpg",
+    "artist": "J.M.Garg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
   "clitocybe-rivulosa": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/2007-08-29_Clitocybe_rivulosa.jpg/960px-2007-08-29_Clitocybe_rivulosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:2007-08-29_Clitocybe_rivulosa.jpg",
@@ -263,6 +270,13 @@
     "page": "https://commons.wikimedia.org/wiki/File:Euphorbia_lathyris_Sturm33.jpg",
     "artist": "Johann Georg Sturm (Painter: Jacob Sturm)",
     "license": "Public domain"
+  },
+  "excoecaria-agallocha": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Excoecaria_agallocha_%28Blind_Your_Eye%29_W_IMG_6929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Excoecaria_agallocha_(Blind_Your_Eye)_W_IMG_6929.jpg",
+    "artist": "J.M.Garg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "galerina-marginata": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Galerina_marginata_Point_Reyes.jpg/960px-Galerina_marginata_Point_Reyes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -471,6 +485,12 @@
     "artist": "中距離快速",
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "semecarpus-anacardium": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Semecarpus_anacardium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Semecarpus_anacardium.jpg",
+    "artist": "William Roxburgh (1751-1815), Sir Joseph Banks (1743-1820)",
+    "license": "Public domain"
   },
   "senna-occidentalis": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%28MHNT%29_Senna_occidentalis_-_Habit_-_Les_Martels%2C_Giroussens_Tarn.jpg/960px-%28MHNT%29_Senna_occidentalis_-_Habit_-_Les_Martels%2C_Giroussens_Tarn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

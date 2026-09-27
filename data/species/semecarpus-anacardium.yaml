@@ -1,0 +1,59 @@
+name: Marking nut
+scientificName: Semecarpus anacardium
+group: plant
+danger: 2
+summary: >-
+  An Indian tree related to the cashew and poison ivy, whose black nut juice was once used to mark
+  laundry. The juice raises blistering burns.
+exposure:
+  routes: [skin]
+  sources:
+    - 'Ramani JR, Gopinath H, Nagendran P. The siblings with blistered legs: marking nut maladies in India. Am J Trop Med Hyg 2021. https://doi.org/10.4269/ajtmh.21-0929'
+    - 'Kawalkar U et al. Contact dermatitis among marking nut workers in rural India. Occup Med 2026 (abstract). https://doi.org/10.1093/occmed/kqag030'
+toxicParts:
+  text: >-
+    The brown-black juice of the nut.
+  sources:
+    - 'Ramani JR, Gopinath H, Nagendran P. The siblings with blistered legs: marking nut maladies in India. Am J Trop Med Hyg 2021. https://doi.org/10.4269/ajtmh.21-0929'
+toxins:
+  text: >-
+    Bhilawanol, a mix of catechols like urushiol in poison ivy, a strong irritant and allergen.
+  sources:
+    - 'Ramani JR, Gopinath H, Nagendran P. The siblings with blistered legs: marking nut maladies in India. Am J Trop Med Hyg 2021. https://doi.org/10.4269/ajtmh.21-0929'
+    - 'Kawalkar U et al. Contact dermatitis among marking nut workers in rural India. Occup Med 2026 (abstract). https://doi.org/10.1093/occmed/kqag030'
+symptoms:
+  text: >-
+    Pain, itching, redness, swelling, and large blisters where the juice touches the skin.
+  sources:
+    - 'Ramani JR, Gopinath H, Nagendran P. The siblings with blistered legs: marking nut maladies in India. Am J Trop Med Hyg 2021. https://doi.org/10.4269/ajtmh.21-0929'
+onset:
+  text: >-
+    Within days: two children developed blisters after the nut was tied to their ankles.
+  delayed: true
+  sources:
+    - 'Ramani JR, Gopinath H, Nagendran P. The siblings with blistered legs: marking nut maladies in India. Am J Trop Med Hyg 2021. https://doi.org/10.4269/ajtmh.21-0929'
+atRisk:
+  text: >-
+    Women who process the nuts for a living in rural India, children given the nut as an amulet
+    against the evil eye, and people who use it in folk remedies.
+  sources:
+    - 'Ramani JR, Gopinath H, Nagendran P. The siblings with blistered legs: marking nut maladies in India. Am J Trop Med Hyg 2021. https://doi.org/10.4269/ajtmh.21-0929'
+    - 'Kawalkar U et al. Contact dermatitis among marking nut workers in rural India. Occup Med 2026 (abstract). https://doi.org/10.1093/occmed/kqag030'
+habitat: >-
+  Dry deciduous forest.
+size: A tree up to about 15 m tall
+regions:
+  - BD
+  - IN-AP
+  - IN-GA
+  - IN-GJ
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-TG
+  - IN-TN
+  - MM
+  - NP
+introduced:
+  - TT

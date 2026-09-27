@@ -1,0 +1,49 @@
+name: Oduvanthalai
+scientificName: Cleistanthus collinus
+group: plant
+danger: 5
+summary: >-
+  A small tree of dry hill forests in southern India and Sri Lanka, and the commonest plant poison
+  in rural South India. Between a fifth and two-fifths of poisoned patients die.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Mohan A, Harikrishna J. Cleistanthus collinus poisoning. Indian J Crit Care Med 2019. https://doi.org/10.5005/jp-journals-10071-23317'
+toxicParts:
+  text: >-
+    All parts are highly poisonous; poisonings come from the leaves.
+  sources:
+    - 'Mohan A, Harikrishna J. Cleistanthus collinus poisoning. Indian J Crit Care Med 2019. https://doi.org/10.5005/jp-journals-10071-23317'
+toxins:
+  text: >-
+    Not fully settled: lignans called cleistanthins were long blamed, but other compounds may
+    matter. The poison drains potassium, causes acidosis, and depresses the heart.
+  sources:
+    - 'Mohan A, Harikrishna J. Cleistanthus collinus poisoning. Indian J Crit Care Med 2019. https://doi.org/10.5005/jp-journals-10071-23317'
+symptoms:
+  text: >-
+    Vomiting and stomach pain, then low potassium, acidosis, kidney injury, shock, muscle weakness
+    like myasthenia, failing breathing, and dangerous heart rhythms. People who seem well at first
+    can deteriorate fast.
+  sources:
+    - 'Mohan A, Harikrishna J. Cleistanthus collinus poisoning. Indian J Crit Care Med 2019. https://doi.org/10.5005/jp-journals-10071-23317'
+atRisk:
+  text: >-
+    Mostly women in rural South India, where the plant is easy to find; most poisonings are
+    deliberate. Its leaves are also used as a cattle poison.
+  sources:
+    - 'Mohan A, Harikrishna J. Cleistanthus collinus poisoning. Indian J Crit Care Med 2019. https://doi.org/10.5005/jp-journals-10071-23317'
+habitat: >-
+  Deciduous dry hill forests.
+size: A small tree
+regions:
+  - BD
+  - IN-AP
+  - IN-CT
+  - IN-GJ
+  - IN-JH
+  - IN-KL
+  - IN-TG
+  - IN-TN
+  - LK
+  - PK

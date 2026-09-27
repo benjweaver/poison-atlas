@@ -1,0 +1,74 @@
+name: Blind-your-eye mangrove
+scientificName: Excoecaria agallocha
+group: plant
+danger: 2
+summary: >-
+  A mangrove tree of tropical Asia, Australia, and the Pacific whose milky sap can blind
+  temporarily and blister skin.
+exposure:
+  routes: [eyes, skin]
+  sources:
+    - 'Mondal S, Ghosh D, Ramakrishna K. A complete profile on blind-your-eye mangrove Excoecaria agallocha L. (Euphorbiaceae). Pharmacogn Rev 2016. https://doi.org/10.4103/0973-7847.194049'
+toxicParts:
+  text: >-
+    The milky latex from the bark.
+  sources:
+    - 'Mondal S, Ghosh D, Ramakrishna K. A complete profile on blind-your-eye mangrove Excoecaria agallocha L. (Euphorbiaceae). Pharmacogn Rev 2016. https://doi.org/10.4103/0973-7847.194049'
+toxins:
+  text: >-
+    Irritant diterpenes in the latex.
+  sources:
+    - 'Mondal S, Ghosh D, Ramakrishna K. A complete profile on blind-your-eye mangrove Excoecaria agallocha L. (Euphorbiaceae). Pharmacogn Rev 2016. https://doi.org/10.4103/0973-7847.194049'
+symptoms:
+  text: >-
+    Temporary blindness when the latex gets in the eyes, and blistering of the skin.
+  sources:
+    - 'Mondal S, Ghosh D, Ramakrishna K. A complete profile on blind-your-eye mangrove Excoecaria agallocha L. (Euphorbiaceae). Pharmacogn Rev 2016. https://doi.org/10.4103/0973-7847.194049'
+atRisk:
+  text: >-
+    People who cut or handle the trees in mangroves.
+  sources:
+    - 'Mondal S, Ghosh D, Ramakrishna K. A complete profile on blind-your-eye mangrove Excoecaria agallocha L. (Euphorbiaceae). Pharmacogn Rev 2016. https://doi.org/10.4103/0973-7847.194049'
+habitat: >-
+  Mangroves and tidal shores.
+size: A tree up to about 15 m tall
+regions:
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - BD
+  - BN
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-HI
+  - FJ
+  - HK
+  - ID
+  - IN-AN
+  - IN-AP
+  - IN-GA
+  - IN-KL
+  - IN-MH
+  - IN-TN
+  - IN-WB
+  - JP-47
+  - KH
+  - LK
+  - MM
+  - MP
+  - MY
+  - NC
+  - NF
+  - NU
+  - PG
+  - PH
+  - SG
+  - TH
+  - TL
+  - TO
+  - TW
+  - VN
+  - VU
+  - WS
