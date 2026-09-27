@@ -1,0 +1,60 @@
+name: Meadow death camas
+scientificName: Toxicoscordion venenosum
+group: plant
+danger: 3
+summary: >-
+  A grass-leaved plant of western North American meadows, with an onion-like bulb. Foragers dig it
+  up in place of wild onions.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Padrez et al. Acute death camas (Toxicoscordion venenosum) plant poisoning in seven family members following foraging for wild onions. Am J Emerg Med 2025 (abstract). https://doi.org/10.1016/j.ajem.2024.10.027'
+    - 'West P, Horowitz BZ. Zigadenus poisoning treated with atropine and dopamine. J Med Toxicol 2009. https://doi.org/10.1007/bf03178270'
+toxicParts:
+  text: >-
+    The bulb is what people have eaten.
+  sources:
+    - 'Padrez et al. Acute death camas (Toxicoscordion venenosum) plant poisoning in seven family members following foraging for wild onions. Am J Emerg Med 2025 (abstract). https://doi.org/10.1016/j.ajem.2024.10.027'
+    - 'West P, Horowitz BZ. Zigadenus poisoning treated with atropine and dopamine. J Med Toxicol 2009. https://doi.org/10.1007/bf03178270'
+toxins:
+  text: >-
+    Alkaloids that slow the heart and drop blood pressure, through the nervous system and the
+    heart’s sodium channels.
+  sources:
+    - 'Padrez et al. Acute death camas (Toxicoscordion venenosum) plant poisoning in seven family members following foraging for wild onions. Am J Emerg Med 2025 (abstract). https://doi.org/10.1016/j.ajem.2024.10.027'
+symptoms:
+  text: >-
+    Nausea, vomiting, and stomach pain, then a slow heart and low blood pressure that can need
+    intensive care and drugs to support the heart.
+  sources:
+    - 'Padrez et al. Acute death camas (Toxicoscordion venenosum) plant poisoning in seven family members following foraging for wild onions. Am J Emerg Med 2025 (abstract). https://doi.org/10.1016/j.ajem.2024.10.027'
+    - 'West P, Horowitz BZ. Zigadenus poisoning treated with atropine and dopamine. J Med Toxicol 2009. https://doi.org/10.1007/bf03178270'
+onset:
+  text: >-
+    Within 30 to 60 minutes.
+  sources:
+    - 'Padrez et al. Acute death camas (Toxicoscordion venenosum) plant poisoning in seven family members following foraging for wild onions. Am J Emerg Med 2025 (abstract). https://doi.org/10.1016/j.ajem.2024.10.027'
+atRisk:
+  text: >-
+    Foragers who mistake its bulbs for wild onions. Seven family members, five of them children,
+    were poisoned this way.
+  sources:
+    - 'Padrez et al. Acute death camas (Toxicoscordion venenosum) plant poisoning in seven family members following foraging for wild onions. Am J Emerg Med 2025 (abstract). https://doi.org/10.1016/j.ajem.2024.10.027'
+    - 'West P, Horowitz BZ. Zigadenus poisoning treated with atropine and dopamine. J Med Toxicol 2009. https://doi.org/10.1007/bf03178270'
+lookalikes:
+  - name: Wild onion
+    scientificName: Allium canadense
+    note: >-
+      A family foraging for wild onion dug up death camas bulbs instead.
+    sources:
+      - 'Padrez et al. Acute death camas (Toxicoscordion venenosum) plant poisoning in seven family members following foraging for wild onions. Am J Emerg Med 2025 (abstract). https://doi.org/10.1016/j.ajem.2024.10.027'
+      - 'West P, Horowitz BZ. Zigadenus poisoning treated with atropine and dopamine. J Med Toxicol 2009. https://doi.org/10.1007/bf03178270'
+habitat: >-
+  Meadows, grassland, and open slopes, often damp in spring.
+size: Up to about 70 cm tall in flower
+taxonomy:
+  note: >-
+    Formerly placed in Zigadenus, the name older reports use.
+  source: 'Zigadenus venenosus, a synonym of Toxicoscordion venenosum in the World Checklist of Vascular Plants, via GBIF. https://www.gbif.org/species/207278778'
+regions:
+  - US-MT

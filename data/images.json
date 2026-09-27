@@ -60,6 +60,12 @@
     "artist": "Williammehlhorn at English Wikipedia",
     "license": "Public domain"
   },
+  "cicuta-virosa": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Cicuta_virosa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-038_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Cicuta_virosa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-038_cropped.jpg",
+    "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "license": "Public domain"
+  },
   "colchicum-autumnale": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Illustration_Colchicum_autumnale0.jpg/960px-Illustration_Colchicum_autumnale0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Illustration_Colchicum_autumnale0.jpg",
@@ -107,6 +113,13 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "gelsemium-elegans": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gelsemium_elegans_172132805.jpg/960px-Gelsemium_elegans_172132805.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Gelsemium_elegans_172132805.jpg",
+    "artist": "Toby Y",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
   "gloriosa-superba": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Flame_Lily.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Flame_Lily.jpg",
@@ -128,12 +141,25 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "heracleum-sosnowskyi": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Heracleum_sosnowskyi%2C_Truso_Gorge%2C_Georgia_%2852330857616%29.jpg/960px-Heracleum_sosnowskyi%2C_Truso_Gorge%2C_Georgia_%2852330857616%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Heracleum_sosnowskyi,_Truso_Gorge,_Georgia_(52330857616).jpg",
+    "artist": "Sam Thomas",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
   "hippomane-mancinella": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Hippomane_mancinella_%28fruit%29.jpg/960px-Hippomane_mancinella_%28fruit%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Hippomane_mancinella_(fruit).jpg",
     "artist": "Hans Hillewaert",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "hyoscyamus-niger": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Hyoscyamus_niger_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-073.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Hyoscyamus_niger_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-073.jpg",
+    "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "license": "Public domain"
   },
   "lagocephalus-sceleratus": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Lagocephalus_sceleratus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -163,6 +189,20 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
   },
+  "oenanthe-crocata": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Oenanthe_crocata_kz04.jpg/960px-Oenanthe_crocata_kz04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Oenanthe_crocata_kz04.jpg",
+    "artist": "Krzysztof Ziarnek, Kenraiz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "phytolacca-americana": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Pokeweed_bush_in_Northumberland_County%2C_Pennsylvania.JPG/960px-Pokeweed_bush_in_Northumberland_County%2C_Pennsylvania.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pokeweed_bush_in_Northumberland_County,_Pennsylvania.JPG",
+    "artist": "Jakec",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "ricinus-communis": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Ricinus_March_2010-1.jpg/960px-Ricinus_March_2010-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Ricinus_March_2010-1.jpg",
@@ -184,12 +224,32 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "toxicodendron-diversilobum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/PoisonOak_wb_biggerLeaves.jpg/960px-PoisonOak_wb_biggerLeaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:PoisonOak_wb_biggerLeaves.jpg",
+    "artist": "Elf (talk · contribs)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
   "toxicodendron-radicans": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/2014-10-29_13_43_39_Poison_Ivy_foliage_during_autumn_leaf_coloration_in_Ewing%2C_New_Jersey.JPG/960px-2014-10-29_13_43_39_Poison_Ivy_foliage_during_autumn_leaf_coloration_in_Ewing%2C_New_Jersey.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:2014-10-29_13_43_39_Poison_Ivy_foliage_during_autumn_leaf_coloration_in_Ewing,_New_Jersey.JPG",
     "artist": "Famartin",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "toxicodendron-vernix": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Toxicodendron_vernix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Toxicodendron_vernix.jpg",
+    "artist": "Unknown",
+    "license": "Public domain"
+  },
+  "toxicoscordion-venenosum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Toxicoscordion_venenosum_-_Craig_Martin_01.jpg/960px-Toxicoscordion_venenosum_-_Craig_Martin_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Toxicoscordion_venenosum_-_Craig_Martin_01.jpg",
+    "artist": "Craig Martin https://www.inaturalist.org/people/craigmartin",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
   "veratrum-album": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Veratrum_album_Aubrac.JPG/960px-Veratrum_album_Aubrac.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

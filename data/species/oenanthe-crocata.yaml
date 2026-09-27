@@ -1,0 +1,62 @@
+name: Hemlock water dropwort
+scientificName: Oenanthe crocata
+group: plant
+danger: 5
+summary: >-
+  A tall plant of the carrot family on wet ground in western Europe, known as dead man’s fingers.
+  Foragers mistake it for celery, parsley, or edible roots.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+    - 'Henry FJ, Cadiet J, Javaudin F, Rozec B. Oenantha crocata: a case report of multiple poisoning with fatal outcome. J Emerg Med 2020 (abstract). https://doi.org/10.1016/j.jemermed.2020.04.014'
+toxicParts:
+  text: >-
+    The roots, which people and animals have eaten.
+  sources:
+    - 'Henry FJ, Cadiet J, Javaudin F, Rozec B. Oenantha crocata: a case report of multiple poisoning with fatal outcome. J Emerg Med 2020 (abstract). https://doi.org/10.1016/j.jemermed.2020.04.014'
+    - 'Gish et al. Analytical documentation of an Arabian horse fatality related to Oenanthe crocata poisoning. Toxicon 2022 (abstract). https://doi.org/10.1016/j.toxicon.2022.02.009'
+toxins:
+  text: >-
+    Oenanthotoxin and related polyacetylenes, which block the brain’s main calming signal (GABA).
+  sources:
+    - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+    - 'Gish et al. Analytical documentation of an Arabian horse fatality related to Oenanthe crocata poisoning. Toxicon 2022 (abstract). https://doi.org/10.1016/j.toxicon.2022.02.009'
+symptoms:
+  text: >-
+    Vomiting, then prolonged seizures, cardiac arrest, and severe acidosis in the worst cases.
+    Death can come very quickly.
+  sources:
+    - 'Henry FJ, Cadiet J, Javaudin F, Rozec B. Oenantha crocata: a case report of multiple poisoning with fatal outcome. J Emerg Med 2020 (abstract). https://doi.org/10.1016/j.jemermed.2020.04.014'
+    - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+atRisk:
+  text: >-
+    Foragers who mistake it for celery, parsley, or another edible root. Two adults who ate its
+    roots, taking them for an edible tuberous radish, were poisoned, and one died.
+  sources:
+    - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+    - 'Henry FJ, Cadiet J, Javaudin F, Rozec B. Oenantha crocata: a case report of multiple poisoning with fatal outcome. J Emerg Med 2020 (abstract). https://doi.org/10.1016/j.jemermed.2020.04.014'
+lookalikes:
+  - name: Celery
+    scientificName: Apium graveolens
+    note: >-
+      It closely resembles celery and parsley, and naive foragers eat it.
+    sources:
+      - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+  - name: Parsley
+    scientificName: Petroselinum crispum
+    note: >-
+      It closely resembles celery and parsley, and naive foragers eat it.
+    sources:
+      - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+animals:
+  who: [horses]
+  text: >-
+    A horse has died after eating its roots.
+  sources:
+    - 'Gish et al. Analytical documentation of an Arabian horse fatality related to Oenanthe crocata poisoning. Toxicon 2022 (abstract). https://doi.org/10.1016/j.toxicon.2022.02.009'
+habitat: >-
+  Stream and river banks, ditches, marshes, and wet woodland.
+size: Up to about 1.5 m tall
+regions:
+  - GB

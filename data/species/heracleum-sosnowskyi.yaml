@@ -1,0 +1,58 @@
+name: Sosnowsky’s hogweed
+scientificName: Heracleum sosnowskyi
+group: plant
+danger: 3
+summary: >-
+  A giant hogweed from the Caucasus, planted across the Soviet Union as cattle fodder and now a
+  vast invasive weed of eastern Europe. Its sap burns skin in sunlight.
+exposure:
+  routes: [skin, sunlight, eyes]
+  text: >-
+    Sap on the skin makes it burn in sunlight. In the eyes, hogweed sap has caused severe injury.
+  sources:
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+    - 'Osipova ES, Gladkov EA, Tereshonok DV. Heracleum sosnowskyi Manden. in the context of sustainable development. J Xenobiot 2026 (abstract). https://doi.org/10.3390/jox16010006'
+toxicParts:
+  text: >-
+    The sap, stems, leaves, and fruits.
+  sources:
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+toxins:
+  text: >-
+    Furanocoumarins, which make skin react to sunlight.
+  sources:
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+    - 'Osipova ES, Gladkov EA, Tereshonok DV. Heracleum sosnowskyi Manden. in the context of sustainable development. J Xenobiot 2026 (abstract). https://doi.org/10.3390/jox16010006'
+symptoms:
+  text: >-
+    Redness, then blisters and burns that can scar and darken the skin for months. When it
+    flowers, it can also irritate the eyes and airways and set off asthma.
+  sources:
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+    - 'Osipova ES, Gladkov EA, Tereshonok DV. Heracleum sosnowskyi Manden. in the context of sustainable development. J Xenobiot 2026 (abstract). https://doi.org/10.3390/jox16010006'
+onset:
+  text: >-
+    Within 24 hours of contact and sunlight, at its worst by about 3 days.
+  delayed: true
+  sources:
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+atRisk:
+  text: >-
+    Anyone who touches or cuts it, above all where it has spread across farmland, roadsides, and
+    riverbanks.
+  sources:
+    - 'Osipova ES, Gladkov EA, Tereshonok DV. Heracleum sosnowskyi Manden. in the context of sustainable development. J Xenobiot 2026 (abstract). https://doi.org/10.3390/jox16010006'
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+lookalikes:
+  - name: Giant hogweed
+    scientificName: Heracleum mantegazzianum
+    note: >-
+      A close relative from the same region, with the same burning sap.
+    sources:
+      - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+      - 'Rysiak et al. Genetic diversity and population structure reveal post-introduction differentiation in Heracleum sosnowskyi. Genes 2026 (abstract). https://doi.org/10.3390/genes17050502'
+habitat: >-
+  Abandoned fields, roadsides, riverbanks, and forest edges.
+size: Up to about 4 m tall
+regions:
+  - GE

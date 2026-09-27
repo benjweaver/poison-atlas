@@ -1,0 +1,45 @@
+name: Heartbreak grass
+scientificName: Gelsemium elegans
+group: plant
+danger: 5
+summary: >-
+  A twining vine of southern China and Southeast Asia that grows among, and is mistaken for,
+  edible and medicinal herbs, and can stop breathing within half an hour.
+exposure:
+  routes: [eaten]
+  text: >-
+    Putting it on the skin to treat skin disease has also poisoned people.
+  sources:
+    - 'Zhou et al. Gelsemium elegans poisoning: a case with 8 months of follow-up and review of the literature. Front Neurol 2017. https://doi.org/10.3389/fneur.2017.00204'
+toxicParts:
+  text: >-
+    The whole plant is highly poisonous.
+  sources:
+    - 'Zhou et al. Gelsemium elegans poisoning: a case with 8 months of follow-up and review of the literature. Front Neurol 2017. https://doi.org/10.3389/fneur.2017.00204'
+toxins:
+  text: >-
+    Gelsemium alkaloids such as gelsemine, which depress the nervous system and breathing.
+  sources:
+    - 'Zhou et al. Gelsemium elegans poisoning: a case with 8 months of follow-up and review of the literature. Front Neurol 2017. https://doi.org/10.3389/fneur.2017.00204'
+symptoms:
+  text: >-
+    Stomach upset, then weakness, dizziness, and failing breathing, leading to coma. People can
+    die within 30 minutes, but those who get breathing support in time can recover.
+  sources:
+    - 'Zhou et al. Gelsemium elegans poisoning: a case with 8 months of follow-up and review of the literature. Front Neurol 2017. https://doi.org/10.3389/fneur.2017.00204'
+onset:
+  text: >-
+    Very fast: usually within 20 minutes, and from 5 minutes to 2 hours.
+  sources:
+    - 'Zhou et al. Gelsemium elegans poisoning: a case with 8 months of follow-up and review of the literature. Front Neurol 2017. https://doi.org/10.3389/fneur.2017.00204'
+atRisk:
+  text: >-
+    People who pick it by mistake for herbs, often in group poisonings from a shared meal, and
+    people who make remedies from it.
+  sources:
+    - 'Zhou et al. Gelsemium elegans poisoning: a case with 8 months of follow-up and review of the literature. Front Neurol 2017. https://doi.org/10.3389/fneur.2017.00204'
+habitat: >-
+  Forest edges, thickets, and hillsides, climbing through other plants.
+size: A vine with stems up to about 12 m long
+regions:
+  - CN-GD

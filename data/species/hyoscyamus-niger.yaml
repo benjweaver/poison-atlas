@@ -1,0 +1,47 @@
+name: Black henbane
+scientificName: Hyoscyamus niger
+group: plant
+danger: 3
+summary: >-
+  A sticky, foul-smelling weed with yellowish flowers veined with purple. Every part causes
+  delirium, and children are poisoned most often.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Alizadeh A, Moshiri M, Alizadeh J, Balali-Mood M. Black henbane and its toxicity: a descriptive review. Avicenna J Phytomed 2014. https://europepmc.org/article/PMC/PMC4224707'
+toxicParts:
+  text: >-
+    Every part: leaves, roots, and seeds, with the seeds richest in alkaloids.
+  sources:
+    - 'Alizadeh A, Moshiri M, Alizadeh J, Balali-Mood M. Black henbane and its toxicity: a descriptive review. Avicenna J Phytomed 2014. https://europepmc.org/article/PMC/PMC4224707'
+    - 'Yucal et al. Hyperactivity and euphoria without agitation due to Hyoscyamus niger (henbane) poisoning in a child. Cureus 2026. https://doi.org/10.7759/cureus.107588'
+toxins:
+  text: >-
+    Tropane alkaloids: hyoscyamine, atropine, and scopolamine, which block the nervous system’s
+    acetylcholine signals.
+  sources:
+    - 'Alizadeh A, Moshiri M, Alizadeh J, Balali-Mood M. Black henbane and its toxicity: a descriptive review. Avicenna J Phytomed 2014. https://europepmc.org/article/PMC/PMC4224707'
+symptoms:
+  text: >-
+    Wide pupils, blurred vision, dry mouth, flushed skin, fever, and a racing or irregular heart,
+    with confusion, hallucinations, agitation, seizures, and coma. Deaths are very rare.
+  sources:
+    - 'Alizadeh A, Moshiri M, Alizadeh J, Balali-Mood M. Black henbane and its toxicity: a descriptive review. Avicenna J Phytomed 2014. https://europepmc.org/article/PMC/PMC4224707'
+    - 'Yucal et al. Hyperactivity and euphoria without agitation due to Hyoscyamus niger (henbane) poisoning in a child. Cureus 2026. https://doi.org/10.7759/cureus.107588'
+onset:
+  text: >-
+    Within hours: one child showed symptoms about 4 hours after eating its seeds.
+  sources:
+    - 'Yucal et al. Hyperactivity and euphoria without agitation due to Hyoscyamus niger (henbane) poisoning in a child. Cureus 2026. https://doi.org/10.7759/cureus.107588'
+atRisk:
+  text: >-
+    Children, above all in rural areas, who eat it by accident or to feel its effects. In one
+    series of about 900 patients in Iran, most were children.
+  sources:
+    - 'Alizadeh A, Moshiri M, Alizadeh J, Balali-Mood M. Black henbane and its toxicity: a descriptive review. Avicenna J Phytomed 2014. https://europepmc.org/article/PMC/PMC4224707'
+    - 'Yucal et al. Hyperactivity and euphoria without agitation due to Hyoscyamus niger (henbane) poisoning in a child. Cureus 2026. https://doi.org/10.7759/cureus.107588'
+habitat: >-
+  Waste ground, roadsides, and disturbed soil, often on chalk or near the sea.
+size: Up to about 1 m tall
+regions:
+  - FR

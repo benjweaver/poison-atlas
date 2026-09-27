@@ -1,0 +1,44 @@
+name: Poison sumac
+scientificName: Toxicodendron vernix
+group: plant
+danger: 2
+summary: >-
+  A shrub or small tree of eastern North American swamps, its leaves divided into rows of leaflets
+  on each side of the stem. Its oil causes the same blistering rash as poison ivy.
+exposure:
+  routes: [skin, inhaled]
+  text: >-
+    Burning it releases the oil in smoke, which can cause severe breathing problems.
+  sources:
+    - 'Poison ivy, poison oak, and poison sumac. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy-oak-and-sumac'
+toxicParts:
+  text: >-
+    Every part, especially the leaves and stems, even dried or dead.
+  sources:
+    - 'Poison ivy, poison oak, and poison sumac. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy-oak-and-sumac'
+toxins:
+  text: >-
+    Urushiol, an oil that triggers an allergic reaction in the skin.
+  sources:
+    - 'Poison ivy, poison oak, and poison sumac. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy-oak-and-sumac'
+symptoms:
+  text: >-
+    An itchy red rash that can blister and itch for days or weeks. Severe cases need medical care.
+  sources:
+    - 'Poison ivy, poison oak, and poison sumac. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy-oak-and-sumac'
+onset:
+  text: >-
+    Often 1 to 2 days after contact, and sometimes up to a week.
+  delayed: true
+  sources:
+    - 'Poison ivy, poison oak, and poison sumac. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy-oak-and-sumac'
+atRisk:
+  text: >-
+    Anyone working or walking outdoors. The oil also spreads from clothes, tools, and pets.
+  sources:
+    - 'Poison ivy, poison oak, and poison sumac. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy-oak-and-sumac'
+habitat: >-
+  Swamps, bogs, and wet woods.
+size: A shrub or small tree up to about 6 m tall
+regions:
+  - US-MI

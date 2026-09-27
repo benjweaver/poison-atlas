@@ -1,0 +1,78 @@
+name: Cowbane
+scientificName: Cicuta virosa
+group: plant
+danger: 5
+summary: >-
+  A water-loving plant of the carrot family, and with hemlock water dropwort the most poisonous
+  plant in Britain. Its root has killed whole families.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Kis S, Molnár V A, et al. Content analysis of digital archives contributes to the historical distribution and folk knowledge of the highly toxic Cicuta virosa L. in Hungary. Plants 2025. https://doi.org/10.3390/plants14030315'
+    - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+toxicParts:
+  text: >-
+    The whole plant, and the root above all.
+  sources:
+    - 'Kis S, Molnár V A, et al. Content analysis of digital archives contributes to the historical distribution and folk knowledge of the highly toxic Cicuta virosa L. in Hungary. Plants 2025. https://doi.org/10.3390/plants14030315'
+toxins:
+  text: >-
+    Cicutoxin and related polyacetylenes, which block the brain’s main calming signal (GABA),
+    causing seizures and stopping breathing.
+  sources:
+    - 'Kis S, Molnár V A, et al. Content analysis of digital archives contributes to the historical distribution and folk knowledge of the highly toxic Cicuta virosa L. in Hungary. Plants 2025. https://doi.org/10.3390/plants14030315'
+    - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+symptoms:
+  text: >-
+    Stomach pain, vomiting, dizziness, and violent seizures, then paralysed breathing and death,
+    which can come very fast.
+  sources:
+    - 'Kis S, Molnár V A, et al. Content analysis of digital archives contributes to the historical distribution and folk knowledge of the highly toxic Cicuta virosa L. in Hungary. Plants 2025. https://doi.org/10.3390/plants14030315'
+    - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    Very fast, like its American relative: water hemlock can cause symptoms within 15 minutes.
+  sources:
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+    - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+atRisk:
+  text: >-
+    Foragers and children who mistake its root or leaves for parsley, celery, parsnip, or carrot.
+    Grazing cattle have died in large numbers.
+  sources:
+    - 'Kis S, Molnár V A, et al. Content analysis of digital archives contributes to the historical distribution and folk knowledge of the highly toxic Cicuta virosa L. in Hungary. Plants 2025. https://doi.org/10.3390/plants14030315'
+    - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+lookalikes:
+  - name: Parsley
+    scientificName: Petroselinum crispum
+    note: >-
+      The plant it was most often mistaken for in historical Hungarian poisonings.
+    sources:
+      - 'Kis S, Molnár V A, et al. Content analysis of digital archives contributes to the historical distribution and folk knowledge of the highly toxic Cicuta virosa L. in Hungary. Plants 2025. https://doi.org/10.3390/plants14030315'
+      - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+  - name: Celery
+    scientificName: Apium graveolens
+    note: >-
+      A whole family was poisoned by its root, bought at a market as celery.
+    sources:
+      - 'Kis S, Molnár V A, et al. Content analysis of digital archives contributes to the historical distribution and folk knowledge of the highly toxic Cicuta virosa L. in Hungary. Plants 2025. https://doi.org/10.3390/plants14030315'
+      - 'Lee MR, Dukan E, Milne I. Three poisonous plants (Oenanthe, Cicuta and Anamirta) that antagonise the effect of γ-aminobutyric acid in human brain. J R Coll Physicians Edinb 2020 (abstract). https://doi.org/10.4997/jrcpe.2020.121'
+  - name: Parsnip
+    scientificName: Pastinaca sativa
+    note: >-
+      Children have eaten its root raw, mistaking it for parsnip or carrot, and died.
+    sources:
+      - 'Kis S, Molnár V A, et al. Content analysis of digital archives contributes to the historical distribution and folk knowledge of the highly toxic Cicuta virosa L. in Hungary. Plants 2025. https://doi.org/10.3390/plants14030315'
+animals:
+  who: [livestock]
+  text: >-
+    Cattle grazing in marshes have been killed by it.
+  sources:
+    - 'Kis S, Molnár V A, et al. Content analysis of digital archives contributes to the historical distribution and folk knowledge of the highly toxic Cicuta virosa L. in Hungary. Plants 2025. https://doi.org/10.3390/plants14030315'
+habitat: >-
+  Shallow water and wet ground: pond and lake margins, ditches, and marshes.
+size: Up to about 1.5 m tall
+regions:
+  - GB

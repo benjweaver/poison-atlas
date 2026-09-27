@@ -1,0 +1,63 @@
+name: Pokeweed
+scientificName: Phytolacca americana
+group: plant
+danger: 4
+summary: >-
+  A tall weed with purple-red stems and grape-like clusters of dark berries, common in the eastern
+  United States. Its root has been mistaken for ginseng.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Pokeberries: a grape look-alike. Poison Control (National Capital Poison Center). https://www.poison.org/articles/pokeberries-and-grapes-look-alike'
+toxicParts:
+  text: >-
+    The whole plant. Serious poisonings have come from eating the root, and from the leaves, which
+    are toxic raw.
+  sources:
+    - 'Pokeberries: a grape look-alike. Poison Control (National Capital Poison Center). https://www.poison.org/articles/pokeberries-and-grapes-look-alike'
+    - 'Choe et al. Identification of phytolaccosides in biological samples from pokeweed intoxication patients using liquid chromatography-tandem mass spectrometry. J Chromatogr B 2020 (abstract). https://doi.org/10.1016/j.jchromb.2020.122123'
+    - 'Xu et al. Description of a fatal case of acute Phytolacca americana poisoning due to leaf ingestion in China. Toxicon 2025 (abstract). https://doi.org/10.1016/j.toxicon.2025.108476'
+toxins:
+  text: >-
+    Triterpenoid saponins (phytolaccosides) in every part, and oxalates.
+  sources:
+    - 'Choe et al. Identification of phytolaccosides in biological samples from pokeweed intoxication patients using liquid chromatography-tandem mass spectrometry. J Chromatogr B 2020 (abstract). https://doi.org/10.1016/j.jchromb.2020.122123'
+    - 'Xu et al. Description of a fatal case of acute Phytolacca americana poisoning due to leaf ingestion in China. Toxicon 2025 (abstract). https://doi.org/10.1016/j.toxicon.2025.108476'
+symptoms:
+  text: >-
+    Stomach pain, nausea, vomiting, and diarrhea. People who ate the root had bloody vomiting and
+    diarrhea and low blood pressure. A woman in China died after eating its leaves.
+  sources:
+    - 'Pokeberries: a grape look-alike. Poison Control (National Capital Poison Center). https://www.poison.org/articles/pokeberries-and-grapes-look-alike'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+    - 'Xu et al. Description of a fatal case of acute Phytolacca americana poisoning due to leaf ingestion in China. Toxicon 2025 (abstract). https://doi.org/10.1016/j.toxicon.2025.108476'
+onset:
+  text: >-
+    In one case, 2 hours after eating the root.
+  sources:
+    - 'Pokeberries: a grape look-alike. Poison Control (National Capital Poison Center). https://www.poison.org/articles/pokeberries-and-grapes-look-alike'
+atRisk:
+  text: >-
+    Children, to whom the berries look like grapes, though a berry or two rarely causes symptoms,
+    and adults who eat the root by mistake for a medicinal plant.
+  sources:
+    - 'Pokeberries: a grape look-alike. Poison Control (National Capital Poison Center). https://www.poison.org/articles/pokeberries-and-grapes-look-alike'
+lookalikes:
+  - name: American ginseng
+    scientificName: Panax quinquefolius
+    note: >-
+      A man who ate pokeweed root in place of ginseng spent 3 days in hospital.
+    sources:
+      - 'Pokeberries: a grape look-alike. Poison Control (National Capital Poison Center). https://www.poison.org/articles/pokeberries-and-grapes-look-alike'
+  - name: Grape
+    scientificName: Vitis vinifera
+    note: >-
+      To a child, the hanging clusters of purple berries look like grapes. Their red stems give
+      them away.
+    sources:
+      - 'Pokeberries: a grape look-alike. Poison Control (National Capital Poison Center). https://www.poison.org/articles/pokeberries-and-grapes-look-alike'
+habitat: >-
+  Field edges, clearings, fence rows, and disturbed ground.
+size: Up to about 3 m tall
+regions:
+  - US-VA
