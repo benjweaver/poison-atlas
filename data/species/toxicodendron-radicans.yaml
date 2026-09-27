@@ -1,0 +1,142 @@
+name: Poison ivy
+scientificName: Toxicodendron radicans
+group: plant
+danger: 2
+summary: >-
+  A vine or small shrub with leaves in threes, found across much of North America. Its oil causes
+  an itchy, blistering rash in most people who touch it.
+exposure:
+  routes: [skin, inhaled]
+  text: >-
+    Burning it releases the oil in smoke, which can cause severe breathing problems.
+  sources:
+    - 'Poison ivy: diagnosis, treatment, and when to seek help. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy'
+toxicParts:
+  text: >-
+    Every part, especially the leaves and stems, even when dried.
+  sources:
+    - 'Poison ivy: diagnosis, treatment, and when to seek help. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy'
+toxins:
+  text: >-
+    Urushiol, an oil that skin absorbs quickly, triggering an allergic reaction.
+  sources:
+    - 'Poison ivy: diagnosis, treatment, and when to seek help. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy'
+symptoms:
+  text: >-
+    Intense itching and a red rash, then bumps and fluid-filled blisters that can last weeks.
+    Severe cases need medical care.
+  sources:
+    - 'Poison ivy: diagnosis, treatment, and when to seek help. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy'
+onset:
+  text: >-
+    The rash appears 1 to 2 days after contact in people who have reacted before, and up to 2
+    weeks after a first contact.
+  sources:
+    - 'Poison ivy: diagnosis, treatment, and when to seek help. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy'
+atRisk:
+  text: >-
+    Anyone outdoors: an estimated 50 to 75% of people react. The oil also spreads from clothing
+    and from pets’ fur.
+  sources:
+    - 'Poison ivy: diagnosis, treatment, and when to seek help. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy'
+habitat: >-
+  Woods, clearings, fence rows, trails, and yards, climbing trees or spreading over the ground.
+taxonomy:
+  note: >-
+    The World Checklist of Vascular Plants, which decides this range, counts western poison ivy (T.
+    rydbergii) as a subspecies of poison ivy, so the West is included. GBIF keeps it as a separate
+    species, so records there are few.
+  source: 'Toxicodendron rydbergii, a synonym of Toxicodendron radicans subsp. rydbergii. The World Checklist of Vascular Plants, via GBIF. https://www.gbif.org/species/206512784'
+regions:
+  - BM
+  - BS
+  - CA-AB
+  - CA-BC
+  - CA-MB
+  - CA-NB
+  - CA-NS
+  - CA-ON
+  - CA-PE
+  - CA-QC
+  - CA-SK
+  - CA-YT
+  - GT
+  - MX-AGU
+  - MX-BCS
+  - MX-CAM
+  - MX-CHH
+  - MX-CHP
+  - MX-COA
+  - MX-COL
+  - MX-DUR
+  - MX-GRO
+  - MX-GUA
+  - MX-HID
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-NAY
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-SIN
+  - MX-SLP
+  - MX-SON
+  - MX-TAM
+  - MX-VER
+  - MX-ZAC
+  - US-AL
+  - US-AR
+  - US-AZ
+  - US-CT
+  - US-DC
+  - US-DE
+  - US-FL
+  - US-GA
+  - US-IA
+  - US-ID
+  - US-IL
+  - US-IN
+  - US-KS
+  - US-KY
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-MS
+  - US-MT
+  - US-NC
+  - US-ND
+  - US-NE
+  - US-NH
+  - US-NJ
+  - US-NM
+  - US-NV
+  - US-NY
+  - US-OH
+  - US-OK
+  - US-OR
+  - US-PA
+  - US-RI
+  - US-SC
+  - US-SD
+  - US-TN
+  - US-TX
+  - US-UT
+  - US-VA
+  - US-VT
+  - US-WA
+  - US-WI
+  - US-WV
+  - US-WY
+introduced:
+  - CA-NL
+  - DE
+  - IT
+  - TJ
+  - UZ

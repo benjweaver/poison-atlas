@@ -1,0 +1,85 @@
+name: Ackee
+scientificName: Blighia sapida
+group: plant
+danger: 4
+summary: >-
+  A West African tree whose fruit is Jamaica’s national fruit and a staple food there. Unripe
+  fruit causes Jamaican vomiting sickness.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Toxic hypoglycemic syndrome: Jamaica, 1989–1991. MMWR 1992. https://www.cdc.gov/mmwr/preview/mmwrhtml/00015987.htm'
+    - 'Grunes et al. Fulminant hepatic failure attributed to ackee fruit ingestion in a patient with sickle cell trait. Case Rep Transplant 2012. https://doi.org/10.1155/2012/739238'
+toxicParts:
+  text: >-
+    The unripe fruit, and the seeds and husks at any stage.
+  sources:
+    - 'Grunes et al. Fulminant hepatic failure attributed to ackee fruit ingestion in a patient with sickle cell trait. Case Rep Transplant 2012. https://doi.org/10.1155/2012/739238'
+    - 'Toxic hypoglycemic syndrome: Jamaica, 1989–1991. MMWR 1992. https://www.cdc.gov/mmwr/preview/mmwrhtml/00015987.htm'
+toxins:
+  text: >-
+    Hypoglycin A and B, which stop the liver from making sugar and burning fat, causing
+    dangerously low blood sugar.
+  sources:
+    - 'Toxic hypoglycemic syndrome: Jamaica, 1989–1991. MMWR 1992. https://www.cdc.gov/mmwr/preview/mmwrhtml/00015987.htm'
+    - 'Grunes et al. Fulminant hepatic failure attributed to ackee fruit ingestion in a patient with sickle cell trait. Case Rep Transplant 2012. https://doi.org/10.1155/2012/739238'
+symptoms:
+  text: >-
+    Sudden, repeated vomiting, then drowsiness, seizures, and coma, often with very low blood
+    sugar. Severe cases can damage the liver and kill.
+  sources:
+    - 'Toxic hypoglycemic syndrome: Jamaica, 1989–1991. MMWR 1992. https://www.cdc.gov/mmwr/preview/mmwrhtml/00015987.htm'
+    - 'Grunes et al. Fulminant hepatic failure attributed to ackee fruit ingestion in a patient with sickle cell trait. Case Rep Transplant 2012. https://doi.org/10.1155/2012/739238'
+onset:
+  text: >-
+    Vomiting usually starts 6 to 48 hours after eating it; deaths usually come within 48 hours.
+  delayed: true
+  sources:
+    - 'Grunes et al. Fulminant hepatic failure attributed to ackee fruit ingestion in a patient with sickle cell trait. Case Rep Transplant 2012. https://doi.org/10.1155/2012/739238'
+atRisk:
+  text: >-
+    Children and malnourished adults, who are most likely to die. In a Jamaican study, most
+    patients were under 15.
+  sources:
+    - 'Toxic hypoglycemic syndrome: Jamaica, 1989–1991. MMWR 1992. https://www.cdc.gov/mmwr/preview/mmwrhtml/00015987.htm'
+    - 'Grunes et al. Fulminant hepatic failure attributed to ackee fruit ingestion in a patient with sickle cell trait. Case Rep Transplant 2012. https://doi.org/10.1155/2012/739238'
+processing:
+  text: >-
+    Toxic unripe. It is a staple food in Jamaica; poisonings follow eating unripe fruit.
+  sources:
+    - 'Toxic hypoglycemic syndrome: Jamaica, 1989–1991. MMWR 1992. https://www.cdc.gov/mmwr/preview/mmwrhtml/00015987.htm'
+    - 'Grunes et al. Fulminant hepatic failure attributed to ackee fruit ingestion in a patient with sickle cell trait. Case Rep Transplant 2012. https://doi.org/10.1155/2012/739238'
+habitat: >-
+  Native to West Africa; grown in the Caribbean, Central America, and southern Florida.
+regions:
+  - BF
+  - BJ
+  - CI
+  - CM
+  - GA
+  - GH
+  - GN
+  - GW
+  - LR
+  - ML
+  - NG
+  - SL
+  - SN
+  - TG
+introduced:
+  - AG
+  - BB
+  - CU
+  - DM
+  - DO
+  - GT
+  - HN
+  - HT
+  - JM
+  - KY
+  - LC
+  - MQ
+  - PR
+  - TT
+  - VE
+  - VN

@@ -104,30 +104,38 @@ const excluder = (overrides: Overrides) => {
  * Places with enough wild records to count: whole countries, or states in the
  * countries shown by state. `inat` is the part of the counts that came from
  * iNaturalist, for rules with an `inatFloor`.
+ *
+ * `confirmed` names places a checklist says are native range (for a plant,
+ * WCVP's botanical country). They need the minimum count but not the share:
+ * that share is what drops Georgia, in giant hogweed's native range, next to
+ * the hundreds of thousands of records from where it's invasive.
  */
 export function recordedPlaces(
   counts: GbifCounts,
   overrides: Overrides = {},
   rules: RangeRules = DEFAULT_RULES,
   inat?: GbifCounts,
+  confirmed: (code: string) => boolean = () => false,
 ): string[] {
   const isExcluded = excluder(overrides)
   const floor = minRecords(counts.total, rules)
-  const enough = (n: number, fromInat = 0) =>
+  const enough = (n: number, code: string, fromInat = 0) =>
     n >= floor &&
-    n >= counts.total * rules.minShare &&
+    (n >= counts.total * rules.minShare || confirmed(code)) &&
     (rules.inatFloor === undefined || n - fromInat >= floor || fromInat >= rules.inatFloor)
 
   const regions = new Set<string>()
   for (const [country, n] of Object.entries(counts.countries)) {
-    if (!enough(n, inat?.countries[country]) || isExcluded(country)) continue
+    if (!enough(n, country, inat?.countries[country]) || isExcluded(country)) continue
     if (!SUBDIVIDED.has(country)) {
       regions.add(country)
       continue
     }
     const states = Object.entries(counts.subdivisions).filter(
       ([code, m]) =>
-        code.startsWith(`${country}-`) && enough(m, inat?.subdivisions[code]) && !isExcluded(code),
+        code.startsWith(`${country}-`) &&
+        enough(m, code, inat?.subdivisions[code]) &&
+        !isExcluded(code),
     )
     if (states.length) {
       for (const [code] of states) regions.add(code)

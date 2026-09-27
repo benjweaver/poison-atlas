@@ -1,0 +1,136 @@
+name: Lily of the valley
+scientificName: Convallaria majalis
+group: plant
+danger: 2
+summary: >-
+  A small spring woodland plant with white bell-shaped flowers, and a popular garden plant. Its
+  leaves are mistaken for wild garlic, and it contains heart poisons.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+toxicParts:
+  text: >-
+    Poisonings involve the berries, stems, and leaves.
+  sources:
+    - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+toxins:
+  text: >-
+    About 40 cardiac glycosides, chiefly convallatoxin, which act like the heart drug digoxin,
+    plus saponins that upset the gut.
+  sources:
+    - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+symptoms:
+  text: >-
+    Nausea, vomiting, stomach pain, and confusion, with a slow or irregular heartbeat and high
+    blood potassium. It is similar to, but less toxic than, oleander and foxglove.
+  sources:
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+    - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+atRisk:
+  text: >-
+    Young children and adults with advanced dementia who chew the berries, stems, or leaves, and
+    people picking wild garlic.
+  sources:
+    - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+lookalikes:
+  - name: Wild garlic
+    scientificName: Allium ursinum
+    note: >-
+      The leaves look alike before and after flowering, and the plants grow in the same woods at
+      the same time. Mixing them up has repeatedly caused serious poisonings.
+    sources:
+      - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+animals:
+  who: [dogs, cats, horses]
+  sources:
+    - 'Lily of the valley. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/lily-valley'
+cultivated:
+  text: >-
+    Grown as an ornamental, which helps it spread.
+  sources:
+    - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+habitat: >-
+  Deciduous woods and shady gardens.
+regions:
+  - AD
+  - AL
+  - AT
+  - AX
+  - BA
+  - BE
+  - BG
+  - BY
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GE
+  - GR
+  - HR
+  - HU
+  - IM
+  - IT
+  - KZ
+  - LI
+  - LT
+  - LU
+  - LV
+  - MD
+  - ME
+  - NL
+  - NO
+  - PL
+  - RO
+  - RS
+  - RU
+  - SE
+  - SI
+  - SK
+  - TR
+  - UA
+  - XK
+introduced:
+  - CA-NB
+  - CA-NL
+  - CA-NS
+  - CA-ON
+  - CA-PE
+  - CA-QC
+  - CA-SK
+  - US-AL
+  - US-AR
+  - US-CT
+  - US-DC
+  - US-IA
+  - US-IL
+  - US-IN
+  - US-KS
+  - US-KY
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-NC
+  - US-NH
+  - US-NJ
+  - US-NY
+  - US-OH
+  - US-PA
+  - US-RI
+  - US-TN
+  - US-UT
+  - US-VA
+  - US-VT
+  - US-WA
+  - US-WI
+  - US-WV

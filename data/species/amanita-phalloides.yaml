@@ -1,0 +1,150 @@
+name: Death cap
+scientificName: Amanita phalloides
+group: fungus
+danger: 5
+summary: >-
+  The mushroom behind most mushroom deaths worldwide. Native to Europe, it has spread with planted
+  trees, and it looks like several edible mushrooms.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Vo et al. Amanita phalloides mushroom poisonings: Northern California, December 2016. MMWR 2017;66(21). https://doi.org/10.15585/mmwr.mm6621a1'
+    - 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+toxicParts:
+  text: >-
+    The whole mushroom, raw or cooked: cooking doesn’t destroy the toxin, and a single mushroom
+    can hold a lethal amount.
+  sources:
+    - 'Vo et al. Amanita phalloides mushroom poisonings: Northern California, December 2016. MMWR 2017;66(21). https://doi.org/10.15585/mmwr.mm6621a1'
+    - 'Tobias et al. Diagnosis and management of Amanita phalloides toxicity in the emergency department observation unit: a case report. Clin Pract Cases Emerg Med 2024. https://doi.org/10.5811/cpcem.1268'
+    - 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+toxins:
+  text: >-
+    Amatoxins, chiefly alpha-amanitin, which stop liver cells from making proteins, so they die.
+  sources:
+    - 'Vo et al. Amanita phalloides mushroom poisonings: Northern California, December 2016. MMWR 2017;66(21). https://doi.org/10.15585/mmwr.mm6621a1'
+    - 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+symptoms:
+  text: >-
+    Violent vomiting and diarrhea, then an apparent recovery while liver damage continues. Liver
+    failure and sometimes kidney failure follow; some patients need a liver transplant, and 10 to
+    20% die.
+  sources:
+    - 'Vo et al. Amanita phalloides mushroom poisonings: Northern California, December 2016. MMWR 2017;66(21). https://doi.org/10.15585/mmwr.mm6621a1'
+    - 'Mushroom poisoning. MSD Manual Professional Edition. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/mushroom-poisoning'
+onset:
+  text: >-
+    Delayed: no symptoms for 6 to 24 hours, an apparent recovery 24 to 36 hours after eating it,
+    then liver and organ failure after 3 to 5 days.
+  delayed: true
+  sources:
+    - 'Vo et al. Amanita phalloides mushroom poisonings: Northern California, December 2016. MMWR 2017;66(21). https://doi.org/10.15585/mmwr.mm6621a1'
+    - 'Mushroom poisoning. MSD Manual Professional Edition. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/mushroom-poisoning'
+atRisk:
+  text: >-
+    Foragers, including people who pick mushrooms they knew as safe in their home country; people
+    given wild mushrooms by others; and people looking for hallucinogenic mushrooms.
+  sources:
+    - 'Vo et al. Amanita phalloides mushroom poisonings: Northern California, December 2016. MMWR 2017;66(21). https://doi.org/10.15585/mmwr.mm6621a1'
+    - 'Tobias et al. Diagnosis and management of Amanita phalloides toxicity in the emergency department observation unit: a case report. Clin Pract Cases Emerg Med 2024. https://doi.org/10.5811/cpcem.1268'
+lookalikes:
+  - name: Paddy straw mushroom
+    scientificName: Volvariella volvacea
+    note: >-
+      A harmless edible mushroom of Asia that death caps are often mistaken for.
+    sources:
+      - 'Tobias et al. Diagnosis and management of Amanita phalloides toxicity in the emergency department observation unit: a case report. Clin Pract Cases Emerg Med 2024. https://doi.org/10.5811/cpcem.1268'
+      - 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+  - name: Coccora
+    scientificName: Amanita calyptoroderma
+    note: >-
+      An edible western North American Amanita that death caps are mistaken for.
+    sources:
+      - 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+habitat: >-
+  Under oaks, chestnuts, pines, and other trees whose roots it partners with, including planted
+  ones.
+regions:
+  - AT
+  - AX
+  - BE
+  - BY
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GE
+  - GR
+  - HR
+  - HU
+  - IE
+  - IT
+  - LT
+  - LU
+  - LV
+  - NL
+  - NO
+  - PL
+  - PT
+  - RS
+  - RU
+  - SE
+  - SI
+  - SK
+  - TR
+  - UA
+introduced:
+  - AR
+  - AU-ACT
+  - AU-SA
+  - AU-VIC
+  - CA-BC
+  - NZ
+  - US-CA
+  - US-MA
+  - US-NJ
+  - US-NY
+  - US-OR
+  - US-PA
+  - US-WA
+  - ZA-GT
+  - ZA-WC
+gbif:
+  include:
+    - code: AR
+      introduced: true
+      reason: 'native to Europe; spread elsewhere with planted trees'
+      source: 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+    - code: AU-ACT
+      introduced: true
+      reason: 'native to Europe; spread elsewhere with planted trees'
+      source: 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+    - code: AU-SA
+      introduced: true
+      reason: 'native to Europe; spread elsewhere with planted trees'
+      source: 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+    - code: AU-VIC
+      introduced: true
+      reason: 'native to Europe; spread elsewhere with planted trees'
+      source: 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+    - code: NZ
+      introduced: true
+      reason: 'native to Europe; spread elsewhere with planted trees'
+      source: 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+    - code: ZA-GT
+      introduced: true
+      reason: 'native to Europe; spread elsewhere with planted trees'
+      source: 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+    - code: ZA-WC
+      introduced: true
+      reason: 'native to Europe; spread elsewhere with planted trees'
+      source: 'Kayes et al. Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024. https://doi.org/10.3390/ijms252313028'
+    - code: CA-BC
+      introduced: true
+      reason: 'introduced on Vancouver Island'
+      source: 'Wang et al. Invasive Californian death caps develop mushrooms unisexually and bisexually. Nature Communications 2023. https://doi.org/10.1038/s41467-023-42317-z'

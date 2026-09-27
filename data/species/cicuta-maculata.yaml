@@ -1,0 +1,136 @@
+name: Spotted water hemlock
+scientificName: Cicuta maculata
+group: plant
+danger: 5
+summary: >-
+  North America’s most poisonous native plant. A bite of its root can kill, and it is easily
+  mistaken for wild parsnip or other edible roots.
+exposure:
+  routes: [eaten]
+  text: >-
+    Poisonings come from eating it, though the toxin may also be absorbed through the skin.
+  sources:
+    - 'Water hemlock poisoning: Maine, 1992. MMWR 1994;43(13). https://www.cdc.gov/mmwr/PDF/wk/mm4313.pdf'
+toxicParts:
+  text: >-
+    All parts, at every stage of growth, and the root most of all. It is most toxic in spring. Toy
+    whistles made from its stems have killed children.
+  sources:
+    - 'Water hemlock poisoning: Maine, 1992. MMWR 1994;43(13). https://www.cdc.gov/mmwr/PDF/wk/mm4313.pdf'
+toxins:
+  text: >-
+    Cicutoxin, a nerve poison that causes violent seizures.
+  sources:
+    - 'Water hemlock poisoning: Maine, 1992. MMWR 1994;43(13). https://www.cdc.gov/mmwr/PDF/wk/mm4313.pdf'
+    - 'Cortinovis et al. Alkaloid-containing plants poisonous to cattle and horses in Europe. Toxins 2015. https://doi.org/10.3390/toxins7124884'
+symptoms:
+  text: >-
+    Nausea, stomach pain, and vomiting, then salivation, sweating, trouble breathing, and repeated
+    seizures. Death usually comes from nonstop seizures; muscle breakdown, kidney failure, and a
+    slow heart can follow. About 30% of poisonings reported from 1900 to 1975 were fatal.
+  sources:
+    - 'Water hemlock poisoning: Maine, 1992. MMWR 1994;43(13). https://www.cdc.gov/mmwr/PDF/wk/mm4313.pdf'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    Fast: within 15 to 90 minutes. In one fatal case, seizures began within 30 minutes of three
+    bites of root.
+  sources:
+    - 'Water hemlock poisoning: Maine, 1992. MMWR 1994;43(13). https://www.cdc.gov/mmwr/PDF/wk/mm4313.pdf'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+atRisk:
+  text: >-
+    People foraging for wild roots. Two brothers in Maine who were looking for wild ginseng ate
+    its root; one died about 3 hours later.
+  sources:
+    - 'Water hemlock poisoning: Maine, 1992. MMWR 1994;43(13). https://www.cdc.gov/mmwr/PDF/wk/mm4313.pdf'
+lookalikes:
+  - name: Parsnip
+    scientificName: Pastinaca sativa
+    note: >-
+      It looks like parsnip, smells like fresh turnip, and tastes sweet.
+    sources:
+      - 'Water hemlock poisoning: Maine, 1992. MMWR 1994;43(13). https://www.cdc.gov/mmwr/PDF/wk/mm4313.pdf'
+  - name: Wild ginseng
+    scientificName: Panax
+    note: >-
+      The fatal Maine poisoning happened while foraging for wild ginseng.
+    sources:
+      - 'Water hemlock poisoning: Maine, 1992. MMWR 1994;43(13). https://www.cdc.gov/mmwr/PDF/wk/mm4313.pdf'
+  - name: Poison hemlock
+    scientificName: Conium maculatum
+    note: >-
+      The two hemlocks are often confused with each other.
+    sources:
+      - 'Cortinovis et al. Alkaloid-containing plants poisonous to cattle and horses in Europe. Toxins 2015. https://doi.org/10.3390/toxins7124884'
+animals:
+  who: [dogs, cats, horses]
+  sources:
+    - 'Water hemlock. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/water-hemlock'
+habitat: >-
+  Wet places such as swamps, marshes, and stream banks.
+regions:
+  - CA-AB
+  - CA-BC
+  - CA-MB
+  - CA-NB
+  - CA-NL
+  - CA-NS
+  - CA-NT
+  - CA-NU
+  - CA-ON
+  - CA-PE
+  - CA-QC
+  - CA-SK
+  - CA-YT
+  - MX-BCN
+  - MX-NLE
+  - US-AL
+  - US-AR
+  - US-AZ
+  - US-CA
+  - US-CO
+  - US-CT
+  - US-DC
+  - US-DE
+  - US-FL
+  - US-GA
+  - US-IA
+  - US-ID
+  - US-IL
+  - US-IN
+  - US-KS
+  - US-KY
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-MS
+  - US-MT
+  - US-NC
+  - US-ND
+  - US-NE
+  - US-NH
+  - US-NJ
+  - US-NM
+  - US-NV
+  - US-NY
+  - US-OH
+  - US-OK
+  - US-OR
+  - US-PA
+  - US-RI
+  - US-SC
+  - US-SD
+  - US-TN
+  - US-TX
+  - US-UT
+  - US-VA
+  - US-VT
+  - US-WA
+  - US-WI
+  - US-WV
+  - US-WY

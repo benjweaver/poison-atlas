@@ -1,0 +1,109 @@
+name: False morel
+scientificName: Gyromitra esculenta
+group: fungus
+danger: 4
+summary: >-
+  A spring mushroom with a brain-like cap, mistaken for true morels. Its toxin causes vomiting and
+  can bring seizures and liver damage.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Lagrange, Vernoux. Warning on false or true morels and button mushrooms with potential toxicity linked to hydrazinic toxins: an update. Toxins 2020. https://doi.org/10.3390/toxins12080482'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Lagrange, Vernoux. Warning on false or true morels and button mushrooms with potential toxicity linked to hydrazinic toxins: an update. Toxins 2020. https://doi.org/10.3390/toxins12080482'
+    - 'Lagrange et al. Corrected speciation and gyromitrin content of false morels linked to ALS patients with mostly slow-acetylator phenotypes. eNeurologicalSci 2024. https://doi.org/10.1016/j.ensci.2024.100502'
+toxins:
+  text: >-
+    Gyromitrin, which the body turns into monomethylhydrazine, a poison that starves the brain of
+    a calming signal (GABA).
+  sources:
+    - 'Lagrange, Vernoux. Warning on false or true morels and button mushrooms with potential toxicity linked to hydrazinic toxins: an update. Toxins 2020. https://doi.org/10.3390/toxins12080482'
+    - 'Lagrange et al. Corrected speciation and gyromitrin content of false morels linked to ALS patients with mostly slow-acetylator phenotypes. eNeurologicalSci 2024. https://doi.org/10.1016/j.ensci.2024.100502'
+symptoms:
+  text: >-
+    Nausea, vomiting, and stomach pain, sometimes followed by dizziness, delirium, seizures, and
+    coma, with liver and kidney damage.
+  sources:
+    - 'Lagrange, Vernoux. Warning on false or true morels and button mushrooms with potential toxicity linked to hydrazinic toxins: an update. Toxins 2020. https://doi.org/10.3390/toxins12080482'
+    - 'Lagrange et al. Corrected speciation and gyromitrin content of false morels linked to ALS patients with mostly slow-acetylator phenotypes. eNeurologicalSci 2024. https://doi.org/10.1016/j.ensci.2024.100502'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+onset:
+  text: >-
+    Within hours: stomach symptoms usually start 4 to 6 hours after eating it.
+  sources:
+    - 'Lagrange, Vernoux. Warning on false or true morels and button mushrooms with potential toxicity linked to hydrazinic toxins: an update. Toxins 2020. https://doi.org/10.3390/toxins12080482'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+atRisk:
+  text: >-
+    People who mistake it for a true morel, and people who eat it on purpose believing it safe
+    once prepared.
+  sources:
+    - 'Lagrange, Vernoux. Warning on false or true morels and button mushrooms with potential toxicity linked to hydrazinic toxins: an update. Toxins 2020. https://doi.org/10.3390/toxins12080482'
+processing:
+  text: >-
+    Toxic raw. It is sold and eaten in parts of Scandinavia and Finland after traditional
+    processing, which has long been reported not to make it reliably safe.
+  sources:
+    - 'Lagrange, Vernoux. Warning on false or true morels and button mushrooms with potential toxicity linked to hydrazinic toxins: an update. Toxins 2020. https://doi.org/10.3390/toxins12080482'
+lookalikes:
+  - name: Yellow morel
+    scientificName: Morchella esculenta
+    note: >-
+      False morels are misidentified as true morels, which are prized edible mushrooms.
+    sources:
+      - 'Lagrange, Vernoux. Warning on false or true morels and button mushrooms with potential toxicity linked to hydrazinic toxins: an update. Toxins 2020. https://doi.org/10.3390/toxins12080482'
+habitat: >-
+  Conifer woods and sandy soils, in spring.
+taxonomy:
+  note: >-
+    It belongs to a group of closely related false morels, including the similarly toxic G.
+    venenata.
+  source: 'Lagrange et al. Corrected speciation and gyromitrin content of false morels linked to ALS patients with mostly slow-acetylator phenotypes. eNeurologicalSci 2024. https://doi.org/10.1016/j.ensci.2024.100502'
+regions:
+  - AT
+  - AU-TAS
+  - AU-VIC
+  - BE
+  - BY
+  - CA-AB
+  - CA-BC
+  - CA-NB
+  - CA-NS
+  - CA-ON
+  - CA-PE
+  - CA-QC
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - IT
+  - LT
+  - LV
+  - NL
+  - NO
+  - PL
+  - RU
+  - SE
+  - UA
+  - US-AK
+  - US-CA
+  - US-CO
+  - US-ID
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MT
+  - US-NH
+  - US-NY
+  - US-OR
+  - US-VT
+  - US-WA
+  - US-WI

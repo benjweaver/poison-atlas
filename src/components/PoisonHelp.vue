@@ -2,6 +2,7 @@
 // Who to call: the poison centre for the country being viewed, with a number
 // to tap, or else the general advice. Poison control comes first because it
 // can say whether an exposure needs treatment, often before symptoms start.
+// The centre's name links to the page its number was checked on.
 import type { Help } from '@/lib/poison-help'
 
 import AppIcon from './AppIcon.vue'
@@ -17,7 +18,10 @@ defineProps<{ help: Help | null }>()
       <a :href="`tel:${help.centre.tel}`" class="font-semibold whitespace-nowrap text-(--accent)">{{
         help.centre.phone
       }}</a>
-      ({{ help.centre.name }}<template v-if="help.centre.note">; {{ help.centre.note }}</template
+      (<a :href="help.centre.source" target="_blank" rel="noopener" class="underline">{{
+        help.centre.name
+      }}</a
+      ><template v-if="help.centre.note">, {{ help.centre.note }}</template
       >).</template
     >
     <template v-else>Call your local poison centre, or your emergency number.</template>

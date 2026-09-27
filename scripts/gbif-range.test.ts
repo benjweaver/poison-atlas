@@ -60,6 +60,17 @@ describe('recordedPlaces', () => {
     expect(recordedPlaces(rattler, { exclude: ['US-AR', 'MX'] })).toEqual(['US-AZ', 'US-TX'])
   })
 
+  it('needs only the minimum count where a checklist already confirms the place', () => {
+    // Giant hogweed: a flood of records where it's invasive, few where it's native.
+    const counts: GbifCounts = {
+      total: 220_000,
+      countries: { GB: 45_000, NL: 40_000, GE: 20, AM: 2 },
+      subdivisions: {},
+    }
+    const native = (code: string) => code === 'GE' || code === 'AM'
+    expect(recordedPlaces(counts, {}, undefined, undefined, native)).toEqual(['GB', 'GE', 'NL'])
+  })
+
   it('asks more of fungus places known only from iNaturalist photos', () => {
     const counts: GbifCounts = {
       total: 20_000,

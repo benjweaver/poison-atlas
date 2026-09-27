@@ -1,0 +1,71 @@
+name: Spanish fly
+scientificName: Lytta vesicatoria
+group: insect
+danger: 4
+summary: >-
+  An emerald-green blister beetle of southern Europe. Its toxin blisters skin, and swallowing it,
+  as a supposed aphrodisiac, has killed people.
+exposure:
+  routes: [skin, eyes, eaten]
+  text: >-
+    The beetle releases its toxin when threatened, handled, or crushed.
+  sources:
+    - 'Blister beetles: do not touch! Poison Control (National Capital Poison Center). https://www.poison.org/articles/blister-beetles-do-not-touch-194'
+toxicParts:
+  text: >-
+    The body fluid it releases, and the beetle itself; the toxin stays active in dead beetles.
+  sources:
+    - 'Blister beetles: do not touch! Poison Control (National Capital Poison Center). https://www.poison.org/articles/blister-beetles-do-not-touch-194'
+    - 'Zhang et al. Cantharidin: a double-edged sword in medicine and toxicology. Frontiers in Pharmacology 2025. https://doi.org/10.3389/fphar.2025.1644186'
+toxins:
+  text: >-
+    Cantharidin, a blistering agent.
+  sources:
+    - 'Blister beetles: do not touch! Poison Control (National Capital Poison Center). https://www.poison.org/articles/blister-beetles-do-not-touch-194'
+    - 'Zhang et al. Cantharidin: a double-edged sword in medicine and toxicology. Frontiers in Pharmacology 2025. https://doi.org/10.3389/fphar.2025.1644186'
+symptoms:
+  text: >-
+    On the skin: burns and blisters. In the eyes: pain, reduced vision, and damage to the cornea.
+    Swallowed: swelling of the mouth and throat, vomiting, stomach pain, blood in the urine, and
+    in severe cases kidney failure, bleeding in the gut, heart damage, and shock.
+  sources:
+    - 'Blister beetles: do not touch! Poison Control (National Capital Poison Center). https://www.poison.org/articles/blister-beetles-do-not-touch-194'
+    - 'Zhang et al. Cantharidin: a double-edged sword in medicine and toxicology. Frontiers in Pharmacology 2025. https://doi.org/10.3389/fphar.2025.1644186'
+onset:
+  text: >-
+    Skin can blister immediately or after a delay.
+  sources:
+    - 'Blister beetles: do not touch! Poison Control (National Capital Poison Center). https://www.poison.org/articles/blister-beetles-do-not-touch-194'
+atRisk:
+  text: >-
+    People who take it as an aphrodisiac or on a dare, children who put beetles in their mouths,
+    and gardeners.
+  sources:
+    - 'Blister beetles: do not touch! Poison Control (National Capital Poison Center). https://www.poison.org/articles/blister-beetles-do-not-touch-194'
+habitat: >-
+  On trees, shrubs, and flowering plants.
+regions:
+  - AT
+  - BG
+  - BY
+  - CH
+  - CZ
+  - DE
+  - ES
+  - FR
+  - GB
+  - HR
+  - HU
+  - IT
+  - KZ
+  - PL
+  - PT
+  - RO
+  - RS
+  - RU
+  - SE
+  - SK
+  - UA
+  - XK
+introduced:
+  - MD

@@ -1,0 +1,118 @@
+name: Silver-cheeked toadfish
+scientificName: Lagocephalus sceleratus
+group: fish
+danger: 5
+summary: >-
+  A large pufferfish of the Indian and Pacific Oceans that entered the Mediterranean through the
+  Suez Canal. Its flesh is deadly, and it has killed people who ate it.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Ulman et al. Assessment of human health impacts from invasive pufferfish (attacks, poisonings and fatalities) across the Eastern Mediterranean. Biology 2024. https://doi.org/10.3390/biology13040208'
+toxicParts:
+  text: >-
+    Every tissue, including the meat. Cooking doesn’t destroy the toxin, and it can’t be cut away.
+  sources:
+    - 'Ulman et al. Assessment of human health impacts from invasive pufferfish (attacks, poisonings and fatalities) across the Eastern Mediterranean. Biology 2024. https://doi.org/10.3390/biology13040208'
+    - 'Katikou et al. An updated review of tetrodotoxin and its peculiarities. Marine Drugs 2022. https://doi.org/10.3390/md20010047'
+toxins:
+  text: >-
+    Tetrodotoxin, which blocks nerve signals.
+  sources:
+    - 'Ulman et al. Assessment of human health impacts from invasive pufferfish (attacks, poisonings and fatalities) across the Eastern Mediterranean. Biology 2024. https://doi.org/10.3390/biology13040208'
+symptoms:
+  text: >-
+    Numbness and digestive upset, then paralysis of the limbs, problems with the heart and
+    breathing, and unconsciousness. Deaths come from respiratory failure, usually within 6 to 24
+    hours.
+  sources:
+    - 'Ulman et al. Assessment of human health impacts from invasive pufferfish (attacks, poisonings and fatalities) across the Eastern Mediterranean. Biology 2024. https://doi.org/10.3390/biology13040208'
+onset:
+  text: >-
+    Usually 10 to 45 minutes after eating it, but sometimes up to 6 hours.
+  sources:
+    - 'Ulman et al. Assessment of human health impacts from invasive pufferfish (attacks, poisonings and fatalities) across the Eastern Mediterranean. Biology 2024. https://doi.org/10.3390/biology13040208'
+atRisk:
+  text: >-
+    Fishers and anyone who eats their catch without knowing the fish. In the Eastern Mediterranean
+    it poisoned over 140 people and killed 27 between 2004 and 2023.
+  sources:
+    - 'Ulman et al. Assessment of human health impacts from invasive pufferfish (attacks, poisonings and fatalities) across the Eastern Mediterranean. Biology 2024. https://doi.org/10.3390/biology13040208'
+habitat: >-
+  Coastal seas, from shallow sandy bottoms to deeper water.
+size: Up to about 10 kg
+aquatic: marine
+regions:
+  - AE
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - CK
+  - CN-FJ
+  - CN-GD
+  - DJ
+  - EG
+  - HK
+  - ID
+  - IN-AP
+  - IN-TN
+  - JO
+  - JP-12
+  - JP-46
+  - JP-47
+  - KR
+  - LK
+  - MG
+  - MU
+  - MY
+  - MZ
+  - NC
+  - NF
+  - NZ
+  - PG
+  - PH
+  - SA
+  - SC
+  - SO
+  - TH
+  - TW
+  - TZ
+  - VN
+  - YE
+  - ZA-EC
+  - ZA-NL
+  - ZA-WC
+introduced:
+  - AL
+  - CY
+  - DZ
+  - ES
+  - GR
+  - HR
+  - IL
+  - IT
+  - LB
+  - LY
+  - ME
+  - MT
+  - PS
+  - SY
+  - TN
+  - TR
+gbif:
+  include:
+    - code: EG
+      reason: 'native on Egypt’s Red Sea coast, as well as introduced on its Mediterranean one'
+      source: 'Ulman et al. Assessment of human health impacts from invasive pufferfish (attacks, poisonings and fatalities) across the Eastern Mediterranean. Biology 2024. https://doi.org/10.3390/biology13040208'
+    - code: PS
+      introduced: true
+      reason: 'Gaza’s coast is on the Mediterranean, which it entered through the Suez Canal'
+      source: 'Ulman et al. Assessment of human health impacts from invasive pufferfish (attacks, poisonings and fatalities) across the Eastern Mediterranean. Biology 2024. https://doi.org/10.3390/biology13040208'
+  exclude:
+    - code: FO
+      reason: 'outside its range (Indo-West Pacific, and the Mediterranean through the Suez Canal)'
+      source: 'Lagocephalus sceleratus: silver-cheeked toadfish. FishBase. https://www.fishbase.se/summary/Lagocephalus-sceleratus.html'
+    - code: GP
+      reason: 'outside its range (Indo-West Pacific, and the Mediterranean through the Suez Canal)'
+      source: 'Lagocephalus sceleratus: silver-cheeked toadfish. FishBase. https://www.fishbase.se/summary/Lagocephalus-sceleratus.html'

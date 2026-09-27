@@ -37,12 +37,105 @@ Danger to pets and livestock is shown as a cited flag on species that are
 already in scope; species that only harm animals are left out. Venomous
 animals, which inject their toxins, are in Venom Atlas instead.
 
-## Species data and ranges
+## Adding or editing a species
 
-The species schema and the GBIF range pipeline are being adapted from Venom
-Atlas for poisoning: routes of exposure, toxins, symptoms and onset,
-lookalikes, and native versus introduced ranges. See `src/data/schema.ts` and
-`scripts/`; this section will describe them once they land.
+All content lives in `data/species/`, one YAML file per species. That's the
+only place to edit.
+
+```bash
+npm run new -- "Conium maculatum"          # 1. creates data/species/conium-maculatum.yaml
+#                                            2. fill in the claims, each with its sources
+npm run images -- conium-maculatum         # 3. photo + credits from Wikimedia Commons
+npm run ranges -- conium-maculatum         # 4. native and introduced places, as a diff: review it
+npm run ranges -- conium-maculatum --write # 5. accept it
+npm run validate
+```
+
+A species file, shortened:
+
+```yaml
+name: Death cap
+scientificName: Amanita phalloides
+group: fungus # plant · fungus · amphibian · fish · reptile · insect · other
+danger: 5 # 1 harmful · 2 medically significant · 3 serious · 4 potentially fatal · 5 extremely dangerous
+summary: >-
+  One or two sentences for the card.
+exposure:
+  routes: [eaten] # eaten · skin · inhaled · eyes · sunlight
+  sources: ['https://…']
+toxicParts: { text: …, sources: [...] }
+toxins: { text: …, sources: [...] }
+symptoms: { text: …, sources: [...] }
+onset: # optional: only where a source gives the timing
+  text: Delayed: no symptoms for 6 to 24 hours, …
+  delayed: true # puts "don't wait for symptoms" on the page
+  sources: [...]
+atRisk: { text: …, sources: [...] }
+processing: { text: Toxic raw. …, sources: [...] } # optional; never the method
+lookalikes: # optional; linked when the lookalike is in the atlas too
+  - name: Paddy straw mushroom
+    scientificName: Volvariella volvacea
+    note: Who mixes them up, and when.
+    sources: [...]
+animals: { who: [dogs, cats, horses, livestock], sources: [...] } # optional flag
+cultivated: { text: Grown in gardens …, sources: [...] } # optional
+habitat: >-
+  Where it grows or lives.
+regions: [FR, DE] # native, written by npm run ranges
+introduced: [US-CA] # naturalised or invasive, written by npm run ranges
+gbif: # optional corrections, each with a source you have read
+  include: [{ code: AU-NSW, introduced: true, reason: …, source: 'https://…' }]
+  exclude: [{ code: FO, reason: …, source: 'https://…' }]
+```
+
+**Every claim has a source**, and the schema rejects one without: poison
+centres, clinical references, government health agencies, peer-reviewed case
+reports, and authoritative checklists. Sources are written as a citation
+followed by its URL. **Never** write preparation, extraction, or dosage
+information; for something eaten after traditional processing, say it's toxic
+raw and cite the source, without the method.
+
+## Ranges: native and introduced
+
+`npm run ranges` asks [GBIF](https://www.gbif.org) where each species has been
+recorded, and checklists whether it's native or introduced there. Nothing
+changes until you add `--write`.
+
+- **Wild records only.** No zoo, garden, or fossil specimens, nothing flagged
+  with a location problem, only records from 1950 on, and records GBIF marks as
+  cultivated, captive, released, or casual are subtracted.
+- **Enough records.** A place needs a minimum number (2 to 5, scaling with how
+  well recorded the species is) and a tiny share of all its records. Where a
+  checklist already names the place as native range, the share is waived, so a
+  thinly recorded native range isn't drowned out by an invaded one.
+- **Plants: the World Checklist of Vascular Plants decides.** WCVP, served
+  through GBIF, gives native or introduced status by "botanical country"
+  (TDWG level 3). `data/tdwg.json` (`npm run tdwg`) lines those up with the
+  map's places by overlapping their shapes. A plant is listed only where WCVP
+  knows it: records elsewhere are usually garden plants. A botanical country
+  that one place holds nearly all of (Alabama, Great Britain) is listed even
+  without records; one that spans several (Mexico Northwest) needs records to
+  say which states.
+- **Animals and fungi:** native-range checklists (Catalogue of Life, WoRMS)
+  add native countries; registers of introduced species (GRIIS, WRiMS) mark a
+  recorded place introduced but never list one on their own. Fungi need more
+  records, and more again when every record is an iNaturalist photo, and
+  `npm run ranges` warns when Species Fungorum has renamed one.
+- **Corrections** go in `gbif.include` (add a place, or settle its status with
+  `introduced: true`) and `gbif.exclude`, each with a source you have read.
+
+On the map, native places are filled and introduced ones hatched orange, with
+record dots coloured to match. Places known only from a checklist are faint
+and dashed. Places where a species is only grown or kept aren't shown; a
+`cultivated` note says so instead.
+
+## Poison centres
+
+`data/poison-centres.yaml` holds a public poison line per country, each checked
+on the service's own site and dated. The site shows the one for the country on
+the map, or the region the browser's languages name, always with the country
+named. A centre that only takes calls from health professionals doesn't
+belong there; the public route does (NHS 111 in the UK).
 
 ## Theme, offline and icons
 
@@ -107,6 +200,7 @@ public/geo/*.json ────┘       (zod schema + region-code checks)       
 
 | Path                             | What it is                                                                |
 | -------------------------------- | ------------------------------------------------------------------------- |
+| `scripts/tdwg.ts`                | Lines up WCVP's botanical countries with the map's places                 |
 | `src/data/schema.ts`             | The species schema: one definition for validation and for the app's types |
 | `src/lib/regions.ts`             | Which species are in which place (pure, unit-tested)                      |
 | `src/lib/geo.ts`                 | Loads boundaries on demand; works out where to point the camera           |
@@ -125,7 +219,9 @@ so that "FR" means metropolitan France.
 ## Known limits
 
 - Ranges are simplified to whole countries or states, and they're only as good
-  as GBIF's records plus human review (see above).
+  as GBIF's records, the checklists, and human review (see above). A big
+  country listed whole (Russia) is shaded whole, however small its part of the
+  range.
 - Marine species are assigned to the coastal countries/states where they're
   encountered.
 - Not an identification or foraging guide, and not medical advice. The site

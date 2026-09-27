@@ -1,0 +1,112 @@
+name: Deadly nightshade
+scientificName: Atropa belladonna
+group: plant
+danger: 3
+summary: >-
+  A bushy plant with black berries that taste sweet, which is why children are poisoned. It causes
+  delirium, a racing heart, and in severe cases seizures and coma.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Berdai et al. Atropa belladonna intoxication: a case report. Pan African Medical Journal 2012. https://europepmc.org/article/PMC/PMC3361210'
+    - 'Botan et al. Deadly nightshade (Atropa belladonna) and other weed poisonings in the pediatric intensive care unit: analysis of 54 children. Turk Arch Pediatr 2024. https://doi.org/10.5152/TurkArchPediatr.2024.23207'
+toxicParts:
+  text: >-
+    All parts, with most in the ripe berries and green leaves.
+  sources:
+    - 'Berdai et al. Atropa belladonna intoxication: a case report. Pan African Medical Journal 2012. https://europepmc.org/article/PMC/PMC3361210'
+    - 'Boskabadi et al. Severe neurotoxicity due to Atropa belladonna poisoning: a case report and literature review. Case Rep Neurol Med 2024. https://doi.org/10.1155/2024/5411258'
+toxins:
+  text: >-
+    Tropane alkaloids: atropine, hyoscyamine, and scopolamine, which block the nerve signal
+    acetylcholine (an anticholinergic effect).
+  sources:
+    - 'Berdai et al. Atropa belladonna intoxication: a case report. Pan African Medical Journal 2012. https://europepmc.org/article/PMC/PMC3361210'
+    - 'Botan et al. Deadly nightshade (Atropa belladonna) and other weed poisonings in the pediatric intensive care unit: analysis of 54 children. Turk Arch Pediatr 2024. https://doi.org/10.5152/TurkArchPediatr.2024.23207'
+symptoms:
+  text: >-
+    Flushed dry skin, dry mouth, wide pupils and blurred vision, a racing heart, vomiting,
+    confusion, hallucinations, and incoherent speech. Severe poisoning brings high fever,
+    seizures, coma, and the need for help breathing.
+  sources:
+    - 'Botan et al. Deadly nightshade (Atropa belladonna) and other weed poisonings in the pediatric intensive care unit: analysis of 54 children. Turk Arch Pediatr 2024. https://doi.org/10.5152/TurkArchPediatr.2024.23207'
+    - 'Berdai et al. Atropa belladonna intoxication: a case report. Pan African Medical Journal 2012. https://europepmc.org/article/PMC/PMC3361210'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+atRisk:
+  text: >-
+    Children, who eat the sweet berries; people given it as a herbal remedy; and adults who eat
+    the leaves by mistake.
+  sources:
+    - 'Botan et al. Deadly nightshade (Atropa belladonna) and other weed poisonings in the pediatric intensive care unit: analysis of 54 children. Turk Arch Pediatr 2024. https://doi.org/10.5152/TurkArchPediatr.2024.23207'
+    - 'Berdai et al. Atropa belladonna intoxication: a case report. Pan African Medical Journal 2012. https://europepmc.org/article/PMC/PMC3361210'
+    - 'Boskabadi et al. Severe neurotoxicity due to Atropa belladonna poisoning: a case report and literature review. Case Rep Neurol Med 2024. https://doi.org/10.1155/2024/5411258'
+lookalikes:
+  - name: Blueberry
+    scientificName: Vaccinium
+    note: >-
+      Children eat the sweet black berries thinking they are blueberries or blackcurrants.
+    sources:
+      - 'Berdai et al. Atropa belladonna intoxication: a case report. Pan African Medical Journal 2012. https://europepmc.org/article/PMC/PMC3361210'
+  - name: Blackcurrant
+    scientificName: Ribes nigrum
+    note: >-
+      The berries are confused with blackcurrants.
+    sources:
+      - 'Berdai et al. Atropa belladonna intoxication: a case report. Pan African Medical Journal 2012. https://europepmc.org/article/PMC/PMC3361210'
+  - name: Wild lettuce
+    scientificName: Lactuca
+    note: >-
+      Two sisters in Iran ate its leaves thinking it was the forest lettuce that grows near their
+      home.
+    sources:
+      - 'Boskabadi et al. Severe neurotoxicity due to Atropa belladonna poisoning: a case report and literature review. Case Rep Neurol Med 2024. https://doi.org/10.1155/2024/5411258'
+habitat: >-
+  Woodland clearings and edges, quarries, and waste ground.
+size: Up to about 1.5 m tall
+regions:
+  - AL
+  - AM
+  - AT
+  - BA
+  - BE
+  - BG
+  - CH
+  - CZ
+  - DE
+  - DZ
+  - ES
+  - FR
+  - GB
+  - GE
+  - GR
+  - HR
+  - HU
+  - IR
+  - IT
+  - LB
+  - LI
+  - LU
+  - MA
+  - ME
+  - NL
+  - PL
+  - PT
+  - RO
+  - RS
+  - RU
+  - SI
+  - SK
+  - TR
+  - UA
+  - XK
+introduced:
+  - AU-SA
+  - DK
+  - NZ
+  - SE
+  - US-CA
+  - US-IL
+  - US-MI
+  - US-MO
+  - US-NJ
+  - US-WA

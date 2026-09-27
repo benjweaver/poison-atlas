@@ -36,7 +36,7 @@ import {
 import { fetchGrid, tilesFor, type GridPoint } from './occurrence-grid.ts'
 import { inside, shapeOf, type Shape } from './polygons.ts'
 import { GRID_DIR, knownRegions, readTdwg, ROOT, speciesFiles } from './species-loader.ts'
-import type { Status } from './tdwg.ts'
+import { placeStatus, type Status } from './tdwg.ts'
 
 const API = 'https://api.gbif.org/v1'
 const CACHE_FILE = join(ROOT, 'data', 'gbif.json')
@@ -566,6 +566,13 @@ async function main() {
           n,
         }))
       : []
+    // Places a checklist names as native range need fewer records. Not places
+    // it names as introduced: there, records are as likely to be planted or
+    // kept as wild, and the share threshold is the guard against that.
+    const confirmed = (code: string) =>
+      plant
+        ? placeStatus(code, counts.wcvp ?? {}, tdwg) === 'native'
+        : !!counts.checklist?.[code.slice(0, 2)]
     const recorded = species.aquatic
       ? regionsFromCells(cells, overrides)
       : recordedPlaces(
@@ -573,6 +580,7 @@ async function main() {
           overrides,
           species.group === 'fungus' ? FUNGUS_RULES : DEFAULT_RULES,
           counts.inat,
+          confirmed,
         )
     const proposal = propose(
       recorded,
@@ -597,8 +605,11 @@ async function main() {
     }
     const native = diffRegions(species.regions, proposal.native)
     const introduced = diffRegions(species.introduced ?? [], proposal.introduced)
+    const listed = new Set([...proposal.native, ...proposal.introduced])
     const unlisted = proposal.unlisted.filter(
-      (u) => (evidence.subdivisions[u.code] ?? evidence.countries[u.code] ?? 0) > 0,
+      (u) =>
+        !listed.has(u.code) &&
+        (evidence.subdivisions[u.code] ?? evidence.countries[u.code] ?? 0) > 0,
     )
     if (![native, introduced].some((d) => d.added.length || d.removed.length)) {
       console.log(

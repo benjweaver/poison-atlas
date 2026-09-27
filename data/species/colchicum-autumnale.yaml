@@ -1,0 +1,109 @@
+name: Autumn crocus
+scientificName: Colchicum autumnale
+group: plant
+danger: 5
+summary: >-
+  A meadow and woodland plant also called meadow saffron. Its spring leaves are mistaken for wild
+  garlic, and its poison takes hours to show before damaging many organs.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Brvar et al. Case report: fatal poisoning with Colchicum autumnale. Critical Care 2004. https://doi.org/10.1186/cc2427'
+    - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+toxicParts:
+  text: >-
+    The seeds and corms hold the most, and the leaves are poisonous too. Heat and boiling don’t
+    destroy the poison in the leaves.
+  sources:
+    - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+    - 'Brvar et al. Case report: fatal poisoning with Colchicum autumnale. Critical Care 2004. https://doi.org/10.1186/cc2427'
+toxins:
+  text: >-
+    Colchicine, which stops cells from dividing.
+  sources:
+    - 'Brvar et al. Case report: fatal poisoning with Colchicum autumnale. Critical Care 2004. https://doi.org/10.1186/cc2427'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+symptoms:
+  text: >-
+    Severe vomiting and diarrhea, then heart failure, abnormal heart rhythms, kidney and liver
+    damage, bleeding problems, and failure of the bone marrow. Hair loss can follow in survivors.
+  sources:
+    - 'Brvar et al. Case report: fatal poisoning with Colchicum autumnale. Critical Care 2004. https://doi.org/10.1186/cc2427'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    Delayed: stomach symptoms start 4 to 12 hours after eating it, and the life-threatening organ
+    failure comes 1 to 3 days later.
+  delayed: true
+  sources:
+    - 'Brvar et al. Case report: fatal poisoning with Colchicum autumnale. Critical Care 2004. https://doi.org/10.1186/cc2427'
+atRisk:
+  text: >-
+    People picking wild garlic, which grows in the same places at the same time. Cattle and horses
+    are poisoned too.
+  sources:
+    - 'Brvar et al. Case report: fatal poisoning with Colchicum autumnale. Critical Care 2004. https://doi.org/10.1186/cc2427'
+    - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+    - 'Cortinovis et al. Alkaloid-containing plants poisonous to cattle and horses in Europe. Toxins 2015. https://doi.org/10.3390/toxins7124884'
+lookalikes:
+  - name: Wild garlic
+    scientificName: Allium ursinum
+    note: >-
+      A man died 3 days after eating two plants he took for wild garlic; the leaves are similar
+      and grow in the same places.
+    sources:
+      - 'Brvar et al. Case report: fatal poisoning with Colchicum autumnale. Critical Care 2004. https://doi.org/10.1186/cc2427'
+      - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+animals:
+  who: [dogs, cats, horses, livestock]
+  sources:
+    - 'Autumn crocus. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/autumn-crocus'
+    - 'Cortinovis et al. Alkaloid-containing plants poisonous to cattle and horses in Europe. Toxins 2015. https://doi.org/10.3390/toxins7124884'
+cultivated:
+  text: >-
+    Grown in gardens throughout much of the world.
+  sources:
+    - 'M-Hamvas et al. Histological features detected for separation of the edible leaves of Allium ursinum L. from the poisonous leaves of Convallaria majalis L. and Colchicum autumnale L. Plants 2025. https://doi.org/10.3390/plants14152377'
+habitat: >-
+  Damp meadows, pastures, clearings, and woodland.
+regions:
+  - AL
+  - AT
+  - BA
+  - BE
+  - BG
+  - CH
+  - CZ
+  - DE
+  - ES
+  - FR
+  - GB
+  - GR
+  - HR
+  - HU
+  - IM
+  - IT
+  - LI
+  - LU
+  - ME
+  - MK
+  - NL
+  - PL
+  - RO
+  - RS
+  - SI
+  - SK
+  - UA
+introduced:
+  - BY
+  - DK
+  - EE
+  - NZ
+  - RU
+  - SE
+  - US-KY
+  - US-NC
+  - US-NH
+  - US-OR
+  - US-UT
+  - US-VT

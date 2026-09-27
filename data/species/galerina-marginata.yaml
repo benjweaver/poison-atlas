@@ -1,0 +1,123 @@
+name: Funeral bell
+scientificName: Galerina marginata
+group: fungus
+danger: 5
+summary: >-
+  A small brown mushroom that grows on rotting wood and contains the same deadly toxins as the
+  death cap. It is mistaken for edible and hallucinogenic mushrooms.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Landry et al. Phylogenetic analysis of the distribution of deadly amatoxins among the little brown mushrooms of the genus Galerina. PLoS One 2021. https://doi.org/10.1371/journal.pone.0246575'
+toxicParts:
+  text: >-
+    The whole mushroom; the toxins are as concentrated as in the death cap.
+  sources:
+    - 'Landry et al. Phylogenetic analysis of the distribution of deadly amatoxins among the little brown mushrooms of the genus Galerina. PLoS One 2021. https://doi.org/10.1371/journal.pone.0246575'
+toxins:
+  text: >-
+    Amatoxins, which destroy the liver.
+  sources:
+    - 'Landry et al. Phylogenetic analysis of the distribution of deadly amatoxins among the little brown mushrooms of the genus Galerina. PLoS One 2021. https://doi.org/10.1371/journal.pone.0246575'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+symptoms:
+  text: >-
+    Vomiting and diarrhea, then liver damage and liver failure.
+  sources:
+    - 'Landry et al. Phylogenetic analysis of the distribution of deadly amatoxins among the little brown mushrooms of the genus Galerina. PLoS One 2021. https://doi.org/10.1371/journal.pone.0246575'
+onset:
+  text: >-
+    Delayed: serious symptoms appear 2 to 4 days after eating, by which time the liver is badly
+    damaged.
+  delayed: true
+  sources:
+    - 'Landry et al. Phylogenetic analysis of the distribution of deadly amatoxins among the little brown mushrooms of the genus Galerina. PLoS One 2021. https://doi.org/10.1371/journal.pone.0246575'
+atRisk:
+  text: >-
+    Foragers who mistake it for edible or hallucinogenic mushrooms.
+  sources:
+    - 'Landry et al. Phylogenetic analysis of the distribution of deadly amatoxins among the little brown mushrooms of the genus Galerina. PLoS One 2021. https://doi.org/10.1371/journal.pone.0246575'
+lookalikes:
+  - name: Honey fungus
+    scientificName: Armillaria mellea
+    note: >-
+      A Swedish woman who ate it thinking it was honey fungus was in hospital 17 hours later.
+    sources:
+      - 'Landry et al. Phylogenetic analysis of the distribution of deadly amatoxins among the little brown mushrooms of the genus Galerina. PLoS One 2021. https://doi.org/10.1371/journal.pone.0246575'
+habitat: >-
+  On rotting wood, logs, and stumps of conifers and hardwoods.
+taxonomy:
+  note: >-
+    Several former species, including G. autumnalis, G. unicolor, and G. venenata, were merged
+    into G. marginata; DNA studies suggest it may again be several species.
+  source: 'Landry et al. Phylogenetic analysis of the distribution of deadly amatoxins among the little brown mushrooms of the genus Galerina. PLoS One 2021. https://doi.org/10.1371/journal.pone.0246575'
+regions:
+  - AT
+  - AU-ACT
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
+  - AU-WA
+  - BE
+  - BY
+  - CA-BC
+  - CA-ON
+  - CA-QC
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - HU
+  - IS
+  - IT
+  - LU
+  - NL
+  - NO
+  - PL
+  - PT
+  - RS
+  - RU
+  - SE
+  - SI
+  - UA
+  - US-AK
+  - US-AL
+  - US-AR
+  - US-CA
+  - US-CO
+  - US-CT
+  - US-GA
+  - US-IA
+  - US-ID
+  - US-IL
+  - US-IN
+  - US-KY
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-MS
+  - US-NC
+  - US-NE
+  - US-NH
+  - US-NJ
+  - US-NY
+  - US-OH
+  - US-OR
+  - US-PA
+  - US-RI
+  - US-SC
+  - US-TN
+  - US-UT
+  - US-VA
+  - US-VT
+  - US-WA
+  - US-WI
+  - US-WV

@@ -1,0 +1,47 @@
+name: Rough-skinned newt
+scientificName: Taricha granulosa
+group: amphibian
+danger: 4
+summary: >-
+  A newt of northwestern North America whose skin carries more tetrodotoxin than any other known
+  animal. It has caused a fatal poisoning.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Katikou et al. An updated review of tetrodotoxin and its peculiarities. Marine Drugs 2022. https://doi.org/10.3390/md20010047'
+    - 'Bradley SG, Klika LJ. A fatal poisoning from the Oregon rough-skinned newt (Taricha granulosa). JAMA 1981. https://doi.org/10.1001/jama.1981.03320030039026'
+toxicParts:
+  text: >-
+    The skin above all.
+  sources:
+    - 'Lago et al. Tetrodotoxin, an extremely potent marine neurotoxin: distribution, toxicity, origin and therapeutical uses. Marine Drugs 2015. https://doi.org/10.3390/md13106384'
+    - 'Bucciarelli et al. From poison to promise: the evolution of tetrodotoxin and its potential as a therapeutic. Toxins 2021. https://doi.org/10.3390/toxins13080517'
+toxins:
+  text: >-
+    Tetrodotoxin, the nerve-blocking poison of pufferfish, at the highest levels of any known
+    animal.
+  sources:
+    - 'Bucciarelli et al. From poison to promise: the evolution of tetrodotoxin and its potential as a therapeutic. Toxins 2021. https://doi.org/10.3390/toxins13080517'
+    - 'Lago et al. Tetrodotoxin, an extremely potent marine neurotoxin: distribution, toxicity, origin and therapeutical uses. Marine Drugs 2015. https://doi.org/10.3390/md13106384'
+symptoms:
+  text: >-
+    Tetrodotoxin poisoning brings numbness, then paralysis that can stop breathing.
+  sources:
+    - 'Ulman et al. Assessment of human health impacts from invasive pufferfish (attacks, poisonings and fatalities) across the Eastern Mediterranean. Biology 2024. https://doi.org/10.3390/biology13040208'
+    - 'Katikou et al. An updated review of tetrodotoxin and its peculiarities. Marine Drugs 2022. https://doi.org/10.3390/md20010047'
+atRisk:
+  text: >-
+    Anyone who swallows one: eating newts can kill, and a fatal poisoning from this newt was
+    reported in Oregon.
+  sources:
+    - 'Katikou et al. An updated review of tetrodotoxin and its peculiarities. Marine Drugs 2022. https://doi.org/10.3390/md20010047'
+    - 'Bradley SG, Klika LJ. A fatal poisoning from the Oregon rough-skinned newt (Taricha granulosa). JAMA 1981. https://doi.org/10.1001/jama.1981.03320030039026'
+habitat: >-
+  Ponds, lakes, and slow streams, and the forests around them.
+regions:
+  - CA-BC
+  - US-AK
+  - US-CA
+  - US-ID
+  - US-OR
+  - US-WA

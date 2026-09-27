@@ -44,7 +44,7 @@ export const DANGER_LABELS: Record<Danger, string> = {
 export const DANGER_MEANINGS: Record<Danger, string> = {
   1: 'painful or distressing reactions of the skin, eyes, or gut that are rarely dangerous',
   2: 'poisonings that usually need medical care but rarely cause lasting harm',
-  3: 'can cause lasting injury, such as blindness, scarring burns, or organ damage',
+  3: 'can need intensive care, or cause lasting injury such as blindness or scarring burns',
   4: 'has killed people',
   5: 'small amounts can kill, and people die even with treatment',
 }

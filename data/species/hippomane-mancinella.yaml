@@ -1,0 +1,95 @@
+name: Manchineel
+scientificName: Hippomane mancinella
+group: plant
+danger: 3
+summary: >-
+  A beach tree of the Caribbean and Central American coasts, often marked with an X. Its milky sap
+  burns skin and eyes, and its small, apple-like fruit burns the mouth.
+exposure:
+  routes: [eaten, skin, eyes]
+  text: >-
+    Rainwater dripping from the tree carries the sap, and smoke from burning it can injure the
+    eyes.
+  sources:
+    - 'Hempel et al. Poison apple-like fruit ingestion: a case report and review of manchineel fruit toxicity. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23081062'
+toxicParts:
+  text: >-
+    The milky sap in every part of the tree, and the fruit.
+  sources:
+    - 'Hempel et al. Poison apple-like fruit ingestion: a case report and review of manchineel fruit toxicity. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23081062'
+toxins:
+  text: >-
+    Irritants including diterpene esters, related to phorbol esters, and a tannin, hippomanin A.
+  sources:
+    - 'Hempel et al. Poison apple-like fruit ingestion: a case report and review of manchineel fruit toxicity. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23081062'
+symptoms:
+  text: >-
+    On the skin: burning, itching, redness, and blisters. In the eyes: severe conjunctivitis and
+    temporary blindness. Eaten: burning pain and swelling of the mouth and throat, stomach pain,
+    vomiting, and diarrhea; rarely bleeding ulcers or a slow heart.
+  sources:
+    - 'Hempel et al. Poison apple-like fruit ingestion: a case report and review of manchineel fruit toxicity. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23081062'
+onset:
+  text: >-
+    Within minutes after eating the fruit; skin symptoms within hours.
+  sources:
+    - 'Hempel et al. Poison apple-like fruit ingestion: a case report and review of manchineel fruit toxicity. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23081062'
+atRisk:
+  text: >-
+    Tourists and newcomers who don’t know the tree: people who shelter under it in the rain or
+    pick up its fruit on the beach.
+  sources:
+    - 'Hempel et al. Poison apple-like fruit ingestion: a case report and review of manchineel fruit toxicity. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23081062'
+lookalikes:
+  - name: Crab apple
+    scientificName: Malus
+    note: >-
+      The small green fruit looks and smells like an apple; a tourist in Costa Rica ate two from
+      the sand.
+    sources:
+      - 'Hempel et al. Poison apple-like fruit ingestion: a case report and review of manchineel fruit toxicity. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23081062'
+habitat: >-
+  Beaches and coastal thickets just above the high-water mark.
+size: A tree up to about 25 m tall
+regions:
+  - AG
+  - AW
+  - BB
+  - BS
+  - BZ
+  - CO
+  - CR
+  - CU
+  - CW
+  - DM
+  - DO
+  - EC
+  - GD
+  - GP
+  - GT
+  - HN
+  - HT
+  - JM
+  - KN
+  - KY
+  - MF
+  - MQ
+  - MS
+  - MX-COL
+  - MX-GRO
+  - MX-JAL
+  - MX-NAY
+  - MX-OAX
+  - MX-ROO
+  - MX-VER
+  - MX-YUC
+  - NI
+  - PA
+  - PR
+  - SV
+  - TT
+  - US-FL
+  - VE
+  - VI
+introduced:
+  - GY

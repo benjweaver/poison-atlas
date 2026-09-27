@@ -1,0 +1,86 @@
+name: Eastern destroying angel
+scientificName: Amanita bisporigera
+group: fungus
+danger: 5
+summary: >-
+  A North American Amanita as deadly as the death cap. The ring on its stem and the bulb at its
+  base, which mark it as an Amanita, are easy to miss.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Nici et al. Amanita bisporigera-induced hepatic failure: a fatal case of mushroom ingestion. Case Rep Hepatol 2011. https://doi.org/10.1155/2011/936867'
+toxicParts:
+  text: >-
+    The whole mushroom, raw or cooked.
+  sources:
+    - 'Nici et al. Amanita bisporigera-induced hepatic failure: a fatal case of mushroom ingestion. Case Rep Hepatol 2011. https://doi.org/10.1155/2011/936867'
+    - 'Vo et al. Amanita phalloides mushroom poisonings: Northern California, December 2016. MMWR 2017;66(21). https://doi.org/10.15585/mmwr.mm6621a1'
+toxins:
+  text: >-
+    Amatoxins, the same liver poisons as the death cap’s.
+  sources:
+    - 'Nici et al. Amanita bisporigera-induced hepatic failure: a fatal case of mushroom ingestion. Case Rep Hepatol 2011. https://doi.org/10.1155/2011/936867'
+symptoms:
+  text: >-
+    Violent vomiting, diarrhea, and stomach cramps, then a day of feeling better, then liver
+    failure, kidney failure, and death.
+  sources:
+    - 'Nici et al. Amanita bisporigera-induced hepatic failure: a fatal case of mushroom ingestion. Case Rep Hepatol 2011. https://doi.org/10.1155/2011/936867'
+onset:
+  text: >-
+    Delayed: symptoms began 9 hours after eating it in one fatal case; amatoxin poisoning usually
+    brings liver damage 36 to 48 hours in and death after 6 to 16 days.
+  delayed: true
+  sources:
+    - 'Nici et al. Amanita bisporigera-induced hepatic failure: a fatal case of mushroom ingestion. Case Rep Hepatol 2011. https://doi.org/10.1155/2011/936867'
+atRisk:
+  text: >-
+    Foragers: telling it from edible mushrooms, or from other Amanitas, takes an expert.
+  sources:
+    - 'Nici et al. Amanita bisporigera-induced hepatic failure: a fatal case of mushroom ingestion. Case Rep Hepatol 2011. https://doi.org/10.1155/2011/936867'
+habitat: >-
+  Woods.
+regions:
+  - CA-NB
+  - CA-NS
+  - CA-ON
+  - CA-QC
+  - MX-CHP
+  - MX-DIF
+  - MX-HID
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-OAX
+  - MX-VER
+  - US-AL
+  - US-AR
+  - US-CT
+  - US-FL
+  - US-GA
+  - US-IA
+  - US-IL
+  - US-IN
+  - US-KY
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-MS
+  - US-NC
+  - US-NH
+  - US-NJ
+  - US-NY
+  - US-OH
+  - US-OK
+  - US-PA
+  - US-TN
+  - US-TX
+  - US-VA
+  - US-VT
+  - US-WI
+  - US-WV

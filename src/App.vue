@@ -7,7 +7,6 @@ import FilterBar from '@/components/FilterBar.vue'
 import InfoTip from '@/components/InfoTip.vue'
 import MapLegend from '@/components/MapLegend.vue'
 import PlaceNav from '@/components/PlaceNav.vue'
-import PoisonHelp from '@/components/PoisonHelp.vue'
 import SpeciesCard from '@/components/SpeciesCard.vue'
 import SpeciesDetail from '@/components/SpeciesDetail.vue'
 import AppIcon from '@/components/AppIcon.vue'
@@ -297,10 +296,8 @@ const help = computed(() =>
 const SUPPORT_URL: string | undefined = undefined
 const SOURCE_URL = 'https://github.com/benjweaver/poison-atlas'
 const SAFETY_NOTE =
-  'Not an identification or foraging guide, and not medical advice. Never eat a wild plant ' +
-  "or mushroom because of anything here, and don't take a species' absence to mean it's " +
-  'safe. If someone may have been poisoned, call poison control now (US: 1-800-222-1222) or ' +
-  'your local emergency number, even before symptoms start.'
+  'Not an identification or foraging guide, and not medical advice. If someone may have been ' +
+  "poisoned, contact poison control. A species not listed here isn't necessarily safe."
 
 // Opening or leaving a species starts the panel at the top. On a phone the
 // panel sits below the map, so scroll the page down to the navigation bar,
@@ -445,10 +442,7 @@ addEventListener('keydown', (e) => {
           </ul>
         </template>
         <!-- Phones pin a one-line version of this; here's the whole note. -->
-        <div class="mt-6 space-y-1 text-[11px] leading-snug text-(--muted) md:hidden">
-          <p>{{ SAFETY_NOTE }}</p>
-          <PoisonHelp :help="help" />
-        </div>
+        <p class="mt-6 text-[11px] leading-snug text-(--muted) md:hidden">{{ SAFETY_NOTE }}</p>
       </div>
 
       <!-- Phones: one line pinned to the bottom of the screen, so the safety note
@@ -459,7 +453,6 @@ addEventListener('keydown', (e) => {
         class="sticky bottom-0 z-20 border-t border-(--line) bg-(--surface) px-4 py-1.5 text-[11px] leading-snug text-(--muted) md:static md:py-2"
       >
         <p class="max-md:hidden">{{ SAFETY_NOTE }}</p>
-        <PoisonHelp :help="help" class="max-md:hidden" />
         <div class="flex flex-wrap items-center justify-between gap-x-3 md:mt-1">
           <InfoTip :text="SAFETY_NOTE" class="md:hidden">
             <span class="inline-flex items-center gap-1 whitespace-nowrap"

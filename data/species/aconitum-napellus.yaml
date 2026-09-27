@@ -1,0 +1,80 @@
+name: Monkshood
+scientificName: Aconitum napellus
+group: plant
+danger: 4
+summary: >-
+  A tall garden perennial with hooded blue-purple flowers, and one of Europe’s most poisonous
+  plants. Its toxin upsets the heart’s rhythm within minutes to hours.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Aconitum napellus (monkshood): a purple poison. Poison Control (National Capital Poison Center). https://www.poison.org/articles/why-is-monkshood-considered-a-poison--174'
+toxicParts:
+  text: >-
+    All parts, especially the roots.
+  sources:
+    - 'Aconitum napellus (monkshood): a purple poison. Poison Control (National Capital Poison Center). https://www.poison.org/articles/why-is-monkshood-considered-a-poison--174'
+toxins:
+  text: >-
+    Aconitine and related alkaloids, which are heart and nerve poisons.
+  sources:
+    - 'Aconitum napellus (monkshood): a purple poison. Poison Control (National Capital Poison Center). https://www.poison.org/articles/why-is-monkshood-considered-a-poison--174'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+symptoms:
+  text: >-
+    Tingling and numbness, nausea, vomiting, stomach pain, and diarrhea, with a slow or racing
+    heart. Dangerous heart rhythms and paralysis of breathing can kill.
+  sources:
+    - 'Aconitum napellus (monkshood): a purple poison. Poison Control (National Capital Poison Center). https://www.poison.org/articles/why-is-monkshood-considered-a-poison--174'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    Within minutes to a few hours of swallowing it.
+  sources:
+    - 'Aconitum napellus (monkshood): a purple poison. Poison Control (National Capital Poison Center). https://www.poison.org/articles/why-is-monkshood-considered-a-poison--174'
+atRisk:
+  text: >-
+    People who mistake it for an edible plant, children, and people using it as an herbal remedy,
+    where the safe and toxic amounts are very close.
+  sources:
+    - 'Aconitum napellus (monkshood): a purple poison. Poison Control (National Capital Poison Center). https://www.poison.org/articles/why-is-monkshood-considered-a-poison--174'
+lookalikes:
+  - name: Ground elder
+    scientificName: Aegopodium podagraria
+    note: >-
+      An elderly couple ate it in a salad thinking it was ground elder from their own garden; the
+      man’s heart stopped.
+    sources:
+      - 'Aconitum napellus (monkshood): a purple poison. Poison Control (National Capital Poison Center). https://www.poison.org/articles/why-is-monkshood-considered-a-poison--174'
+cultivated:
+  text: >-
+    Often grown as an ornamental for its blue to dark purple flowers.
+  sources:
+    - 'Aconitum napellus (monkshood): a purple poison. Poison Control (National Capital Poison Center). https://www.poison.org/articles/why-is-monkshood-considered-a-poison--174'
+habitat: >-
+  Mountain meadows and damp woods; widely grown in gardens.
+regions:
+  - AD
+  - AT
+  - BE
+  - CH
+  - CZ
+  - DE
+  - ES
+  - FR
+  - IT
+  - LI
+  - LU
+  - PT
+  - SI
+  - SK
+introduced:
+  - DK
+  - EE
+  - FI
+  - LV
+  - NO
+  - RU
+  - SE
+  - US-NY
+  - US-VT

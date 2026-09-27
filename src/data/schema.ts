@@ -77,10 +77,14 @@ export const speciesSchema = z
     toxicParts: claim,
     toxins: claim,
     symptoms: claim,
-    // How soon symptoms start. `delayed` marks a species whose symptoms can
-    // start hours or days after exposure, when treatment is already late: the
-    // site then says to call poison control without waiting for symptoms.
-    onset: claim.extend({ delayed: z.literal(true).optional() }).strict(),
+    // How soon symptoms start, where a source says. `delayed` marks a species
+    // whose symptoms can start hours or days after exposure, when treatment is
+    // already late: the site then says to call poison control without waiting
+    // for symptoms. Left out, rather than guessed, when no source gives it.
+    onset: claim
+      .extend({ delayed: z.literal(true).optional() })
+      .strict()
+      .optional(),
     atRisk: claim,
     // Eaten after traditional processing (cassava, ackee): says that it's
     // toxic raw or unripe, with the source. Never the method.

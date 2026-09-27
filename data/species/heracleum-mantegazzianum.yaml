@@ -1,0 +1,116 @@
+name: Giant hogweed
+scientificName: Heracleum mantegazzianum
+group: plant
+danger: 3
+summary: >-
+  A huge, invasive relative of the carrot whose sap makes skin burn and blister in sunlight.
+  Native to the Caucasus, it has spread across Europe and North America.
+exposure:
+  routes: [sunlight, eyes]
+  text: >-
+    Brushing against or breaking the plant releases sap; in sunlight, sap on the skin causes
+    burns, and sap in the eyes can cause severe injury.
+  sources:
+    - 'Giant hogweed. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/plants/harmful-plants/giant-hogweed'
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+toxicParts:
+  text: >-
+    The sap, in all parts of the plant: stems, leaves, and fruits.
+  sources:
+    - 'Giant hogweed. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/plants/harmful-plants/giant-hogweed'
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+toxins:
+  text: >-
+    Furanocoumarins, which stop the skin from protecting itself from sunlight
+    (phytophotodermatitis).
+  sources:
+    - 'Giant hogweed. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/plants/harmful-plants/giant-hogweed'
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+symptoms:
+  text: >-
+    Redness and a burning feeling, then painful blisters and burns that turn dark. Scars can last
+    years, and the skin can stay sensitive to sunlight long after. Sap in the eyes has caused
+    severe eye injury.
+  sources:
+    - 'Giant hogweed. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/plants/harmful-plants/giant-hogweed'
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+onset:
+  text: >-
+    A reaction can begin within 15 minutes of sap reaching the skin, with blisters forming within
+    48 hours.
+  sources:
+    - 'Giant hogweed. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/plants/harmful-plants/giant-hogweed'
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+atRisk:
+  text: >-
+    People who touch, cut, or clear it, especially without protective clothing; sap can splash
+    when stems are cut.
+  sources:
+    - 'Giant hogweed. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/plants/harmful-plants/giant-hogweed'
+    - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
+lookalikes:
+  - name: Cow parsnip
+    scientificName: Heracleum maximum
+    note: >-
+      A smaller North American native often taken for giant hogweed. Its sap burns in sunlight
+      too, though less severely.
+    sources:
+      - 'Cow parsnip. New York State Department of Environmental Conservation. https://dec.ny.gov/nature/animals-fish-plants/cow-parsnip'
+habitat: >-
+  Riverbanks, roadsides, fields, woodland edges, and yards, in sun or part shade.
+size: Over 4 m tall, with leaves up to 1.5 m wide
+regions:
+  - AM
+  - AZ
+  - GE
+  - RU
+introduced:
+  - AT
+  - AU-TAS
+  - BE
+  - BG
+  - CA-BC
+  - CA-NB
+  - CA-NL
+  - CA-NS
+  - CA-ON
+  - CA-PE
+  - CA-QC
+  - CH
+  - CZ
+  - DE
+  - DK
+  - FI
+  - FR
+  - GB
+  - HU
+  - IE
+  - IM
+  - IS
+  - IT
+  - LU
+  - NL
+  - NO
+  - NZ
+  - PL
+  - RO
+  - SE
+  - SK
+  - UA
+  - US-AK
+  - US-CT
+  - US-IL
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-NC
+  - US-NH
+  - US-NJ
+  - US-NY
+  - US-OR
+  - US-PA
+  - US-VA
+  - US-VT
+  - US-WA

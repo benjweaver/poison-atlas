@@ -1,0 +1,54 @@
+# Where to call about a poisoning, by country. Each number is checked on the
+# service's own site (`source`), on the date given. Shown for the country open
+# on the map, or the one the browser's language settings name. Only a public
+# line belongs here: a poison centre that only takes calls from health
+# professionals doesn't, and the public route goes in instead (the UK's).
+AU:
+  name: Poisons Information Line
+  phone: 13 11 26
+  tel: '131126'
+  note: any time
+  source: https://www.healthdirect.gov.au/poisoning
+  checked: '2026-09-26'
+CA:
+  name: 1-844 POISON-X
+  phone: 1-844-764-7669
+  tel: '18447647669'
+  note: routes you to your local poison centre
+  source: https://www.canada.ca/en/health-canada/news/2023/03/canada-launches-new-toll-free-1-844-poison-x-number-for-poison-centres.html
+  checked: '2026-09-26'
+GB:
+  name: NHS 111
+  phone: '111'
+  tel: '111'
+  note: or 999 in an emergency
+  source: https://www.nhs.uk/conditions/poisoning/
+  checked: '2026-09-26'
+IE:
+  name: Public Poisons Line
+  phone: 01 809 2166
+  tel: '018092166'
+  note: 8am to 10pm
+  source: https://www.poisons.ie/
+  checked: '2026-09-26'
+NZ:
+  name: National Poisons Centre
+  phone: 0800 764 766
+  tel: '0800764766'
+  note: free, 24 hours
+  source: https://www.poisons.co.nz/
+  checked: '2026-09-26'
+US:
+  name: Poison Help
+  phone: 1-800-222-1222
+  tel: '18002221222'
+  note: free, confidential, 24 hours
+  source: https://www.poisonhelp.org/
+  checked: '2026-09-26'
+ZA:
+  name: Poisons Information Helpline
+  phone: 0861 555 777
+  tel: '0861555777'
+  note: 24 hours
+  source: https://health.uct.ac.za/department-paediatrics/clinical-services-medical-services/poisons-information-centre
+  checked: '2026-09-26'

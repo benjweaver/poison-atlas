@@ -1,0 +1,240 @@
+name: Poison hemlock
+scientificName: Conium maculatum
+group: plant
+danger: 4
+summary: >-
+  A tall, lacy-leaved weed of the carrot family, and one of the most poisonous plants. Most
+  poisonings today come from mistaking it for an edible wild plant.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Can poison hemlock be deadly? Poison Control (National Capital Poison Center). https://www.poison.org/articles/can-poison-hemlock-be-deadly-184'
+    - 'Nunes et al. Acute intoxication with poison hemlock (Conium maculatum). Cureus 2025. https://doi.org/10.7759/cureus.80763'
+toxicParts:
+  text: >-
+    Every part of the plant: leaves, stems, roots, flowers, and seeds. How toxic it is varies with
+    the season and the plant.
+  sources:
+    - 'Can poison hemlock be deadly? Poison Control (National Capital Poison Center). https://www.poison.org/articles/can-poison-hemlock-be-deadly-184'
+    - 'Nunes et al. Acute intoxication with poison hemlock (Conium maculatum). Cureus 2025. https://doi.org/10.7759/cureus.80763'
+toxins:
+  text: >-
+    Piperidine alkaloids, chiefly coniine, which act like nicotine: first overstimulating, then
+    paralyzing nerves and muscles.
+  sources:
+    - 'Nunes et al. Acute intoxication with poison hemlock (Conium maculatum). Cureus 2025. https://doi.org/10.7759/cureus.80763'
+    - 'Can poison hemlock be deadly? Poison Control (National Capital Poison Center). https://www.poison.org/articles/can-poison-hemlock-be-deadly-184'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+symptoms:
+  text: >-
+    Nausea, vomiting, salivation, tremors, a racing heart, and seizures, followed in severe cases
+    by a slow heart, coma, and paralysis that stops breathing. Muscle breakdown and kidney failure
+    can follow.
+  sources:
+    - 'Nunes et al. Acute intoxication with poison hemlock (Conium maculatum). Cureus 2025. https://doi.org/10.7759/cureus.80763'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+    - 'Can poison hemlock be deadly? Poison Control (National Capital Poison Center). https://www.poison.org/articles/can-poison-hemlock-be-deadly-184'
+onset:
+  text: >-
+    Fast: symptoms can start within 15 minutes, and usually within 60 to 90 minutes, though
+    sometimes only after up to 4 hours.
+  sources:
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+    - 'Nunes et al. Acute intoxication with poison hemlock (Conium maculatum). Cureus 2025. https://doi.org/10.7759/cureus.80763'
+atRisk:
+  text: >-
+    Foragers who mistake it for wild carrot, wild celery, parsnip, or another edible member of the
+    carrot family. Grazing livestock are poisoned too.
+  sources:
+    - 'Can poison hemlock be deadly? Poison Control (National Capital Poison Center). https://www.poison.org/articles/can-poison-hemlock-be-deadly-184'
+    - 'Nunes et al. Acute intoxication with poison hemlock (Conium maculatum). Cureus 2025. https://doi.org/10.7759/cureus.80763'
+    - 'Cortinovis et al. Alkaloid-containing plants poisonous to cattle and horses in Europe. Toxins 2015. https://doi.org/10.3390/toxins7124884'
+lookalikes:
+  - name: Wild carrot
+    scientificName: Daucus carota
+    note: >-
+      Its root is very like a carrot’s, and wild carrot (Queen Anne’s lace) is among the plants it
+      is mistaken for when foraging.
+    sources:
+      - 'Nunes et al. Acute intoxication with poison hemlock (Conium maculatum). Cureus 2025. https://doi.org/10.7759/cureus.80763'
+      - 'Can poison hemlock be deadly? Poison Control (National Capital Poison Center). https://www.poison.org/articles/can-poison-hemlock-be-deadly-184'
+  - name: Wild celery
+    scientificName: Apium graveolens
+    note: >-
+      A couple who ate “wild celery” picked in a park were poisoned; one stopped breathing within
+      2 hours.
+    sources:
+      - 'Can poison hemlock be deadly? Poison Control (National Capital Poison Center). https://www.poison.org/articles/can-poison-hemlock-be-deadly-184'
+      - 'Nunes et al. Acute intoxication with poison hemlock (Conium maculatum). Cureus 2025. https://doi.org/10.7759/cureus.80763'
+  - name: Parsnip
+    scientificName: Pastinaca sativa
+    note: >-
+      Its leaves are mistaken for parsnip’s.
+    sources:
+      - 'Nunes et al. Acute intoxication with poison hemlock (Conium maculatum). Cureus 2025. https://doi.org/10.7759/cureus.80763'
+      - 'Can poison hemlock be deadly? Poison Control (National Capital Poison Center). https://www.poison.org/articles/can-poison-hemlock-be-deadly-184'
+  - name: Spotted water hemlock
+    scientificName: Cicuta maculata
+    note: >-
+      The two hemlocks are often confused with each other, but their poisons work differently.
+    sources:
+      - 'Cortinovis et al. Alkaloid-containing plants poisonous to cattle and horses in Europe. Toxins 2015. https://doi.org/10.3390/toxins7124884'
+animals:
+  who: [dogs, cats, horses, livestock]
+  text: >-
+    Cattle are especially at risk where it grows in pastures.
+  sources:
+    - 'Poison hemlock. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/poison-hemlock'
+    - 'Can poison hemlock be deadly? Poison Control (National Capital Poison Center). https://www.poison.org/articles/can-poison-hemlock-be-deadly-184'
+    - 'Cortinovis et al. Alkaloid-containing plants poisonous to cattle and horses in Europe. Toxins 2015. https://doi.org/10.3390/toxins7124884'
+habitat: >-
+  Damp ground: stream banks, ditches, roadsides, pastures, and waste ground.
+size: Up to about 2 m tall
+regions:
+  - AF
+  - AL
+  - AM
+  - AT
+  - AX
+  - AZ
+  - BE
+  - BG
+  - BY
+  - CH
+  - CN-XJ
+  - CY
+  - CZ
+  - DE
+  - DK
+  - DZ
+  - EE
+  - ES
+  - ET
+  - FI
+  - FR
+  - GG
+  - GR
+  - HR
+  - HU
+  - IL
+  - IQ
+  - IR
+  - IT
+  - KG
+  - KZ
+  - LT
+  - LU
+  - LV
+  - LY
+  - MA
+  - MD
+  - NL
+  - PK
+  - PL
+  - PS
+  - PT
+  - RO
+  - RS
+  - RU
+  - SA
+  - SE
+  - SK
+  - TJ
+  - TM
+  - TN
+  - TR
+  - UA
+  - UZ
+  - YE
+introduced:
+  - AR-B
+  - AR-C
+  - AR-L
+  - AR-Q
+  - AR-S
+  - AR-X
+  - AU-NSW
+  - AU-TAS
+  - BO
+  - CA-AB
+  - CA-BC
+  - CA-NB
+  - CA-NS
+  - CA-ON
+  - CA-QC
+  - CA-SK
+  - CL
+  - CO
+  - DO
+  - EC
+  - FK
+  - GB
+  - GT
+  - HN
+  - HT
+  - IE
+  - IM
+  - MX-DIF
+  - MX-MEX
+  - MZ
+  - NO
+  - NZ
+  - PE
+  - SV
+  - US-AK
+  - US-AL
+  - US-AR
+  - US-AZ
+  - US-CA
+  - US-CO
+  - US-CT
+  - US-DC
+  - US-DE
+  - US-GA
+  - US-IA
+  - US-ID
+  - US-IL
+  - US-IN
+  - US-KS
+  - US-KY
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-MS
+  - US-MT
+  - US-NC
+  - US-ND
+  - US-NE
+  - US-NH
+  - US-NJ
+  - US-NM
+  - US-NV
+  - US-NY
+  - US-OH
+  - US-OK
+  - US-OR
+  - US-PA
+  - US-RI
+  - US-SC
+  - US-SD
+  - US-TN
+  - US-TX
+  - US-UT
+  - US-VA
+  - US-VT
+  - US-WA
+  - US-WI
+  - US-WV
+  - US-WY
+  - UY
+  - ZW
+gbif:
+  include:
+    - code: AU-NSW
+      introduced: true
+      reason: 'a weed in most regions of NSW; WCVP lists only Tasmania in Australia'
+      source: 'Hemlock (Conium maculatum). NSW WeedWise, NSW Department of Primary Industries. https://weeds.dpi.nsw.gov.au/Weed/Hemlock'

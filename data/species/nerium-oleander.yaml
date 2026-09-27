@@ -1,0 +1,186 @@
+name: Oleander
+scientificName: Nerium oleander
+group: plant
+danger: 4
+summary: >-
+  A popular flowering shrub of gardens and roadsides in warm countries. Every part holds heart
+  poisons like the drug digoxin.
+exposure:
+  routes: [eaten, inhaled]
+  text: >-
+    Mostly eaten; one person was poisoned by breathing smoke from burning oleander.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+toxicParts:
+  text: >-
+    All parts, especially the leaves, stems, seeds, and roots.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+toxins:
+  text: >-
+    Cardiac glycosides, chiefly oleandrin, which act like the heart drug digoxin.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+symptoms:
+  text: >-
+    Nausea, vomiting, and diarrhea, followed by a dangerously slow heart, heart block, and other
+    abnormal rhythms, low blood pressure, dizziness, and confusion. High blood potassium marks
+    severe poisoning.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    Eating a substantial amount brings rapid nausea, vomiting, and diarrhea; heart rhythm problems
+    can appear hours later.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+atRisk:
+  text: >-
+    Children who explore plants, and people who take it in herbal teas or traditional medicines.
+    It is also used in self-poisoning.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+animals:
+  who: [dogs, cats, horses]
+  sources:
+    - 'Oleander. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/oleander'
+cultivated:
+  text: >-
+    A garden plant found in many homes, and planted along roads.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+habitat: >-
+  Stream banks and dry riverbeds where it grows wild; widely planted in warm climates.
+regions:
+  - AE
+  - AF
+  - AL
+  - BA
+  - BH
+  - CY
+  - DZ
+  - ES
+  - FR
+  - GR
+  - HR
+  - IL
+  - IN-AP
+  - IN-BR
+  - IN-CT
+  - IN-DL
+  - IN-GA
+  - IN-GJ
+  - IN-HP
+  - IN-HR
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-PB
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-UT
+  - IN-WB
+  - IQ
+  - IR
+  - IT
+  - JO
+  - LB
+  - LY
+  - MA
+  - MC
+  - ME
+  - MK
+  - MM
+  - MT
+  - NE
+  - OM
+  - PK
+  - PS
+  - PT
+  - QA
+  - RS
+  - SA
+  - SI
+  - SY
+  - TN
+  - TR
+  - YE
+introduced:
+  - AU-ACT
+  - AU-NSW
+  - BD
+  - BM
+  - BR-PR
+  - BR-RS
+  - BR-SC
+  - BZ
+  - CM
+  - CN-FJ
+  - CN-GD
+  - CN-GZ
+  - CN-HA
+  - CN-HB
+  - CN-HI
+  - CN-JS
+  - CN-SH
+  - CN-ZJ
+  - CR
+  - ER
+  - ET
+  - GT
+  - HK
+  - HN
+  - ID
+  - IN-AN
+  - JP-13
+  - JP-27
+  - KE
+  - KR
+  - MG
+  - MO
+  - MX-AGU
+  - MX-CAM
+  - MX-CHH
+  - MX-CHP
+  - MX-COA
+  - MX-DIF
+  - MX-GUA
+  - MX-JAL
+  - MX-MEX
+  - MX-MOR
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-ROO
+  - MX-YUC
+  - NI
+  - NR
+  - NZ
+  - PA
+  - PF
+  - RU
+  - SN
+  - SV
+  - TD
+  - TT
+  - US-AL
+  - US-AR
+  - US-AZ
+  - US-CA
+  - US-GA
+  - US-HI
+  - US-LA
+  - US-MS
+  - US-NC
+  - US-SC
+  - US-TX
+  - ZA-EC
+  - ZA-WC
+  - ZW

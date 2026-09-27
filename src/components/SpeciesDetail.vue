@@ -164,14 +164,14 @@ const wikipedia = computed(
       class="mt-3 rounded-md border border-(--line) bg-(--surface-2) px-3 py-2 text-sm"
       aria-label="Safety"
     >
-      <p v-if="species.onset.delayed" class="font-semibold">
+      <p v-if="species.onset?.delayed" class="font-semibold">
         <AppIcon name="clock" class="mr-1 inline align-[-2px]" />Symptoms can be delayed by hours or
         days, past the point where treatment works best. If someone may have been exposed, call
         poison control now; don't wait for symptoms.
       </p>
-      <p :class="{ 'mt-1': species.onset.delayed }">
+      <p :class="{ 'mt-1': species.onset?.delayed }">
         <AppIcon
-          v-if="!species.onset.delayed"
+          v-if="!species.onset?.delayed"
           name="warning"
           class="mr-1 inline align-[-2px]"
         />Don't use this page to identify anything or to decide whether it's safe.
@@ -333,7 +333,7 @@ const wikipedia = computed(
             {{ l.name }}
           </button>
           <span v-else class="font-medium">{{ l.name }}</span>
-          <span class="text-(--muted) italic"> {{ l.scientificName }}</span>
+          <span class="ml-1 text-(--muted) italic">{{ l.scientificName }}</span>
           <span v-if="l.slug" class="text-[11px] text-(--muted)"> · in the atlas</span>
           <p class="text-(--muted)">
             {{ l.note
@@ -397,9 +397,9 @@ const wikipedia = computed(
         </li>
         <li v-for="{ source, codes, url } in rangeSources.others" :key="source">
           <a v-if="url" :href="url" target="_blank" rel="noopener" class="underline">{{
-            sourceLink(source).label
+            sourceLink(source).label.replace(/\.$/, '')
           }}</a>
-          <template v-else>{{ source }}</template
+          <template v-else>{{ source.replace(/\.$/, '') }}</template
           >: {{ codes.map(regionName).join(', ') }}.
         </li>
         <li v-for="e in species.gbif?.exclude ?? []" :key="`x-${e.code}`">

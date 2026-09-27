@@ -1,0 +1,80 @@
+name: Deadly webcap
+scientificName: Cortinarius rubellus
+group: fungus
+danger: 4
+summary: >-
+  A webcap mushroom whose poison attacks the kidneys, often days after the meal. People mistake it
+  for chanterelles.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+toxins:
+  text: >-
+    Orellanine, which destroys the kidneys’ filtering tubules.
+  sources:
+    - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+symptoms:
+  text: >-
+    Nausea, vomiting, and diarrhea, then flank and back pain and little or no urine as the kidneys
+    fail. Dialysis is often needed; about 1 in 10 patients are left with permanent kidney failure,
+    and some die.
+  sources:
+    - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+    - 'Mushroom poisoning. MSD Manual Professional Edition. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/mushroom-poisoning'
+onset:
+  text: >-
+    Very delayed: stomach symptoms usually start on day 3, and kidney failure 3 to 20 days after
+    eating.
+  delayed: true
+  sources:
+    - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+    - 'Mushroom poisoning. MSD Manual Professional Edition. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/mushroom-poisoning'
+atRisk:
+  text: >-
+    Foragers looking for chanterelles or yellowfoot.
+  sources:
+    - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+lookalikes:
+  - name: Golden chanterelle
+    scientificName: Cantharellus cibarius
+    note: >-
+      Poisonings follow eating it in the belief it is a chanterelle.
+    sources:
+      - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+  - name: Yellowfoot
+    scientificName: Craterellus tubaeformis
+    note: >-
+      It is also eaten in mistake for yellowfoot.
+    sources:
+      - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+habitat: >-
+  Conifer woods, often with mosses.
+regions:
+  - AT
+  - CA-QC
+  - CH
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - IM
+  - IT
+  - LV
+  - NL
+  - NO
+  - RU
+  - SE
+  - SI
+  - US-CA
+  - US-WV
