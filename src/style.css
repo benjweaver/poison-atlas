@@ -18,6 +18,8 @@
   --accent: #7a3a96;
   /* Text on an accent background, such as a selected filter. */
   --on-accent: #ffffff;
+  /* Venom Atlas's accent, for its name in the See also link. */
+  --venom-accent: #ae4825;
 
   --map-ocean: #dfe7ea;
   --map-land: #e4e2de;
@@ -66,6 +68,7 @@
   --line: #3a342b;
   --accent: #c69ae4;
   --on-accent: #14120f;
+  --venom-accent: #e8804f;
 
   --map-ocean: #0e1316;
   --map-land: #25272a;

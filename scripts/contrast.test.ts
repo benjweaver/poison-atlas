@@ -43,6 +43,7 @@ const TEXT = [
   'ink',
   'muted',
   'accent',
+  'venom-accent',
   'introduced-ink',
   'map-records',
   ...[1, 2, 3, 4, 5].map((n) => `danger-${n}-ink`),
