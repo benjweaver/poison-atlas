@@ -107,6 +107,7 @@ introduced:
   - BR-BA
   - BR-MG
   - BR-SP
+  - BS
   - BW
   - BY
   - BZ
@@ -145,6 +146,8 @@ introduced:
   - CO
   - CR
   - CU
+  - CV
+  - CW
   - CY
   - CZ
   - DE
@@ -201,6 +204,7 @@ introduced:
   - MZ
   - NA
   - NE
+  - NF
   - NG
   - NI
   - NL
@@ -223,13 +227,16 @@ introduced:
   - SH
   - SI
   - SK
+  - SO
   - SV
   - SZ
+  - TC
   - TD
   - TG
   - TJ
   - TM
   - TN
+  - TO
   - TR
   - TT
   - TW

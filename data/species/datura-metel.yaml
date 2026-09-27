@@ -62,12 +62,14 @@ introduced:
   - BO
   - BR-AL
   - BR-BA
+  - BS
   - BW
   - CA-ON
   - CA-QC
   - CD
   - CF
   - CI
+  - CK
   - CM
   - CN-FJ
   - CN-GD
@@ -80,6 +82,8 @@ introduced:
   - CO
   - CR
   - CU
+  - CV
+  - CW
   - DE
   - DO
   - DZ
@@ -96,12 +100,14 @@ introduced:
   - HN
   - HT
   - ID
+  - IN-AN
   - IN-AP
   - IN-AS
   - IN-CT
   - IN-GJ
   - IN-KA
   - IN-KL
+  - IN-LD
   - IN-MH
   - IN-MP
   - IN-OR
@@ -124,6 +130,7 @@ introduced:
   - MM
   - MR
   - MU
+  - MV
   - MW
   - MX-NLE
   - MZ
@@ -145,6 +152,7 @@ introduced:
   - SC
   - SL
   - SN
+  - SO
   - TD
   - TH
   - TL
@@ -167,6 +175,7 @@ introduced:
   - US-TX
   - VE
   - VN
+  - VU
   - YE
   - ZA-NL
   - ZW

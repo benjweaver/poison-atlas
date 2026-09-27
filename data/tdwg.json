@@ -89,7 +89,8 @@
       "name": "Aleutian Is.",
       "places": [
         "US-AK"
-      ]
+      ],
+      "main": "US-AK"
     },
     "AMU": {
       "name": "Amur",
@@ -186,13 +187,15 @@
       "name": "Bahamas",
       "places": [
         "BS"
-      ]
+      ],
+      "main": "BS"
     },
     "BAL": {
       "name": "Baleares",
       "places": [
         "ES"
-      ]
+      ],
+      "main": "ES"
     },
     "BAN": {
       "name": "Bangladesh",
@@ -391,7 +394,8 @@
       "name": "Cayman Is.",
       "places": [
         "KY"
-      ]
+      ],
+      "main": "KY"
     },
     "CBD": {
       "name": "Cambodia",
@@ -404,7 +408,8 @@
       "name": "Chagos Archipelago",
       "places": [
         "IO"
-      ]
+      ],
+      "main": "IO"
     },
     "CHA": {
       "name": "Chad",
@@ -546,7 +551,8 @@
       "name": "Canary Is.",
       "places": [
         "ES"
-      ]
+      ],
+      "main": "ES"
     },
     "COL": {
       "name": "Colorado",
@@ -573,7 +579,8 @@
       "name": "Cook Is.",
       "places": [
         "CK"
-      ]
+      ],
+      "main": "CK"
     },
     "COR": {
       "name": "Corse",
@@ -644,7 +651,8 @@
       "name": "Cape Verde",
       "places": [
         "CV"
-      ]
+      ],
+      "main": "CV"
     },
     "CYP": {
       "name": "Cyprus",
@@ -787,7 +795,8 @@
       "name": "Føroyar",
       "places": [
         "FO"
-      ]
+      ],
+      "main": "FO"
     },
     "FRA": {
       "name": "France",
@@ -817,7 +826,8 @@
       "name": "Galápagos",
       "places": [
         "EC"
-      ]
+      ],
+      "main": "EC"
     },
     "GAM": {
       "name": "Gambia, The",
@@ -1225,7 +1235,8 @@
       "name": "Kuril Is.",
       "places": [
         "RU"
-      ]
+      ],
+      "main": "RU"
     },
     "KUW": {
       "name": "Kuwait",
@@ -1278,7 +1289,8 @@
       "name": "Laccadive Is.",
       "places": [
         "IN-LD"
-      ]
+      ],
+      "main": "IN-LD"
     },
     "LEE": {
       "name": "Leeward Is. AB Ant",
@@ -1306,7 +1318,8 @@
       "name": "Line Is.",
       "places": [
         "KI"
-      ]
+      ],
+      "main": "KI"
     },
     "LOU": {
       "name": "Louisiana",
@@ -1387,7 +1400,8 @@
       "name": "Maldives",
       "places": [
         "MV"
-      ]
+      ],
+      "main": "MV"
     },
     "MIC": {
       "name": "Michigan",
@@ -1617,7 +1631,8 @@
       "name": "Nicobar Is.",
       "places": [
         "IN-AN"
-      ]
+      ],
+      "main": "IN-AN"
     },
     "NCS": {
       "name": "North Caucasus",
@@ -1665,7 +1680,8 @@
       "name": "Norfolk Is.",
       "places": [
         "NF"
-      ]
+      ],
+      "main": "NF"
     },
     "NFL": {
       "name": "Newfoundland",
@@ -1700,7 +1716,8 @@
       "name": "Netherlands Antilles",
       "places": [
         "CW"
-      ]
+      ],
+      "main": "CW"
     },
     "NNS": {
       "name": "Nansei-shoto",
@@ -1933,7 +1950,8 @@
       "name": "Pitcairn Is.",
       "places": [
         "PN"
-      ]
+      ],
+      "main": "PN"
     },
     "POL": {
       "name": "Poland",
@@ -2092,7 +2110,8 @@
       "name": "Society Is.",
       "places": [
         "PF"
-      ]
+      ],
+      "main": "PF"
     },
     "SCS": {
       "name": "South China Sea",
@@ -2125,7 +2144,8 @@
       "name": "Seychelles",
       "places": [
         "SC"
-      ]
+      ],
+      "main": "SC"
     },
     "SGE": {
       "name": "South Georgia",
@@ -2181,7 +2201,8 @@
       "name": "Somalia",
       "places": [
         "SO"
-      ]
+      ],
+      "main": "SO"
     },
     "SPA": {
       "name": "Spain",
@@ -2295,7 +2316,8 @@
       "name": "Turks-Caicos Is.",
       "places": [
         "TC"
-      ]
+      ],
+      "main": "TC"
     },
     "TCS": {
       "name": "Transcaucasus",
@@ -2352,7 +2374,8 @@
       "name": "Tonga",
       "places": [
         "TO"
-      ]
+      ],
+      "main": "TO"
     },
     "TRT": {
       "name": "Trinidad-Tobago",
@@ -2394,7 +2417,8 @@
       "name": "Tuvalu",
       "places": [
         "TV"
-      ]
+      ],
+      "main": "TV"
     },
     "TVA": {
       "name": "Tuva",
@@ -2459,7 +2483,8 @@
       "name": "Vanuatu",
       "places": [
         "VU"
-      ]
+      ],
+      "main": "VU"
     },
     "VEN": {
       "name": "Venezuela",
@@ -2493,7 +2518,8 @@
       "name": "Venezuelan Antilles",
       "places": [
         "VE"
-      ]
+      ],
+      "main": "VE"
     },
     "VRG": {
       "name": "Virginia",
@@ -2510,7 +2536,8 @@
       "name": "Wallis-Futuna Is.",
       "places": [
         "WF"
-      ]
+      ],
+      "main": "WF"
     },
     "WAS": {
       "name": "Washington",

@@ -82,6 +82,7 @@ regions:
   - IN-HP
   - IN-KA
   - IN-KL
+  - IN-LD
   - IN-MH
   - IN-MP
   - IN-OR
@@ -131,7 +132,9 @@ introduced:
   - AU-QLD
   - CK
   - FJ
+  - KI
   - MQ
+  - NF
   - NR
   - PF
   - PG

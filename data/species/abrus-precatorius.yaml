@@ -121,6 +121,7 @@ regions:
   - SC
   - SG
   - SN
+  - SO
   - ST
   - SZ
   - TD
@@ -159,6 +160,7 @@ introduced:
   - BR-SP
   - BS
   - BZ
+  - CK
   - CO
   - CR
   - CU
@@ -192,6 +194,7 @@ introduced:
   - PF
   - PG
   - PH
+  - PN
   - PR
   - RE
   - SR
@@ -204,4 +207,5 @@ introduced:
   - VG
   - VI
   - VU
+  - WF
   - WS

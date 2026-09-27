@@ -40,6 +40,7 @@ regions:
   - AU-QLD
   - BD
   - BN
+  - CK
   - GU
   - ID
   - IN-AN
@@ -53,9 +54,11 @@ regions:
   - MP
   - MY
   - NC
+  - PF
   - PH
   - SG
   - TH
+  - TO
   - VN
   - VU
   - WS

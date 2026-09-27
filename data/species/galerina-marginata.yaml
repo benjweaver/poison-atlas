@@ -72,6 +72,7 @@ regions:
   - FI
   - FR
   - GB
+  - GL
   - HU
   - IS
   - IT
@@ -121,3 +122,8 @@ regions:
   - US-WA
   - US-WI
   - US-WV
+gbif:
+  include:
+    - code: GL
+      reason: 'fungarium specimens collected in Greenland 1946–2000, identified by Gro Gulden'
+      source: 'GBIF preserved specimens of Galerina marginata from Greenland, Natural History Museum of Denmark (NHMD) and University of Oslo (O). https://www.gbif.org/occurrence/search?taxon_key=8118872&country=GL&basis_of_record=PRESERVED_SPECIMEN'

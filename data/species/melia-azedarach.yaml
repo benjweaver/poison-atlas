@@ -139,11 +139,14 @@ introduced:
   - BR-RS
   - BR-SC
   - BR-SP
+  - BS
   - BW
   - BZ
   - CD
   - CF
+  - CK
   - CU
+  - CV
   - DO
   - DZ
   - EC
@@ -183,6 +186,7 @@ introduced:
   - JP-47
   - KE
   - KR
+  - KY
   - LB
   - LS
   - LY
@@ -201,21 +205,26 @@ introduced:
   - MZ
   - NA
   - NC
+  - NF
   - NR
   - PE
+  - PF
   - PR
   - PS
   - PT
   - PY
   - RE
   - RW
+  - SC
   - SH
   - SV
   - SZ
+  - TC
   - TD
   - TG
   - TM
   - TN
+  - TO
   - TR
   - TT
   - TZ

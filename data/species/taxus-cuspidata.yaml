@@ -66,9 +66,15 @@ regions:
   - JP-34
   - JP-36
   - JP-39
+  - KP
   - KR
   - RU
 introduced:
   - LV
   - US-NY
   - US-VT
+gbif:
+  include:
+    - code: KP
+      reason: 'native in northern Korea; the largest trees E. H. Wilson found were in the Diamond Mountains'
+      source: 'Earle CJ. Taxus cuspidata. The Gymnosperm Database. https://www.conifers.org/ta/Taxus_cuspidata.php'

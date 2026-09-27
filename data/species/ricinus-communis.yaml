@@ -90,6 +90,7 @@ introduced:
   - BZ
   - CD
   - CF
+  - CK
   - CL
   - CN-CQ
   - CN-FJ
@@ -153,6 +154,7 @@ introduced:
   - IN-UP
   - IN-UT
   - IN-WB
+  - IO
   - IR
   - IT
   - JM
@@ -161,6 +163,7 @@ introduced:
   - KH
   - KN
   - KR
+  - KY
   - LC
   - LK
   - LS
@@ -211,6 +214,7 @@ introduced:
   - MZ
   - NA
   - NC
+  - NF
   - NI
   - NR
   - NU
@@ -219,6 +223,7 @@ introduced:
   - PF
   - PG
   - PK
+  - PN
   - PR
   - PS
   - PT
@@ -236,6 +241,7 @@ introduced:
   - TH
   - TJ
   - TN
+  - TO
   - TR
   - TT
   - TZ
@@ -260,6 +266,7 @@ introduced:
   - VE
   - VI
   - VU
+  - WF
   - WS
   - YE
   - YT

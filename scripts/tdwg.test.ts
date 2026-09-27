@@ -74,6 +74,12 @@ describe('lineUp', () => {
   it('names the main place of a unit that one place holds nearly all of', () => {
     expect(map.regions.SOU).toEqual({ name: 'South', places: ['XX-C'], main: 'XX-C' })
   })
+
+  it('judges the main place by the part of a unit on the map, not the sea', () => {
+    // An island drawn well beyond the map's coast: most of it is sea.
+    const island = lineUp([rect('ISL', 20, 20, 30, 30)], {}, [rect('IS', 24, 24, 26, 26)])
+    expect(island.regions.ISL.main).toBe('IS')
+  })
 })
 
 describe('status', () => {

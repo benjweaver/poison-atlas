@@ -127,6 +127,7 @@ introduced:
   - BR-RS
   - BR-SC
   - BZ
+  - CK
   - CM
   - CN-FJ
   - CN-GD
@@ -145,9 +146,11 @@ introduced:
   - HN
   - ID
   - IN-AN
+  - IO
   - JP-13
   - JP-27
   - KE
+  - KI
   - KR
   - MG
   - MO
@@ -188,6 +191,7 @@ introduced:
   - US-NC
   - US-SC
   - US-TX
+  - VU
   - ZA-EC
   - ZA-WC
   - ZW

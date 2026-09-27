@@ -133,7 +133,7 @@ export function overlaps(from: Shape[], to: Shape[]): Map<string, Map<string, nu
 
 /** A share this small is two maps disagreeing about a border, not real overlap. */
 export const MIN_SHARE = 0.05
-/** A place holding this much of a botanical country stands for all of it. */
+/** A place holding this much of a botanical country's land stands for all of it. */
 export const MAIN_SHARE = 0.9
 
 /**
@@ -141,7 +141,10 @@ export const MAIN_SHARE = 0.9
  * in the countries shown by state, countries elsewhere). A unit and a place
  * overlap when at least MIN_SHARE of either lies in the other: both ways,
  * because Andorra is a sliver of "Spain" but lies wholly inside it, and
- * Kyoto is a sliver of "Japan". A unit's `main` place holds MAIN_SHARE of it.
+ * Kyoto is a sliver of "Japan". A unit's `main` place holds MAIN_SHARE of it,
+ * counting only the part on the map: WGSRPD draws islands coarsely, so much
+ * of "Føroyar" or "Canary Is." lies in the map's sea, and no place could ever
+ * hold 90% of the whole.
  */
 export function lineUp(regions: Shape[], names: Record<string, string>, places: Shape[]): TdwgMap {
   const regionShares = overlaps(regions, places) // region → place → share of the region
@@ -154,14 +157,21 @@ export function lineUp(regions: Shape[], names: Record<string, string>, places: 
     const covering = (map.places[place] ??= [])
     if (!covering.includes(region)) covering.push(region)
   }
+  const mains = new Map<string, string>()
   for (const [region, shares] of regionShares) {
+    const onMap = [...shares.values()].reduce((sum, share) => sum + share, 0)
     for (const [place, share] of shares) {
       if (share >= MIN_SHARE) link(region, place)
-      if (share >= MAIN_SHARE) map.regions[region].main = place
+      if (share >= MAIN_SHARE * onMap) mains.set(region, place)
     }
   }
   for (const [place, shares] of placeShares) {
     for (const [region, share] of shares) if (share >= MIN_SHARE) link(region, place)
+  }
+  // Only a place the unit is linked to: a speck of an island that merely
+  // snaps to a neighbour's coast has no main place.
+  for (const [region, place] of mains) {
+    if (map.regions[region].places.includes(place)) map.regions[region].main = place
   }
   for (const entry of Object.values(map.regions)) entry.places.sort()
   for (const covering of Object.values(map.places)) covering.sort()
