@@ -1,0 +1,64 @@
+name: Checkered puffer
+scientificName: Sphoeroides testudineus
+group: fish
+danger: 5
+summary: >-
+  A pufferfish of shallow coasts, eaten by some fishing families in Brazil. Its organs hold
+  tetrodotoxin.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Vidigal IEM et al. Tetrodotoxin poisoning with cardiorespiratory arrest and permanent neurological sequelae following ingestion of a checkered puffer Sphoeroides testudineus from the Brazilian Amazon coast. Rev Soc Bras Med Trop 2026. https://doi.org/10.1590/0037-8682-0544-2025'
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+toxicParts:
+  text: >-
+    The liver and other organs hold the most toxin. In pufferfish the gonads, liver, gut, and skin
+    can all hold enough to poison.
+  sources:
+    - 'Vidigal IEM et al. Tetrodotoxin poisoning with cardiorespiratory arrest and permanent neurological sequelae following ingestion of a checkered puffer Sphoeroides testudineus from the Brazilian Amazon coast. Rev Soc Bras Med Trop 2026. https://doi.org/10.1590/0037-8682-0544-2025'
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+toxins:
+  text: >-
+    Tetrodotoxin, which blocks nerve signals and paralyses muscles. Cooking does not destroy it,
+    and there is no antidote.
+  sources:
+    - 'Vidigal IEM et al. Tetrodotoxin poisoning with cardiorespiratory arrest and permanent neurological sequelae following ingestion of a checkered puffer Sphoeroides testudineus from the Brazilian Amazon coast. Rev Soc Bras Med Trop 2026. https://doi.org/10.1590/0037-8682-0544-2025'
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+symptoms:
+  text: >-
+    Numb lips and tongue, spreading tingling, headache, nausea, and vomiting, then weakness,
+    paralysis, seizures, and cardiorespiratory arrest. A fisher in Brazil survived cardiac arrest
+    with lasting brain damage.
+  sources:
+    - 'Vidigal IEM et al. Tetrodotoxin poisoning with cardiorespiratory arrest and permanent neurological sequelae following ingestion of a checkered puffer Sphoeroides testudineus from the Brazilian Amazon coast. Rev Soc Bras Med Trop 2026. https://doi.org/10.1590/0037-8682-0544-2025'
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+onset:
+  text: >-
+    Usually within 20 minutes to 3 hours, and within minutes after a large dose; the Brazilian
+    fisher fell ill about 10 minutes after eating. Deaths usually come within 4 to 6 hours.
+  sources:
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+    - 'Vidigal IEM et al. Tetrodotoxin poisoning with cardiorespiratory arrest and permanent neurological sequelae following ingestion of a checkered puffer Sphoeroides testudineus from the Brazilian Amazon coast. Rev Soc Bras Med Trop 2026. https://doi.org/10.1590/0037-8682-0544-2025'
+atRisk:
+  text: >-
+    Fishers and their families who eat pufferfish, and people who eat puffer sold under another
+    name.
+  sources:
+    - 'Vidigal IEM et al. Tetrodotoxin poisoning with cardiorespiratory arrest and permanent neurological sequelae following ingestion of a checkered puffer Sphoeroides testudineus from the Brazilian Amazon coast. Rev Soc Bras Med Trop 2026. https://doi.org/10.1590/0037-8682-0544-2025'
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+habitat: >-
+  Shallow coastal waters, estuaries, mangroves, and seagrass beds.
+aquatic: marine
+regions:
+  - BR
+gbif:
+  exclude:
+    - code: MX-BCS
+      reason: 'a western Atlantic species; records on the Pacific coast are misidentified'
+      source: 'Sphoeroides testudineus, checkered puffer. FishBase. https://www.fishbase.se/summary/Sphoeroides-testudineus.html'
+    - code: MX-GRO
+      reason: 'a western Atlantic species; records on the Pacific coast are misidentified'
+      source: 'Sphoeroides testudineus, checkered puffer. FishBase. https://www.fishbase.se/summary/Sphoeroides-testudineus.html'
+    - code: MX-MIC
+      reason: 'a western Atlantic species; records on the Pacific coast are misidentified'
+      source: 'Sphoeroides testudineus, checkered puffer. FishBase. https://www.fishbase.se/summary/Sphoeroides-testudineus.html'

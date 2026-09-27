@@ -1,0 +1,44 @@
+name: Mangrove horseshoe crab
+scientificName: Carcinoscorpius rotundicauda
+group: other
+danger: 4
+summary: >-
+  A horseshoe crab of Asian coasts, eaten as a delicacy in places. It can carry tetrodotoxin, the
+  pufferfish poison.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Suleiman M et al. An outbreak of tetrodotoxin poisoning from consuming horseshoe crabs in Sabah. Southeast Asian J Trop Med Public Health 2017 (abstract). https://europepmc.org/article/MED/29644840'
+toxicParts:
+  text: >-
+    Toxin was highest in the eggs and the digestive gland (hepatic cecum).
+  sources:
+    - 'Suleiman M et al. An outbreak of tetrodotoxin poisoning from consuming horseshoe crabs in Sabah. Southeast Asian J Trop Med Public Health 2017 (abstract). https://europepmc.org/article/MED/29644840'
+toxins:
+  text: >-
+    Tetrodotoxin, which blocks nerve signals and paralyses muscles.
+  sources:
+    - 'Suleiman M et al. An outbreak of tetrodotoxin poisoning from consuming horseshoe crabs in Sabah. Southeast Asian J Trop Med Public Health 2017 (abstract). https://europepmc.org/article/MED/29644840'
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+symptoms:
+  text: >-
+    Dizziness and numbness around the mouth and tongue, then numb hands and feet, nausea and
+    vomiting, weakness, and difficulty breathing. In one outbreak of 30 cases in Malaysia, 3
+    people died.
+  sources:
+    - 'Suleiman M et al. An outbreak of tetrodotoxin poisoning from consuming horseshoe crabs in Sabah. Southeast Asian J Trop Med Public Health 2017 (abstract). https://europepmc.org/article/MED/29644840'
+onset:
+  text: >-
+    Fast: within 30 minutes for about half of those poisoned.
+  sources:
+    - 'Suleiman M et al. An outbreak of tetrodotoxin poisoning from consuming horseshoe crabs in Sabah. Southeast Asian J Trop Med Public Health 2017 (abstract). https://europepmc.org/article/MED/29644840'
+atRisk:
+  text: >-
+    Coastal communities that eat it as a delicacy.
+  sources:
+    - 'Suleiman M et al. An outbreak of tetrodotoxin poisoning from consuming horseshoe crabs in Sabah. Southeast Asian J Trop Med Public Health 2017 (abstract). https://europepmc.org/article/MED/29644840'
+habitat: >-
+  Mangroves, estuaries, and muddy shores.
+aquatic: marine
+regions:
+  - MY

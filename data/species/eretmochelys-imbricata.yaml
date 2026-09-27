@@ -1,0 +1,60 @@
+name: Hawksbill turtle
+scientificName: Eretmochelys imbricata
+group: reptile
+danger: 4
+summary: >-
+  An endangered sea turtle of tropical reefs. Eating its meat, cooked or not, has caused mass
+  poisonings and deaths.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Is sea turtle meat poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-sea-turtle-meat-poisonous'
+toxicParts:
+  text: >-
+    All parts, raw or cooked, in soup or otherwise. Turtles that poison people look healthy.
+  sources:
+    - 'Is sea turtle meat poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-sea-turtle-meat-poisonous'
+toxins:
+  text: >-
+    Not identified; the poison may come from cyanobacteria the turtles eat. The illness is called
+    chelonitoxism, and there is no antidote.
+  sources:
+    - 'Is sea turtle meat poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-sea-turtle-meat-poisonous'
+symptoms:
+  text: >-
+    Itching and pain in the mouth and throat, mouth ulcers, vomiting, and stomach pain, then in
+    some people confusion and seizures. Outbreaks have killed adults and children.
+  sources:
+    - 'Is sea turtle meat poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-sea-turtle-meat-poisonous'
+onset:
+  text: >-
+    Within a few days; in one outbreak, the day after the meal.
+  delayed: true
+  sources:
+    - 'Is sea turtle meat poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-sea-turtle-meat-poisonous'
+atRisk:
+  text: >-
+    People at shared meals and celebrations where turtle is eaten, most often in Indo-Pacific
+    countries such as Madagascar and the Philippines. In one outbreak off Tanzania in 2021, 45
+    people were hospitalized and 7 died, one of them a 3-year-old.
+  sources:
+    - 'Is sea turtle meat poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-sea-turtle-meat-poisonous'
+habitat: >-
+  Tropical coral reefs and coasts.
+aquatic: marine
+regions:
+  - PH
+gbif:
+  exclude:
+    - code: AQ
+      reason: 'lives in tropical and subtropical waters; a stray record here'
+      source: 'Hawksbill turtle. NOAA Fisheries. https://www.fisheries.noaa.gov/species/hawksbill-turtle'
+    - code: RU
+      reason: 'lives in tropical and subtropical waters; a stray record here'
+      source: 'Hawksbill turtle. NOAA Fisheries. https://www.fisheries.noaa.gov/species/hawksbill-turtle'
+    - code: IE
+      reason: 'lives in tropical and subtropical waters; a stray record here'
+      source: 'Hawksbill turtle. NOAA Fisheries. https://www.fisheries.noaa.gov/species/hawksbill-turtle'
+    - code: US-WA
+      reason: 'lives in tropical and subtropical waters; a stray record here'
+      source: 'Hawksbill turtle. NOAA Fisheries. https://www.fisheries.noaa.gov/species/hawksbill-turtle'

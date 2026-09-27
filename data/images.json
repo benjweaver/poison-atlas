@@ -54,6 +54,13 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
+  "carcinoscorpius-rotundicauda": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Carcinoscorpius_rotundicauda_%28mangrove_horseshoe_crab%29.jpg/960px-Carcinoscorpius_rotundicauda_%28mangrove_horseshoe_crab%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Carcinoscorpius_rotundicauda_(mangrove_horseshoe_crab).jpg",
+    "artist": "Amada44",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
   "cascabela-thevetia": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Yellow_Oleander_Flower.jpg/960px-Yellow_Oleander_Flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Yellow_Oleander_Flower.jpg",
@@ -67,6 +74,13 @@
     "artist": "Vengolis",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "chelonia-mydas": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/960px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "chlorophyllum-molybdites": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Chlorophyllum_molybdites_Guadalajara.jpg/960px-Chlorophyllum_molybdites_Guadalajara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -133,6 +147,13 @@
     "artist": "Jörg Hempel",
     "license": "CC BY-SA 3.0 de",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  },
+  "eretmochelys-imbricata": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Eretmochelys-imbricata-K%C3%A9lonia-2.JPG/960px-Eretmochelys-imbricata-K%C3%A9lonia-2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Eretmochelys-imbricata-K%C3%A9lonia-2.JPG",
+    "artist": "Thierry Caro",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
   "galerina-marginata": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Galerina_marginata_Point_Reyes.jpg/960px-Galerina_marginata_Point_Reyes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -231,6 +252,13 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "paederus-fuscipes": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Semut_semai_membuka_sayapnya.jpg/960px-Semut_semai_membuka_sayapnya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Semut_semai_membuka_sayapnya.jpg",
+    "artist": "Jiaminglimjm",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "paxillus-involutus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Navadne_podvihanke_%28Paxillus_involutus%29.jpg/960px-Navadne_podvihanke_%28Paxillus_involutus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Navadne_podvihanke_(Paxillus_involutus).jpg",
@@ -258,6 +286,13 @@
     "artist": "中距離快速",
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "sphoeroides-testudineus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Sphoeroides_testudineus_%28checkered_pufferfish%29_%28San_Salvador_Island%2C_Bahamas%29_%2815548625654%29.jpg/960px-Sphoeroides_testudineus_%28checkered_pufferfish%29_%28San_Salvador_Island%2C_Bahamas%29_%2815548625654%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Sphoeroides_testudineus_(checkered_pufferfish)_(San_Salvador_Island,_Bahamas)_(15548625654).jpg",
+    "artist": "James St. John",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
   },
   "taricha-granulosa": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Taricha_granulosa_%28Rough-skinned_newt%29.JPG/960px-Taricha_granulosa_%28Rough-skinned_newt%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

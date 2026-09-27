@@ -1,0 +1,47 @@
+name: Rove beetle
+scientificName: Paederus fuscipes
+group: insect
+danger: 1
+summary: >-
+  A slender red, black, and blue beetle drawn to lights at night. Crushed on the skin, it releases
+  a blistering poison that leaves burn-like streaks.
+exposure:
+  routes: [skin, eyes]
+  text: >-
+    It doesn’t bite or sting: the poison comes out when the beetle is crushed or brushed off the
+    skin, and can be carried to the eyes on the hands.
+  sources:
+    - 'Nasir S et al. Paederus beetles: the agent of human dermatitis. J Venom Anim Toxins Incl Trop Dis 2015. https://doi.org/10.1186/s40409-015-0004-0'
+toxicParts:
+  text: >-
+    The beetle’s body fluid.
+  sources:
+    - 'Nasir S et al. Paederus beetles: the agent of human dermatitis. J Venom Anim Toxins Incl Trop Dis 2015. https://doi.org/10.1186/s40409-015-0004-0'
+toxins:
+  text: >-
+    Pederin, a blistering agent.
+  sources:
+    - 'Nasir S et al. Paederus beetles: the agent of human dermatitis. J Venom Anim Toxins Incl Trop Dis 2015. https://doi.org/10.1186/s40409-015-0004-0'
+symptoms:
+  text: >-
+    Burning and swelling, then blisters and streak-like lesions, often in matching "kissing"
+    patches where skin folds meet, mostly on the face and neck. Lesions can turn black or become
+    infected, and take a week or more to heal.
+  sources:
+    - 'Nasir S et al. Paederus beetles: the agent of human dermatitis. J Venom Anim Toxins Incl Trop Dis 2015. https://doi.org/10.1186/s40409-015-0004-0'
+onset:
+  text: >-
+    24 to 48 hours after contact.
+  delayed: true
+  sources:
+    - 'Nasir S et al. Paederus beetles: the agent of human dermatitis. J Venom Anim Toxins Incl Trop Dis 2015. https://doi.org/10.1186/s40409-015-0004-0'
+atRisk:
+  text: >-
+    People who sleep near lights or work in fields, above all in the wet months; women cutting
+    fodder were most affected in one study in Pakistan.
+  sources:
+    - 'Nasir S et al. Paederus beetles: the agent of human dermatitis. J Venom Anim Toxins Incl Trop Dis 2015. https://doi.org/10.1186/s40409-015-0004-0'
+habitat: >-
+  Moist soil in fields, riverbanks, and gardens.
+regions:
+  - PK
