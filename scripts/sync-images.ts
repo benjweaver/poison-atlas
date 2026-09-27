@@ -194,7 +194,11 @@ for (const file of speciesFiles()) {
     failures++
     continue
   }
-  if (species.data.photo === 'none') continue
+  // No photo wanted: drop any credit an earlier run picked.
+  if (species.data.photo === 'none') {
+    delete images[slug]
+    continue
+  }
   wanted.push({
     slug,
     title: species.data.wikipedia ?? species.data.scientificName,
