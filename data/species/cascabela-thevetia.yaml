@@ -1,0 +1,166 @@
+name: Yellow oleander
+scientificName: Cascabela thevetia
+group: plant
+danger: 4
+summary: >-
+  An ornamental tree with yellow funnel flowers, common throughout the tropics. Its seeds cause
+  heart poisoning like an overdose of digoxin.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Zamani et al. Cardiac findings in acute yellow oleander poisoning. J Cardiovasc Dis Res 2010. https://doi.org/10.4103/0975-3583.59982'
+    - 'Gawarammana et al. Fructose-1,6-diphosphate (FDP) as a novel antidote for yellow oleander-induced cardiac toxicity: a randomized controlled double blind study. BMC Emerg Med 2010. https://doi.org/10.1186/1471-227X-10-15'
+toxicParts:
+  text: >-
+    The seeds.
+  sources:
+    - 'Zamani et al. Cardiac findings in acute yellow oleander poisoning. J Cardiovasc Dis Res 2010. https://doi.org/10.4103/0975-3583.59982'
+    - 'Gawarammana et al. Fructose-1,6-diphosphate (FDP) as a novel antidote for yellow oleander-induced cardiac toxicity: a randomized controlled double blind study. BMC Emerg Med 2010. https://doi.org/10.1186/1471-227X-10-15'
+toxins:
+  text: >-
+    Cardiac glycosides, which disturb the heart’s rhythm and conduction.
+  sources:
+    - 'Zamani et al. Cardiac findings in acute yellow oleander poisoning. J Cardiovasc Dis Res 2010. https://doi.org/10.4103/0975-3583.59982'
+    - 'Gawarammana et al. Fructose-1,6-diphosphate (FDP) as a novel antidote for yellow oleander-induced cardiac toxicity: a randomized controlled double blind study. BMC Emerg Med 2010. https://doi.org/10.1186/1471-227X-10-15'
+symptoms:
+  text: >-
+    Vomiting and a slow heart, with heart block and, in severe cases, dangerous rhythms. In Sri
+    Lanka, about 1 in 10 people poisoned badly enough to have symptoms die.
+  sources:
+    - 'Zamani et al. Cardiac findings in acute yellow oleander poisoning. J Cardiovasc Dis Res 2010. https://doi.org/10.4103/0975-3583.59982'
+    - 'Gawarammana et al. Fructose-1,6-diphosphate (FDP) as a novel antidote for yellow oleander-induced cardiac toxicity: a randomized controlled double blind study. BMC Emerg Med 2010. https://doi.org/10.1186/1471-227X-10-15'
+atRisk:
+  text: >-
+    It is the most common kind of plant poisoning in Sri Lanka and some other South Asian
+    countries, where most poisonings are deliberate.
+  sources:
+    - 'Gawarammana et al. Fructose-1,6-diphosphate (FDP) as a novel antidote for yellow oleander-induced cardiac toxicity: a randomized controlled double blind study. BMC Emerg Med 2010. https://doi.org/10.1186/1471-227X-10-15'
+animals:
+  who: [dogs, cats, horses]
+  sources:
+    - 'Yellow oleander. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/yellow-oleander'
+habitat: >-
+  Gardens and roadsides, and scrub where it has escaped.
+size: A shrub or small tree up to about 6 m tall
+taxonomy:
+  note: >-
+    Long known as Thevetia peruviana, the name many sources still use.
+  source: 'Thevetia peruviana, a synonym of Cascabela thevetia in the World Checklist of Vascular Plants, via GBIF. https://www.gbif.org/species/206563669'
+regions:
+  - AR-B
+  - AR-C
+  - AR-H
+  - AR-S
+  - AR-W
+  - BO
+  - BR-AM
+  - BR-DF
+  - BR-ES
+  - BR-MG
+  - BR-MS
+  - BR-MT
+  - BR-RJ
+  - BR-RO
+  - BR-SP
+  - BZ
+  - CO
+  - CR
+  - EC
+  - GF
+  - GT
+  - GY
+  - HN
+  - MX-AGU
+  - MX-BCN
+  - MX-BCS
+  - MX-CAM
+  - MX-CHP
+  - MX-COA
+  - MX-COL
+  - MX-DIF
+  - MX-DUR
+  - MX-GRO
+  - MX-GUA
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-NAY
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-ROO
+  - MX-SIN
+  - MX-SLP
+  - MX-SON
+  - MX-TAB
+  - MX-TAM
+  - MX-YUC
+  - NI
+  - PA
+  - PE
+  - PY
+  - SR
+  - SV
+  - VE
+introduced:
+  - AE
+  - AO
+  - BD
+  - BM
+  - BS
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-HI
+  - CN-YN
+  - CU
+  - DO
+  - ES
+  - FJ
+  - GM
+  - GQ
+  - GR
+  - HK
+  - HT
+  - IN-AN
+  - IN-AP
+  - IN-AS
+  - IN-BR
+  - IN-CT
+  - IN-DL
+  - IN-GA
+  - IN-GJ
+  - IN-HR
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-PB
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-UT
+  - IN-WB
+  - IT
+  - JM
+  - KH
+  - MP
+  - MS
+  - NP
+  - PF
+  - PK
+  - PR
+  - SN
+  - ST
+  - TD
+  - TT
+  - TW
+  - US-FL
+  - US-HI
+  - VU
+  - WS
+  - YT

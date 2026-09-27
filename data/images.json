@@ -1,4 +1,10 @@
 {
+  "abrus-precatorius": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Abrus_precatorius_pods.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Abrus_precatorius_pods.jpg",
+    "artist": "Forest & Kim Starr (USGS)",
+    "license": "Public domain"
+  },
   "aconitum-napellus": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Aconitum_napellus_230705.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Aconitum_napellus_230705.jpg",
@@ -34,6 +40,20 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
+  "cascabela-thevetia": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Yellow_Oleander_Flower.jpg/960px-Yellow_Oleander_Flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Yellow_Oleander_Flower.jpg",
+    "artist": "Anshik Kumar Tiwari",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cerbera-odollam": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Cerbera_odollam_08718.jpg/960px-Cerbera_odollam_08718.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerbera_odollam_08718.jpg",
+    "artist": "Vengolis",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "cicuta-maculata": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cicuta_maculata.jpg/960px-Cicuta_maculata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Cicuta_maculata.jpg",
@@ -66,12 +86,33 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
+  "datura-stramonium": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Datura_stramonium_2_%282005_07_07%29.jpg/960px-Datura_stramonium_2_%282005_07_07%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Datura_stramonium_2_(2005_07_07).jpg",
+    "artist": "No machine-readable author provided. Taka assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "digitalis-purpurea": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Digitalis_purpurea_LC0101.jpg/960px-Digitalis_purpurea_LC0101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Digitalis_purpurea_LC0101.jpg",
+    "artist": "Jörg Hempel",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  },
   "galerina-marginata": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Galerina_marginata_Point_Reyes.jpg/960px-Galerina_marginata_Point_Reyes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Galerina_marginata_Point_Reyes.jpg",
     "artist": "Alan Rockefeller",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "gloriosa-superba": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Flame_Lily.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Flame_Lily.jpg",
+    "artist": "Macvivo at English Wikipedia (Original text: Samwise Gamgee)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   "gyromitra-esculenta": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Fr%C3%BChjahrslorchel.JPG/960px-Fr%C3%BChjahrslorchel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -115,6 +156,20 @@
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
   },
+  "nicotiana-glauca": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Nicotiana_glauca_%288694803666%29.jpg/960px-Nicotiana_glauca_%288694803666%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nicotiana_glauca_(8694803666).jpg",
+    "artist": "Dick Culbert from Gibsons, B.C., Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "ricinus-communis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Ricinus_March_2010-1.jpg/960px-Ricinus_March_2010-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ricinus_March_2010-1.jpg",
+    "artist": "Alvesgaspar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "taricha-granulosa": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Taricha_granulosa_%28Rough-skinned_newt%29.JPG/960px-Taricha_granulosa_%28Rough-skinned_newt%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Taricha_granulosa_(Rough-skinned_newt).JPG",
@@ -122,11 +177,25 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
+  "taxus-baccata": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Taxus_baccata_MHNT.jpg/960px-Taxus_baccata_MHNT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Taxus_baccata_MHNT.jpg",
+    "artist": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "toxicodendron-radicans": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/2014-10-29_13_43_39_Poison_Ivy_foliage_during_autumn_leaf_coloration_in_Ewing%2C_New_Jersey.JPG/960px-2014-10-29_13_43_39_Poison_Ivy_foliage_during_autumn_leaf_coloration_in_Ewing%2C_New_Jersey.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:2014-10-29_13_43_39_Poison_Ivy_foliage_during_autumn_leaf_coloration_in_Ewing,_New_Jersey.JPG",
     "artist": "Famartin",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "veratrum-album": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Veratrum_album_Aubrac.JPG/960px-Veratrum_album_Aubrac.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Veratrum_album_Aubrac.JPG",
+    "artist": "Planchon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }

@@ -1,0 +1,183 @@
+name: Tree tobacco
+scientificName: Nicotiana glauca
+group: plant
+danger: 4
+summary: >-
+  A lanky shrub with blue-grey leaves and yellow tube flowers, a weed of dry places around the
+  world. Its leaves, cooked as greens, have paralysed and killed people.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Kear et al. Ingestion of a common plant’s leaves leads to acute respiratory arrest and paralysis: a case report. Clin Pract Cases Emerg Med 2020. https://doi.org/10.5811/cpcem.2020.5.46703'
+    - 'Furer et al. Nicotiana glauca (tree tobacco) intoxication: two cases in one family. J Med Toxicol 2011 (abstract). https://doi.org/10.1007/s13181-010-0102-x'
+toxicParts:
+  text: >-
+    The leaves, which have poisoned people even cooked.
+  sources:
+    - 'Kear et al. Ingestion of a common plant’s leaves leads to acute respiratory arrest and paralysis: a case report. Clin Pract Cases Emerg Med 2020. https://doi.org/10.5811/cpcem.2020.5.46703'
+    - 'Furer et al. Nicotiana glauca (tree tobacco) intoxication: two cases in one family. J Med Toxicol 2011 (abstract). https://doi.org/10.1007/s13181-010-0102-x'
+    - 'Ntelios et al. Acute respiratory failure due to Nicotiana glauca ingestion. Hippokratia 2013 (abstract). https://europepmc.org/article/MED/24376330'
+toxins:
+  text: >-
+    Anabasine, an alkaloid like nicotine that first stimulates and then paralyses nerves and
+    muscles.
+  sources:
+    - 'Kear et al. Ingestion of a common plant’s leaves leads to acute respiratory arrest and paralysis: a case report. Clin Pract Cases Emerg Med 2020. https://doi.org/10.5811/cpcem.2020.5.46703'
+    - 'Furer et al. Nicotiana glauca (tree tobacco) intoxication: two cases in one family. J Med Toxicol 2011 (abstract). https://doi.org/10.1007/s13181-010-0102-x'
+symptoms:
+  text: >-
+    Nausea, vomiting, dizziness, and weakness, then paralysis that stops breathing, and collapse.
+    People have needed days on a ventilator, and some have died.
+  sources:
+    - 'Kear et al. Ingestion of a common plant’s leaves leads to acute respiratory arrest and paralysis: a case report. Clin Pract Cases Emerg Med 2020. https://doi.org/10.5811/cpcem.2020.5.46703'
+    - 'Furer et al. Nicotiana glauca (tree tobacco) intoxication: two cases in one family. J Med Toxicol 2011 (abstract). https://doi.org/10.1007/s13181-010-0102-x'
+    - 'Ntelios et al. Acute respiratory failure due to Nicotiana glauca ingestion. Hippokratia 2013 (abstract). https://europepmc.org/article/MED/24376330'
+onset:
+  text: >-
+    Within a few hours: in one case, the patient collapsed and stopped breathing about an hour
+    after vomiting began.
+  sources:
+    - 'Kear et al. Ingestion of a common plant’s leaves leads to acute respiratory arrest and paralysis: a case report. Clin Pract Cases Emerg Med 2020. https://doi.org/10.5811/cpcem.2020.5.46703'
+    - 'Sercan Y, Selahattin KG. Respiratory failure due to plant poisoning: Nicotiana glauca Graham. J Emerg Med 2018 (abstract). https://doi.org/10.1016/j.jemermed.2018.06.039'
+    - 'Ntelios et al. Acute respiratory failure due to Nicotiana glauca ingestion. Hippokratia 2013 (abstract). https://europepmc.org/article/MED/24376330'
+atRisk:
+  text: >-
+    People who cook its leaves as wild greens, mistaking it for wild spinach, or as a folk remedy.
+  sources:
+    - 'Furer et al. Nicotiana glauca (tree tobacco) intoxication: two cases in one family. J Med Toxicol 2011 (abstract). https://doi.org/10.1007/s13181-010-0102-x'
+    - 'Sercan Y, Selahattin KG. Respiratory failure due to plant poisoning: Nicotiana glauca Graham. J Emerg Med 2018 (abstract). https://doi.org/10.1016/j.jemermed.2018.06.039'
+animals:
+  who: [dogs, cats, horses]
+  sources:
+    - 'Tree tobacco. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/tree-tobacco'
+habitat: >-
+  Dry, disturbed ground: roadsides, riverbeds, and waste places.
+size: A shrub or small tree up to about 6 m tall
+regions:
+  - AR-A
+  - AR-B
+  - AR-C
+  - AR-D
+  - AR-E
+  - AR-F
+  - AR-G
+  - AR-H
+  - AR-J
+  - AR-K
+  - AR-L
+  - AR-M
+  - AR-P
+  - AR-S
+  - AR-T
+  - AR-W
+  - AR-X
+  - AR-Y
+  - BO
+  - BR-RS
+  - CL
+  - PY
+  - UY
+introduced:
+  - AO
+  - AU-NSW
+  - AU-QLD
+  - AU-SA
+  - AU-VIC
+  - AU-WA
+  - BI
+  - BM
+  - BR-AL
+  - BR-BA
+  - BR-CE
+  - BR-MG
+  - BR-PB
+  - BR-PE
+  - BR-RJ
+  - BR-RN
+  - BR-SP
+  - BW
+  - CO
+  - CU
+  - CV
+  - CY
+  - DE
+  - DZ
+  - EC
+  - EG
+  - ER
+  - ES
+  - ET
+  - FR
+  - GR
+  - GT
+  - HN
+  - IL
+  - IT
+  - JM
+  - KE
+  - LB
+  - LS
+  - LY
+  - MA
+  - MC
+  - MR
+  - MT
+  - MU
+  - MX-AGU
+  - MX-BCN
+  - MX-BCS
+  - MX-CHH
+  - MX-COA
+  - MX-DIF
+  - MX-DUR
+  - MX-GRO
+  - MX-GUA
+  - MX-HID
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-SIN
+  - MX-SLP
+  - MX-SON
+  - MX-TAM
+  - MX-TLA
+  - MX-ZAC
+  - MZ
+  - NA
+  - NC
+  - PE
+  - PS
+  - PT
+  - RE
+  - RW
+  - SA
+  - SH
+  - TN
+  - TR
+  - US-AL
+  - US-AZ
+  - US-CA
+  - US-FL
+  - US-GA
+  - US-HI
+  - US-MS
+  - US-NM
+  - US-NV
+  - US-TX
+  - VE
+  - ZA-EC
+  - ZA-FS
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZA-NW
+  - ZA-WC
+  - ZM
+  - ZW

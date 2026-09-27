@@ -1,0 +1,294 @@
+name: Jimsonweed
+scientificName: Datura stramonium
+group: plant
+danger: 4
+summary: >-
+  A rank-smelling weed with white or purple trumpet flowers and spiny seed pods. Every part causes
+  delirium, and its seeds most of all.
+exposure:
+  routes: [eaten, eyes]
+  text: >-
+    Sap in the eye can widen the pupil, sometimes of that eye only.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+toxicParts:
+  text: >-
+    Every part of the plant, and the seeds especially. Neither drying nor boiling destroys the
+    toxins.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+    - 'Disel et al. Poisoned after dinner: dolma with Datura stramonium. Turk J Emerg Med 2016. https://doi.org/10.5505/1304.7361.2015.70894'
+toxins:
+  text: >-
+    Tropane alkaloids: hyoscine (scopolamine), hyoscyamine, and atropine, which block the nervous
+    system’s acetylcholine signals.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+    - 'Disel et al. Poisoned after dinner: dolma with Datura stramonium. Turk J Emerg Med 2016. https://doi.org/10.5505/1304.7361.2015.70894'
+symptoms:
+  text: >-
+    Dry mouth, flushed hot skin, wide pupils and blurred vision, a racing heart, and fever, with
+    agitation, confusion, hallucinations, and seizures. Deaths are recorded.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+    - 'Disel et al. Poisoned after dinner: dolma with Datura stramonium. Turk J Emerg Med 2016. https://doi.org/10.5505/1304.7361.2015.70894'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    Usually within 30 to 60 minutes, lasting a day or two, as the toxins slow the gut.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+atRisk:
+  text: >-
+    People who take it for hallucinations, cooks who use its flowers or leaves by mistake, and
+    people given it in food or drink in order to rob them.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+    - 'Disel et al. Poisoned after dinner: dolma with Datura stramonium. Turk J Emerg Med 2016. https://doi.org/10.5505/1304.7361.2015.70894'
+habitat: >-
+  Waste ground, farmland, roadsides, and field edges.
+size: Up to about 1.5 m tall
+regions:
+  - MX-AGU
+  - MX-CHH
+  - MX-CHP
+  - MX-COA
+  - MX-COL
+  - MX-DIF
+  - MX-DUR
+  - MX-GRO
+  - MX-GUA
+  - MX-HID
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-NAY
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-SIN
+  - MX-SLP
+  - MX-SON
+  - MX-TAB
+  - MX-TAM
+  - MX-TLA
+  - MX-VER
+  - MX-ZAC
+introduced:
+  - AF
+  - AL
+  - AO
+  - AR-B
+  - AT
+  - AU-ACT
+  - AU-NSW
+  - AU-QLD
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
+  - AU-WA
+  - BA
+  - BD
+  - BE
+  - BG
+  - BI
+  - BJ
+  - BM
+  - BO
+  - BR-BA
+  - BR-MG
+  - BR-SP
+  - BW
+  - BY
+  - BZ
+  - CA-AB
+  - CA-BC
+  - CA-NB
+  - CA-NS
+  - CA-ON
+  - CA-PE
+  - CA-QC
+  - CA-SK
+  - CD
+  - CF
+  - CG
+  - CH
+  - CI
+  - CL
+  - CM
+  - CN-BJ
+  - CN-GS
+  - CN-GZ
+  - CN-HB
+  - CN-HE
+  - CN-HI
+  - CN-HL
+  - CN-LN
+  - CN-NM
+  - CN-QH
+  - CN-SC
+  - CN-SD
+  - CN-SN
+  - CN-SX
+  - CN-XJ
+  - CN-XZ
+  - CN-YN
+  - CO
+  - CR
+  - CU
+  - CY
+  - CZ
+  - DE
+  - DK
+  - DO
+  - DZ
+  - EC
+  - EG
+  - ER
+  - ES
+  - ET
+  - FJ
+  - FR
+  - GB
+  - GE
+  - GF
+  - GH
+  - GM
+  - GN
+  - GQ
+  - GR
+  - GT
+  - HN
+  - HR
+  - HT
+  - HU
+  - ID
+  - IL
+  - IQ
+  - IR
+  - IT
+  - JM
+  - JP-14
+  - JP-20
+  - KE
+  - KG
+  - KR
+  - KW
+  - KZ
+  - LA
+  - LK
+  - LS
+  - LT
+  - LU
+  - LY
+  - MA
+  - ME
+  - MG
+  - ML
+  - MM
+  - MR
+  - MU
+  - MW
+  - MZ
+  - NA
+  - NE
+  - NG
+  - NI
+  - NL
+  - NO
+  - NP
+  - NZ
+  - PA
+  - PE
+  - PK
+  - PL
+  - PR
+  - PT
+  - RE
+  - RO
+  - RS
+  - RU
+  - RW
+  - SA
+  - SE
+  - SH
+  - SI
+  - SK
+  - SV
+  - SZ
+  - TD
+  - TG
+  - TJ
+  - TM
+  - TN
+  - TR
+  - TT
+  - TW
+  - TZ
+  - UA
+  - UG
+  - US-AL
+  - US-AR
+  - US-AZ
+  - US-CA
+  - US-CO
+  - US-CT
+  - US-DC
+  - US-DE
+  - US-FL
+  - US-GA
+  - US-HI
+  - US-IA
+  - US-ID
+  - US-IL
+  - US-IN
+  - US-KS
+  - US-KY
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-MS
+  - US-MT
+  - US-NC
+  - US-ND
+  - US-NE
+  - US-NH
+  - US-NJ
+  - US-NM
+  - US-NV
+  - US-NY
+  - US-OH
+  - US-OR
+  - US-PA
+  - US-RI
+  - US-SC
+  - US-SD
+  - US-TN
+  - US-TX
+  - US-UT
+  - US-VA
+  - US-VT
+  - US-WA
+  - US-WI
+  - US-WV
+  - UZ
+  - VE
+  - VN
+  - YE
+  - ZA-EC
+  - ZA-FS
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZA-NW
+  - ZA-WC
+  - ZM
+  - ZW

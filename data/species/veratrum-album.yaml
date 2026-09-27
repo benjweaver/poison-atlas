@@ -1,0 +1,93 @@
+name: White false hellebore
+scientificName: Veratrum album
+group: plant
+danger: 3
+summary: >-
+  A mountain-meadow plant with broad pleated leaves, mistaken for yellow gentian and for wild
+  garlic.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Schep LJ, Schmierer DM, Fountain JS. Veratrum poisoning. Toxicol Rev 2006 (abstract). https://doi.org/10.2165/00139709-200625020-00001'
+    - 'Gilotta I, Brvar M. Accidental poisoning with Veratrum album mistaken for wild garlic (Allium ursinum). Clin Toxicol 2010 (abstract). https://doi.org/10.3109/15563650.2010.533675'
+toxicParts:
+  text: >-
+    The whole plant; people have been poisoned by its leaves in food and by infusions made from
+    it.
+  sources:
+    - 'Gilotta I, Brvar M. Accidental poisoning with Veratrum album mistaken for wild garlic (Allium ursinum). Clin Toxicol 2010 (abstract). https://doi.org/10.3109/15563650.2010.533675'
+    - 'Festa et al. A case of Veratrum poisoning. Minerva Anestesiol 1996 (abstract). https://europepmc.org/article/MED/9045097'
+toxins:
+  text: >-
+    Steroidal alkaloids that keep nerve cells firing, triggering a reflex that drops blood
+    pressure and slows the heart and breathing.
+  sources:
+    - 'Schep LJ, Schmierer DM, Fountain JS. Veratrum poisoning. Toxicol Rev 2006 (abstract). https://doi.org/10.2165/00139709-200625020-00001'
+symptoms:
+  text: >-
+    Nausea, vomiting, and stomach pain, then dizziness, tingling, blurred or lost vision, a very
+    slow heart, and low blood pressure. Deaths are possible; with prompt care most people recover
+    within a day or two.
+  sources:
+    - 'Schep LJ, Schmierer DM, Fountain JS. Veratrum poisoning. Toxicol Rev 2006 (abstract). https://doi.org/10.2165/00139709-200625020-00001'
+    - 'Gilotta I, Brvar M. Accidental poisoning with Veratrum album mistaken for wild garlic (Allium ursinum). Clin Toxicol 2010 (abstract). https://doi.org/10.3109/15563650.2010.533675'
+onset:
+  text: >-
+    Between 30 minutes and 4 hours; in one group poisoned by salads and soups, within 15 to 30
+    minutes.
+  sources:
+    - 'Schep LJ, Schmierer DM, Fountain JS. Veratrum poisoning. Toxicol Rev 2006 (abstract). https://doi.org/10.2165/00139709-200625020-00001'
+    - 'Gilotta I, Brvar M. Accidental poisoning with Veratrum album mistaken for wild garlic (Allium ursinum). Clin Toxicol 2010 (abstract). https://doi.org/10.3109/15563650.2010.533675'
+atRisk:
+  text: >-
+    Foragers, and people who make their own gentian infusions.
+  sources:
+    - 'Gilotta I, Brvar M. Accidental poisoning with Veratrum album mistaken for wild garlic (Allium ursinum). Clin Toxicol 2010 (abstract). https://doi.org/10.3109/15563650.2010.533675'
+    - 'Festa et al. A case of Veratrum poisoning. Minerva Anestesiol 1996 (abstract). https://europepmc.org/article/MED/9045097'
+lookalikes:
+  - name: Yellow gentian
+    scientificName: Gentiana lutea
+    note: >-
+      The two are easily confused, though gentian’s leaves are opposite and its flowers yellow.
+      False hellebore is regularly mistaken for it.
+    sources:
+      - 'Festa et al. A case of Veratrum poisoning. Minerva Anestesiol 1996 (abstract). https://europepmc.org/article/MED/9045097'
+      - 'Gilotta I, Brvar M. Accidental poisoning with Veratrum album mistaken for wild garlic (Allium ursinum). Clin Toxicol 2010 (abstract). https://doi.org/10.3109/15563650.2010.533675'
+  - name: Wild garlic
+    scientificName: Allium ursinum
+    note: >-
+      Four adults were poisoned by salads and soups made with it in place of wild garlic.
+    sources:
+      - 'Gilotta I, Brvar M. Accidental poisoning with Veratrum album mistaken for wild garlic (Allium ursinum). Clin Toxicol 2010 (abstract). https://doi.org/10.3109/15563650.2010.533675'
+habitat: >-
+  Mountain meadows and pastures, and damp grassland.
+size: Up to about 1.5 m tall
+regions:
+  - AD
+  - AL
+  - AM
+  - AT
+  - BA
+  - BY
+  - CH
+  - CZ
+  - DE
+  - ES
+  - FI
+  - FR
+  - GE
+  - HR
+  - HU
+  - IT
+  - LI
+  - ME
+  - NO
+  - PL
+  - PT
+  - RO
+  - RS
+  - RU
+  - SI
+  - SK
+  - TR
+  - UA

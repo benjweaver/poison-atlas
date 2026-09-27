@@ -1,0 +1,275 @@
+name: Castor oil plant
+scientificName: Ricinus communis
+group: plant
+danger: 4
+summary: >-
+  A fast-growing shrub grown in gardens and gone wild across the tropics. Its mottled seeds,
+  castor beans, hold ricin, one of the most toxic substances known.
+exposure:
+  routes: [eaten]
+  text: >-
+    The seeds are dangerous when chewed or crushed; their hard coat keeps the ricin in when they
+    are swallowed whole.
+  sources:
+    - 'What happens if I eat castor beans? Poison Control (National Capital Poison Center). https://www.poison.org/articles/what-happens-if-i-eat-castor-beans-222'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+toxicParts:
+  text: >-
+    The seeds (castor beans). Castor oil, though pressed from them, has no ricin in it.
+  sources:
+    - 'What happens if I eat castor beans? Poison Control (National Capital Poison Center). https://www.poison.org/articles/what-happens-if-i-eat-castor-beans-222'
+toxins:
+  text: >-
+    Ricin, a protein that stops cells from making the proteins they need to live.
+  sources:
+    - 'What happens if I eat castor beans? Poison Control (National Capital Poison Center). https://www.poison.org/articles/what-happens-if-i-eat-castor-beans-222'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+symptoms:
+  text: >-
+    Nausea, vomiting, diarrhea, and stomach pain, which can become bleeding from the gut. Losing
+    fluid can lead to shock, and the liver, kidneys, and brain can fail.
+  sources:
+    - 'What happens if I eat castor beans? Poison Control (National Capital Poison Center). https://www.poison.org/articles/what-happens-if-i-eat-castor-beans-222'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    Gut symptoms can be delayed, and are followed by damage to other organs.
+  delayed: true
+  sources:
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+atRisk:
+  text: >-
+    Children, since one chewed seed is thought to be enough to seriously harm a child, and anyone
+    who takes the seeds as a remedy. The seeds are also used in jewelry.
+  sources:
+    - 'What happens if I eat castor beans? Poison Control (National Capital Poison Center). https://www.poison.org/articles/what-happens-if-i-eat-castor-beans-222'
+animals:
+  who: [dogs, cats, horses]
+  text: >-
+    Pets often reach it through garden plants or pruned foliage.
+  sources:
+    - 'Castor bean plant. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/castor-bean-plant'
+habitat: >-
+  Disturbed ground, roadsides, and riverbanks in warm climates, and gardens.
+size: A shrub or small tree, usually 2 to 4 m tall
+regions:
+  - ER
+  - ET
+  - SO
+introduced:
+  - AL
+  - AO
+  - AR-A
+  - AR-B
+  - AR-C
+  - AR-E
+  - AR-H
+  - AR-L
+  - AR-N
+  - AR-S
+  - AR-T
+  - AR-W
+  - AR-X
+  - AU-NSW
+  - AU-QLD
+  - AW
+  - BB
+  - BD
+  - BF
+  - BG
+  - BI
+  - BJ
+  - BM
+  - BR-DF
+  - BR-GO
+  - BR-MS
+  - BR-MT
+  - BS
+  - BT
+  - BW
+  - BZ
+  - CD
+  - CF
+  - CL
+  - CN-CQ
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-GZ
+  - CN-HB
+  - CN-HE
+  - CN-HI
+  - CN-JS
+  - CN-JX
+  - CN-SC
+  - CN-SN
+  - CN-XZ
+  - CN-YN
+  - CN-ZJ
+  - CO
+  - CR
+  - CU
+  - CW
+  - DE
+  - DJ
+  - DO
+  - DZ
+  - EC
+  - EG
+  - ES
+  - FJ
+  - FR
+  - GA
+  - GB
+  - GM
+  - GN
+  - GP
+  - GR
+  - GW
+  - HK
+  - HN
+  - HT
+  - ID
+  - IL
+  - IN-AN
+  - IN-AP
+  - IN-AS
+  - IN-BR
+  - IN-CT
+  - IN-DL
+  - IN-GA
+  - IN-GJ
+  - IN-HP
+  - IN-HR
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-PB
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-UT
+  - IN-WB
+  - IR
+  - IT
+  - JM
+  - JO
+  - KE
+  - KH
+  - KN
+  - KR
+  - LC
+  - LK
+  - LS
+  - LY
+  - MA
+  - MF
+  - MG
+  - ML
+  - MM
+  - MQ
+  - MR
+  - MS
+  - MT
+  - MV
+  - MW
+  - MX-AGU
+  - MX-BCN
+  - MX-BCS
+  - MX-CAM
+  - MX-CHH
+  - MX-CHP
+  - MX-COA
+  - MX-COL
+  - MX-DIF
+  - MX-DUR
+  - MX-GRO
+  - MX-GUA
+  - MX-HID
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-NAY
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-ROO
+  - MX-SIN
+  - MX-SLP
+  - MX-SON
+  - MX-TAB
+  - MX-TAM
+  - MX-TLA
+  - MX-VER
+  - MX-YUC
+  - MX-ZAC
+  - MZ
+  - NA
+  - NC
+  - NI
+  - NR
+  - NU
+  - NZ
+  - OM
+  - PF
+  - PG
+  - PK
+  - PR
+  - PS
+  - PT
+  - PY
+  - RO
+  - RU
+  - RW
+  - SD
+  - SH
+  - SN
+  - SV
+  - SZ
+  - TD
+  - TG
+  - TH
+  - TJ
+  - TN
+  - TR
+  - TT
+  - TZ
+  - UG
+  - US-AL
+  - US-AR
+  - US-AZ
+  - US-CA
+  - US-FL
+  - US-GA
+  - US-HI
+  - US-IL
+  - US-KY
+  - US-LA
+  - US-MD
+  - US-MO
+  - US-MS
+  - US-NY
+  - US-TN
+  - US-TX
+  - UY
+  - VE
+  - VI
+  - VU
+  - WS
+  - YE
+  - YT
+  - ZA-EC
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZA-NW
+  - ZA-WC
+  - ZM
+  - ZW

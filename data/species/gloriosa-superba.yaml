@@ -1,0 +1,143 @@
+name: Flame lily
+scientificName: Gloriosa superba
+group: plant
+danger: 5
+summary: >-
+  A climbing lily with flame-red, swept-back petals, wild in tropical Africa and Asia and grown as
+  an ornamental. Its tubers are full of colchicine.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Premaratna et al. Gloriosa superba poisoning mimicking an acute infection: a case report. BMC Pharmacol Toxicol 2015. https://doi.org/10.1186/s40360-015-0029-6'
+    - 'Kande Vidanalage et al. Case report: a rare case of attempted homicide with Gloriosa superba seeds. BMC Pharmacol Toxicol 2016. https://doi.org/10.1186/s40360-016-0069-6'
+toxicParts:
+  text: >-
+    All parts, and the tubers especially. Its seeds look like coriander.
+  sources:
+    - 'Premaratna et al. Gloriosa superba poisoning mimicking an acute infection: a case report. BMC Pharmacol Toxicol 2015. https://doi.org/10.1186/s40360-015-0029-6'
+    - 'Kande Vidanalage et al. Case report: a rare case of attempted homicide with Gloriosa superba seeds. BMC Pharmacol Toxicol 2016. https://doi.org/10.1186/s40360-016-0069-6'
+toxins:
+  text: >-
+    Colchicine and gloriosine, which stop dividing cells, so the gut lining, bone marrow, and hair
+    are hit hardest.
+  sources:
+    - 'Premaratna et al. Gloriosa superba poisoning mimicking an acute infection: a case report. BMC Pharmacol Toxicol 2015. https://doi.org/10.1186/s40360-015-0029-6'
+    - 'Kande Vidanalage et al. Case report: a rare case of attempted homicide with Gloriosa superba seeds. BMC Pharmacol Toxicol 2016. https://doi.org/10.1186/s40360-016-0069-6'
+symptoms:
+  text: >-
+    A burning mouth, then severe vomiting and diarrhea, shock, confusion, seizures, bleeding, and
+    kidney or multi-organ failure. Blood counts fall and, after a week or so, the hair falls out.
+  sources:
+    - 'Premaratna et al. Gloriosa superba poisoning mimicking an acute infection: a case report. BMC Pharmacol Toxicol 2015. https://doi.org/10.1186/s40360-015-0029-6'
+    - 'Kande Vidanalage et al. Case report: a rare case of attempted homicide with Gloriosa superba seeds. BMC Pharmacol Toxicol 2016. https://doi.org/10.1186/s40360-016-0069-6'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    Within 2 to 6 hours of eating it. Deaths come 12 to 72 hours after; in one case the hair began
+    falling out on day 9.
+  sources:
+    - 'Premaratna et al. Gloriosa superba poisoning mimicking an acute infection: a case report. BMC Pharmacol Toxicol 2015. https://doi.org/10.1186/s40360-015-0029-6'
+atRisk:
+  text: >-
+    In western Sri Lanka it once caused 44% of plant poisonings, with 15% of cases fatal.
+    Accidental and deliberate poisonings with the tubers are both known.
+  sources:
+    - 'Premaratna et al. Gloriosa superba poisoning mimicking an acute infection: a case report. BMC Pharmacol Toxicol 2015. https://doi.org/10.1186/s40360-015-0029-6'
+    - 'Kande Vidanalage et al. Case report: a rare case of attempted homicide with Gloriosa superba seeds. BMC Pharmacol Toxicol 2016. https://doi.org/10.1186/s40360-016-0069-6'
+animals:
+  who: [dogs, cats, horses]
+  sources:
+    - 'Gloriosa lily. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/gloriosa-lily'
+habitat: >-
+  Forest edges, scrub, and grassland in the tropics.
+size: A vine climbing to about 5 m
+regions:
+  - AO
+  - BD
+  - BF
+  - BI
+  - BJ
+  - BN
+  - BW
+  - CD
+  - CF
+  - CG
+  - CI
+  - CM
+  - CN-YN
+  - ET
+  - GA
+  - GH
+  - GM
+  - GN
+  - GQ
+  - GW
+  - ID
+  - IN-AN
+  - IN-AP
+  - IN-AS
+  - IN-CT
+  - IN-GA
+  - IN-GJ
+  - IN-HP
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-UT
+  - IN-WB
+  - KE
+  - KH
+  - LA
+  - LK
+  - LR
+  - MG
+  - MM
+  - MV
+  - MW
+  - MY
+  - MZ
+  - NA
+  - NG
+  - NP
+  - PK
+  - RW
+  - SC
+  - SG
+  - SL
+  - SN
+  - TD
+  - TG
+  - TH
+  - TL
+  - TZ
+  - UG
+  - VN
+  - ZA-EC
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-WC
+  - ZM
+  - ZW
+introduced:
+  - AU-NSW
+  - AU-QLD
+  - CK
+  - FJ
+  - MQ
+  - NR
+  - PF
+  - PG
+  - RE
+  - SB
+  - SR
+  - TT
+  - US-AL
+  - VU

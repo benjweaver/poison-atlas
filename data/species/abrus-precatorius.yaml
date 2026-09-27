@@ -1,0 +1,207 @@
+name: Rosary pea
+scientificName: Abrus precatorius
+group: plant
+danger: 4
+summary: >-
+  A climbing vine with glossy scarlet seeds, each with a black spot, often strung into jewelry.
+  The seeds hold abrin, a poison related to ricin and even more potent.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Are rosary peas poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-rosary-peas-poisonous-194'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+toxicParts:
+  text: >-
+    The whole plant, and the seeds above all. Seeds are most dangerous crushed or chewed, but
+    their coat is often not intact, so a swallowed seed can release the toxin too.
+  sources:
+    - 'Are rosary peas poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-rosary-peas-poisonous-194'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+    - 'Karthikeyan A, Amalnath SD. Abrus precatorius poisoning: a retrospective study of 112 patients. Indian J Crit Care Med 2017. https://doi.org/10.4103/ijccm.IJCCM_320_16'
+toxins:
+  text: >-
+    Abrin, a protein that stops cells from making proteins, so that they die. There is no
+    antidote.
+  sources:
+    - 'Are rosary peas poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-rosary-peas-poisonous-194'
+    - 'Karthikeyan A, Amalnath SD. Abrus precatorius poisoning: a retrospective study of 112 patients. Indian J Crit Care Med 2017. https://doi.org/10.4103/ijccm.IJCCM_320_16'
+symptoms:
+  text: >-
+    Nausea, vomiting, stomach pain, and diarrhea that can become bloody, then a fast heart rate,
+    drowsiness, seizures, fever, and organ failure. Losing fluid through the gut can kill.
+  sources:
+    - 'Are rosary peas poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-rosary-peas-poisonous-194'
+    - 'Karthikeyan A, Amalnath SD. Abrus precatorius poisoning: a retrospective study of 112 patients. Indian J Crit Care Med 2017. https://doi.org/10.4103/ijccm.IJCCM_320_16'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    Usually within a few hours, but it can be delayed for up to 5 days.
+  delayed: true
+  sources:
+    - 'Are rosary peas poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-rosary-peas-poisonous-194'
+atRisk:
+  text: >-
+    Children who swallow seeds from jewelry or toys, and people who use the plant as a home
+    remedy. Any seed swallowed should be treated as dangerous.
+  sources:
+    - 'Are rosary peas poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-rosary-peas-poisonous-194'
+animals:
+  who: [dogs, cats, horses]
+  sources:
+    - 'Rosary pea. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/rosary-pea'
+habitat: >-
+  Forest edges, scrub, and disturbed ground in the tropics and subtropics.
+size: A vine climbing several metres
+regions:
+  - AO
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - BD
+  - BF
+  - BI
+  - BJ
+  - BW
+  - CD
+  - CF
+  - CG
+  - CI
+  - CM
+  - CN-GD
+  - CN-GX
+  - CN-YN
+  - CV
+  - ER
+  - ET
+  - GA
+  - GM
+  - GN
+  - GQ
+  - GW
+  - HK
+  - IN-AN
+  - IN-AP
+  - IN-AS
+  - IN-CT
+  - IN-DL
+  - IN-GA
+  - IN-GJ
+  - IN-HR
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-UT
+  - IN-WB
+  - KE
+  - KH
+  - KM
+  - LA
+  - LK
+  - LR
+  - MG
+  - ML
+  - MM
+  - MR
+  - MW
+  - MY
+  - MZ
+  - NA
+  - NE
+  - NP
+  - PK
+  - RW
+  - SA
+  - SC
+  - SG
+  - SN
+  - ST
+  - SZ
+  - TD
+  - TG
+  - TH
+  - TW
+  - TZ
+  - UG
+  - VN
+  - YE
+  - YT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NL
+  - ZM
+  - ZW
+introduced:
+  - AG
+  - BB
+  - BL
+  - BO
+  - BR-BA
+  - BR-CE
+  - BR-ES
+  - BR-GO
+  - BR-MA
+  - BR-MS
+  - BR-MT
+  - BR-PA
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-RJ
+  - BR-RN
+  - BR-SC
+  - BR-SP
+  - BS
+  - BZ
+  - CO
+  - CR
+  - CU
+  - CW
+  - DM
+  - DO
+  - EC
+  - FJ
+  - GF
+  - GP
+  - GT
+  - GU
+  - GY
+  - HN
+  - HT
+  - ID
+  - JM
+  - KN
+  - KY
+  - LC
+  - MF
+  - MP
+  - MQ
+  - MS
+  - MU
+  - NC
+  - NI
+  - NU
+  - PA
+  - PE
+  - PF
+  - PG
+  - PH
+  - PR
+  - RE
+  - SR
+  - SX
+  - TO
+  - TT
+  - US-FL
+  - US-HI
+  - VE
+  - VG
+  - VI
+  - VU
+  - WS

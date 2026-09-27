@@ -1,0 +1,63 @@
+name: Suicide tree
+scientificName: Cerbera odollam
+group: plant
+danger: 5
+summary: >-
+  A tree of coasts, mangroves, and backwaters in South Asia, with smooth, round fruit, each
+  holding one large seed. The kernel of its seed poisons the heart, and poisonings are often
+  fatal.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Renymol B et al. Study on clinical profile and predictors of mortality in Cerbera odollam poisoning. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_469_17'
+toxicParts:
+  text: >-
+    The kernel of the seed.
+  sources:
+    - 'Renymol B et al. Study on clinical profile and predictors of mortality in Cerbera odollam poisoning. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_469_17'
+toxins:
+  text: >-
+    Cardiac glycosides, chiefly cerberin, neriifolin, and diacetyl tanghinin.
+  sources:
+    - 'Renymol B et al. Study on clinical profile and predictors of mortality in Cerbera odollam poisoning. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_469_17'
+symptoms:
+  text: >-
+    Vomiting, stomach pain, and drowsiness, then a slow, irregular heartbeat, heart block, low
+    blood pressure, and high potassium. Many need intensive care or a pacemaker, and about 1 in 6
+    patients in one hospital series died.
+  sources:
+    - 'Renymol B et al. Study on clinical profile and predictors of mortality in Cerbera odollam poisoning. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_469_17'
+atRisk:
+  text: >-
+    It causes more than half of plant-poisoning deaths in the Indian state of Kerala. Most
+    poisonings there are deliberate.
+  sources:
+    - 'Renymol B et al. Study on clinical profile and predictors of mortality in Cerbera odollam poisoning. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_469_17'
+habitat: >-
+  Coasts, riverbanks, ponds, and mangroves.
+size: A tree up to about 10 m tall
+regions:
+  - AU-QLD
+  - BD
+  - BN
+  - GU
+  - ID
+  - IN-AN
+  - IN-KA
+  - IN-KL
+  - IN-MP
+  - IN-TN
+  - KH
+  - LK
+  - MM
+  - MP
+  - MY
+  - NC
+  - PH
+  - SG
+  - TH
+  - VN
+  - VU
+  - WS
+introduced:
+  - TT

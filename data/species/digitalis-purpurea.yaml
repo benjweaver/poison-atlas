@@ -1,0 +1,140 @@
+name: Foxglove
+scientificName: Digitalis purpurea
+group: plant
+danger: 4
+summary: >-
+  A tall garden and woodland plant with spires of purple bells, and the original source of the
+  heart drug digitalis. Its leaves are mistaken for borage.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Foxglove: toxic to the heart. Poison Control (National Capital Poison Center). https://www.poison.org/articles/foxglove'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+toxicParts:
+  text: >-
+    Every part of the plant.
+  sources:
+    - 'Foxglove: toxic to the heart. Poison Control (National Capital Poison Center). https://www.poison.org/articles/foxglove'
+toxins:
+  text: >-
+    Cardiac glycosides such as digitoxin and gitoxin, which act on the heart like an unmeasured
+    dose of heart medicine.
+  sources:
+    - 'Foxglove: toxic to the heart. Poison Control (National Capital Poison Center). https://www.poison.org/articles/foxglove'
+    - 'Negroni et al. A case report of accidental intoxication following ingestion of foxglove confused with borage: high digoxinemia without major complications. Case Rep Cardiol 2019. https://doi.org/10.1155/2019/9707428'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+symptoms:
+  text: >-
+    Nausea, vomiting, weakness, and confusion, with a slow or irregular heartbeat that can stop
+    for seconds at a time. Potassium in the blood can rise dangerously.
+  sources:
+    - 'Foxglove: toxic to the heart. Poison Control (National Capital Poison Center). https://www.poison.org/articles/foxglove'
+    - 'Negroni et al. A case report of accidental intoxication following ingestion of foxglove confused with borage: high digoxinemia without major complications. Case Rep Cardiol 2019. https://doi.org/10.1155/2019/9707428'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    In one case, within about 4 hours of eating the leaves; in another, by the next day.
+    Heart-rhythm problems went on for days.
+  sources:
+    - 'Negroni et al. A case report of accidental intoxication following ingestion of foxglove confused with borage: high digoxinemia without major complications. Case Rep Cardiol 2019. https://doi.org/10.1155/2019/9707428'
+    - 'Foxglove: toxic to the heart. Poison Control (National Capital Poison Center). https://www.poison.org/articles/foxglove'
+atRisk:
+  text: >-
+    People who pick its leaves for food or tea, mistaking them for borage, and children, who are
+    drawn to its flowers.
+  sources:
+    - 'Foxglove: toxic to the heart. Poison Control (National Capital Poison Center). https://www.poison.org/articles/foxglove'
+    - 'Negroni et al. A case report of accidental intoxication following ingestion of foxglove confused with borage: high digoxinemia without major complications. Case Rep Cardiol 2019. https://doi.org/10.1155/2019/9707428'
+lookalikes:
+  - name: Borage
+    scientificName: Borago officinalis
+    note: >-
+      Before flowering, foxglove’s hairy leaves are mistaken for borage’s. People have been
+      poisoned by a sauce and a pie made with it, one with plants sold as borage at a garden
+      nursery.
+    sources:
+      - 'Negroni et al. A case report of accidental intoxication following ingestion of foxglove confused with borage: high digoxinemia without major complications. Case Rep Cardiol 2019. https://doi.org/10.1155/2019/9707428'
+      - 'Foxglove: toxic to the heart. Poison Control (National Capital Poison Center). https://www.poison.org/articles/foxglove'
+animals:
+  who: [dogs, cats, horses]
+  sources:
+    - 'Foxglove. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/foxglove'
+habitat: >-
+  Woodland clearings, heaths, and hillsides on acid soils, and gardens.
+size: Up to about 2 m tall in flower
+regions:
+  - BE
+  - CZ
+  - DE
+  - ES
+  - FR
+  - GB
+  - GG
+  - IE
+  - IM
+  - IT
+  - JE
+  - LU
+  - MA
+  - PT
+  - SE
+  - SK
+introduced:
+  - AT
+  - AU-TAS
+  - BO
+  - BY
+  - CA-BC
+  - CA-NB
+  - CA-NL
+  - CA-NS
+  - CA-ON
+  - CA-QC
+  - CL
+  - CO
+  - CR
+  - CU
+  - DK
+  - EC
+  - GT
+  - HU
+  - JM
+  - MW
+  - MX-DIF
+  - MX-HID
+  - MX-VER
+  - NL
+  - NZ
+  - PE
+  - PL
+  - RE
+  - RU
+  - SV
+  - UA
+  - US-AR
+  - US-CA
+  - US-CO
+  - US-CT
+  - US-ID
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MT
+  - US-NC
+  - US-NH
+  - US-NJ
+  - US-NY
+  - US-OH
+  - US-OR
+  - US-PA
+  - US-UT
+  - US-VT
+  - US-WA
+  - US-WI
+  - US-WV
+  - US-WY
+  - UY
+  - VE
+  - VN
+  - ZW

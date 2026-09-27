@@ -1,0 +1,99 @@
+name: Common yew
+scientificName: Taxus baccata
+group: plant
+danger: 4
+summary: >-
+  A long-lived evergreen with dark needles and red berries, planted in gardens and churchyards.
+  Its needles and seeds can stop the heart.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Yew and paclitaxel: what do they have in common? Poison Control (National Capital Poison Center). https://www.poison.org/articles/yew-and-paclitaxel'
+    - 'Hermes-Laufer et al. Extracorporeal life support as bridge to recovery in yew poisoning: case reports and literature review. ESC Heart Fail 2020. https://doi.org/10.1002/ehf2.12828'
+toxicParts:
+  text: >-
+    The needles, bark, wood, and the seed inside each red berry.
+  sources:
+    - 'Yew and paclitaxel: what do they have in common? Poison Control (National Capital Poison Center). https://www.poison.org/articles/yew-and-paclitaxel'
+    - 'Hermes-Laufer et al. Extracorporeal life support as bridge to recovery in yew poisoning: case reports and literature review. ESC Heart Fail 2020. https://doi.org/10.1002/ehf2.12828'
+toxins:
+  text: >-
+    Taxines, alkaloids that block sodium and calcium channels in the heart.
+  sources:
+    - 'Hermes-Laufer et al. Extracorporeal life support as bridge to recovery in yew poisoning: case reports and literature review. ESC Heart Fail 2020. https://doi.org/10.1002/ehf2.12828'
+symptoms:
+  text: >-
+    From stomach upset to seizures, a dangerously irregular heartbeat, and a failing heart. Some
+    have died even on heart-lung support.
+  sources:
+    - 'Hermes-Laufer et al. Extracorporeal life support as bridge to recovery in yew poisoning: case reports and literature review. ESC Heart Fail 2020. https://doi.org/10.1002/ehf2.12828'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+onset:
+  text: >-
+    Within hours: in one case, the heart stopped 5 hours after eating the needles.
+  sources:
+    - 'Hermes-Laufer et al. Extracorporeal life support as bridge to recovery in yew poisoning: case reports and literature review. ESC Heart Fail 2020. https://doi.org/10.1002/ehf2.12828'
+atRisk:
+  text: >-
+    Children who eat the berries, and adults who brew tea from the needles. The most severe cases
+    reported in adults were deliberate.
+  sources:
+    - 'Yew and paclitaxel: what do they have in common? Poison Control (National Capital Poison Center). https://www.poison.org/articles/yew-and-paclitaxel'
+    - 'Hermes-Laufer et al. Extracorporeal life support as bridge to recovery in yew poisoning: case reports and literature review. ESC Heart Fail 2020. https://doi.org/10.1002/ehf2.12828'
+animals:
+  who: [dogs, cats, horses]
+  text: >-
+    Animals can die suddenly of heart failure.
+  sources:
+    - 'English yew. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/english-yew'
+habitat: >-
+  Woods and scrub on chalk and limestone, and churchyards, parks, and gardens.
+size: A tree up to about 20 m tall, or a clipped hedge
+regions:
+  - AL
+  - AM
+  - AT
+  - AX
+  - AZ
+  - BA
+  - BE
+  - BG
+  - BY
+  - CH
+  - CZ
+  - DE
+  - DK
+  - DZ
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GE
+  - GR
+  - HR
+  - HU
+  - IE
+  - IM
+  - IR
+  - IT
+  - JE
+  - LI
+  - LT
+  - LU
+  - LV
+  - MA
+  - NL
+  - NO
+  - PL
+  - PT
+  - RO
+  - RS
+  - RU
+  - SE
+  - SI
+  - SK
+  - TR
+  - UA
+introduced:
+  - US-NY
