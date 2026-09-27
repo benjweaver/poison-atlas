@@ -68,8 +68,11 @@ export default defineConfig({
             options: { cacheName: 'data', expiration: { maxEntries: 800 } },
           },
           {
-            // Photos come from Wikimedia's CDN, as opaque (no-CORS) responses.
-            urlPattern: ({ url }) => url.hostname === 'upload.wikimedia.org',
+            // Photos come from Wikimedia's and iNaturalist's CDNs, as opaque
+            // (no-CORS) responses.
+            urlPattern: ({ url }) =>
+              url.hostname === 'upload.wikimedia.org' ||
+              url.hostname === 'inaturalist-open-data.s3.amazonaws.com',
             handler: 'CacheFirst',
             options: {
               cacheName: 'photos',

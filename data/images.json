@@ -346,6 +346,13 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
+  "gyromitra-venenata": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Gyromitra_venenata.jpg/960px-Gyromitra_venenata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Gyromitra_venenata.jpg",
+    "artist": "mical",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
   "heracleum-mantegazzianum": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Giant_hogweed_in_Dunnyduff_Woods%2C_Keith.jpg/960px-Giant_hogweed_in_Dunnyduff_Woods%2C_Keith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Giant_hogweed_in_Dunnyduff_Woods,_Keith.jpg",

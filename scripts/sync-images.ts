@@ -8,6 +8,10 @@
 // upload is skipped with a message, and you can point `wikipedia:` in the
 // species file at a different article.
 //
+// Where Commons has nothing, `photo: inaturalist:<observation id>` uses the
+// first photo of an iNaturalist observation instead, if its observer released
+// it under CC0, CC BY or CC BY-SA. Pick a research-grade observation.
+//
 // Results go to data/images.json, which is committed: builds never hit the
 // network, and the credits shown on the site are reviewable in a diff.
 import { readFileSync, writeFileSync } from 'node:fs'
@@ -167,6 +171,38 @@ async function commonsInfo(files: string[]): Promise<Map<string, SpeciesImage>> 
   return found
 }
 
+// The licences iNaturalist offers that allow reuse on this site (no NC or ND).
+const INAT_LICENSES: Record<string, { name: string; url: string }> = {
+  cc0: { name: 'CC0 1.0', url: 'https://creativecommons.org/publicdomain/zero/1.0/' },
+  'cc-by': { name: 'CC BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/' },
+  'cc-by-sa': { name: 'CC BY-SA 4.0', url: 'https://creativecommons.org/licenses/by-sa/4.0/' },
+}
+const INAT_PHOTO = /^inaturalist:(\d+)$/
+
+/** iNaturalist observation id → its first photo, credited, if freely licensed. */
+async function inaturalistInfo(observation: string): Promise<SpeciesImage | undefined> {
+  await sleep(1000)
+  const url = `https://api.inaturalist.org/v1/observations/${observation}`
+  const res = await fetch(url, { headers: HEADERS })
+  if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`)
+  const { results } = (await res.json()) as {
+    results: {
+      user: { login: string; name?: string | null }
+      photos: { url: string; license_code?: string | null }[]
+    }[]
+  }
+  const photo = results[0]?.photos[0]
+  const license = photo?.license_code ? INAT_LICENSES[photo.license_code] : undefined
+  if (!photo || !license) return undefined
+  return {
+    src: photo.url.replace('/square.', '/large.'),
+    page: `https://www.inaturalist.org/observations/${observation}`,
+    artist: results[0].user.name || results[0].user.login,
+    license: license.name,
+    licenseUrl: license.url,
+  }
+}
+
 // Drops credits for species that no longer exist, and sorts so diffs stay small.
 function save() {
   const slugs = new Set(speciesFiles().map((f) => basename(f, '.yaml')))
@@ -209,22 +245,31 @@ for (const file of speciesFiles()) {
 
 // Which file each species uses: the one named in its file, else its article's
 // lead image, else a Commons search on its scientific name.
-const leads = await leadImages(wanted.filter((w) => !w.photo).map((w) => w.title))
-const chosen = new Map<string, string>()
+// iNaturalist photos are looked up one observation at a time.
+const inaturalist = new Map<string, SpeciesImage | undefined>()
 for (const w of wanted) {
+  const observation = w.photo?.match(INAT_PHOTO)?.[1]
+  if (observation) inaturalist.set(w.slug, await inaturalistInfo(observation))
+}
+const onCommons = wanted.filter((w) => !inaturalist.has(w.slug))
+const leads = await leadImages(onCommons.filter((w) => !w.photo).map((w) => w.title))
+const chosen = new Map<string, string>()
+for (const w of onCommons) {
   const file = w.photo ?? leads.get(w.title) ?? (await commonsSearch(w.scientificName))
   if (file) chosen.set(w.slug, file)
 }
 const credits = await commonsInfo([...new Set(chosen.values())])
 
-for (const { slug, title } of wanted) {
-  const name = chosen.get(slug)
-  const image = name && credits.get(name)
+for (const { slug, title, photo } of wanted) {
+  const name = inaturalist.has(slug) ? photo : chosen.get(slug)
+  const image = inaturalist.has(slug) ? inaturalist.get(slug) : name && credits.get(name)
   if (!image) {
     console.warn(
-      name
-        ? `✗ ${slug}: lead image of "${title}" (${name}) is not a free Commons file — set wikipedia: to another article`
-        : `✗ ${slug}: no photo found for "${title}" — set photo: to a Commons file, or photo: none`,
+      inaturalist.has(slug)
+        ? `✗ ${slug}: ${photo} has no photo under CC0, CC BY or CC BY-SA`
+        : name
+          ? `✗ ${slug}: lead image of "${title}" (${name}) is not a free Commons file — set wikipedia: to another article`
+          : `✗ ${slug}: no photo found for "${title}" — set photo: to a Commons file, an iNaturalist observation, or photo: none`,
     )
     failures++
     continue
