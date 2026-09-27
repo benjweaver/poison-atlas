@@ -1,0 +1,102 @@
+name: Asian common toad
+scientificName: Duttaphrynus melanostictus
+group: amphibian
+danger: 4
+summary: >-
+  A common toad of South and Southeast Asia. Eating its skin, eggs, or meat has killed people,
+  children among them, and villagers often underestimate the danger.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Keomany S et al. Toad poisoning in Laos. Am J Trop Med Hyg 2007 (abstract). https://doi.org/10.4269/ajtmh.2007.77.850'
+    - 'Trakulsrichai S et al. Toad poisoning: clinical characteristics and outcomes. Ther Clin Risk Manag 2020. https://doi.org/10.2147/TCRM.S272863'
+toxicParts:
+  text: >-
+    The skin, the glands behind the eyes, and the eggs; cooking is unlikely to destroy the toxin.
+  sources:
+    - 'Trakulsrichai S et al. Toad poisoning: clinical characteristics and outcomes. Ther Clin Risk Manag 2020. https://doi.org/10.2147/TCRM.S272863'
+    - 'Keomany S et al. Toad poisoning in Laos. Am J Trop Med Hyg 2007 (abstract). https://doi.org/10.4269/ajtmh.2007.77.850'
+toxins:
+  text: >-
+    Bufadienolides, heart poisons that act like an overdose of digoxin.
+  sources:
+    - 'Trakulsrichai S et al. Toad poisoning: clinical characteristics and outcomes. Ther Clin Risk Manag 2020. https://doi.org/10.2147/TCRM.S272863'
+    - 'Keomany S et al. Toad poisoning in Laos. Am J Trop Med Hyg 2007 (abstract). https://doi.org/10.4269/ajtmh.2007.77.850'
+symptoms:
+  text: >-
+    Nausea, vomiting, and stomach pain, then a slow heart, heart block, shock, and cardiac arrest.
+    A boy in Laos died after eating toad skin and eggs.
+  sources:
+    - 'Trakulsrichai S et al. Toad poisoning: clinical characteristics and outcomes. Ther Clin Risk Manag 2020. https://doi.org/10.2147/TCRM.S272863'
+    - 'Keomany S et al. Toad poisoning in Laos. Am J Trop Med Hyg 2007 (abstract). https://doi.org/10.4269/ajtmh.2007.77.850'
+onset:
+  text: >-
+    Stomach symptoms usually about 2 hours after eating; cardiac arrest has come within 4.5 hours.
+  sources:
+    - 'Trakulsrichai S et al. Toad poisoning: clinical characteristics and outcomes. Ther Clin Risk Manag 2020. https://doi.org/10.2147/TCRM.S272863'
+atRisk:
+  text: >-
+    Villagers who eat toads or their eggs as food, and children who catch or bite toads. In three
+    villages in Laos, half the people had met someone poisoned.
+  sources:
+    - 'Keomany S et al. Toad poisoning in Laos. Am J Trop Med Hyg 2007 (abstract). https://doi.org/10.4269/ajtmh.2007.77.850'
+    - 'Trakulsrichai S et al. Toad poisoning: clinical characteristics and outcomes. Ther Clin Risk Manag 2020. https://doi.org/10.2147/TCRM.S272863'
+habitat: >-
+  Farmland, villages, towns, and forest edges.
+size: Up to about 20 cm long
+taxonomy:
+  note: >-
+    Formerly Bufo melanostictus, the name older reports use.
+  source: 'Bufo melanostictus, a synonym of Duttaphrynus melanostictus in the GBIF Backbone Taxonomy. https://www.gbif.org/species/search?q=Bufo%20melanostictus'
+regions:
+  - BD
+  - BT
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-GZ
+  - CN-HI
+  - CN-JX
+  - CN-YN
+  - CN-ZJ
+  - HK
+  - IN-AN
+  - IN-AP
+  - IN-AS
+  - IN-BR
+  - IN-CT
+  - IN-DL
+  - IN-GA
+  - IN-GJ
+  - IN-JH
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-ML
+  - IN-MP
+  - IN-OR
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-TR
+  - IN-UP
+  - IN-UT
+  - IN-WB
+  - KH
+  - LA
+  - LK
+  - MM
+  - MO
+  - MV
+  - MY
+  - NP
+  - PH
+  - PK
+  - SG
+  - TH
+  - TW
+  - VN
+introduced:
+  - BN
+  - ID
+  - TL

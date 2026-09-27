@@ -2461,6 +2461,101 @@
       "VIE": "native"
     }
   },
+  "charonia-lampas": {
+    "key": 5724924,
+    "name": "Charonia lampas",
+    "fetched": "2026-09-27",
+    "total": 2173,
+    "countries": {
+      "AU": 923,
+      "NZ": 465,
+      "ES": 225,
+      "PT": 181,
+      "ZA": 122,
+      "JP": 67,
+      "FR": 61,
+      "MA": 28,
+      "KR": 13,
+      "IT": 11,
+      "NC": 10,
+      "GB": 9,
+      "AO": 8,
+      "IE": 7,
+      "GA": 5,
+      "BR": 4,
+      "GG": 4,
+      "NA": 4,
+      "TW": 3,
+      "BE": 2,
+      "DZ": 2,
+      "GR": 2,
+      "MR": 2,
+      "MZ": 2,
+      "SN": 2,
+      "BJ": 1,
+      "CD": 1,
+      "CI": 1,
+      "CV": 1,
+      "GH": 1,
+      "NG": 1,
+      "PH": 1,
+      "TN": 1,
+      "US": 1
+    },
+    "subdivisions": {
+      "AU-NSW": 410,
+      "AU-WA": 43,
+      "JP-14": 26,
+      "ZA-EC": 26,
+      "ZA-WC": 15,
+      "AU-VIC": 14,
+      "AU-TAS": 14,
+      "JP-30": 9,
+      "AU-QLD": 7,
+      "ZA-NL": 7,
+      "JP-23": 6,
+      "AU-SA": 5,
+      "JP-24": 4,
+      "JP-08": 2,
+      "JP-39": 1,
+      "JP-22": 1,
+      "JP-06": 1,
+      "JP-12": 1
+    },
+    "unmapped": {
+      "GI": 2,
+      "AUS.4_1": 3
+    },
+    "checklist": {
+      "AU": [
+        "World Register of Marine Species"
+      ],
+      "CV": [
+        "World Register of Marine Species"
+      ],
+      "ES": [
+        "World Register of Marine Species"
+      ],
+      "MT": [
+        "World Register of Marine Species"
+      ],
+      "NC": [
+        "World Register of Marine Species"
+      ],
+      "NZ": [
+        "World Register of Marine Species"
+      ],
+      "PT": [
+        "World Register of Marine Species"
+      ]
+    },
+    "introduced": {
+      "BE": [
+        "Global Register of Introduced and Invasive Species - Belgium",
+        "Waarnemingen.be / observations.be - List of species observed in Belgium"
+      ]
+    }
+  },
   "chelonia-mydas": {
     "key": 2442225,
     "name": "Chelonia mydas",
@@ -4594,6 +4689,197 @@
       "record": 166839
     }
   },
+  "coturnix-coturnix": {
+    "key": 2474156,
+    "name": "Coturnix coturnix",
+    "fetched": "2026-09-27",
+    "total": 460930,
+    "countries": {
+      "ES": 93111,
+      "SE": 84080,
+      "FR": 61542,
+      "PT": 47449,
+      "ZA": 25759,
+      "NL": 25481,
+      "DK": 21157,
+      "NO": 16857,
+      "BE": 10018,
+      "DE": 7792,
+      "IL": 7141,
+      "GB": 6036,
+      "IT": 4759,
+      "BG": 3555,
+      "TR": 3360,
+      "UA": 3151,
+      "AT": 3095,
+      "RU": 3053,
+      "CZ": 2861,
+      "PL": 2644,
+      "IN": 2462,
+      "HU": 2070,
+      "AE": 1507,
+      "EE": 1473,
+      "CH": 1406,
+      "MA": 1386,
+      "GR": 1222,
+      "FI": 1083,
+      "SK": 985,
+      "GE": 984,
+      "CY": 774,
+      "EG": 758,
+      "HR": 651,
+      "LU": 607,
+      "KE": 560,
+      "KZ": 551,
+      "RO": 464,
+      "KW": 427,
+      "TZ": 411,
+      "IR": 379,
+      "RS": 372,
+      "AZ": 360,
+      "LT": 335,
+      "CV": 326,
+      "PS": 313,
+      "SI": 303,
+      "NA": 300,
+      "QA": 290,
+      "BY": 268,
+      "LS": 265,
+      "UG": 259,
+      "NP": 253,
+      "AM": 243,
+      "SA": 241,
+      "MG": 224,
+      "KG": 214,
+      "OM": 205,
+      "TN": 196,
+      "ET": 169,
+      "RE": 165,
+      "MW": 162,
+      "SN": 154,
+      "SZ": 151,
+      "MT": 149,
+      "CN": 127,
+      "BW": 124,
+      "PK": 115,
+      "MD": 112,
+      "JO": 110,
+      "DZ": 104,
+      "MK": 90,
+      "IE": 89,
+      "BA": 79,
+      "LB": 79,
+      "ZW": 70,
+      "AL": 69,
+      "UZ": 64,
+      "LV": 61,
+      "AF": 50,
+      "NG": 49,
+      "MN": 47,
+      "ME": 39,
+      "US": 39,
+      "MZ": 29,
+      "KM": 27,
+      "XK": 24,
+      "CD": 21,
+      "LY": 19,
+      "BH": 18,
+      "GM": 16,
+      "ZM": 16,
+      "SY": 15,
+      "MU": 14,
+      "IQ": 13,
+      "AD": 12,
+      "GH": 12,
+      "TD": 12,
+      "IM": 11,
+      "SD": 11,
+      "CO": 10,
+      "AX": 9,
+      "EH": 9,
+      "ER": 9,
+      "PH": 9,
+      "BD": 8,
+      "YE": 8,
+      "AO": 7,
+      "CA": 7,
+      "FO": 7,
+      "LK": 7,
+      "CM": 6,
+      "DJ": 6,
+      "LI": 4,
+      "RW": 4,
+      "SS": 4,
+      "TM": 4,
+      "VN": 4,
+      "BF": 3,
+      "BT": 3,
+      "GW": 3,
+      "IS": 3,
+      "JP": 3,
+      "KR": 3,
+      "MR": 3,
+      "MX": 3,
+      "NE": 3,
+      "BR": 2,
+      "GG": 2,
+      "SC": 2,
+      "TJ": 2,
+      "JE": 1,
+      "MV": 1,
+      "MY": 1,
+      "TH": 1
+    },
+    "subdivisions": {
+      "ZA-WC": 5790,
+      "ZA-NL": 5432,
+      "ZA-MP": 3988,
+      "ZA-FS": 3226,
+      "ZA-EC": 2765,
+      "IN-GJ": 1538,
+      "ZA-NC": 1258,
+      "ZA-GT": 1210,
+      "ZA-LP": 905,
+      "ZA-NW": 651,
+      "IN-RJ": 555,
+      "CN-XJ": 97,
+      "IN-UP": 82,
+      "IN-UT": 48,
+      "IN-WB": 48,
+      "IN-AS": 38,
+      "IN-HR": 30,
+      "IN-HP": 17,
+      "IN-MP": 17,
+      "US-CA": 17,
+      "IN-MH": 10,
+      "IN-BR": 10,
+      "CN-JX": 9,
+      "IN-PB": 9,
+      "IN-KA": 8,
+      "US-NE": 7,
+      "CN-GZ": 5,
+      "CN-YN": 4,
+      "US-OK": 4,
+      "IN-GA": 3,
+      "IN-TN": 3,
+      "US-FL": 3
+    },
+    "unmapped": {
+      "GI": 4
+    },
+    "checklist": {},
+    "introduced": {
+      "CO": [
+        "Global Register of Introduced and Invasive Species - Colombia"
+      ],
+      "EC": [
+        "GRIIS Checklist of Introduced and Invasive Species - Ecuador"
+      ],
+      "MU": [
+        "Global Register of Introduced and Invasive Species - Mauritius"
+      ]
+    }
+  },
   "datura-stramonium": {
     "key": 2928751,
     "name": "Datura stramonium",
@@ -5587,6 +5873,146 @@
       "WIS": "introduced",
       "WYO": "introduced",
       "ZIM": "introduced"
+    }
+  },
+  "duttaphrynus-melanostictus": {
+    "key": 2422538,
+    "name": "Duttaphrynus melanostictus",
+    "fetched": "2026-09-27",
+    "total": 69595,
+    "countries": {
+      "TW": 46211,
+      "IN": 4644,
+      "ID": 4010,
+      "TH": 3367,
+      "HK": 2875,
+      "CN": 2248,
+      "VN": 1246,
+      "SG": 1185,
+      "MY": 864,
+      "LK": 859,
+      "MM": 538,
+      "MO": 390,
+      "BD": 300,
+      "KH": 275,
+      "TL": 182,
+      "NP": 147,
+      "LA": 105,
+      "BN": 42,
+      "MV": 30,
+      "PK": 18,
+      "BT": 16,
+      "PH": 14,
+      "AU": 12,
+      "MG": 10,
+      "US": 2,
+      "BE": 1,
+      "JP": 1,
+      "KR": 1,
+      "ZA": 1
+    },
+    "subdivisions": {
+      "IN-KA": 864,
+      "CN-GD": 1366,
+      "IN-KL": 732,
+      "IN-TN": 680,
+      "IN-MH": 640,
+      "CN-FJ": 315,
+      "CN-HI": 315,
+      "IN-TG": 243,
+      "IN-WB": 233,
+      "IN-OR": 222,
+      "IN-AP": 219,
+      "CN-GX": 167,
+      "CN-YN": 156,
+      "IN-AS": 151,
+      "CN-ZJ": 88,
+      "IN-UT": 84,
+      "IN-GJ": 75,
+      "IN-MP": 64,
+      "IN-GA": 62,
+      "IN-AN": 53,
+      "IN-CT": 49,
+      "IN-RJ": 40,
+      "CN-JX": 36,
+      "IN-UP": 35,
+      "CN-GZ": 26,
+      "IN-DL": 26,
+      "IN-BR": 24,
+      "IN-ML": 19,
+      "IN-JH": 16,
+      "IN-TR": 15,
+      "IN-HP": 13,
+      "CN-HN": 12,
+      "AU-VIC": 9,
+      "IN-AR": 9,
+      "IN-HR": 5,
+      "IN-MN": 5,
+      "CN-HA": 3,
+      "IN-MZ": 3,
+      "IN-SK": 3,
+      "AU-NSW": 2,
+      "IN-NL": 2,
+      "AU-QLD": 1,
+      "CN-HB": 1,
+      "CN-SC": 1,
+      "CN-XZ": 1,
+      "CN-CQ": 1,
+      "IN-PB": 1,
+      "IN-DH": 1,
+      "US-FL": 1,
+      "US-NC": 1,
+      "ZA-NL": 1
+    },
+    "unmapped": {
+      "CX": 1,
+      "CHN.HKG": 2592,
+      "IND.27_1": 2
+    },
+    "checklist": {
+      "ZA": [
+        "South African National Species Checklist"
+      ]
+    },
+    "introduced": {
+      "AE": [
+        "Global Register of Introduced and Invasive Species - United Arab Emirates"
+      ],
+      "BE": [
+        "Checklist of alien herpetofauna of Belgium",
+        "Global Register of Introduced and Invasive Species - Belgium"
+      ],
+      "BN": [
+        "Global Register of Introduced and Invasive Species - Brunei Darussalam"
+      ],
+      "ES": [
+        "Catálogo Español de Especies Exóticas Invasoras. Relación de táxones correspondientes a las Islas Baleares",
+        "Catálogo Español de Especies Exóticas Invasoras. Relación de táxones correspondientes a las Islas Canarias",
+        "Catálogo Español de Especies Exóticas Invasoras. Relación de táxones correspondientes al territorio peninsular del Estado español",
+        "Checklist of Freshwater Non Native Species of Spain",
+        "Global Dataset of Freshwater Invasive and Alien Species"
+      ],
+      "ID": [
+        "Global Dataset of Freshwater Invasive and Alien Species"
+      ],
+      "JP": [
+        "Global Dataset of Freshwater Invasive and Alien Species"
+      ],
+      "MG": [
+        "Global Dataset of Freshwater Invasive and Alien Species",
+        "Global Register of Introduced and Invasive Species - Madagascar"
+      ],
+      "TL": [
+        "Global Dataset of Freshwater Invasive and Alien Species",
+        "Global Register of Introduced and Invasive Species - Timor-Leste"
+      ],
+      "US": [
+        "Global Dataset of Freshwater Invasive and Alien Species"
+      ],
+      "ZA": [
+        "Global Dataset of Freshwater Invasive and Alien Species",
+        "List of Alien Species in South Africa 2025"
+      ]
     }
   },
   "eretmochelys-imbricata": {

@@ -1,0 +1,121 @@
+name: Common quail
+scientificName: Coturnix coturnix
+group: other
+danger: 2
+summary: >-
+  A small migratory game bird. Eating its meat, especially in autumn migration, can break down
+  muscle, a poisoning known since antiquity as coturnism.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Yeung KA, Chai PR, Russell BL, Erickson TB. Avian toxins and poisoning mechanisms. J Med Toxicol 2022. https://doi.org/10.1007/s13181-022-00891-6'
+toxicParts:
+  text: >-
+    The meat, mainly of European migratory quail in the autumn migration season.
+  sources:
+    - 'Yeung KA, Chai PR, Russell BL, Erickson TB. Avian toxins and poisoning mechanisms. J Med Toxicol 2022. https://doi.org/10.1007/s13181-022-00891-6'
+toxins:
+  text: >-
+    Not proven; thought to be alkaloids such as coniine from seeds the birds eat, like those of
+    poison hemlock.
+  sources:
+    - 'Yeung KA, Chai PR, Russell BL, Erickson TB. Avian toxins and poisoning mechanisms. J Med Toxicol 2022. https://doi.org/10.1007/s13181-022-00891-6'
+symptoms:
+  text: >-
+    Weakness, muscle pain, stiffness, and cramps, with nausea, vomiting, and dark urine as muscle
+    breaks down (rhabdomyolysis). Severe cases can need dialysis for kidney failure.
+  sources:
+    - 'Yeung KA, Chai PR, Russell BL, Erickson TB. Avian toxins and poisoning mechanisms. J Med Toxicol 2022. https://doi.org/10.1007/s13181-022-00891-6'
+onset:
+  text: >-
+    In one case, about 4 hours after eating quail.
+  sources:
+    - 'Yeung KA, Chai PR, Russell BL, Erickson TB. Avian toxins and poisoning mechanisms. J Med Toxicol 2022. https://doi.org/10.1007/s13181-022-00891-6'
+atRisk:
+  text: >-
+    People who eat wild quail, especially during the autumn migration.
+  sources:
+    - 'Yeung KA, Chai PR, Russell BL, Erickson TB. Avian toxins and poisoning mechanisms. J Med Toxicol 2022. https://doi.org/10.1007/s13181-022-00891-6'
+habitat: >-
+  Grassland, farmland, and open country.
+size: 16 to 18 cm long
+regions:
+  - AE
+  - AM
+  - AT
+  - AZ
+  - BE
+  - BG
+  - BW
+  - BY
+  - CH
+  - CN-XJ
+  - CV
+  - CY
+  - CZ
+  - DE
+  - DK
+  - DZ
+  - EE
+  - EG
+  - ES
+  - ET
+  - FI
+  - FR
+  - GB
+  - GE
+  - GR
+  - HR
+  - HU
+  - IL
+  - IN-GJ
+  - IN-RJ
+  - IR
+  - IT
+  - JO
+  - KE
+  - KG
+  - KW
+  - KZ
+  - LS
+  - LT
+  - LU
+  - MA
+  - MD
+  - MG
+  - MT
+  - MW
+  - NA
+  - NL
+  - NO
+  - NP
+  - OM
+  - PK
+  - PL
+  - PS
+  - PT
+  - QA
+  - RE
+  - RO
+  - RS
+  - RU
+  - SA
+  - SE
+  - SI
+  - SK
+  - SN
+  - SZ
+  - TN
+  - TR
+  - TZ
+  - UA
+  - UG
+  - ZA-EC
+  - ZA-FS
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZA-NW
+  - ZA-WC

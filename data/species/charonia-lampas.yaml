@@ -1,0 +1,100 @@
+name: Trumpet shell
+scientificName: Charonia lampas
+group: other
+danger: 3
+summary: >-
+  A large sea snail of the eastern Atlantic and Mediterranean, sold in fish markets. It caused
+  Europe’s first known case of tetrodotoxin food poisoning.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Costa PR et al. High levels of tetrodotoxin (TTX) in trumpet shell Charonia lampas from the Portuguese coast. Toxins 2021. https://doi.org/10.3390/toxins13040250'
+    - 'Lage S et al. Tissue accumulation of tetrodotoxin (TTX) and analogues in trumpet shell Charonia lampas. Food Addit Contam A 2023 (abstract). https://doi.org/10.1080/19440049.2022.2148756'
+toxicParts:
+  text: >-
+    The toxin was concentrated in the viscera, which the Spanish patient ate along with the
+    muscle.
+  sources:
+    - 'Costa PR et al. High levels of tetrodotoxin (TTX) in trumpet shell Charonia lampas from the Portuguese coast. Toxins 2021. https://doi.org/10.3390/toxins13040250'
+    - 'Lage S et al. Tissue accumulation of tetrodotoxin (TTX) and analogues in trumpet shell Charonia lampas. Food Addit Contam A 2023 (abstract). https://doi.org/10.1080/19440049.2022.2148756'
+toxins:
+  text: >-
+    Tetrodotoxin, the pufferfish poison, which blocks nerve signals.
+  sources:
+    - 'Costa PR et al. High levels of tetrodotoxin (TTX) in trumpet shell Charonia lampas from the Portuguese coast. Toxins 2021. https://doi.org/10.3390/toxins13040250'
+    - 'Lage S et al. Tissue accumulation of tetrodotoxin (TTX) and analogues in trumpet shell Charonia lampas. Food Addit Contam A 2023 (abstract). https://doi.org/10.1080/19440049.2022.2148756'
+symptoms:
+  text: >-
+    Numbness of the mouth and arms, stomach pain, nausea, and vomiting, then paralysis that
+    reached the breathing muscles.
+  sources:
+    - 'Costa PR et al. High levels of tetrodotoxin (TTX) in trumpet shell Charonia lampas from the Portuguese coast. Toxins 2021. https://doi.org/10.3390/toxins13040250'
+onset:
+  text: >-
+    Within minutes of eating it.
+  sources:
+    - 'Costa PR et al. High levels of tetrodotoxin (TTX) in trumpet shell Charonia lampas from the Portuguese coast. Toxins 2021. https://doi.org/10.3390/toxins13040250'
+atRisk:
+  text: >-
+    People who buy and eat trumpet shells: the 2007 case was a man in Spain who ate one from a
+    market.
+  sources:
+    - 'Costa PR et al. High levels of tetrodotoxin (TTX) in trumpet shell Charonia lampas from the Portuguese coast. Toxins 2021. https://doi.org/10.3390/toxins13040250'
+    - 'Lage S et al. Tissue accumulation of tetrodotoxin (TTX) and analogues in trumpet shell Charonia lampas. Food Addit Contam A 2023 (abstract). https://doi.org/10.1080/19440049.2022.2148756'
+habitat: >-
+  Rocky seabeds and reefs.
+aquatic: marine
+regions:
+  - AO
+  - AU-NSW
+  - AU-QLD
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
+  - AU-WA
+  - BJ
+  - BR-RJ
+  - CD
+  - CV
+  - DZ
+  - ES
+  - FR
+  - GA
+  - GB
+  - GG
+  - GH
+  - GR
+  - IE
+  - IT
+  - JP-08
+  - JP-12
+  - JP-14
+  - JP-22
+  - JP-23
+  - JP-24
+  - JP-26
+  - JP-27
+  - JP-28
+  - JP-30
+  - JP-39
+  - JP-45
+  - KR
+  - MA
+  - MR
+  - MT
+  - MZ
+  - NA
+  - NC
+  - NG
+  - NZ
+  - PH
+  - PT
+  - SN
+  - TN
+  - TW
+  - US-FL
+  - ZA-EC
+  - ZA-NL
+  - ZA-WC
+introduced:
+  - BE
