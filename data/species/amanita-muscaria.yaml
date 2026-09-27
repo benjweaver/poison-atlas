@@ -1,0 +1,65 @@
+name: Fly agaric
+scientificName: Amanita muscaria
+group: fungus
+danger: 3
+summary: >-
+  The red, white-spotted toadstool of fairy tales. Its poisons cause confusion and delirium, and
+  people eat it both by mistake and for its effects.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+toxicParts:
+  text: >-
+    The whole mushroom; the cap holds more of the active compounds than the stem.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+toxins:
+  text: >-
+    Ibotenic acid and muscimol, which act on the brain’s glutamate and GABA signals. It contains
+    only traces of muscarine, despite the name.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+symptoms:
+  text: >-
+    Nausea, vomiting, and diarrhea, then confusion, dizziness, muscle jerks, distorted senses,
+    wide pupils, and drowsiness. Only one death has been attributed to it.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+onset:
+  text: >-
+    Within 30 minutes to 3 hours; the altered state lasts about 8 hours.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+atRisk:
+  text: >-
+    People who eat it for its effects, a large share of poisonings, and people who mistake it for
+    an edible mushroom.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+habitat: >-
+  Woods and parkland under birch, pine, and spruce.
+regions:
+  - GB
+gbif:
+  include:
+    - code: AR
+      introduced: true
+      reason: 'native to the Northern Hemisphere; introduced with pine plantations in the south'
+      source: 'Nickles GR et al. Equipped for success: genomes and metabolomes of the European Amanita muscaria are conserved in its novel South African range. New Phytol 2026. https://doi.org/10.1111/nph.71064'
+    - code: BR-RS
+      introduced: true
+      reason: 'native to the Northern Hemisphere; introduced with pine plantations in the south'
+      source: 'Nickles GR et al. Equipped for success: genomes and metabolomes of the European Amanita muscaria are conserved in its novel South African range. New Phytol 2026. https://doi.org/10.1111/nph.71064'
+    - code: CO
+      introduced: true
+      reason: 'native to the Northern Hemisphere; introduced with pine plantations in the south'
+      source: 'Nickles GR et al. Equipped for success: genomes and metabolomes of the European Amanita muscaria are conserved in its novel South African range. New Phytol 2026. https://doi.org/10.1111/nph.71064'
+    - code: NZ
+      introduced: true
+      reason: 'native to the Northern Hemisphere; introduced with pine plantations in the south'
+      source: 'Nickles GR et al. Equipped for success: genomes and metabolomes of the European Amanita muscaria are conserved in its novel South African range. New Phytol 2026. https://doi.org/10.1111/nph.71064'
+    - code: ZA-WC
+      introduced: true
+      reason: 'native to the Northern Hemisphere; introduced with pine plantations in the south'
+      source: 'Nickles GR et al. Equipped for success: genomes and metabolomes of the European Amanita muscaria are conserved in its novel South African range. New Phytol 2026. https://doi.org/10.1111/nph.71064'

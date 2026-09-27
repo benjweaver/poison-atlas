@@ -1,0 +1,60 @@
+name: Western destroying angel
+scientificName: Amanita ocreata
+group: fungus
+danger: 5
+summary: >-
+  An amanita native to California, and as deadly as the death cap. Families foraging in parks and
+  forests have been poisoned by it.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Brandecker et al. Amanita species mushroom poisonings: Northern California, November 2025–March 2026. MMWR 2026. https://doi.org/10.15585/mmwr.mm7520a2'
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Brandecker et al. Amanita species mushroom poisonings: Northern California, November 2025–March 2026. MMWR 2026. https://doi.org/10.15585/mmwr.mm7520a2'
+toxins:
+  text: >-
+    Amatoxins (amanitins), which stop cells making proteins and destroy the liver. Cooking,
+    freezing doesn’t destroy them.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Beaumier M et al. Mushroom poisoning presenting with acute kidney injury and elevated transaminases. Kidney Int Rep 2019. https://doi.org/10.1016/j.ekir.2019.02.016'
+    - 'Brandecker et al. Amanita species mushroom poisonings: Northern California, November 2025–March 2026. MMWR 2026. https://doi.org/10.15585/mmwr.mm7520a2'
+symptoms:
+  text: >-
+    Severe vomiting, diarrhea, and stomach pain; then a day or two when the person may seem to
+    recover while the liver is failing; then liver and kidney failure, clotting failure, coma, and
+    death. Some survivors need a liver transplant.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+    - 'Brandecker et al. Amanita species mushroom poisonings: Northern California, November 2025–March 2026. MMWR 2026. https://doi.org/10.15585/mmwr.mm7520a2'
+onset:
+  text: >-
+    Delayed: in a family poisoned in 2025, 8 to 12 hours after eating. Amatoxin poisoning kills 10
+    to 20% of patients even with treatment.
+  delayed: true
+  sources:
+    - 'Brandecker et al. Amanita species mushroom poisonings: Northern California, November 2025–March 2026. MMWR 2026. https://doi.org/10.15585/mmwr.mm7520a2'
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+atRisk:
+  text: >-
+    Foragers, above all those who know similar-looking edible mushrooms from other countries. It
+    grows in urban parks and coastal oak woodland, fruiting mostly from October to April.
+  sources:
+    - 'Brandecker et al. Amanita species mushroom poisonings: Northern California, November 2025–March 2026. MMWR 2026. https://doi.org/10.15585/mmwr.mm7520a2'
+lookalikes:
+  - name: Death cap
+    scientificName: Amanita phalloides
+    note: >-
+      The two deadly amanitas share California’s parks and oak woodland, and the same poison.
+    sources:
+      - 'Brandecker et al. Amanita species mushroom poisonings: Northern California, November 2025–March 2026. MMWR 2026. https://doi.org/10.15585/mmwr.mm7520a2'
+habitat: >-
+  Oak woodland, especially coast live oak, and urban parks.
+regions:
+  - US-CA

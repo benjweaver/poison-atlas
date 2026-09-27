@@ -1,0 +1,51 @@
+name: Deadly dapperling
+scientificName: Lepiota brunneoincarnata
+group: fungus
+danger: 5
+summary: >-
+  A small mushroom that holds the same deadly toxins as the death cap, and a major cause of fatal
+  mushroom poisoning in China.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Fu D et al. Rapid identification of Lepiota brunneoincarnata in China with loop-mediated isothermal amplification. Front Cell Infect Microbiol 2026 (abstract). https://doi.org/10.3389/fcimb.2026.1809128'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+toxins:
+  text: >-
+    Amatoxins (amanitins), which stop cells making proteins and destroy the liver. Cooking,
+    freezing doesn’t destroy them.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Beaumier M et al. Mushroom poisoning presenting with acute kidney injury and elevated transaminases. Kidney Int Rep 2019. https://doi.org/10.1016/j.ekir.2019.02.016'
+symptoms:
+  text: >-
+    Severe vomiting, diarrhea, and stomach pain; then a day or two when the person may seem to
+    recover while the liver is failing; then liver and kidney failure, clotting failure, coma, and
+    death. Some survivors need a liver transplant.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+onset:
+  text: >-
+    Delayed: first symptoms 6 to 24 hours after eating, with deaths usually 4 to 7 days after. By
+    the time people feel ill, the toxin has already been absorbed.
+  delayed: true
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+atRisk:
+  text: >-
+    Foragers: it looks much like edible mushrooms and is hard to tell apart by eye. It is
+    widespread in China and behind frequent poisonings there.
+  sources:
+    - 'Fu D et al. Rapid identification of Lepiota brunneoincarnata in China with loop-mediated isothermal amplification. Front Cell Infect Microbiol 2026 (abstract). https://doi.org/10.3389/fcimb.2026.1809128'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+habitat: >-
+  Grassy places, gardens, and woodland edges.
+regions:
+  - FR

@@ -1,0 +1,55 @@
+name: Brown roll-rim
+scientificName: Paxillus involutus
+group: fungus
+danger: 4
+summary: >-
+  A common mushroom of the Northern Hemisphere, once widely eaten. After many meals without
+  trouble, it can suddenly trigger an immune reaction that destroys red blood cells.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Stöver A et al. Fatal immunohaemolysis after the consumption of the poison pax mushroom: a focus on the diagnosis of the Paxillus syndrome with the aid of two case reports. Diagnostics 2019. https://doi.org/10.3390/diagnostics9040130'
+toxicParts:
+  text: >-
+    The whole mushroom. It upsets the stomach when raw or undercooked, and has done so even when
+    cooked.
+  sources:
+    - 'Stöver A et al. Fatal immunohaemolysis after the consumption of the poison pax mushroom: a focus on the diagnosis of the Paxillus syndrome with the aid of two case reports. Diagnostics 2019. https://doi.org/10.3390/diagnostics9040130'
+toxins:
+  text: >-
+    No toxin has been identified. The dangerous reaction, the Paxillus syndrome, is the body’s
+    immune system attacking its own red blood cells.
+  sources:
+    - 'Stöver A et al. Fatal immunohaemolysis after the consumption of the poison pax mushroom: a focus on the diagnosis of the Paxillus syndrome with the aid of two case reports. Diagnostics 2019. https://doi.org/10.3390/diagnostics9040130'
+symptoms:
+  text: >-
+    Vomiting and diarrhea, then, in the Paxillus syndrome, red blood cells breaking down,
+    circulatory collapse, and organ failure. Deaths are rare but recorded.
+  sources:
+    - 'Stöver A et al. Fatal immunohaemolysis after the consumption of the poison pax mushroom: a focus on the diagnosis of the Paxillus syndrome with the aid of two case reports. Diagnostics 2019. https://doi.org/10.3390/diagnostics9040130'
+onset:
+  text: >-
+    In two fatal cases, 2 to 3 hours after the last meal of it.
+  sources:
+    - 'Stöver A et al. Fatal immunohaemolysis after the consumption of the poison pax mushroom: a focus on the diagnosis of the Paxillus syndrome with the aid of two case reports. Diagnostics 2019. https://doi.org/10.3390/diagnostics9040130'
+atRisk:
+  text: >-
+    People who still eat it, often having done so many times before without harm. Usually only one
+    person at a shared meal develops the immune reaction.
+  sources:
+    - 'Stöver A et al. Fatal immunohaemolysis after the consumption of the poison pax mushroom: a focus on the diagnosis of the Paxillus syndrome with the aid of two case reports. Diagnostics 2019. https://doi.org/10.3390/diagnostics9040130'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+habitat: >-
+  Woods, parks, and grassy places, usually near trees.
+regions:
+  - DE
+gbif:
+  include:
+    - code: AU-VIC
+      introduced: true
+      reason: 'native to the Northern Hemisphere; introduced elsewhere'
+      source: 'Stöver A et al. Fatal immunohaemolysis after the consumption of the poison pax mushroom: a focus on the diagnosis of the Paxillus syndrome with the aid of two case reports. Diagnostics 2019. https://doi.org/10.3390/diagnostics9040130'
+    - code: NZ
+      introduced: true
+      reason: 'native to the Northern Hemisphere; introduced elsewhere'
+      source: 'Stöver A et al. Fatal immunohaemolysis after the consumption of the poison pax mushroom: a focus on the diagnosis of the Paxillus syndrome with the aid of two case reports. Diagnostics 2019. https://doi.org/10.3390/diagnostics9040130'

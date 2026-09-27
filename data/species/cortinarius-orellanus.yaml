@@ -1,0 +1,49 @@
+name: Fool’s webcap
+scientificName: Cortinarius orellanus
+group: fungus
+danger: 4
+summary: >-
+  A webcap of European and North American woods whose poison destroys the kidneys, often days or
+  weeks after the meal.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+toxins:
+  text: >-
+    Orellanine, which damages the kidneys. There is no antidote.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+symptoms:
+  text: >-
+    Nausea, vomiting, diarrhea, stomach pain, great thirst, and headache, then kidney failure.
+    Some recover; others are left with kidney failure needing a transplant, and some die. Eating
+    about 6 mushrooms has been enough to need dialysis.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+onset:
+  text: >-
+    Very delayed: 2 to 4 days, and up to 14 days, after eating, so people sometimes eat the same
+    mushrooms again before they fall ill.
+  delayed: true
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
+atRisk:
+  text: >-
+    Foragers, some of whom have mistaken it for hallucinogenic mushrooms. Reported cases include
+    27 deaths and 17 kidney transplants.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+habitat: >-
+  Broadleaf woods, especially with oak and birch, on acid soils.
+regions:
+  - FR

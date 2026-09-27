@@ -1,0 +1,57 @@
+name: Blackening brittlegill
+scientificName: Russula subnigricans
+group: fungus
+danger: 4
+summary: >-
+  A brittlegill of East Asia that breaks down muscle. With the deadly amanitas, it is the leading
+  cause of mushroom-poisoning deaths in China.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Wu L et al. Clinical characteristics in Russula subnigricans poisoning: a retrospective study of 103 cases. Front Toxicol 2026. https://doi.org/10.3389/ftox.2026.1815129'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Wu L et al. Clinical characteristics in Russula subnigricans poisoning: a retrospective study of 103 cases. Front Toxicol 2026. https://doi.org/10.3389/ftox.2026.1815129'
+toxins:
+  text: >-
+    Its toxin breaks down muscle (rhabdomyolysis) and injures the heart and liver; how it works is
+    not yet clear, and there is no antidote.
+  sources:
+    - 'Wu L et al. Clinical characteristics in Russula subnigricans poisoning: a retrospective study of 103 cases. Front Toxicol 2026. https://doi.org/10.3389/ftox.2026.1815129'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+symptoms:
+  text: >-
+    Nausea and vomiting, then aching muscles and weakness as muscle breaks down, with damage to
+    the liver and heart. In one hospital’s 103 patients, about 1 in 9 died.
+  sources:
+    - 'Wu L et al. Clinical characteristics in Russula subnigricans poisoning: a retrospective study of 103 cases. Front Toxicol 2026. https://doi.org/10.3389/ftox.2026.1815129'
+onset:
+  text: >-
+    Usually within 6 hours (a median of about 2.4 hours), though in a few only after a day.
+  sources:
+    - 'Wu L et al. Clinical characteristics in Russula subnigricans poisoning: a retrospective study of 103 cases. Front Toxicol 2026. https://doi.org/10.3389/ftox.2026.1815129'
+atRisk:
+  text: >-
+    People who pick their own mushrooms, mainly in Yunnan and elsewhere in southern China, Japan,
+    and Korea.
+  sources:
+    - 'Wu L et al. Clinical characteristics in Russula subnigricans poisoning: a retrospective study of 103 cases. Front Toxicol 2026. https://doi.org/10.3389/ftox.2026.1815129'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+habitat: >-
+  Broadleaf and mixed forest.
+regions:
+  - CN-YN
+gbif:
+  include:
+    - code: CN-YN
+      reason: 'found in Yunnan, Hunan, and Zhejiang in 2022 poisoning investigations'
+      source: 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+    - code: CN-HN
+      reason: 'found in Yunnan, Hunan, and Zhejiang in 2022 poisoning investigations'
+      source: 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+    - code: CN-ZJ
+      reason: 'found in Yunnan, Hunan, and Zhejiang in 2022 poisoning investigations'
+      source: 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'

@@ -1,0 +1,43 @@
+name: Green-spored parasol
+scientificName: Chlorophyllum molybdites
+group: fungus
+danger: 2
+summary: >-
+  The mushroom behind more poisonings in China than any other, and the one that most often causes
+  vomiting and diarrhea.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+toxins:
+  text: >-
+    Gut irritants.
+  sources:
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+symptoms:
+  text: >-
+    Stomach pain, nausea, vomiting, and diarrhea.
+  sources:
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+onset:
+  text: >-
+    Within 1 to 3 hours.
+  sources:
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+atRisk:
+  text: >-
+    People who pick wild mushrooms. In China in 2022 it was found in 16 provinces and poisoned 257
+    people in 114 incidents.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+habitat: >-
+  Lawns, parks, pastures, and roadsides.
+regions:
+  - US-FL

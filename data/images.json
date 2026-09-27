@@ -19,6 +19,20 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
+  "amanita-muscaria": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Amanita_muscaria_Aberystwyth_2023.jpg/960px-Amanita_muscaria_Aberystwyth_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Amanita_muscaria_Aberystwyth_2023.jpg",
+    "artist": "Kieran Roy Powell",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "amanita-ocreata": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Amanita_ocreata_79782.jpg/960px-Amanita_ocreata_79782.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Amanita_ocreata_79782.jpg",
+    "artist": "This image was created by user Ryane Snow (snowman) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "amanita-phalloides": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Amanita_phalloides_1.JPG/960px-Amanita_phalloides_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_1.JPG",
@@ -54,6 +68,13 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
+  "chlorophyllum-molybdites": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Chlorophyllum_molybdites_Guadalajara.jpg/960px-Chlorophyllum_molybdites_Guadalajara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites_Guadalajara.jpg",
+    "artist": "Alan Rockefeller",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "cicuta-maculata": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cicuta_maculata.jpg/960px-Cicuta_maculata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Cicuta_maculata.jpg",
@@ -84,6 +105,13 @@
     "artist": "Ivar Leidus",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cortinarius-orellanus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Corellanus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Corellanus.jpg",
+    "artist": "The original uploader was Michaelll at English Wikipedia.",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
   },
   "cortinarius-rubellus": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cortinarius_rubellus_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -168,6 +196,13 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
   },
+  "lepiota-brunneoincarnata": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Lepiota_brunneoincarnata_060823w.jpg/960px-Lepiota_brunneoincarnata_060823w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lepiota_brunneoincarnata_060823w.jpg",
+    "artist": "User:Strobilomyces",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
   "lytta-vesicatoria": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Lytta-vesicatoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Lytta-vesicatoria.jpg",
@@ -196,6 +231,13 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "paxillus-involutus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Navadne_podvihanke_%28Paxillus_involutus%29.jpg/960px-Navadne_podvihanke_%28Paxillus_involutus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Navadne_podvihanke_(Paxillus_involutus).jpg",
+    "artist": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "phytolacca-americana": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Pokeweed_bush_in_Northumberland_County%2C_Pennsylvania.JPG/960px-Pokeweed_bush_in_Northumberland_County%2C_Pennsylvania.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Pokeweed_bush_in_Northumberland_County,_Pennsylvania.JPG",
@@ -209,6 +251,13 @@
     "artist": "Alvesgaspar",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "russula-subnigricans": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Russula_subnigricans.jpg/960px-Russula_subnigricans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Russula_subnigricans.jpg",
+    "artist": "中距離快速",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
   "taricha-granulosa": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Taricha_granulosa_%28Rough-skinned_newt%29.JPG/960px-Taricha_granulosa_%28Rough-skinned_newt%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
