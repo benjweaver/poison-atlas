@@ -1,0 +1,55 @@
+name: Amanita fuligineoides
+scientificName: Amanita fuligineoides
+group: fungus
+danger: 5
+summary: >-
+  A lethal amanita of southern China, described from Hunan and known from Yunnan and Fujian.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2021. China CDC Weekly 2022. https://europepmc.org/article/PMC/PMC8796718'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2021. China CDC Weekly 2022. https://europepmc.org/article/PMC/PMC8796718'
+toxins:
+  text: >-
+    Amatoxins (amanitins), which stop cells making proteins and destroy the liver. Cooking and
+    freezing don’t destroy them.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Beaumier M et al. Mushroom poisoning presenting with acute kidney injury and elevated transaminases. Kidney Int Rep 2019. https://doi.org/10.1016/j.ekir.2019.02.016'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2021. China CDC Weekly 2022. https://europepmc.org/article/PMC/PMC8796718'
+symptoms:
+  text: >-
+    Severe vomiting, diarrhea, and stomach pain; then a day or two when the person may seem to
+    recover while the liver is failing; then liver and kidney failure, clotting failure, coma, and
+    death. Some survivors need a liver transplant.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2021. China CDC Weekly 2022. https://europepmc.org/article/PMC/PMC8796718'
+onset:
+  text: >-
+    Delayed: first symptoms 6 to 24 hours after eating, with deaths usually 4 to 7 days after. By
+    the time people feel ill, the toxin has already been absorbed.
+  delayed: true
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+atRisk:
+  text: >-
+    People who pick wild mushrooms: five people in Fujian were poisoned by it in June 2021.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2021. China CDC Weekly 2022. https://europepmc.org/article/PMC/PMC8796718'
+photo: none
+habitat: >-
+  Broadleaf and mixed forest.
+regions:
+  - CN-FJ
+  - CN-HN
+  - CN-YN
+gbif:
+  manual: true
+  source: 'Li H et al. Mushroom poisoning outbreaks: China, 2021. China CDC Weekly 2022. https://europepmc.org/article/PMC/PMC8796718'
