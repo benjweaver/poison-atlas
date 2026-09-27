@@ -40,6 +40,19 @@ atRisk:
   sources:
     - 'Wu L et al. Clinical characteristics in Russula subnigricans poisoning: a retrospective study of 103 cases. Front Toxicol 2026. https://doi.org/10.3389/ftox.2026.1815129'
     - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+lookalikes:
+  - name: Crowded brittlegill
+    scientificName: Russula densifolia
+    note: >-
+      It resembles this edible brittlegill, and is a leading cause of fatal mushroom poisoning in Hunan.
+    sources:
+      - 'Wu S et al. Mushroom poisoning deaths and prevention practices in Hunan, 2014–2023. PLoS One 2025. https://doi.org/10.1371/journal.pone.0326107'
+  - name: Greencracked brittlegill
+    scientificName: Russula virescens
+    note: >-
+      It resembles this edible brittlegill, and is a leading cause of fatal mushroom poisoning in Hunan.
+    sources:
+      - 'Wu S et al. Mushroom poisoning deaths and prevention practices in Hunan, 2014–2023. PLoS One 2025. https://doi.org/10.1371/journal.pone.0326107'
 habitat: >-
   Broadleaf and mixed forest.
 regions:

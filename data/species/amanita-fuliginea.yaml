@@ -1,0 +1,69 @@
+name: Amanita fuliginea
+scientificName: Amanita fuliginea
+group: fungus
+danger: 5
+summary: >-
+  A grey-brown amanita of East Asia with deadly amatoxins, and a leading cause of mushroom deaths
+  in Hunan, China. It looks like the edible termite mushrooms.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Wu S et al. Mushroom poisoning deaths and prevention practices in Hunan, 2014–2023. PLoS One 2025. https://doi.org/10.1371/journal.pone.0326107'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2019. China CDC Weekly 2020. https://europepmc.org/article/PMC/PMC8392910'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Wu S et al. Mushroom poisoning deaths and prevention practices in Hunan, 2014–2023. PLoS One 2025. https://doi.org/10.1371/journal.pone.0326107'
+toxins:
+  text: >-
+    Amatoxins (amanitins), which stop cells making proteins and destroy the liver. Cooking and
+    freezing don’t destroy them.
+  sources:
+    - 'Wu S et al. Mushroom poisoning deaths and prevention practices in Hunan, 2014–2023. PLoS One 2025. https://doi.org/10.1371/journal.pone.0326107'
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Beaumier M et al. Mushroom poisoning presenting with acute kidney injury and elevated transaminases. Kidney Int Rep 2019. https://doi.org/10.1016/j.ekir.2019.02.016'
+symptoms:
+  text: >-
+    Severe vomiting, diarrhea, and stomach pain; then a day or two when the person may seem to
+    recover while the liver is failing; then liver and kidney failure, clotting failure, coma, and
+    death. Some survivors need a liver transplant.
+  sources:
+    - 'Wu S et al. Mushroom poisoning deaths and prevention practices in Hunan, 2014–2023. PLoS One 2025. https://doi.org/10.1371/journal.pone.0326107'
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+onset:
+  text: >-
+    Delayed: first symptoms 6 to 24 hours after eating, with deaths usually 4 to 7 days after. By
+    the time people feel ill, the toxin has already been absorbed.
+  delayed: true
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+atRisk:
+  text: >-
+    Rural households, and older people most of all, who pick and eat wild mushrooms. In Hunan from
+    2014 to 2023 it caused 18 fatal poisoning incidents, most in June.
+  sources:
+    - 'Wu S et al. Mushroom poisoning deaths and prevention practices in Hunan, 2014–2023. PLoS One 2025. https://doi.org/10.1371/journal.pone.0326107'
+lookalikes:
+  - name: Termite mushroom
+    scientificName: Termitomyces
+    note: >-
+      It closely resembles the edible Termitomyces mushrooms.
+    sources:
+      - 'Wu S et al. Mushroom poisoning deaths and prevention practices in Hunan, 2014–2023. PLoS One 2025. https://doi.org/10.1371/journal.pone.0326107'
+habitat: >-
+  Broadleaf and mixed forest.
+regions:
+  - CN-HN
+  - JP-08
+  - JP-12
+  - JP-14
+  - KR
+  - TW
+gbif:
+  include:
+    - code: CN-HN
+      reason: 'caused 18 fatal poisonings in Hunan in 2014–2023'
+      source: 'Wu S et al. Mushroom poisoning deaths and prevention practices in Hunan, 2014–2023. PLoS One 2025. https://doi.org/10.1371/journal.pone.0326107'

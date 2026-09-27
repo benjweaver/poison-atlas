@@ -19,6 +19,13 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
+  "amanita-fuliginea": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Amanita_fuliginea_Hongo_803897.jpg/960px-Amanita_fuliginea_Hongo_803897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Amanita_fuliginea_Hongo_803897.jpg",
+    "artist": "This image was created by user lxjfx at Mushroom Observer, a source for mycological images.You can contact this user here.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "amanita-muscaria": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Amanita_muscaria_Aberystwyth_2023.jpg/960px-Amanita_muscaria_Aberystwyth_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Amanita_muscaria_Aberystwyth_2023.jpg",
@@ -339,6 +346,13 @@
     "artist": "User:Strobilomyces",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "lepiota-subincarnata": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Lepiota_subincarnata_117620.jpg/960px-Lepiota_subincarnata_117620.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lepiota_subincarnata_117620.jpg",
+    "artist": "Britney (Riverdweller)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   "lytta-vesicatoria": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Lytta-vesicatoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",

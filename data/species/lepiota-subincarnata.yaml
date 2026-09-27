@@ -1,0 +1,72 @@
+name: Fatal dapperling
+scientificName: Lepiota subincarnata
+group: fungus
+danger: 5
+summary: >-
+  A small pinkish-scaled Lepiota with the same amatoxins as the death cap. A woman who ate a meal
+  of it needed a liver transplant.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Mottram AR, Lazio MP, Bryant SM. Lepiota subincarnata J.E. Lange induced fulminant hepatic failure presenting with pancreatitis. J Med Toxicol 2010 (abstract). https://doi.org/10.1007/s13181-010-0062-1'
+    - 'Sarawi S et al. Occurrence and chemotaxonomical analysis of amatoxins in Lepiota spp. (Agaricales). Phytochemistry 2022 (abstract). https://doi.org/10.1016/j.phytochem.2021.113069'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Sarawi S et al. Occurrence and chemotaxonomical analysis of amatoxins in Lepiota spp. (Agaricales). Phytochemistry 2022 (abstract). https://doi.org/10.1016/j.phytochem.2021.113069'
+toxins:
+  text: >-
+    α- and γ-amanitin, the amatoxins that destroy the liver.
+  sources:
+    - 'Sarawi S et al. Occurrence and chemotaxonomical analysis of amatoxins in Lepiota spp. (Agaricales). Phytochemistry 2022 (abstract). https://doi.org/10.1016/j.phytochem.2021.113069'
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+symptoms:
+  text: >-
+    Weakness, dizziness, nausea, and diarrhea, then acidosis, pancreatitis, and liver failure,
+    with kidney injury.
+  sources:
+    - 'Mottram AR, Lazio MP, Bryant SM. Lepiota subincarnata J.E. Lange induced fulminant hepatic failure presenting with pancreatitis. J Med Toxicol 2010 (abstract). https://doi.org/10.1007/s13181-010-0062-1'
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+onset:
+  text: >-
+    Delayed: in one case, 36 hours after eating it.
+  delayed: true
+  sources:
+    - 'Mottram AR, Lazio MP, Bryant SM. Lepiota subincarnata J.E. Lange induced fulminant hepatic failure presenting with pancreatitis. J Med Toxicol 2010 (abstract). https://doi.org/10.1007/s13181-010-0062-1'
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+atRisk:
+  text: >-
+    Foragers who cook and eat small wild mushrooms.
+  sources:
+    - 'Mottram AR, Lazio MP, Bryant SM. Lepiota subincarnata J.E. Lange induced fulminant hepatic failure presenting with pancreatitis. J Med Toxicol 2010 (abstract). https://doi.org/10.1007/s13181-010-0062-1'
+habitat: >-
+  Grassy places, gardens, and woodland edges.
+taxonomy:
+  note: >-
+    Also known as Lepiota josserandii.
+  source: 'Mottram AR, Lazio MP, Bryant SM. Lepiota subincarnata J.E. Lange induced fulminant hepatic failure presenting with pancreatitis. J Med Toxicol 2010 (abstract). https://doi.org/10.1007/s13181-010-0062-1'
+regions:
+  - AT
+  - AU-TAS
+  - BE
+  - CA-BC
+  - CA-ON
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FR
+  - GB
+  - HR
+  - HU
+  - IT
+  - NL
+  - PL
+  - SE
+  - UA
+  - US-CA
+  - US-OR
+  - US-WA
