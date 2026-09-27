@@ -1,0 +1,55 @@
+name: Amanita neo-ovoidea
+scientificName: Amanita neo-ovoidea
+group: fungus
+danger: 3
+summary: >-
+  A large white amanita of East Asia, mistaken for the prized matsutake. It causes acute kidney
+  injury.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Lee JH, Kim SS, Seok SJ, Bae EH. Acute kidney injury resulting from Amanita neoovoidea intoxication. J Korean Med Sci 2018. https://doi.org/10.3346/jkms.2018.33.e230'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2019. China CDC Weekly 2020. https://europepmc.org/article/PMC/PMC8392910'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Lee JH, Kim SS, Seok SJ, Bae EH. Acute kidney injury resulting from Amanita neoovoidea intoxication. J Korean Med Sci 2018. https://doi.org/10.3346/jkms.2018.33.e230'
+toxins:
+  text: >-
+    A kidney toxin thought to be the same as that of Amanita smithiana, an allenic norleucine.
+  sources:
+    - 'Lee JH, Kim SS, Seok SJ, Bae EH. Acute kidney injury resulting from Amanita neoovoidea intoxication. J Korean Med Sci 2018. https://doi.org/10.3346/jkms.2018.33.e230'
+symptoms:
+  text: >-
+    Weakness, nausea, and loose stools, then acute kidney injury.
+  sources:
+    - 'Lee JH, Kim SS, Seok SJ, Bae EH. Acute kidney injury resulting from Amanita neoovoidea intoxication. J Korean Med Sci 2018. https://doi.org/10.3346/jkms.2018.33.e230'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2019. China CDC Weekly 2020. https://europepmc.org/article/PMC/PMC8392910'
+onset:
+  text: >-
+    Stomach symptoms the day after eating it, with kidney injury found soon after.
+  delayed: true
+  sources:
+    - 'Lee JH, Kim SS, Seok SJ, Bae EH. Acute kidney injury resulting from Amanita neoovoidea intoxication. J Korean Med Sci 2018. https://doi.org/10.3346/jkms.2018.33.e230'
+atRisk:
+  text: >-
+    Foragers in Korea, Japan, and China, where it grows and is mistaken for matsutake.
+  sources:
+    - 'Lee JH, Kim SS, Seok SJ, Bae EH. Acute kidney injury resulting from Amanita neoovoidea intoxication. J Korean Med Sci 2018. https://doi.org/10.3346/jkms.2018.33.e230'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2019. China CDC Weekly 2020. https://europepmc.org/article/PMC/PMC8392910'
+lookalikes:
+  - name: Matsutake
+    scientificName: Tricholoma matsutake
+    note: >-
+      A couple in Korea ate it thinking it was this expensive edible mushroom.
+    sources:
+      - 'Lee JH, Kim SS, Seok SJ, Bae EH. Acute kidney injury resulting from Amanita neoovoidea intoxication. J Korean Med Sci 2018. https://doi.org/10.3346/jkms.2018.33.e230'
+habitat: >-
+  Broadleaf and mixed forest.
+regions:
+  - JP-08
+  - JP-17
+  - JP-27
+  - KR
+  - TW

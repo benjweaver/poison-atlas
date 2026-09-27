@@ -26,6 +26,13 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   },
+  "amanita-neo-ovoidea": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Amanita_neoovoidea_03.jpg/960px-Amanita_neoovoidea_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Amanita_neoovoidea_03.jpg",
+    "artist": "Σ64",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
   "amanita-ocreata": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Amanita_ocreata_79782.jpg/960px-Amanita_ocreata_79782.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Amanita_ocreata_79782.jpg",
@@ -53,6 +60,13 @@
     "artist": "Σ64",
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "amanita-virosa": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Amanita_virosa_10099268.jpg/960px-Amanita_virosa_10099268.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Amanita_virosa_10099268.jpg",
+    "artist": "Maxim Shashkov",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   },
   "aristolochia-clematitis": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Azille_-_Aristolochia_clematitis_02.jpg/960px-Azille_-_Aristolochia_clematitis_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

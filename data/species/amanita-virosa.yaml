@@ -1,0 +1,90 @@
+name: European destroying angel
+scientificName: Amanita virosa
+group: fungus
+danger: 5
+summary: >-
+  A pure white amanita of European and northern forests, and with the death cap among the
+  deadliest mushrooms in Europe.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Yaneva G et al. Recent advances in toxic wild mushroom distribution and social epidemiology. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23040411'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+toxins:
+  text: >-
+    Amatoxins (amanitins), which stop cells making proteins and destroy the liver. Cooking and
+    freezing don’t destroy them.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Beaumier M et al. Mushroom poisoning presenting with acute kidney injury and elevated transaminases. Kidney Int Rep 2019. https://doi.org/10.1016/j.ekir.2019.02.016'
+symptoms:
+  text: >-
+    Severe vomiting, diarrhea, and stomach pain; then a day or two when the person may seem to
+    recover while the liver is failing; then liver and kidney failure, clotting failure, coma, and
+    death. Some survivors need a liver transplant.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+onset:
+  text: >-
+    Delayed: first symptoms 6 to 24 hours after eating, with deaths usually 4 to 7 days after. By
+    the time people feel ill, the toxin has already been absorbed.
+  delayed: true
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+atRisk:
+  text: >-
+    Foragers: with the death cap and the spring destroying angel, it is among the most dangerous
+    and most often lethal mushrooms in Europe.
+  sources:
+    - 'Yaneva G et al. Recent advances in toxic wild mushroom distribution and social epidemiology. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23040411'
+photo: Amanita_virosa_10099268.jpg
+habitat: >-
+  Conifer and birch woods on acid soils.
+taxonomy:
+  note: >-
+    North American mushrooms long called A. virosa are now a separate species, A. amerivirosa, so
+    North America isn’t shown.
+  source: 'Yaneva G et al. Recent advances in toxic wild mushroom distribution and social epidemiology. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23040411'
+regions:
+  - AT
+  - BE
+  - CH
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - IT
+  - JP-08
+  - JP-10
+  - JP-12
+  - JP-14
+  - KR
+  - LT
+  - LV
+  - NL
+  - NO
+  - PL
+  - RU
+  - SE
+  - SI
+gbif:
+  exclude:
+    - code: CA
+      reason: 'North American destroying angels are a separate species, A. amerivirosa'
+      source: 'Yaneva G et al. Recent advances in toxic wild mushroom distribution and social epidemiology. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23040411'
+    - code: MX
+      reason: 'North American destroying angels are a separate species, A. amerivirosa'
+      source: 'Yaneva G et al. Recent advances in toxic wild mushroom distribution and social epidemiology. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23040411'
+    - code: US
+      reason: 'North American destroying angels are a separate species, A. amerivirosa'
+      source: 'Yaneva G et al. Recent advances in toxic wild mushroom distribution and social epidemiology. Int J Environ Res Public Health 2026. https://doi.org/10.3390/ijerph23040411'
