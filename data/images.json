@@ -89,6 +89,13 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "arothron-stellatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Pez_globo_%28Arothron_stellatus%29%2C_Ras_Katy%2C_Sharm_el-Sheij%2C_Egipto%2C_2022-03-26%2C_DD_119.jpg/960px-Pez_globo_%28Arothron_stellatus%29%2C_Ras_Katy%2C_Sharm_el-Sheij%2C_Egipto%2C_2022-03-26%2C_DD_119.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pez_globo_(Arothron_stellatus),_Ras_Katy,_Sharm_el-Sheij,_Egipto,_2022-03-26,_DD_119.jpg",
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "atropa-belladonna": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Atropa_belladonna_%2816627871072%29.jpg/960px-Atropa_belladonna_%2816627871072%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Atropa_belladonna_(16627871072).jpg",
@@ -476,6 +483,13 @@
     "page": "https://commons.wikimedia.org/wiki/File:Karayemi%C5%9F-8.jpg",
     "artist": "Karduelis",
     "license": "Public domain"
+  },
+  "pseudosperma-rimosum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Pseudosperma_rimosum_151540244.jpg/960px-Pseudosperma_rimosum_151540244.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pseudosperma_rimosum_151540244.jpg",
+    "artist": "Robert M Hallock",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   },
   "rhododendron-luteum": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Rhododendron_luteum_%28flower%29.jpg/960px-Rhododendron_luteum_%28flower%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

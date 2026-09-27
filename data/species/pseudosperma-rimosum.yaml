@@ -1,0 +1,92 @@
+name: Straw fibrecap
+scientificName: Pseudosperma rimosum
+group: fungus
+danger: 3
+summary: >-
+  A common fibrecap of woods and parks that holds muscarine and has poisoned people.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Patocka J et al. Chemistry and toxicology of major bioactive substances in Inocybe mushrooms. Int J Mol Sci 2021. https://doi.org/10.3390/ijms22042218'
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Patocka J et al. Chemistry and toxicology of major bioactive substances in Inocybe mushrooms. Int J Mol Sci 2021. https://doi.org/10.3390/ijms22042218'
+toxins:
+  text: >-
+    Muscarine, which overstimulates the nerves that control glands, the gut, and the heart.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Patocka J et al. Chemistry and toxicology of major bioactive substances in Inocybe mushrooms. Int J Mol Sci 2021. https://doi.org/10.3390/ijms22042218'
+symptoms:
+  text: >-
+    Headache, nausea, and vomiting, then heavy salivating, sweating, and tears, small pupils,
+    blurred vision, stomach cramps, diarrhea, and wheezing. A slow heart and falling blood
+    pressure can lead to shock; deaths are rare.
+  sources:
+    - 'Patocka J et al. Chemistry and toxicology of major bioactive substances in Inocybe mushrooms. Int J Mol Sci 2021. https://doi.org/10.3390/ijms22042218'
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+onset:
+  text: >-
+    Within 15 minutes to 2 hours.
+  sources:
+    - 'Patocka J et al. Chemistry and toxicology of major bioactive substances in Inocybe mushrooms. Int J Mol Sci 2021. https://doi.org/10.3390/ijms22042218'
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+atRisk:
+  text: >-
+    Foragers who confuse fibrecaps with edible species that look similar.
+  sources:
+    - 'Patocka J et al. Chemistry and toxicology of major bioactive substances in Inocybe mushrooms. Int J Mol Sci 2021. https://doi.org/10.3390/ijms22042218'
+habitat: >-
+  Woods and parks, under broadleaf trees and conifers.
+taxonomy:
+  note: >-
+    Long known as Inocybe fastigiata (or Inocybe rimosa), the name most medical sources use.
+  source: 'Inocybe fastigiata, a synonym of Pseudosperma rimosum in the GBIF Backbone Taxonomy. https://www.gbif.org/species/search?q=Inocybe%20fastigiata'
+regions:
+  - AT
+  - BE
+  - CA-BC
+  - CA-ON
+  - CA-QC
+  - CH
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - IE
+  - IL
+  - IM
+  - IS
+  - IT
+  - JP-08
+  - JP-10
+  - JP-14
+  - LU
+  - LV
+  - MA
+  - MX-JAL
+  - NL
+  - NO
+  - PL
+  - RU
+  - SE
+  - SI
+  - UA
+  - US-CA
+  - US-CO
+  - US-IL
+  - US-IN
+  - US-MI
+  - US-MN
+  - US-NC
+  - US-OR
+  - US-TN
+  - US-TX
+  - US-WA
+  - US-WV

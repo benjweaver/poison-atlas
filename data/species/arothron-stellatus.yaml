@@ -1,0 +1,152 @@
+name: Stellate puffer
+scientificName: Arothron stellatus
+group: fish
+danger: 4
+summary: >-
+  A large spotted pufferfish of Indo-Pacific reefs. Like other pufferfish, it can hold
+  tetrodotoxin, and eating it has poisoned people in India.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Joseph TC et al. Pufferfish poisoning from Arothron stellatus: the first confirmed case in India with exact DNA sequencing-based species identification. Toxicon 2021 (abstract). https://doi.org/10.1016/j.toxicon.2021.07.014'
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+toxicParts:
+  text: >-
+    In pufferfish the gonads, liver, gut, and skin can hold enough toxin to poison; in a few
+    species the flesh does too. Cooking does not destroy it.
+  sources:
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+    - 'Vidigal IEM et al. Tetrodotoxin poisoning with cardiorespiratory arrest and permanent neurological sequelae following ingestion of a checkered puffer Sphoeroides testudineus from the Brazilian Amazon coast. Rev Soc Bras Med Trop 2026. https://doi.org/10.1590/0037-8682-0544-2025'
+toxins:
+  text: >-
+    Tetrodotoxin, which blocks nerve signals and paralyses muscles.
+  sources:
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+    - 'Gouel P et al. Tetrodotoxin poisoning in mainland France and French overseas territories: a review of published and unpublished cases. Toxins 2022. https://doi.org/10.3390/toxins14050351'
+symptoms:
+  text: >-
+    Numb lips and tongue, spreading tingling, dizziness, vertigo, and trouble speaking, then
+    weakness and paralysis. Pufferfish poisoning killed 7 of 70 patients in France’s overseas
+    territories.
+  sources:
+    - 'Joseph TC et al. Pufferfish poisoning from Arothron stellatus: the first confirmed case in India with exact DNA sequencing-based species identification. Toxicon 2021 (abstract). https://doi.org/10.1016/j.toxicon.2021.07.014'
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+    - 'Gouel P et al. Tetrodotoxin poisoning in mainland France and French overseas territories: a review of published and unpublished cases. Toxins 2022. https://doi.org/10.3390/toxins14050351'
+onset:
+  text: >-
+    Usually within 20 minutes to 3 hours of eating.
+  sources:
+    - 'Deeds JR, McGrath SC, Handy SM, Swajian KA. Puffer fish products in the United States. Food Safety 2025. https://doi.org/10.14252/foodsafetyfscj.D-25-00012'
+atRisk:
+  text: >-
+    Fishers and coastal families who cook their own catch; Arothron pufferfish have poisoned
+    people in India and the French Pacific islands.
+  sources:
+    - 'Joseph TC et al. Pufferfish poisoning from Arothron stellatus: the first confirmed case in India with exact DNA sequencing-based species identification. Toxicon 2021 (abstract). https://doi.org/10.1016/j.toxicon.2021.07.014'
+    - 'Gouel P et al. Tetrodotoxin poisoning in mainland France and French overseas territories: a review of published and unpublished cases. Toxins 2022. https://doi.org/10.3390/toxins14050351'
+habitat: >-
+  Coral reefs, lagoons, and nearby sand and seagrass.
+size: Up to about 1.2 m long
+aquatic: marine
+regions:
+  - AE
+  - AS
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-TAS
+  - AU-WA
+  - BD
+  - BN
+  - CK
+  - CN-FJ
+  - CN-GD
+  - CN-HI
+  - DJ
+  - EG
+  - ER
+  - FJ
+  - FM
+  - GU
+  - ID
+  - IL
+  - IN-AN
+  - IN-KA
+  - IN-KL
+  - IN-LD
+  - IN-TN
+  - IO
+  - IR
+  - JP-12
+  - JP-45
+  - JP-46
+  - JP-47
+  - KE
+  - KH
+  - KI
+  - LK
+  - MG
+  - MH
+  - MM
+  - MP
+  - MU
+  - MV
+  - MY
+  - MZ
+  - NC
+  - NF
+  - NR
+  - OM
+  - PF
+  - PG
+  - PH
+  - PK
+  - PW
+  - QA
+  - RE
+  - SA
+  - SB
+  - SC
+  - SD
+  - SG
+  - SO
+  - TH
+  - TL
+  - TO
+  - TW
+  - TZ
+  - VN
+  - VU
+  - YT
+  - ZA-EC
+  - ZA-NL
+  - ZA-WC
+gbif:
+  exclude:
+    - code: EC
+      reason: 'outside its Indo-Pacific range (Red Sea and East Africa to the Tuamotus, southern Japan, and Lord Howe Island)'
+      source: 'Arothron stellatus, stellate puffer. FishBase. https://www.fishbase.se/summary/Arothron-stellatus.html'
+    - code: KR
+      reason: 'outside its Indo-Pacific range (Red Sea and East Africa to the Tuamotus, southern Japan, and Lord Howe Island)'
+      source: 'Arothron stellatus, stellate puffer. FishBase. https://www.fishbase.se/summary/Arothron-stellatus.html'
+    - code: LC
+      reason: 'outside its Indo-Pacific range (Red Sea and East Africa to the Tuamotus, southern Japan, and Lord Howe Island)'
+      source: 'Arothron stellatus, stellate puffer. FishBase. https://www.fishbase.se/summary/Arothron-stellatus.html'
+    - code: MX
+      reason: 'outside its Indo-Pacific range (Red Sea and East Africa to the Tuamotus, southern Japan, and Lord Howe Island)'
+      source: 'Arothron stellatus, stellate puffer. FishBase. https://www.fishbase.se/summary/Arothron-stellatus.html'
+    - code: NZ
+      reason: 'outside its Indo-Pacific range (Red Sea and East Africa to the Tuamotus, southern Japan, and Lord Howe Island)'
+      source: 'Arothron stellatus, stellate puffer. FishBase. https://www.fishbase.se/summary/Arothron-stellatus.html'
+    - code: PT
+      reason: 'outside its Indo-Pacific range (Red Sea and East Africa to the Tuamotus, southern Japan, and Lord Howe Island)'
+      source: 'Arothron stellatus, stellate puffer. FishBase. https://www.fishbase.se/summary/Arothron-stellatus.html'
+    - code: SX
+      reason: 'outside its Indo-Pacific range (Red Sea and East Africa to the Tuamotus, southern Japan, and Lord Howe Island)'
+      source: 'Arothron stellatus, stellate puffer. FishBase. https://www.fishbase.se/summary/Arothron-stellatus.html'
+    - code: US-HI
+      reason: 'outside its Indo-Pacific range (Red Sea and East Africa to the Tuamotus, southern Japan, and Lord Howe Island)'
+      source: 'Arothron stellatus, stellate puffer. FishBase. https://www.fishbase.se/summary/Arothron-stellatus.html'
+    - code: VI
+      reason: 'outside its Indo-Pacific range (Red Sea and East Africa to the Tuamotus, southern Japan, and Lord Howe Island)'
+      source: 'Arothron stellatus, stellate puffer. FishBase. https://www.fishbase.se/summary/Arothron-stellatus.html'
