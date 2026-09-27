@@ -291,9 +291,8 @@ const help = computed(() =>
   helpFor(country.value ?? languageRegion(navigator.languages), poisonCentres, regionName),
 )
 
-// Optional support payments (a Stripe Payment Link, pay what you want). The
-// support links stay hidden until Poison Atlas has a link of its own.
-const SUPPORT_URL: string | undefined = undefined
+// Optional support payments (a Stripe Payment Link, pay what you want).
+const SUPPORT_URL = 'https://buy.stripe.com/14AdRa94WcuJbMYfNp2ZO02'
 const SOURCE_URL = 'https://github.com/benjweaver/poison-atlas'
 const SAFETY_NOTE =
   'Not an identification or foraging guide, and not medical advice. If someone may have been ' +
@@ -475,7 +474,7 @@ addEventListener('keydown', (e) => {
               rel="noopener"
               class="text-(--ink) hover:underline"
               >Source</a
-            ><span v-if="SUPPORT_URL" class="md:hidden">
+            ><span class="md:hidden">
               ·
               <a
                 :href="SUPPORT_URL"
@@ -491,7 +490,6 @@ addEventListener('keydown', (e) => {
             ></span
           >
           <a
-            v-if="SUPPORT_URL"
             :href="SUPPORT_URL"
             target="_blank"
             rel="noopener"
