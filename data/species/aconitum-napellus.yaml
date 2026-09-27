@@ -46,6 +46,12 @@ lookalikes:
       man’s heart stopped.
     sources:
       - 'Aconitum napellus (monkshood): a purple poison. Poison Control (National Capital Poison Center). https://www.poison.org/articles/why-is-monkshood-considered-a-poison--174'
+  - name: Molopospermum
+    scientificName: Molopospermum peloponnesiacum
+    note: >-
+      The only death in 22 years of food mix-ups in southeastern France came from monkshood eaten in place of this edible mountain plant.
+    sources:
+      - 'Torrents R et al. Food confusion between edible and poisonous plants: a 22-year retrospective of the Southeastern France Poison Control Center. Toxins 2024. https://doi.org/10.3390/toxins16120552'
 cultivated:
   text: >-
     Often grown as an ornamental for its blue to dark purple flowers.

@@ -1,0 +1,57 @@
+name: Cassava
+scientificName: Manihot esculenta
+group: plant
+danger: 3
+summary: >-
+  A staple root crop of the tropics. Bitter cassava is toxic raw, and poorly processed roots cause
+  konzo, a sudden, permanent paralysis of the legs.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Kamate DP, Neumayr A, Blum J. Konzo: a nutrition-related tropical spastic paraparesis. BMJ Case Rep 2026. https://doi.org/10.1136/bcr-2025-270728'
+    - 'Bramble MS et al. Glutathione peroxidase 3 is a potential biomarker for konzo. Nat Commun 2024. https://doi.org/10.1038/s41467-024-52136-5'
+toxicParts:
+  text: >-
+    The roots, especially of bitter cassava, when not processed enough before eating.
+  sources:
+    - 'Kamate DP, Neumayr A, Blum J. Konzo: a nutrition-related tropical spastic paraparesis. BMJ Case Rep 2026. https://doi.org/10.1136/bcr-2025-270728'
+    - 'Bramble MS et al. Glutathione peroxidase 3 is a potential biomarker for konzo. Nat Commun 2024. https://doi.org/10.1038/s41467-024-52136-5'
+toxins:
+  text: >-
+    Cyanogenic glucosides, chiefly linamarin, which release cyanide in the gut.
+  sources:
+    - 'Bramble MS et al. Glutathione peroxidase 3 is a potential biomarker for konzo. Nat Commun 2024. https://doi.org/10.1038/s41467-024-52136-5'
+    - 'Kamate DP, Neumayr A, Blum J. Konzo: a nutrition-related tropical spastic paraparesis. BMJ Case Rep 2026. https://doi.org/10.1136/bcr-2025-270728'
+symptoms:
+  text: >-
+    Konzo: legs that suddenly become heavy and stiff, within a day, leaving a permanent spastic
+    weakness or inability to walk.
+  sources:
+    - 'Kamate DP, Neumayr A, Blum J. Konzo: a nutrition-related tropical spastic paraparesis. BMJ Case Rep 2026. https://doi.org/10.1136/bcr-2025-270728'
+    - 'Bramble MS et al. Glutathione peroxidase 3 is a potential biomarker for konzo. Nat Commun 2024. https://doi.org/10.1038/s41467-024-52136-5'
+onset:
+  text: >-
+    Konzo strikes suddenly, over about a day, after a long reliance on poorly processed bitter
+    cassava.
+  sources:
+    - 'Kamate DP, Neumayr A, Blum J. Konzo: a nutrition-related tropical spastic paraparesis. BMJ Case Rep 2026. https://doi.org/10.1136/bcr-2025-270728'
+    - 'Bramble MS et al. Glutathione peroxidase 3 is a potential biomarker for konzo. Nat Commun 2024. https://doi.org/10.1038/s41467-024-52136-5'
+atRisk:
+  text: >-
+    The poorest rural communities of sub-Saharan Africa that live on bitter cassava, above all
+    children and young women, in droughts and dry seasons when there is too little water to
+    process the roots.
+  sources:
+    - 'Kamate DP, Neumayr A, Blum J. Konzo: a nutrition-related tropical spastic paraparesis. BMJ Case Rep 2026. https://doi.org/10.1136/bcr-2025-270728'
+    - 'Bramble MS et al. Glutathione peroxidase 3 is a potential biomarker for konzo. Nat Commun 2024. https://doi.org/10.1038/s41467-024-52136-5'
+processing:
+  text: >-
+    Bitter cassava is toxic raw and is eaten only after traditional processing; this atlas doesn’t
+    describe the method.
+  sources:
+    - 'Kamate DP, Neumayr A, Blum J. Konzo: a nutrition-related tropical spastic paraparesis. BMJ Case Rep 2026. https://doi.org/10.1136/bcr-2025-270728'
+habitat: >-
+  Farmland; wild plants grow in dry forest and savanna.
+size: A shrub up to about 3 m tall
+regions:
+  - BR

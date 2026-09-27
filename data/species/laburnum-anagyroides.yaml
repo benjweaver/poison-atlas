@@ -1,0 +1,40 @@
+name: Laburnum
+scientificName: Laburnum anagyroides
+group: plant
+danger: 4
+summary: >-
+  A small tree planted in gardens, whose poison, cytisine, acts like nicotine and can stop
+  breathing.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Musshoff F, Madea B. Fatal cytisine intoxication and analysis of biological samples with LC-MS/MS. Forensic Sci Int 2009 (abstract). https://doi.org/10.1016/j.forsciint.2009.01.011'
+    - 'Torrents R et al. Food confusion between edible and poisonous plants: a 22-year retrospective of the Southeastern France Poison Control Center. Toxins 2024. https://doi.org/10.3390/toxins16120552'
+toxicParts:
+  text: >-
+    The plant: a man died after drinking tea made from it.
+  sources:
+    - 'Musshoff F, Madea B. Fatal cytisine intoxication and analysis of biological samples with LC-MS/MS. Forensic Sci Int 2009 (abstract). https://doi.org/10.1016/j.forsciint.2009.01.011'
+toxins:
+  text: >-
+    Cytisine, an alkaloid that acts like nicotine.
+  sources:
+    - 'Musshoff F, Madea B. Fatal cytisine intoxication and analysis of biological samples with LC-MS/MS. Forensic Sci Int 2009 (abstract). https://doi.org/10.1016/j.forsciint.2009.01.011'
+symptoms:
+  text: >-
+    Poisoning can stop breathing: respiratory failure killed a 20-year-old man.
+  sources:
+    - 'Musshoff F, Madea B. Fatal cytisine intoxication and analysis of biological samples with LC-MS/MS. Forensic Sci Int 2009 (abstract). https://doi.org/10.1016/j.forsciint.2009.01.011'
+    - 'Torrents R et al. Food confusion between edible and poisonous plants: a 22-year retrospective of the Southeastern France Poison Control Center. Toxins 2024. https://doi.org/10.3390/toxins16120552'
+atRisk:
+  text: >-
+    People who make tea or remedies from it, and people who mistake it for something edible: it is
+    among the plants most often eaten by mistake in southeastern France.
+  sources:
+    - 'Musshoff F, Madea B. Fatal cytisine intoxication and analysis of biological samples with LC-MS/MS. Forensic Sci Int 2009 (abstract). https://doi.org/10.1016/j.forsciint.2009.01.011'
+    - 'Torrents R et al. Food confusion between edible and poisonous plants: a 22-year retrospective of the Southeastern France Poison Control Center. Toxins 2024. https://doi.org/10.3390/toxins16120552'
+habitat: >-
+  Mountain woods and scrub, and gardens and parks.
+size: A small tree up to about 7 m tall
+regions:
+  - IT

@@ -1,0 +1,61 @@
+name: Coffee senna
+scientificName: Senna occidentalis
+group: plant
+danger: 4
+summary: >-
+  A common tropical weed whose seeds poison the liver, muscles, and brain. In northern India it
+  has killed children who ate the seeds while playing.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Chhapola V, Kanwal SK, Sharma AG, Kumar V. Hepatomyoencephalopathy secondary to Cassia occidentalis poisoning: report of three cases from North India. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_85_18'
+    - 'Ish P, Rathi S, Singh H, Anuradha S. Senna occidentalis poisoning: an uncommon cause of liver failure. ACG Case Rep J 2019 (abstract). https://doi.org/10.14309/crj.0000000000000035'
+toxicParts:
+  text: >-
+    The seeds, which children have eaten from the pods; an older woman was poisoned after eating
+    the plant.
+  sources:
+    - 'Chhapola V, Kanwal SK, Sharma AG, Kumar V. Hepatomyoencephalopathy secondary to Cassia occidentalis poisoning: report of three cases from North India. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_85_18'
+    - 'Ish P, Rathi S, Singh H, Anuradha S. Senna occidentalis poisoning: an uncommon cause of liver failure. ACG Case Rep J 2019 (abstract). https://doi.org/10.14309/crj.0000000000000035'
+toxins:
+  text: >-
+    Its toxins attack three organs at once, the liver, muscles, and brain, a pattern called
+    hepatomyoencephalopathy.
+  sources:
+    - 'Chhapola V, Kanwal SK, Sharma AG, Kumar V. Hepatomyoencephalopathy secondary to Cassia occidentalis poisoning: report of three cases from North India. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_85_18'
+    - 'Ish P, Rathi S, Singh H, Anuradha S. Senna occidentalis poisoning: an uncommon cause of liver failure. ACG Case Rep J 2019 (abstract). https://doi.org/10.14309/crj.0000000000000035'
+symptoms:
+  text: >-
+    Drowsiness, confusion, strange behavior, and jaundice, with liver failure, muscle damage, and
+    bleeding problems. Children who ate the most seeds died at home.
+  sources:
+    - 'Chhapola V, Kanwal SK, Sharma AG, Kumar V. Hepatomyoencephalopathy secondary to Cassia occidentalis poisoning: report of three cases from North India. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_85_18'
+    - 'Ish P, Rathi S, Singh H, Anuradha S. Senna occidentalis poisoning: an uncommon cause of liver failure. ACG Case Rep J 2019 (abstract). https://doi.org/10.14309/crj.0000000000000035'
+onset:
+  text: >-
+    In one child, symptoms had begun by 2 days after eating the seeds; a sibling died within
+    hours.
+  sources:
+    - 'Chhapola V, Kanwal SK, Sharma AG, Kumar V. Hepatomyoencephalopathy secondary to Cassia occidentalis poisoning: report of three cases from North India. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_85_18'
+atRisk:
+  text: >-
+    Young children who eat the seeds while playing, mostly in the fruiting season (September to
+    November in northern India), and people who take it as a traditional remedy.
+  sources:
+    - 'Chhapola V, Kanwal SK, Sharma AG, Kumar V. Hepatomyoencephalopathy secondary to Cassia occidentalis poisoning: report of three cases from North India. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_85_18'
+    - 'Ish P, Rathi S, Singh H, Anuradha S. Senna occidentalis poisoning: an uncommon cause of liver failure. ACG Case Rep J 2019 (abstract). https://doi.org/10.14309/crj.0000000000000035'
+animals:
+  who: [livestock]
+  text: >-
+    It is well known for poisoning cattle.
+  sources:
+    - 'Chhapola V, Kanwal SK, Sharma AG, Kumar V. Hepatomyoencephalopathy secondary to Cassia occidentalis poisoning: report of three cases from North India. Indian J Crit Care Med 2018. https://doi.org/10.4103/ijccm.IJCCM_85_18'
+habitat: >-
+  Roadsides, waste ground, and field edges in the tropics and subtropics.
+size: Up to about 2 m tall
+taxonomy:
+  note: >-
+    Also known as Cassia occidentalis, the name many medical reports use.
+  source: 'Cassia occidentalis, a synonym of Senna occidentalis in the World Checklist of Vascular Plants, via GBIF. https://www.gbif.org/species/207096489'
+regions:
+  - BR

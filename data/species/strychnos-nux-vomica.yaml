@@ -1,0 +1,47 @@
+name: Strychnine tree
+scientificName: Strychnos nux-vomica
+group: plant
+danger: 3
+summary: >-
+  A tree of India and Sri Lanka whose seeds, nux vomica, are a source of strychnine.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Ponraj L, Mishra AK, Koshy M, Carey RAB. A rare case report of Strychnos nux-vomica poisoning with bradycardia. J Family Med Prim Care 2017. https://doi.org/10.4103/2249-4863.222036'
+    - 'Guo R et al. Botany, phytochemistry, pharmacology and toxicity of Strychnos nux-vomica L.: a review. Am J Chin Med 2018 (abstract). https://doi.org/10.1142/s0192415x18500015'
+toxicParts:
+  text: >-
+    Above all the seeds and bark, though the toxic alkaloids may be found in the whole plant,
+    leaves included.
+  sources:
+    - 'Ponraj L, Mishra AK, Koshy M, Carey RAB. A rare case report of Strychnos nux-vomica poisoning with bradycardia. J Family Med Prim Care 2017. https://doi.org/10.4103/2249-4863.222036'
+    - 'Guo R et al. Botany, phytochemistry, pharmacology and toxicity of Strychnos nux-vomica L.: a review. Am J Chin Med 2018 (abstract). https://doi.org/10.1142/s0192415x18500015'
+toxins:
+  text: >-
+    Strychnine and brucine. Strychnine blocks the nervous system’s calming glycine signals, so
+    muscles spasm uncontrollably.
+  sources:
+    - 'Ponraj L, Mishra AK, Koshy M, Carey RAB. A rare case report of Strychnos nux-vomica poisoning with bradycardia. J Family Med Prim Care 2017. https://doi.org/10.4103/2249-4863.222036'
+symptoms:
+  text: >-
+    Aching, tender muscles, restlessness, and muscle twitching, which in strychnine poisoning can
+    progress to violent spasms.
+  sources:
+    - 'Ponraj L, Mishra AK, Koshy M, Carey RAB. A rare case report of Strychnos nux-vomica poisoning with bradycardia. J Family Med Prim Care 2017. https://doi.org/10.4103/2249-4863.222036'
+onset:
+  text: >-
+    Minutes to hours.
+  sources:
+    - 'Ponraj L, Mishra AK, Koshy M, Carey RAB. A rare case report of Strychnos nux-vomica poisoning with bradycardia. J Family Med Prim Care 2017. https://doi.org/10.4103/2249-4863.222036'
+atRisk:
+  text: >-
+    People who take herbal and traditional preparations made from it, and people who eat its seeds
+    or bark deliberately.
+  sources:
+    - 'Ponraj L, Mishra AK, Koshy M, Carey RAB. A rare case report of Strychnos nux-vomica poisoning with bradycardia. J Family Med Prim Care 2017. https://doi.org/10.4103/2249-4863.222036'
+    - 'Guo R et al. Botany, phytochemistry, pharmacology and toxicity of Strychnos nux-vomica L.: a review. Am J Chin Med 2018 (abstract). https://doi.org/10.1142/s0192415x18500015'
+habitat: >-
+  Dry forest and scrub.
+size: A tree up to about 25 m tall
+regions:
+  - IN

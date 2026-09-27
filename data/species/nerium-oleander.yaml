@@ -42,6 +42,13 @@ atRisk:
     It is also used in self-poisoning.
   sources:
     - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+lookalikes:
+  - name: Bay laurel
+    scientificName: Laurus nobilis
+    note: >-
+      Its leaves are easily confused with bay leaves: oleander was the plant most often eaten by mistake in southeastern France over 22 years.
+    sources:
+      - 'Torrents R et al. Food confusion between edible and poisonous plants: a 22-year retrospective of the Southeastern France Poison Control Center. Toxins 2024. https://doi.org/10.3390/toxins16120552'
 animals:
   who: [dogs, cats, horses]
   sources:

@@ -45,6 +45,13 @@ atRisk:
   sources:
     - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
     - 'Disel et al. Poisoned after dinner: dolma with Datura stramonium. Turk J Emerg Med 2016. https://doi.org/10.5505/1304.7361.2015.70894'
+lookalikes:
+  - name: Spinach
+    scientificName: Spinacia oleracea
+    note: >-
+      Datura can be mistaken for spinach; two of the most severe food mix-ups in southeastern France were with datura.
+    sources:
+      - 'Torrents R et al. Food confusion between edible and poisonous plants: a 22-year retrospective of the Southeastern France Poison Control Center. Toxins 2024. https://doi.org/10.3390/toxins16120552'
 habitat: >-
   Waste ground, farmland, roadsides, and field edges.
 size: Up to about 1.5 m tall

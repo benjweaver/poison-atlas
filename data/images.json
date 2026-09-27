@@ -231,6 +231,13 @@
     "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
     "license": "Public domain"
   },
+  "laburnum-anagyroides": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Laburnum_anagyroides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Laburnum_anagyroides.jpg",
+    "artist": "J.F. Gaffard, licence GFDL",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
   "lagocephalus-sceleratus": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Lagocephalus_sceleratus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Lagocephalus_sceleratus.jpg",
@@ -251,6 +258,12 @@
     "artist": "Franco christophe",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "manihot-esculenta": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Manihot_esculenta_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-090.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Manihot_esculenta_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-090.jpg",
+    "artist": "Franz Eugen Köhler, Köhlers Medizinal-Pflanzen",
+    "license": "Public domain"
   },
   "melia-azedarach": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Cinamomo_%28Melia_azedarach%29_em_Bag%C3%A9%2C_RS%2C_Brasil%2C_final_de_outono%2C_frutificado_e_com_folhas_j%C3%A1_ca%C3%ADdas_-_55336704649.jpg/960px-Cinamomo_%28Melia_azedarach%29_em_Bag%C3%A9%2C_RS%2C_Brasil%2C_final_de_outono%2C_frutificado_e_com_folhas_j%C3%A1_ca%C3%ADdas_-_55336704649.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -329,12 +342,25 @@
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
+  "senna-occidentalis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/%28MHNT%29_Senna_occidentalis_-_Habit_-_Les_Martels%2C_Giroussens_Tarn.jpg/960px-%28MHNT%29_Senna_occidentalis_-_Habit_-_Les_Martels%2C_Giroussens_Tarn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:(MHNT)_Senna_occidentalis_-_Habit_-_Les_Martels,_Giroussens_Tarn.jpg",
+    "artist": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "sphoeroides-testudineus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Sphoeroides_testudineus_%28checkered_pufferfish%29_%28San_Salvador_Island%2C_Bahamas%29_%2815548625654%29.jpg/960px-Sphoeroides_testudineus_%28checkered_pufferfish%29_%28San_Salvador_Island%2C_Bahamas%29_%2815548625654%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Sphoeroides_testudineus_(checkered_pufferfish)_(San_Salvador_Island,_Bahamas)_(15548625654).jpg",
     "artist": "James St. John",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "strychnos-nux-vomica": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Strychnos_nux-vomica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-266.jpg/960px-Strychnos_nux-vomica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-266.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Strychnos_nux-vomica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-266.jpg",
+    "artist": "Franz Eugen Köhler",
+    "license": "Public domain"
   },
   "taricha-granulosa": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Taricha_granulosa_%28Rough-skinned_newt%29.JPG/960px-Taricha_granulosa_%28Rough-skinned_newt%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
