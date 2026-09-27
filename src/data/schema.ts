@@ -58,11 +58,15 @@ export type Lookalike = z.infer<typeof lookalike>
 
 const noRepeats = <T>(list: T[]) => new Set(list).size === list.length
 
-// The licences a photo on this site may carry: attribution at most, no NC or ND.
+// The licences a photo on this site may carry. Non-commercial is fine (the site
+// isn't sold, and some of its data is NC anyway); no-derivatives isn't, since
+// photos are cropped.
 export const PHOTO_LICENSES = {
   'CC0 1.0': 'https://creativecommons.org/publicdomain/zero/1.0/',
   'CC BY 4.0': 'https://creativecommons.org/licenses/by/4.0/',
   'CC BY-SA 4.0': 'https://creativecommons.org/licenses/by-sa/4.0/',
+  'CC BY-NC 4.0': 'https://creativecommons.org/licenses/by-nc/4.0/',
+  'CC BY-NC-SA 4.0': 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
 } as const
 
 // A photo kept in public/photos/, cropped from a figure in an openly licensed
@@ -122,8 +126,8 @@ export const speciesSchema = z
     // Wikipedia article title used to find a photo. Defaults to scientificName.
     wikipedia: z.string().optional(),
     // A specific Wikimedia Commons file to use instead ("Crotalus atrox 1.jpg"),
-    // an iNaturalist observation ("inaturalist:61089458") whose photo is CC0,
-    // CC BY or CC BY-SA, or "none" when no freely licensed photo exists. Or,
+    // an iNaturalist observation ("inaturalist:61089458") whose photo has a
+    // licence in PHOTO_LICENSES, or "none" when no usable photo exists. Or,
     // where neither has one, a photo in public/photos/ taken from an openly
     // licensed paper's figure, with its credit and the paper it came from.
     photo: z.union([z.string(), localPhoto]).optional(),

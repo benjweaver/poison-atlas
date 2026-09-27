@@ -10,7 +10,7 @@
 //
 // Where Commons has nothing, `photo: inaturalist:<observation id>` uses the
 // first photo of an iNaturalist observation instead, if its observer released
-// it under CC0, CC BY or CC BY-SA. Pick a research-grade observation.
+// it under a licence in PHOTO_LICENSES. Pick a research-grade observation.
 //
 // Results go to data/images.json, which is committed: builds never hit the
 // network, and the credits shown on the site are reviewable in a diff.
@@ -171,11 +171,13 @@ async function commonsInfo(files: string[]): Promise<Map<string, SpeciesImage>> 
   return found
 }
 
-// The licences iNaturalist offers that allow reuse on this site (no NC or ND).
+// The licences iNaturalist offers that allow reuse on this site (not ND).
 const INAT_LICENSES: Record<string, keyof typeof PHOTO_LICENSES> = {
   cc0: 'CC0 1.0',
   'cc-by': 'CC BY 4.0',
   'cc-by-sa': 'CC BY-SA 4.0',
+  'cc-by-nc': 'CC BY-NC 4.0',
+  'cc-by-nc-sa': 'CC BY-NC-SA 4.0',
 }
 const INAT_PHOTO = /^inaturalist:(\d+)$/
 
@@ -285,7 +287,7 @@ for (const { slug, title, photo } of wanted) {
   if (!image) {
     console.warn(
       inaturalist.has(slug)
-        ? `✗ ${slug}: ${photo} has no photo under CC0, CC BY or CC BY-SA`
+        ? `✗ ${slug}: ${photo} has no photo under a licence this site can use`
         : name
           ? `✗ ${slug}: lead image of "${title}" (${name}) is not a free Commons file — set wikipedia: to another article`
           : `✗ ${slug}: no photo found for "${title}" — set photo: to a Commons file, an iNaturalist observation, or photo: none`,

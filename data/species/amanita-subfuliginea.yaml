@@ -43,7 +43,11 @@ atRisk:
     People who pick wild mushrooms: two people in Chongqing were poisoned by it in May 2022.
   sources:
     - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
-photo: none
+photo:
+  file: amanita-subfuliginea.jpg
+  credit: 'Yalin Zhou, in Li et al., China CDC Weekly 2023, fig. 2 (cropped)'
+  license: CC BY-NC-SA 4.0
+  source: https://doi.org/10.46234/ccdcw2023.009
 habitat: >-
   Broadleaf and mixed forest.
 regions:
