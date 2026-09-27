@@ -12,6 +12,12 @@
     "license": "CC BY-SA 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
   },
+  "aesculus-hippocastanum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Illustration_Aesculus_hippocastanum0_clean.jpg/960px-Illustration_Aesculus_hippocastanum0_clean.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Illustration_Aesculus_hippocastanum0_clean.jpg",
+    "artist": "User:Kilom691",
+    "license": "Public domain"
+  },
   "amanita-bisporigera": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Amanita_bisporigera_17932.jpg/960px-Amanita_bisporigera_17932.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Amanita_bisporigera_17932.jpg",
@@ -511,6 +517,13 @@
     "artist": "Alvesgaspar",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "robinia-pseudoacacia": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Robina9146.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Robina9146.JPG",
+    "artist": "Pollinator at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
   "russula-subnigricans": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Russula_subnigricans.jpg/960px-Russula_subnigricans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

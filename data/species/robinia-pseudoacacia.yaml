@@ -1,0 +1,164 @@
+name: Black locust
+scientificName: Robinia pseudoacacia
+group: plant
+danger: 2
+summary: >-
+  A thorny tree of the eastern United States with drooping white flowers, planted and gone wild
+  widely. Its bark, seeds, and leaves hold protein toxins related to ricin.
+exposure:
+  routes: [eaten, skin]
+  text: >-
+    Punctures from its thorns have also caused serious local injury.
+  sources:
+    - 'Are black locust trees toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-black-locust-trees-toxic-221'
+toxicParts:
+  text: >-
+    The bark, seeds, and leaves; the flowers appear nontoxic or much less toxic.
+  sources:
+    - 'Are black locust trees toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-black-locust-trees-toxic-221'
+toxins:
+  text: >-
+    Toxalbumins (robin and phasin), which stop cells making proteins.
+  sources:
+    - 'Are black locust trees toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-black-locust-trees-toxic-221'
+symptoms:
+  text: >-
+    Nausea, vomiting, weakness, flushing, and lethargy; rarely liver injury and seizures. Thorn
+    punctures can cause pain, swelling, and, rarely, tissue death.
+  sources:
+    - 'Are black locust trees toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-black-locust-trees-toxic-221'
+onset:
+  text: >-
+    Stomach symptoms usually within 6 hours of eating it.
+  sources:
+    - 'Are black locust trees toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-black-locust-trees-toxic-221'
+atRisk:
+  text: >-
+    Young children who chew the bark or eat the seeds.
+  sources:
+    - 'Are black locust trees toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-black-locust-trees-toxic-221'
+animals:
+  who: [horses]
+  text: >-
+    Horses have become severely ill or died after eating it.
+  sources:
+    - 'Are black locust trees toxic? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-black-locust-trees-toxic-221'
+habitat: >-
+  Woodland edges, old fields, roadsides, and disturbed ground.
+size: A tree up to about 25 m tall
+regions:
+  - US-AL
+  - US-DC
+  - US-GA
+  - US-KY
+  - US-MD
+  - US-NC
+  - US-PA
+  - US-SC
+  - US-TN
+  - US-VA
+  - US-WV
+introduced:
+  - AL
+  - AT
+  - AU-NSW
+  - AU-QLD
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
+  - AU-WA
+  - BE
+  - BG
+  - BY
+  - CA-BC
+  - CA-NB
+  - CA-NS
+  - CA-ON
+  - CA-QC
+  - CH
+  - CL
+  - CN-NM
+  - CN-QH
+  - CN-XJ
+  - CZ
+  - DE
+  - DZ
+  - ES
+  - FR
+  - GB
+  - GE
+  - GR
+  - HR
+  - HU
+  - IQ
+  - IT
+  - JP-13
+  - JP-14
+  - JP-20
+  - KG
+  - KR
+  - KZ
+  - LS
+  - LT
+  - LU
+  - LY
+  - MA
+  - NL
+  - NZ
+  - PK
+  - PL
+  - PT
+  - RE
+  - RO
+  - RS
+  - RU
+  - SI
+  - SK
+  - TJ
+  - TM
+  - TR
+  - TW
+  - UA
+  - US-AR
+  - US-AZ
+  - US-CA
+  - US-CO
+  - US-CT
+  - US-DE
+  - US-FL
+  - US-IA
+  - US-ID
+  - US-IL
+  - US-IN
+  - US-KS
+  - US-LA
+  - US-MA
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-MS
+  - US-MT
+  - US-ND
+  - US-NE
+  - US-NH
+  - US-NJ
+  - US-NM
+  - US-NV
+  - US-NY
+  - US-OH
+  - US-OK
+  - US-OR
+  - US-RI
+  - US-SD
+  - US-TX
+  - US-UT
+  - US-VT
+  - US-WA
+  - US-WI
+  - US-WY
+  - UZ
+  - ZA-FS
+  - ZA-GT
+  - ZA-NL
+  - ZA-WC

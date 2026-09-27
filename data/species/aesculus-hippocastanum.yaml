@@ -1,0 +1,118 @@
+name: Horse chestnut
+scientificName: Aesculus hippocastanum
+group: plant
+danger: 2
+summary: >-
+  A large tree from the Balkans, planted in parks and streets across the world. Its glossy brown
+  “conkers” are mistaken for edible chestnuts.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Horse chestnuts are toxic. Poison Control (National Capital Poison Center). https://www.poison.org/articles/horse-chestnuts-are-toxic-214'
+toxicParts:
+  text: >-
+    All parts, and the seeds (conkers) above all.
+  sources:
+    - 'Horse chestnuts are toxic. Poison Control (National Capital Poison Center). https://www.poison.org/articles/horse-chestnuts-are-toxic-214'
+toxins:
+  text: >-
+    Saponins (aesculin), which are poorly absorbed and mostly irritate the gut.
+  sources:
+    - 'Horse chestnuts are toxic. Poison Control (National Capital Poison Center). https://www.poison.org/articles/horse-chestnuts-are-toxic-214'
+symptoms:
+  text: >-
+    Stomach pain, nausea, vomiting, and diarrhea. Rarely, children have become weak, drowsy, or
+    briefly paralysed, and a few adults have collapsed with facial swelling that blocked the
+    airway.
+  sources:
+    - 'Horse chestnuts are toxic. Poison Control (National Capital Poison Center). https://www.poison.org/articles/horse-chestnuts-are-toxic-214'
+onset:
+  text: >-
+    Usually 15 minutes to 3 hours after eating, lasting 2 to 3 days.
+  sources:
+    - 'Horse chestnuts are toxic. Poison Control (National Capital Poison Center). https://www.poison.org/articles/horse-chestnuts-are-toxic-214'
+atRisk:
+  text: >-
+    Children, and people who take the seeds for edible chestnuts: it is among the plants most
+    often eaten by mistake in southeastern France.
+  sources:
+    - 'Horse chestnuts are toxic. Poison Control (National Capital Poison Center). https://www.poison.org/articles/horse-chestnuts-are-toxic-214'
+    - 'Torrents R et al. Food confusion between edible and poisonous plants: a 22-year retrospective of the Southeastern France Poison Control Center. Toxins 2024. https://doi.org/10.3390/toxins16120552'
+lookalikes:
+  - name: Sweet chestnut
+    scientificName: Castanea sativa
+    note: >-
+      Horse chestnut pods have sparser spikes and usually one round, bitter seed with a pale spot;
+      sweet chestnut pods are densely spiny and hold several pointed nuts.
+    sources:
+      - 'Horse chestnuts are toxic. Poison Control (National Capital Poison Center). https://www.poison.org/articles/horse-chestnuts-are-toxic-214'
+habitat: >-
+  Mountain woods in its native range; parks, streets, and gardens elsewhere.
+size: A tree up to about 35 m tall
+regions:
+  - AL
+  - BA
+  - BG
+  - GR
+  - HR
+  - ME
+  - MK
+  - RS
+  - SI
+  - TM
+  - TR
+introduced:
+  - AT
+  - BD
+  - BE
+  - CA-BC
+  - CA-NB
+  - CA-NS
+  - CA-ON
+  - CA-QC
+  - CH
+  - CZ
+  - DE
+  - EE
+  - ES
+  - FR
+  - GB
+  - HU
+  - IE
+  - IM
+  - IT
+  - KZ
+  - LT
+  - LU
+  - LV
+  - NZ
+  - PL
+  - RO
+  - RU
+  - SK
+  - US-AL
+  - US-CT
+  - US-DC
+  - US-GA
+  - US-IA
+  - US-IL
+  - US-IN
+  - US-KY
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-NC
+  - US-NJ
+  - US-NY
+  - US-OH
+  - US-OR
+  - US-PA
+  - US-RI
+  - US-SC
+  - US-VA
+  - US-VT
+  - US-WA
+  - US-WI
+  - US-WV
+  - UZ
