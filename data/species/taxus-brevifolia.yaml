@@ -1,0 +1,51 @@
+name: Pacific yew
+scientificName: Taxus brevifolia
+group: plant
+danger: 4
+summary: >-
+  A small understory yew of the Pacific Northwest, the original source of the cancer drug
+  paclitaxel (Taxol). Like all yews, it is poisonous.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Yew and paclitaxel: what do they have in common? Poison Control (National Capital Poison Center). https://www.poison.org/articles/yew-and-paclitaxel'
+toxicParts:
+  text: >-
+    The needles and the seed inside each red berry; all yews (Taxus) are poisonous.
+  sources:
+    - 'Yew and paclitaxel: what do they have in common? Poison Control (National Capital Poison Center). https://www.poison.org/articles/yew-and-paclitaxel'
+toxins:
+  text: >-
+    Taxines, alkaloids that block sodium and calcium channels in the heart.
+  sources:
+    - 'Hermes-Laufer et al. Extracorporeal life support as bridge to recovery in yew poisoning: case reports and literature review. ESC Heart Fail 2020. https://doi.org/10.1002/ehf2.12828'
+    - 'Japanese yew. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/japanese-yew'
+symptoms:
+  text: >-
+    From stomach upset to seizures, a dangerously irregular heartbeat, and a failing heart.
+  sources:
+    - 'Hermes-Laufer et al. Extracorporeal life support as bridge to recovery in yew poisoning: case reports and literature review. ESC Heart Fail 2020. https://doi.org/10.1002/ehf2.12828'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+atRisk:
+  text: >-
+    Children who eat the berries, and adults who brew tea from the needles.
+  sources:
+    - 'Yew and paclitaxel: what do they have in common? Poison Control (National Capital Poison Center). https://www.poison.org/articles/yew-and-paclitaxel'
+animals:
+  who: [dogs, cats, horses]
+  text: >-
+    Animals can die suddenly of heart failure.
+  sources:
+    - 'Pacific yew. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/pacific-yew'
+habitat: >-
+  Moist conifer forest, often along streams.
+size: A small tree up to about 15 m tall
+regions:
+  - CA-AB
+  - CA-BC
+  - US-AK
+  - US-CA
+  - US-ID
+  - US-MT
+  - US-OR
+  - US-WA

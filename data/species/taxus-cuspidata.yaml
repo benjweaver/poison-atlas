@@ -1,0 +1,74 @@
+name: Japanese yew
+scientificName: Taxus cuspidata
+group: plant
+danger: 4
+summary: >-
+  A yew from northeast Asia, widely planted as a hedge and garden shrub. Like all yews, its
+  needles and seeds can stop the heart.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Yew and paclitaxel: what do they have in common? Poison Control (National Capital Poison Center). https://www.poison.org/articles/yew-and-paclitaxel'
+toxicParts:
+  text: >-
+    The needles and the seed inside each red berry; all yews (Taxus) are poisonous.
+  sources:
+    - 'Yew and paclitaxel: what do they have in common? Poison Control (National Capital Poison Center). https://www.poison.org/articles/yew-and-paclitaxel'
+toxins:
+  text: >-
+    Taxines, alkaloids that block sodium and calcium channels in the heart.
+  sources:
+    - 'Hermes-Laufer et al. Extracorporeal life support as bridge to recovery in yew poisoning: case reports and literature review. ESC Heart Fail 2020. https://doi.org/10.1002/ehf2.12828'
+    - 'Japanese yew. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/japanese-yew'
+symptoms:
+  text: >-
+    From stomach upset to seizures, a dangerously irregular heartbeat, and a failing heart.
+  sources:
+    - 'Hermes-Laufer et al. Extracorporeal life support as bridge to recovery in yew poisoning: case reports and literature review. ESC Heart Fail 2020. https://doi.org/10.1002/ehf2.12828'
+    - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
+atRisk:
+  text: >-
+    Children who eat the berries, and adults who brew tea from the needles.
+  sources:
+    - 'Yew and paclitaxel: what do they have in common? Poison Control (National Capital Poison Center). https://www.poison.org/articles/yew-and-paclitaxel'
+animals:
+  who: [dogs, cats, horses]
+  text: >-
+    Animals can die suddenly of heart failure.
+  sources:
+    - 'Japanese yew. ASPCA Animal Poison Control. https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/japanese-yew'
+habitat: >-
+  Mountain forests; planted in gardens and parks.
+size: A shrub or tree up to about 20 m tall
+regions:
+  - CN-JL
+  - CN-LN
+  - JP-01
+  - JP-02
+  - JP-03
+  - JP-04
+  - JP-05
+  - JP-06
+  - JP-08
+  - JP-09
+  - JP-10
+  - JP-12
+  - JP-13
+  - JP-15
+  - JP-16
+  - JP-18
+  - JP-19
+  - JP-20
+  - JP-21
+  - JP-28
+  - JP-29
+  - JP-31
+  - JP-34
+  - JP-36
+  - JP-39
+  - KR
+  - RU
+introduced:
+  - LV
+  - US-NY
+  - US-VT

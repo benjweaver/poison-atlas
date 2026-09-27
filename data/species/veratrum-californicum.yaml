@@ -1,0 +1,63 @@
+name: California false hellebore
+scientificName: Veratrum californicum
+group: plant
+danger: 3
+summary: >-
+  A tall plant of high mountain meadows in western North America, the commonest false hellebore in
+  California, and famous for birth defects in grazing sheep.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Roake C, Besmanos CG, Armenian P. A case of accidental Veratrum californicum (California false hellebore) toxicity. Wilderness Environ Med 2026 (abstract). https://doi.org/10.1177/10806032251348162'
+    - 'Dirks ML et al. Review: Veratrum californicum alkaloids. Molecules 2021. https://doi.org/10.3390/molecules26195934'
+toxicParts:
+  text: >-
+    All parts contain the alkaloids.
+  sources:
+    - 'Dirks ML et al. Review: Veratrum californicum alkaloids. Molecules 2021. https://doi.org/10.3390/molecules26195934'
+    - 'Roake C, Besmanos CG, Armenian P. A case of accidental Veratrum californicum (California false hellebore) toxicity. Wilderness Environ Med 2026 (abstract). https://doi.org/10.1177/10806032251348162'
+toxins:
+  text: >-
+    Steroidal alkaloids that keep nerve cells firing, triggering a reflex that drops blood
+    pressure and slows the heart and breathing. Some, like cyclopamine, cause birth defects.
+  sources:
+    - 'Schep LJ, Schmierer DM, Fountain JS. Veratrum poisoning. Toxicol Rev 2006 (abstract). https://doi.org/10.2165/00139709-200625020-00001'
+    - 'Dirks ML et al. Review: Veratrum californicum alkaloids. Molecules 2021. https://doi.org/10.3390/molecules26195934'
+symptoms:
+  text: >-
+    Nausea and vomiting, a slow heart, and low blood pressure needing fluids and atropine.
+  sources:
+    - 'Roake C, Besmanos CG, Armenian P. A case of accidental Veratrum californicum (California false hellebore) toxicity. Wilderness Environ Med 2026 (abstract). https://doi.org/10.1177/10806032251348162'
+    - 'Schep LJ, Schmierer DM, Fountain JS. Veratrum poisoning. Toxicol Rev 2006 (abstract). https://doi.org/10.2165/00139709-200625020-00001'
+onset:
+  text: >-
+    Between 30 minutes and 4 hours for Veratrum poisoning.
+  sources:
+    - 'Schep LJ, Schmierer DM, Fountain JS. Veratrum poisoning. Toxicol Rev 2006 (abstract). https://doi.org/10.2165/00139709-200625020-00001'
+atRisk:
+  text: >-
+    Hikers and foragers who eat it by mistake.
+  sources:
+    - 'Roake C, Besmanos CG, Armenian P. A case of accidental Veratrum californicum (California false hellebore) toxicity. Wilderness Environ Med 2026 (abstract). https://doi.org/10.1177/10806032251348162'
+animals:
+  who: [livestock]
+  text: >-
+    Lambs of ewes that graze it in pregnancy can be born with severe defects.
+  sources:
+    - 'Schep LJ, Schmierer DM, Fountain JS. Veratrum poisoning. Toxicol Rev 2006 (abstract). https://doi.org/10.2165/00139709-200625020-00001'
+    - 'Dirks ML et al. Review: Veratrum californicum alkaloids. Molecules 2021. https://doi.org/10.3390/molecules26195934'
+habitat: >-
+  High mountain meadows and damp slopes.
+size: Up to about 2 m tall
+regions:
+  - MX-CHH
+  - MX-DUR
+  - US-AZ
+  - US-CA
+  - US-CO
+  - US-ID
+  - US-NM
+  - US-NV
+  - US-OR
+  - US-WA
+  - US-WY

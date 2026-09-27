@@ -54,6 +54,13 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
   },
+  "aristolochia-clematitis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Azille_-_Aristolochia_clematitis_02.jpg/960px-Azille_-_Aristolochia_clematitis_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Azille_-_Aristolochia_clematitis_02.jpg",
+    "artist": "Tylwyth Eldar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "atropa-belladonna": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Atropa_belladonna_%2816627871072%29.jpg/960px-Atropa_belladonna_%2816627871072%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Atropa_belladonna_(16627871072).jpg",
@@ -464,6 +471,20 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "taxus-brevifolia": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Taxus_brevifolia_Blue_Mts_WA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Taxus_brevifolia_Blue_Mts_WA.jpg",
+    "artist": "Jason Hollinger",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "taxus-cuspidata": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Taxus_cuspidata_fruits.JPG/960px-Taxus_cuspidata_fruits.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Taxus_cuspidata_fruits.JPG",
+    "artist": "Alpsdake",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "toxicodendron-diversilobum": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/PoisonOak_wb_biggerLeaves.jpg/960px-PoisonOak_wb_biggerLeaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:PoisonOak_wb_biggerLeaves.jpg",
@@ -504,6 +525,20 @@
     "artist": "Planchon",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "veratrum-californicum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Veratrum_californicum_habitus1.jpg/960px-Veratrum_californicum_habitus1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Veratrum_californicum_habitus1.jpg",
+    "artist": "JerryFriedman",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "veratrum-viride": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Veratrum_veride2.JPG/960px-Veratrum_veride2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Veratrum_veride2.JPG",
+    "artist": "User:SB_Johnny",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
   "xanthium-strumarium": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Xanthium_strumarium_2026_G1.jpg/960px-Xanthium_strumarium_2026_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

@@ -1,0 +1,85 @@
+name: Green false hellebore
+scientificName: Veratrum viride
+group: plant
+danger: 3
+summary: >-
+  A tall plant of wet North American woods and meadows with broad pleated leaves. Foragers dig it
+  up in place of ramps (wild leeks).
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Jaffe AM, Gephardt D, Courtemanche L. Poisoning due to ingestion of Veratrum viride (false hellebore). J Emerg Med 1990 (abstract). https://doi.org/10.1016/0736-4679(90)90226-l'
+    - 'Forrester JD, Price JH, Holstege CP. Intoxication with a ramp (Allium tricocca) mimicker: false hellebore (Veratrum viride) ingestion. Wilderness Environ Med 2010. https://doi.org/10.1016/j.wem.2009.12.004'
+toxicParts:
+  text: >-
+    The plant, eaten in place of edible greens.
+  sources:
+    - 'Jaffe AM, Gephardt D, Courtemanche L. Poisoning due to ingestion of Veratrum viride (false hellebore). J Emerg Med 1990 (abstract). https://doi.org/10.1016/0736-4679(90)90226-l'
+    - 'Forrester JD, Price JH, Holstege CP. Intoxication with a ramp (Allium tricocca) mimicker: false hellebore (Veratrum viride) ingestion. Wilderness Environ Med 2010. https://doi.org/10.1016/j.wem.2009.12.004'
+toxins:
+  text: >-
+    Steroidal alkaloids that keep nerve cells firing, triggering a reflex that drops blood
+    pressure and slows the heart and breathing.
+  sources:
+    - 'Schep LJ, Schmierer DM, Fountain JS. Veratrum poisoning. Toxicol Rev 2006 (abstract). https://doi.org/10.2165/00139709-200625020-00001'
+    - 'Jaffe AM, Gephardt D, Courtemanche L. Poisoning due to ingestion of Veratrum viride (false hellebore). J Emerg Med 1990 (abstract). https://doi.org/10.1016/0736-4679(90)90226-l'
+symptoms:
+  text: >-
+    Nausea and vomiting, then a very slow heart and low blood pressure that can need drugs to
+    support it.
+  sources:
+    - 'Jaffe AM, Gephardt D, Courtemanche L. Poisoning due to ingestion of Veratrum viride (false hellebore). J Emerg Med 1990 (abstract). https://doi.org/10.1016/0736-4679(90)90226-l'
+    - 'Schep LJ, Schmierer DM, Fountain JS. Veratrum poisoning. Toxicol Rev 2006 (abstract). https://doi.org/10.2165/00139709-200625020-00001'
+onset:
+  text: >-
+    Between 30 minutes and 4 hours for Veratrum poisoning.
+  sources:
+    - 'Schep LJ, Schmierer DM, Fountain JS. Veratrum poisoning. Toxicol Rev 2006 (abstract). https://doi.org/10.2165/00139709-200625020-00001'
+atRisk:
+  text: >-
+    Foragers who mistake it for ramps.
+  sources:
+    - 'Forrester JD, Price JH, Holstege CP. Intoxication with a ramp (Allium tricocca) mimicker: false hellebore (Veratrum viride) ingestion. Wilderness Environ Med 2010. https://doi.org/10.1016/j.wem.2009.12.004'
+    - 'Jaffe AM, Gephardt D, Courtemanche L. Poisoning due to ingestion of Veratrum viride (false hellebore). J Emerg Med 1990 (abstract). https://doi.org/10.1016/0736-4679(90)90226-l'
+lookalikes:
+  - name: Ramps
+    scientificName: Allium tricoccum
+    note: >-
+      It has been eaten by foragers who took it for ramps.
+    sources:
+      - 'Forrester JD, Price JH, Holstege CP. Intoxication with a ramp (Allium tricocca) mimicker: false hellebore (Veratrum viride) ingestion. Wilderness Environ Med 2010. https://doi.org/10.1016/j.wem.2009.12.004'
+habitat: >-
+  Swamps, wet meadows, and damp woods.
+size: Up to about 2 m tall
+regions:
+  - CA-AB
+  - CA-BC
+  - CA-NB
+  - CA-NL
+  - CA-NT
+  - CA-QC
+  - CA-YT
+  - US-AK
+  - US-CA
+  - US-CT
+  - US-DE
+  - US-GA
+  - US-ID
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MT
+  - US-NC
+  - US-NH
+  - US-NJ
+  - US-NY
+  - US-OH
+  - US-OR
+  - US-PA
+  - US-RI
+  - US-SC
+  - US-TN
+  - US-VA
+  - US-VT
+  - US-WA
+  - US-WV
