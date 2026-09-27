@@ -1,0 +1,52 @@
+name: Red-striped oil beetle
+scientificName: Berberomeloe majalis
+group: insect
+danger: 3
+summary: >-
+  A large black blister beetle with red bands, found in Spain, Portugal, and North Africa. Its
+  body fluid holds cantharidin.
+exposure:
+  routes: [eaten, skin, eyes]
+  text: >-
+    Its fluid blisters skin and eyes; eating one poisons the kidneys.
+  sources:
+    - 'Cotovio P et al. Acute kidney injury by cantharidin poisoning following a silly bet on an ugly beetle. Clin Kidney J 2013. https://doi.org/10.1093/ckj/sft001'
+    - 'Blister beetles: do not touch! Poison Control (National Capital Poison Center). https://www.poison.org/articles/blister-beetles-do-not-touch-194'
+toxicParts:
+  text: >-
+    The body fluid, which blister beetles ooze from their leg joints.
+  sources:
+    - 'Blister beetles: do not touch! Poison Control (National Capital Poison Center). https://www.poison.org/articles/blister-beetles-do-not-touch-194'
+    - 'Cotovio P et al. Acute kidney injury by cantharidin poisoning following a silly bet on an ugly beetle. Clin Kidney J 2013. https://doi.org/10.1093/ckj/sft001'
+toxins:
+  text: >-
+    Cantharidin, a blistering agent.
+  sources:
+    - 'Cotovio P et al. Acute kidney injury by cantharidin poisoning following a silly bet on an ugly beetle. Clin Kidney J 2013. https://doi.org/10.1093/ckj/sft001'
+    - 'Blister beetles: do not touch! Poison Control (National Capital Poison Center). https://www.poison.org/articles/blister-beetles-do-not-touch-194'
+symptoms:
+  text: >-
+    Eaten: stomach pain, painful urination with blood in the urine, low blood pressure, fever, and
+    kidney injury. On the skin or eyes: burns and blisters.
+  sources:
+    - 'Cotovio P et al. Acute kidney injury by cantharidin poisoning following a silly bet on an ugly beetle. Clin Kidney J 2013. https://doi.org/10.1093/ckj/sft001'
+    - 'Blister beetles: do not touch! Poison Control (National Capital Poison Center). https://www.poison.org/articles/blister-beetles-do-not-touch-194'
+onset:
+  text: >-
+    Within about 6 hours of eating one.
+  sources:
+    - 'Cotovio P et al. Acute kidney injury by cantharidin poisoning following a silly bet on an ugly beetle. Clin Kidney J 2013. https://doi.org/10.1093/ckj/sft001'
+atRisk:
+  text: >-
+    People who handle or eat blister beetles: a 23-year-old soldier ate one on a bet.
+  sources:
+    - 'Cotovio P et al. Acute kidney injury by cantharidin poisoning following a silly bet on an ugly beetle. Clin Kidney J 2013. https://doi.org/10.1093/ckj/sft001'
+    - 'Blister beetles: do not touch! Poison Control (National Capital Poison Center). https://www.poison.org/articles/blister-beetles-do-not-touch-194'
+habitat: >-
+  Grassland, scrub, and open ground.
+regions:
+  - DZ
+  - ES
+  - FR
+  - MA
+  - PT

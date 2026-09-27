@@ -1,0 +1,239 @@
+name: Great barracuda
+scientificName: Sphyraena barracuda
+group: fish
+danger: 3
+summary: >-
+  A large predatory fish of warm seas, sold as food, and among the fish most likely to carry
+  ciguatera poison where reef algae produce it.
+exposure:
+  routes: [eaten]
+  text: >-
+    Only fish that have built up ciguatoxin from the reef food chain are poisonous, and they look,
+    smell, and taste normal.
+  sources:
+    - 'Friedman MA et al. An updated review of ciguatera fish poisoning: clinical, epidemiological, environmental, and public health management. Mar Drugs 2017. https://doi.org/10.3390/md15030072'
+    - 'Food poisoning from fish: ciguatera. Poison Control (National Capital Poison Center). https://www.poison.org/articles/food-poisoning-from-ciguatera'
+toxicParts:
+  text: >-
+    The flesh of fish that carry ciguatoxin. Cooking and freezing don’t destroy it.
+  sources:
+    - 'Friedman MA et al. An updated review of ciguatera fish poisoning: clinical, epidemiological, environmental, and public health management. Mar Drugs 2017. https://doi.org/10.3390/md15030072'
+    - 'Food poisoning from fish: ciguatera. Poison Control (National Capital Poison Center). https://www.poison.org/articles/food-poisoning-from-ciguatera'
+toxins:
+  text: >-
+    Ciguatoxins, made by reef algae (Gambierdiscus) and concentrated up the food chain.
+  sources:
+    - 'Friedman MA et al. An updated review of ciguatera fish poisoning: clinical, epidemiological, environmental, and public health management. Mar Drugs 2017. https://doi.org/10.3390/md15030072'
+    - 'Food poisoning from fish: ciguatera. Poison Control (National Capital Poison Center). https://www.poison.org/articles/food-poisoning-from-ciguatera'
+symptoms:
+  text: >-
+    Nausea, vomiting, diarrhea, and stomach cramps, then numbness and tingling, itching, aching
+    muscles and joints, and hot–cold reversal, where cold things feel burning. Symptoms can last
+    weeks, months, or years; deaths are rare.
+  sources:
+    - 'Food poisoning from fish: ciguatera. Poison Control (National Capital Poison Center). https://www.poison.org/articles/food-poisoning-from-ciguatera'
+    - 'Friedman MA et al. An updated review of ciguatera fish poisoning: clinical, epidemiological, environmental, and public health management. Mar Drugs 2017. https://doi.org/10.3390/md15030072'
+onset:
+  text: >-
+    Usually within a few hours, and up to 24 hours after eating.
+  sources:
+    - 'Food poisoning from fish: ciguatera. Poison Control (National Capital Poison Center). https://www.poison.org/articles/food-poisoning-from-ciguatera'
+    - 'Friedman MA et al. An updated review of ciguatera fish poisoning: clinical, epidemiological, environmental, and public health management. Mar Drugs 2017. https://doi.org/10.3390/md15030072'
+atRisk:
+  text: >-
+    People who eat large reef fish from tropical and subtropical waters, and anyone they are
+    shipped to. A woman fell ill 8 hours after eating barracuda on holiday in Aruba.
+  sources:
+    - 'Food poisoning from fish: ciguatera. Poison Control (National Capital Poison Center). https://www.poison.org/articles/food-poisoning-from-ciguatera'
+    - 'Friedman MA et al. An updated review of ciguatera fish poisoning: clinical, epidemiological, environmental, and public health management. Mar Drugs 2017. https://doi.org/10.3390/md15030072'
+habitat: >-
+  Coral reefs, seagrass beds, and open coastal waters in the tropics and subtropics.
+size: Up to about 2 m long
+aquatic: marine
+regions:
+  - AE
+  - AG
+  - AI
+  - AO
+  - AS
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-WA
+  - AW
+  - BB
+  - BL
+  - BM
+  - BR-AL
+  - BR-BA
+  - BR-CE
+  - BR-ES
+  - BR-MA
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-PR
+  - BR-RJ
+  - BR-RN
+  - BR-SC
+  - BS
+  - BZ
+  - CI
+  - CK
+  - CM
+  - CN-GD
+  - CN-HI
+  - CO
+  - CR
+  - CU
+  - CW
+  - DJ
+  - DM
+  - DO
+  - EC
+  - EG
+  - FJ
+  - FM
+  - GA
+  - GD
+  - GF
+  - GH
+  - GP
+  - GQ
+  - GT
+  - GU
+  - HN
+  - HT
+  - ID
+  - IL
+  - IN-AN
+  - IN-KL
+  - IN-LD
+  - IN-MH
+  - IO
+  - JM
+  - JP-24
+  - JP-30
+  - JP-42
+  - JP-45
+  - JP-46
+  - JP-47
+  - KE
+  - KH
+  - KM
+  - KN
+  - KY
+  - LC
+  - LK
+  - MG
+  - MH
+  - MP
+  - MQ
+  - MU
+  - MV
+  - MX-CAM
+  - MX-ROO
+  - MX-TAB
+  - MX-TAM
+  - MX-VER
+  - MX-YUC
+  - MY
+  - MZ
+  - NC
+  - NF
+  - NG
+  - NI
+  - NU
+  - OM
+  - PA
+  - PF
+  - PG
+  - PH
+  - PR
+  - PW
+  - RE
+  - SA
+  - SB
+  - SC
+  - SD
+  - SG
+  - SN
+  - SO
+  - ST
+  - TC
+  - TF
+  - TH
+  - TL
+  - TO
+  - TT
+  - TV
+  - TW
+  - TZ
+  - US-AL
+  - US-FL
+  - US-GA
+  - US-HI
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-MS
+  - US-NC
+  - US-NJ
+  - US-NY
+  - US-SC
+  - US-TX
+  - US-VA
+  - VC
+  - VE
+  - VG
+  - VI
+  - VN
+  - YE
+  - YT
+  - ZA-EC
+  - ZA-NL
+gbif:
+  exclude:
+    - code: DK
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: ES
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: FO
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: FR
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: GB
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: GL
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: IE
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: IS
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: IT
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: ME
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: MT
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: NL
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: NO
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
+    - code: PT
+      reason: 'outside its range (Indo-Pacific, western Atlantic, and tropical West Africa); records here are strays or errors'
+      source: 'Sphyraena barracuda, great barracuda. FishBase. https://www.fishbase.se/summary/Sphyraena-barracuda.html'
