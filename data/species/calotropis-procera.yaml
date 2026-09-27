@@ -1,0 +1,174 @@
+name: Sodom apple
+scientificName: Calotropis procera
+group: plant
+danger: 2
+summary: >-
+  A milkweed shrub of dry wasteland in Africa and Asia, full of milky latex. Latex in the eye
+  clouds the cornea and blurs vision.
+exposure:
+  routes: [eyes]
+  sources:
+    - 'Basak SK et al. Ocular toxicity by latex of Calotropis procera (Sodom apple). Indian J Ophthalmol 2009. https://doi.org/10.4103/0301-4738.49402'
+toxicParts:
+  text: >-
+    The milky latex, found throughout the plant.
+  sources:
+    - 'Basak SK et al. Ocular toxicity by latex of Calotropis procera (Sodom apple). Indian J Ophthalmol 2009. https://doi.org/10.4103/0301-4738.49402'
+toxins:
+  text: >-
+    Irritants in the latex; the long-term effect on the cornea is not yet known.
+  sources:
+    - 'Basak SK et al. Ocular toxicity by latex of Calotropis procera (Sodom apple). Indian J Ophthalmol 2009. https://doi.org/10.4103/0301-4738.49402'
+symptoms:
+  text: >-
+    Sudden, painless dimming of vision with sensitivity to light, a red eye, and a swollen cornea;
+    some eyes develop inflammation inside or raised pressure (glaucoma).
+  sources:
+    - 'Basak SK et al. Ocular toxicity by latex of Calotropis procera (Sodom apple). Indian J Ophthalmol 2009. https://doi.org/10.4103/0301-4738.49402'
+atRisk:
+  text: >-
+    People who pick its flowers and leaves, which are used in worship in India, or who get latex
+    on their hands and touch their eyes.
+  sources:
+    - 'Basak SK et al. Ocular toxicity by latex of Calotropis procera (Sodom apple). Indian J Ophthalmol 2009. https://doi.org/10.4103/0301-4738.49402'
+habitat: >-
+  Wasteland, roadsides, and dry, sandy ground.
+size: A shrub or small tree up to about 5 m tall
+regions:
+  - AE
+  - AF
+  - BD
+  - BF
+  - BJ
+  - CD
+  - CF
+  - CG
+  - CI
+  - CM
+  - CV
+  - DJ
+  - DZ
+  - EG
+  - ER
+  - ES
+  - ET
+  - GH
+  - GM
+  - GN
+  - GW
+  - IL
+  - IN-AP
+  - IN-BR
+  - IN-CT
+  - IN-DL
+  - IN-GJ
+  - IN-HR
+  - IN-KA
+  - IN-MH
+  - IN-MP
+  - IN-PB
+  - IN-RJ
+  - IN-TG
+  - IN-UP
+  - IN-UT
+  - IN-WB
+  - IR
+  - JO
+  - KE
+  - KH
+  - KW
+  - LY
+  - MA
+  - ML
+  - MM
+  - MR
+  - MW
+  - MZ
+  - NE
+  - NG
+  - NP
+  - OM
+  - PK
+  - PS
+  - QA
+  - SA
+  - SD
+  - SL
+  - SN
+  - SO
+  - SS
+  - TD
+  - TH
+  - TN
+  - TZ
+  - UG
+  - VN
+  - YE
+  - ZM
+  - ZW
+introduced:
+  - AG
+  - AI
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-WA
+  - AW
+  - BB
+  - BL
+  - BO
+  - BR-AL
+  - BR-BA
+  - BR-CE
+  - BR-ES
+  - BR-GO
+  - BR-MA
+  - BR-MG
+  - BR-MS
+  - BR-MT
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-RJ
+  - BR-RN
+  - BR-SE
+  - BR-SP
+  - BR-TO
+  - BS
+  - CO
+  - CR
+  - CU
+  - CW
+  - DO
+  - GD
+  - GP
+  - GT
+  - HN
+  - HT
+  - IQ
+  - JM
+  - KN
+  - KY
+  - MF
+  - MQ
+  - MS
+  - MX-CHP
+  - MX-MIC
+  - MX-OAX
+  - MX-ROO
+  - MX-YUC
+  - NI
+  - PA
+  - PR
+  - PY
+  - SV
+  - SX
+  - TC
+  - TT
+  - US-CA
+  - US-FL
+  - US-HI
+  - VE
+  - VG
+  - VI
+  - ZA-LP

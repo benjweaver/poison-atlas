@@ -1,0 +1,100 @@
+name: Caper spurge
+scientificName: Euphorbia lathyris
+group: plant
+danger: 2
+summary: >-
+  A common garden plant and weed, found around the world. Its milky sap can badly burn the eyes.
+exposure:
+  routes: [eyes, skin]
+  sources:
+    - 'Kok LT, Bizrah M, Cordeiro MF, Din N. Exposure to caper spurge (Euphorbia lathyris) sap: a case of ocular and periorbital toxicity. Case Rep Ophthalmol 2024. https://doi.org/10.1159/000539419'
+toxicParts:
+  text: >-
+    The milky sap (latex).
+  sources:
+    - 'Kok LT, Bizrah M, Cordeiro MF, Din N. Exposure to caper spurge (Euphorbia lathyris) sap: a case of ocular and periorbital toxicity. Case Rep Ophthalmol 2024. https://doi.org/10.1159/000539419'
+toxins:
+  text: >-
+    Irritants in the latex of Euphorbia plants; how harmful they are to the eyes varies by
+    species.
+  sources:
+    - 'Kok LT, Bizrah M, Cordeiro MF, Din N. Exposure to caper spurge (Euphorbia lathyris) sap: a case of ocular and periorbital toxicity. Case Rep Ophthalmol 2024. https://doi.org/10.1159/000539419'
+symptoms:
+  text: >-
+    Intense eye pain, redness, and light sensitivity, a swollen, damaged cornea, blurred vision,
+    and inflamed skin around the eyes. It can spread to the other eye.
+  sources:
+    - 'Kok LT, Bizrah M, Cordeiro MF, Din N. Exposure to caper spurge (Euphorbia lathyris) sap: a case of ocular and periorbital toxicity. Case Rep Ophthalmol 2024. https://doi.org/10.1159/000539419'
+onset:
+  text: >-
+    Pain comes soon after contact, but signs can take 24 to 48 hours to show fully.
+  sources:
+    - 'Kok LT, Bizrah M, Cordeiro MF, Din N. Exposure to caper spurge (Euphorbia lathyris) sap: a case of ocular and periorbital toxicity. Case Rep Ophthalmol 2024. https://doi.org/10.1159/000539419'
+atRisk:
+  text: >-
+    Gardeners pulling weeds without gloves or eye protection.
+  sources:
+    - 'Kok LT, Bizrah M, Cordeiro MF, Din N. Exposure to caper spurge (Euphorbia lathyris) sap: a case of ocular and periorbital toxicity. Case Rep Ophthalmol 2024. https://doi.org/10.1159/000539419'
+habitat: >-
+  Gardens, waste ground, and disturbed soil.
+size: Up to about 1.5 m tall
+regions:
+  - CN-XJ
+  - KG
+  - PK
+introduced:
+  - AL
+  - AR-B
+  - AU-TAS
+  - BE
+  - BG
+  - BO
+  - CA-BC
+  - CA-ON
+  - CA-QC
+  - CL
+  - CN-GX
+  - CN-GZ
+  - CN-HB
+  - CN-NM
+  - CN-QH
+  - CN-SC
+  - CN-XZ
+  - CZ
+  - DE
+  - ES
+  - ET
+  - FR
+  - GB
+  - IE
+  - IM
+  - LU
+  - MA
+  - MX-VER
+  - NZ
+  - PT
+  - RO
+  - SK
+  - US-AZ
+  - US-CA
+  - US-CT
+  - US-ID
+  - US-IL
+  - US-MA
+  - US-MD
+  - US-MT
+  - US-NC
+  - US-NM
+  - US-NY
+  - US-OH
+  - US-OR
+  - US-PA
+  - US-SC
+  - US-TN
+  - US-TX
+  - US-VA
+  - US-WA
+  - US-WV
+  - UY
+  - VE
+  - VN

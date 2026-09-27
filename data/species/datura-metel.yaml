@@ -1,0 +1,172 @@
+name: Hindu datura
+scientificName: Datura metel
+group: plant
+danger: 4
+summary: >-
+  A datura with large trumpet flowers, grown and naturalized widely in the tropics. Like
+  jimsonweed, every part causes delirium.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+    - 'Islam T et al. Ethnobotanical uses and phytochemical, biological, and toxicological profiles of Datura metel L.: a review. Curr Res Toxicol 2023. https://doi.org/10.1016/j.crtox.2023.100106'
+toxicParts:
+  text: >-
+    Every part of the plant, and the seeds especially.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+toxins:
+  text: >-
+    Tropane alkaloids: hyoscine (scopolamine), hyoscyamine, and atropine.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+    - 'Islam T et al. Ethnobotanical uses and phytochemical, biological, and toxicological profiles of Datura metel L.: a review. Curr Res Toxicol 2023. https://doi.org/10.1016/j.crtox.2023.100106'
+symptoms:
+  text: >-
+    Dry mouth, flushed hot skin, wide pupils and blurred vision, a racing heart, and fever, with
+    agitation, confusion, hallucinations, and seizures. Deaths are recorded from datura.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+onset:
+  text: >-
+    Usually within 30 to 60 minutes, lasting a day or two.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+atRisk:
+  text: >-
+    People who use it as a hallucinogen or remedy, and people given it in food or drink in order
+    to rob them, as reported in India.
+  sources:
+    - 'Pillay VV, Sasidharan A. Oleander and Datura poisoning: an update. Indian J Crit Care Med 2019;23(Suppl 4):S250–S255. https://doi.org/10.5005/jp-journals-10071-23302'
+    - 'Islam T et al. Ethnobotanical uses and phytochemical, biological, and toxicological profiles of Datura metel L.: a review. Curr Res Toxicol 2023. https://doi.org/10.1016/j.crtox.2023.100106'
+habitat: >-
+  Waste ground, roadsides, and villages.
+size: Up to about 1.5 m tall
+regions:
+  - MX-CHP
+  - MX-OAX
+  - MX-ROO
+  - MX-TAB
+  - MX-YUC
+introduced:
+  - AF
+  - AO
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-WA
+  - AW
+  - BD
+  - BJ
+  - BO
+  - BR-AL
+  - BR-BA
+  - BW
+  - CA-ON
+  - CA-QC
+  - CD
+  - CF
+  - CI
+  - CM
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-GZ
+  - CN-HI
+  - CN-JS
+  - CN-SC
+  - CN-YN
+  - CO
+  - CR
+  - CU
+  - DE
+  - DO
+  - DZ
+  - EG
+  - ES
+  - ET
+  - FJ
+  - GH
+  - GM
+  - GN
+  - GQ
+  - GW
+  - HK
+  - HN
+  - HT
+  - ID
+  - IN-AP
+  - IN-AS
+  - IN-CT
+  - IN-GJ
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-UT
+  - IN-WB
+  - IT
+  - JM
+  - KE
+  - KH
+  - LA
+  - LK
+  - LY
+  - MA
+  - MG
+  - ML
+  - MM
+  - MR
+  - MU
+  - MW
+  - MX-NLE
+  - MZ
+  - NC
+  - NG
+  - NP
+  - NU
+  - OM
+  - PA
+  - PF
+  - PG
+  - PH
+  - PK
+  - PR
+  - PT
+  - RE
+  - RU
+  - SA
+  - SC
+  - SL
+  - SN
+  - TD
+  - TH
+  - TL
+  - TN
+  - TR
+  - TT
+  - TW
+  - TZ
+  - UG
+  - US-CA
+  - US-FL
+  - US-HI
+  - US-IL
+  - US-KS
+  - US-LA
+  - US-MA
+  - US-NC
+  - US-NY
+  - US-OK
+  - US-TX
+  - VE
+  - VN
+  - YE
+  - ZA-NL
+  - ZW

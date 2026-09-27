@@ -1,0 +1,62 @@
+name: Yellow azalea
+scientificName: Rhododendron luteum
+group: plant
+danger: 3
+summary: >-
+  A deciduous azalea with fragrant yellow flowers from eastern Europe and the Caucasus. With the
+  Pontic rhododendron, its nectar makes Turkey’s “mad honey.”
+exposure:
+  routes: [eaten]
+  text: >-
+    Poisonings come from honey made from its nectar.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+    - 'Azaleas and rhododendrons: “mad honey” and other surprising dangers. Poison Control (National Capital Poison Center). https://www.poison.org/articles/azaleas-and-rhododendrons'
+toxicParts:
+  text: >-
+    Nectar, flowers, and leaves, and honey made from them.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+    - 'Azaleas and rhododendrons: “mad honey” and other surprising dangers. Poison Control (National Capital Poison Center). https://www.poison.org/articles/azaleas-and-rhododendrons'
+toxins:
+  text: >-
+    Grayanotoxins, which keep nerve sodium channels open, driving up the vagal nerve’s braking of
+    the heart.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+symptoms:
+  text: >-
+    Dizziness, nausea, vomiting, sweating, very low blood pressure, and a slow heart or heart
+    block, which can be life-threatening. Symptoms last a day or two.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+    - 'Azaleas and rhododendrons: “mad honey” and other surprising dangers. Poison Control (National Capital Poison Center). https://www.poison.org/articles/azaleas-and-rhododendrons'
+onset:
+  text: >-
+    Within 20 minutes to 3 hours of eating the honey.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+atRisk:
+  text: >-
+    People who eat honey from small beekeepers in the eastern Black Sea region of Turkey. Honey
+    from it is said to have poisoned a Roman army in the first century BCE.
+  sources:
+    - 'Jansen SA et al. Grayanotoxin poisoning: “mad honey disease” and beyond. Cardiovasc Toxicol 2012. https://doi.org/10.1007/s12012-012-9162-2'
+    - 'Azaleas and rhododendrons: “mad honey” and other surprising dangers. Poison Control (National Capital Poison Center). https://www.poison.org/articles/azaleas-and-rhododendrons'
+habitat: >-
+  Woods, scrub, and mountain slopes.
+size: A shrub up to about 4 m tall
+regions:
+  - AT
+  - BY
+  - GE
+  - GR
+  - PL
+  - RU
+  - SI
+  - TR
+  - UA
+introduced:
+  - DE
+  - GB
+  - LV

@@ -68,6 +68,13 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
+  "calotropis-procera": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Gopi_Talab_Dwarka_during_Dwaraka_DWARASPDB_2015_%2822%29.jpg/960px-Gopi_Talab_Dwarka_during_Dwaraka_DWARASPDB_2015_%2822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Gopi_Talab_Dwarka_during_Dwaraka_DWARASPDB_2015_(22).jpg",
+    "artist": "Vinayaraj",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "carcinoscorpius-rotundicauda": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Carcinoscorpius_rotundicauda_%28mangrove_horseshoe_crab%29.jpg/960px-Carcinoscorpius_rotundicauda_%28mangrove_horseshoe_crab%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Carcinoscorpius_rotundicauda_(mangrove_horseshoe_crab).jpg",
@@ -168,6 +175,12 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   },
+  "datura-metel": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Datura_metel_Blanco1.34-cropped.jpg/960px-Datura_metel_Blanco1.34-cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Datura_metel_Blanco1.34-cropped.jpg",
+    "artist": "Francisco Manuel Blanco (O.S.A.)",
+    "license": "Public domain"
+  },
   "datura-stramonium": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Datura_stramonium_2_%282005_07_07%29.jpg/960px-Datura_stramonium_2_%282005_07_07%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Datura_stramonium_2_(2005_07_07).jpg",
@@ -209,6 +222,12 @@
     "artist": "Thierry Caro",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "euphorbia-lathyris": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Euphorbia_lathyris_Sturm33.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Euphorbia_lathyris_Sturm33.jpg",
+    "artist": "Johann Georg Sturm (Painter: Jacob Sturm)",
+    "license": "Public domain"
   },
   "galerina-marginata": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Galerina_marginata_Point_Reyes.jpg/960px-Galerina_marginata_Point_Reyes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -369,12 +388,26 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "pieris-japonica": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Pieris_japonica_10.jpg/960px-Pieris_japonica_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pieris_japonica_10.jpg",
+    "artist": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "pleurocybella-porrigens": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pleurocybella_050919low.jpg/960px-Pleurocybella_050919low.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Pleurocybella_050919low.jpg",
     "artist": "Strobilomyces",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "rhododendron-luteum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Rhododendron_luteum_%28flower%29.jpg/960px-Rhododendron_luteum_%28flower%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rhododendron_luteum_(flower).jpg",
+    "artist": "Chrumps",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
   },
   "rhododendron-ponticum": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Rhododendron_ponticum_ssp._baeticum_in_Cambarinho_Botanical_Reserve%2C_Portugal.JPG/960px-Rhododendron_ponticum_ssp._baeticum_in_Cambarinho_Botanical_Reserve%2C_Portugal.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
