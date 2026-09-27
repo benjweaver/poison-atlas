@@ -36,7 +36,6 @@ symptoms:
 onset:
   text: >-
     Very slow: kidney disease develops over years of exposure.
-  delayed: true
   sources:
     - 'Ham YH et al. Positive feedback mechanism in aristolochic acid I exposure-induced anemia and DNA adduct formation: implications for Balkan endemic nephropathy. J Agric Food Chem 2024 (abstract). https://doi.org/10.1021/acs.jafc.4c03508'
     - 'Brzić I et al. Different ecological niches of poisonous Aristolochia clematitis in central and marginal distribution ranges: another contribution to a better understanding of Balkan endemic nephropathy. Plants 2023. https://doi.org/10.3390/plants12173022'

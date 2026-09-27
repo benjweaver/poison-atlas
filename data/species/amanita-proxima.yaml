@@ -31,7 +31,6 @@ onset:
   text: >-
     Stomach symptoms about 8 hours after eating; kidney failure follows, earlier than in webcap
     poisoning.
-  delayed: true
   sources:
     - 'Mancini A et al. A rare case of acute renal failure related to Amanita proxima ingestion. G Ital Nefrol 2015 (abstract). https://europepmc.org/article/MED/26252264'
 atRisk:

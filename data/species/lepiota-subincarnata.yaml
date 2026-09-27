@@ -31,7 +31,6 @@ symptoms:
 onset:
   text: >-
     Delayed: in one case, 36 hours after eating it.
-  delayed: true
   sources:
     - 'Mottram AR, Lazio MP, Bryant SM. Lepiota subincarnata J.E. Lange induced fulminant hepatic failure presenting with pancreatitis. J Med Toxicol 2010 (abstract). https://doi.org/10.1007/s13181-010-0062-1'
     - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'

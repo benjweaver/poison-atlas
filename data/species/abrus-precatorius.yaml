@@ -36,7 +36,6 @@ symptoms:
 onset:
   text: >-
     Usually within a few hours, but it can be delayed for up to 5 days.
-  delayed: true
   sources:
     - 'Are rosary peas poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-rosary-peas-poisonous-194'
 atRisk:

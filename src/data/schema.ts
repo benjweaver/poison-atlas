@@ -77,14 +77,9 @@ export const speciesSchema = z
     toxicParts: claim,
     toxins: claim,
     symptoms: claim,
-    // How soon symptoms start, where a source says. `delayed` marks a species
-    // whose symptoms can start hours or days after exposure, when treatment is
-    // already late: the site then says to call poison control without waiting
-    // for symptoms. Left out, rather than guessed, when no source gives it.
-    onset: claim
-      .extend({ delayed: z.literal(true).optional() })
-      .strict()
-      .optional(),
+    // How soon symptoms start, where a source says. Left out, rather than
+    // guessed, when no source gives it.
+    onset: claim.optional(),
     atRisk: claim,
     // Eaten after traditional processing (cassava, ackee): says that it's
     // toxic raw or unripe, with the source. Never the method.
@@ -160,28 +155,6 @@ export const imageSchema = z
   .strict()
 
 export type SpeciesImage = z.infer<typeof imageSchema>
-
-/**
- * Where to call about a poisoning, per country, in data/poison-centres.yaml.
- * Every entry is checked on the centre's (or health service's) own site.
- */
-export const poisonCentreSchema = z
-  .object({
-    // Who answers: "Poison Help", "NHS 111".
-    name: z.string().min(1),
-    // The number as people there write it...
-    phone: z.string().min(1),
-    // ...and as dialled from a phone there, for tel: links.
-    tel: z.string().regex(/^\+?[0-9]+$/, 'digits only, optionally starting with +'),
-    // Hours, cost, or who the line is for.
-    note: z.string().min(1).optional(),
-    // The page the number was checked on, and when.
-    source: z.url(),
-    checked: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'a date like 2026-09-26'),
-  })
-  .strict()
-
-export type PoisonCentre = z.infer<typeof poisonCentreSchema>
 
 /** Why a place is listed, as shown on the site. */
 export type Evidence =

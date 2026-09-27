@@ -33,7 +33,6 @@ onset:
   text: >-
     Very delayed: stomach symptoms usually start on day 3, and kidney failure 3 to 20 days after
     eating.
-  delayed: true
   sources:
     - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'
     - 'Mushroom poisoning. MSD Manual Professional Edition. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/mushroom-poisoning'

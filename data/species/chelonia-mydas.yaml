@@ -29,7 +29,6 @@ symptoms:
 onset:
   text: >-
     Within a few days; in one outbreak, the day after the meal.
-  delayed: true
   sources:
     - 'Is sea turtle meat poisonous? Poison Control (National Capital Poison Center). https://www.poison.org/articles/is-sea-turtle-meat-poisonous'
 atRisk:

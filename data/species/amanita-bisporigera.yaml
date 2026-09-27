@@ -30,7 +30,6 @@ onset:
   text: >-
     Delayed: symptoms began 9 hours after eating it in one fatal case; amatoxin poisoning usually
     brings liver damage 36 to 48 hours in and death after 6 to 16 days.
-  delayed: true
   sources:
     - 'Nici et al. Amanita bisporigera-induced hepatic failure: a fatal case of mushroom ingestion. Case Rep Hepatol 2011. https://doi.org/10.1155/2011/936867'
 atRisk:

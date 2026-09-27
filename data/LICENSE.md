@@ -1,8 +1,8 @@
 # Data licence
 
 The species files in `data/species/` (names, summaries, toxicity, symptom,
-lookalike, and habitat notes, ranges and their cited reasons) and
-`data/poison-centres.yaml` are © 2026 Ben Weaver and licensed under [Creative
+lookalike, and habitat notes, ranges and their cited reasons) are © 2026 Ben
+Weaver and licensed under [Creative
 Commons Attribution-ShareAlike 4.0 International
 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 

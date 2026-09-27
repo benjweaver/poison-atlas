@@ -30,7 +30,6 @@ symptoms:
 onset:
   text: >-
     Mild symptoms come first; severe ones can take up to 3 days to appear.
-  delayed: true
   sources:
     - 'Are cocklebur seeds safe to eat? Poison Control (National Capital Poison Center). https://www.poison.org/articles/are-cocklebur-seeds-safe-to-eat-203'
 atRisk:

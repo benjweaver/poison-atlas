@@ -29,7 +29,6 @@ onset:
   text: >-
     Delayed: serious symptoms appear 2 to 4 days after eating, by which time the liver is badly
     damaged.
-  delayed: true
   sources:
     - 'Landry et al. Phylogenetic analysis of the distribution of deadly amatoxins among the little brown mushrooms of the genus Galerina. PLoS One 2021. https://doi.org/10.1371/journal.pone.0246575'
 atRisk:

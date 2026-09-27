@@ -54,7 +54,6 @@ symptoms:
 # Only if a source says how soon symptoms start:
 onset:
   text: TODO how soon symptoms start.
-  # delayed: true # when symptoms can start hours or days later
   sources:
     - TODO
 atRisk:

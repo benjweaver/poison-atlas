@@ -37,7 +37,6 @@ onset:
   text: >-
     Delayed: in a family poisoned in 2025, 8 to 12 hours after eating. Amatoxin poisoning kills 10
     to 20% of patients even with treatment.
-  delayed: true
   sources:
     - 'Brandecker et al. Amanita species mushroom poisonings: Northern California, November 2025–March 2026. MMWR 2026. https://doi.org/10.15585/mmwr.mm7520a2'
     - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'

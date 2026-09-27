@@ -34,7 +34,6 @@ onset:
   text: >-
     Delayed: stomach symptoms start 4 to 12 hours after eating it, and the life-threatening organ
     failure comes 1 to 3 days later.
-  delayed: true
   sources:
     - 'Brvar et al. Case report: fatal poisoning with Colchicum autumnale. Critical Care 2004. https://doi.org/10.1186/cc2427'
 atRisk:

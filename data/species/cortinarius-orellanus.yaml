@@ -33,7 +33,6 @@ onset:
   text: >-
     Very delayed: 2 to 4 days, and up to 14 days, after eating, so people sometimes eat the same
     mushrooms again before they fall ill.
-  delayed: true
   sources:
     - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
     - 'Lyons et al. Orellanine: from fungal origin to a potential future cancer treatment. J Nat Prod 2023. https://doi.org/10.1021/acs.jnatprod.2c01068'

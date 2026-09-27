@@ -29,7 +29,6 @@ symptoms:
 onset:
   text: >-
     Within days: two children developed blisters after the nut was tied to their ankles.
-  delayed: true
   sources:
     - 'Ramani JR, Gopinath H, Nagendran P. The siblings with blistered legs: marking nut maladies in India. Am J Trop Med Hyg 2021. https://doi.org/10.4269/ajtmh.21-0929'
 atRisk:

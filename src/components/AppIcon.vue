@@ -1,18 +1,7 @@
 <script setup lang="ts">
 // The few line icons the app uses, drawn on a 24px grid in the current text
 // colour. Decorative: whatever uses one gives it an accessible label.
-export type IconName =
-  | 'sun'
-  | 'moon'
-  | 'system'
-  | 'close'
-  | 'map'
-  | 'globe'
-  | 'info'
-  | 'heart'
-  | 'warning'
-  | 'phone'
-  | 'clock'
+export type IconName = 'sun' | 'moon' | 'system' | 'close' | 'map' | 'globe' | 'info' | 'heart'
 
 defineProps<{ name: IconName; small?: boolean }>()
 </script>
@@ -56,20 +45,6 @@ defineProps<{ name: IconName; small?: boolean }>()
     <template v-else-if="name === 'info'">
       <circle cx="12" cy="12" r="9" />
       <path d="M12 11v5M12 8h.01" />
-    </template>
-    <template v-else-if="name === 'warning'">
-      <path
-        d="M10.3 4.2 2.6 17.5A2 2 0 0 0 4.3 20.5h15.4a2 2 0 0 0 1.7-3L13.7 4.2a2 2 0 0 0-3.4 0z"
-      />
-      <path d="M12 9.5v4M12 17h.01" />
-    </template>
-    <path
-      v-else-if="name === 'phone'"
-      d="M21 16.5v3a2 2 0 0 1-2.2 2 19.5 19.5 0 0 1-8.5-3 19.2 19.2 0 0 1-6-6 19.5 19.5 0 0 1-3-8.6A2 2 0 0 1 3.3 1.8h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L7.3 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"
-    />
-    <template v-else-if="name === 'clock'">
-      <circle cx="12" cy="12" r="9" />
-      <path d="M12 7v5l3 2" />
     </template>
   </svg>
 </template>

@@ -33,7 +33,6 @@ symptoms:
 onset:
   text: >-
     Vomiting usually starts 6 to 48 hours after eating it; deaths usually come within 48 hours.
-  delayed: true
   sources:
     - 'Grunes et al. Fulminant hepatic failure attributed to ackee fruit ingestion in a patient with sickle cell trait. Case Rep Transplant 2012. https://doi.org/10.1155/2012/739238'
 atRisk:

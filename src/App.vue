@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import poisonCentres from 'virtual:poison-centres'
 import allSpecies from 'virtual:species'
 import { computed, defineAsyncComponent, reactive, ref, shallowRef, watch, watchEffect } from 'vue'
 
@@ -21,7 +20,6 @@ import {
   type RecordPoints,
   type Regions,
 } from '@/lib/geo'
-import { helpFor, languageRegion } from '@/lib/poison-help'
 import {
   countryOf,
   countsByCountry,
@@ -285,12 +283,6 @@ const stepOutLabel = computed(() => {
 
 const countryTotal = countsByCountry(allSpecies).size
 
-// Where to call: the poison centre for the country open on the map, or else
-// for the region the browser's languages name.
-const help = computed(() =>
-  helpFor(country.value ?? languageRegion(navigator.languages), poisonCentres, regionName),
-)
-
 // Optional support payments (a Stripe Payment Link, pay what you want).
 const SUPPORT_URL = 'https://buy.stripe.com/14AdRa94WcuJbMYfNp2ZO02'
 const SOURCE_URL = 'https://github.com/benjweaver/poison-atlas'
@@ -400,7 +392,6 @@ addEventListener('keydown', (e) => {
           v-if="selectedSpecies"
           :species="selectedSpecies"
           :region-name="regionName"
-          :help="help"
           @region="selectRegion"
           @species="view.species = $event"
         />

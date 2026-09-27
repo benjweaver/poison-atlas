@@ -30,7 +30,6 @@ symptoms:
 onset:
   text: >-
     The next day, with blisters growing over the following days.
-  delayed: true
   sources:
     - 'Skin problems from outdoor plants. Poison Control (National Capital Poison Center). https://www.poison.org/articles/skin-problems-from-outdoor-plants'
 atRisk:

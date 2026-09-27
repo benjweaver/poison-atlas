@@ -34,7 +34,6 @@ symptoms:
 onset:
   text: >-
     Gut symptoms can be delayed, and are followed by damage to other organs.
-  delayed: true
   sources:
     - 'O’Malley GF, O’Malley R. Plant poisoning. MSD Manual Professional Edition, 2025. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/plant-poisoning'
 atRisk:

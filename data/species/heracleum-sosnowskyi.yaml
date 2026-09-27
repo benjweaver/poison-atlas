@@ -33,7 +33,6 @@ symptoms:
 onset:
   text: >-
     Within 24 hours of contact and sunlight, at its worst by about 3 days.
-  delayed: true
   sources:
     - 'Giant hogweed and its toxic cousins. Poison Control (National Capital Poison Center). https://www.poison.org/articles/giant-hogweed-and-its-toxic-cousins-193'
 atRisk:

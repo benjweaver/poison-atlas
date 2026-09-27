@@ -7,11 +7,9 @@
 import type { Plugin } from 'vite'
 
 import {
-  CENTRES_FILE,
   GBIF_FILE,
   GRID_DIR,
   IMAGES_FILE,
-  loadPoisonCentres,
   loadSpecies,
   SPECIES_DIR,
   speciesFiles,
@@ -19,29 +17,22 @@ import {
 } from './species-loader.ts'
 
 // Everything the data modules are built from. A change to any of them rebuilds them.
-const INPUTS = [SPECIES_DIR, IMAGES_FILE, GBIF_FILE, GRID_DIR, TDWG_FILE, CENTRES_FILE]
+const INPUTS = [SPECIES_DIR, IMAGES_FILE, GBIF_FILE, GRID_DIR, TDWG_FILE]
 
 // Where the site is served; the sitemap needs absolute addresses.
 const SITE = 'https://poison-atlas.benjweaver.dev'
 
 const ID = 'virtual:species'
 const RESOLVED = '\0' + ID
-const CENTRES_ID = 'virtual:poison-centres'
-const CENTRES_RESOLVED = '\0' + CENTRES_ID
 
 export function speciesPlugin(): Plugin {
   return {
     name: 'poison-atlas:species',
     resolveId(id) {
       if (id === ID) return RESOLVED
-      if (id === CENTRES_ID) return CENTRES_RESOLVED
       return undefined
     },
     load(id) {
-      if (id === CENTRES_RESOLVED) {
-        this.addWatchFile(CENTRES_FILE)
-        return `export default ${JSON.stringify(loadPoisonCentres())}`
-      }
       if (id !== RESOLVED) return
       // Files, not the directory: Vite resolves watched paths as imports in dev.
       // Added and deleted files are caught by the server watcher below.
@@ -76,10 +67,8 @@ export function speciesPlugin(): Plugin {
       server.watcher.add(INPUTS)
       const reload = (file: string) => {
         if (!INPUTS.some((input) => file.startsWith(input))) return
-        for (const id of [RESOLVED, CENTRES_RESOLVED]) {
-          const mod = server.moduleGraph.getModuleById(id)
-          if (mod) server.moduleGraph.invalidateModule(mod)
-        }
+        const mod = server.moduleGraph.getModuleById(RESOLVED)
+        if (mod) server.moduleGraph.invalidateModule(mod)
         server.ws.send({ type: 'full-reload' })
       }
       server.watcher.on('change', reload)

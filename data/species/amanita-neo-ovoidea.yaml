@@ -29,7 +29,6 @@ symptoms:
 onset:
   text: >-
     Stomach symptoms the day after eating it, with kidney injury found soon after.
-  delayed: true
   sources:
     - 'Lee JH, Kim SS, Seok SJ, Bae EH. Acute kidney injury resulting from Amanita neoovoidea intoxication. J Korean Med Sci 2018. https://doi.org/10.3346/jkms.2018.33.e230'
 atRisk:

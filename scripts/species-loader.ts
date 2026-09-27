@@ -9,10 +9,8 @@ import { z } from 'zod'
 
 import {
   imageSchema,
-  poisonCentreSchema,
   speciesSchema,
   type Evidence,
-  type PoisonCentre,
   type Species,
   type SpeciesFile,
 } from '../src/data/schema.ts'
@@ -23,7 +21,6 @@ export const SPECIES_DIR = join(ROOT, 'data', 'species')
 export const IMAGES_FILE = join(ROOT, 'data', 'images.json')
 export const GBIF_FILE = join(ROOT, 'data', 'gbif.json')
 export const TDWG_FILE = join(ROOT, 'data', 'tdwg.json')
-export const CENTRES_FILE = join(ROOT, 'data', 'poison-centres.yaml')
 /** Record grids (dots on the map) for each species, served to the browser. */
 export const GRID_DIR = join(ROOT, 'public', 'occurrence')
 const GEO_DIR = join(ROOT, 'public', 'geo')
@@ -297,33 +294,4 @@ export function loadSpecies(regions = knownRegions()): Species[] {
 
   if (problems.length) throw new DataError(problems)
   return species
-}
-
-/**
- * Poison centres by country, validated like the species: every country code
- * must be one the map knows, and every entry needs its source and date.
- */
-export function loadPoisonCentres(regions = knownRegions()): Record<string, PoisonCentre> {
-  if (!existsSync(CENTRES_FILE)) return {}
-  const where = 'data/poison-centres.yaml'
-  const problems: string[] = []
-  let raw: unknown
-  try {
-    raw = parse(readFileSync(CENTRES_FILE, 'utf8')) ?? {}
-  } catch (e) {
-    throw new DataError([`${where}: invalid YAML — ${(e as Error).message.split('\n')[0]}`])
-  }
-  const result = z.record(z.string(), poisonCentreSchema).safeParse(raw)
-  if (!result.success) {
-    throw new DataError(
-      result.error.issues.map((i) => `${where}: ${i.path.join('.') || '(root)'} — ${i.message}`),
-    )
-  }
-  for (const code of Object.keys(result.data)) {
-    if (!/^[A-Z]{2}$/.test(code) || !regions.has(code)) {
-      problems.push(`${where}: ${code} isn't a country on the map`)
-    }
-  }
-  if (problems.length) throw new DataError(problems)
-  return result.data
 }

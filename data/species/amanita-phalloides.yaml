@@ -36,7 +36,6 @@ onset:
   text: >-
     Delayed: no symptoms for 6 to 24 hours, an apparent recovery 24 to 36 hours after eating it,
     then liver and organ failure after 3 to 5 days.
-  delayed: true
   sources:
     - 'Vo et al. Amanita phalloides mushroom poisonings: Northern California, December 2016. MMWR 2017;66(21). https://doi.org/10.15585/mmwr.mm6621a1'
     - 'Mushroom poisoning. MSD Manual Professional Edition. https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/mushroom-poisoning'

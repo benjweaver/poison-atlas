@@ -3,20 +3,16 @@ import { computed } from 'vue'
 
 import type { Claim, Species } from '@/data/schema'
 import { ANIMAL_LABELS, GROUP_LABELS, ROUTE_LABELS } from '@/data/taxonomy'
-import type { Help } from '@/lib/poison-help'
 import { countryOf, isSubdivision } from '@/lib/regions'
 import { numberSources, sourceLink } from '@/lib/sources'
 
 import AppIcon from './AppIcon.vue'
 import DangerBadge from './DangerBadge.vue'
 import InfoTip from './InfoTip.vue'
-import PoisonHelp from './PoisonHelp.vue'
 
 const props = defineProps<{
   species: Species
   regionName: (code: string) => string
-  /** Where to call, for the country being viewed, if the atlas knows. */
-  help: Help | null
 }>()
 defineEmits<{ region: [code: string]; species: [slug: string] }>()
 
@@ -158,26 +154,6 @@ const wikipedia = computed(
     <h2 class="text-2xl leading-tight font-bold">{{ species.name }}</h2>
     <p class="text-sm text-(--muted) italic">{{ species.scientificName }}</p>
     <DangerBadge :level="species.danger" explain class="mt-2" />
-
-    <!-- Every page says what the site isn't, and what to do instead. -->
-    <aside
-      class="mt-3 rounded-md border border-(--line) bg-(--surface-2) px-3 py-2 text-sm"
-      aria-label="Safety"
-    >
-      <p v-if="species.onset?.delayed" class="font-semibold">
-        <AppIcon name="clock" class="mr-1 inline align-[-2px]" />Symptoms can be delayed by hours or
-        days, past the point where treatment works best. If someone may have been exposed, call
-        poison control now; don't wait for symptoms.
-      </p>
-      <p :class="{ 'mt-1': species.onset?.delayed }">
-        <AppIcon
-          v-if="!species.onset?.delayed"
-          name="warning"
-          class="mr-1 inline align-[-2px]"
-        />Don't use this page to identify anything or to decide whether it's safe.
-      </p>
-      <PoisonHelp :help="help" class="mt-1" />
-    </aside>
 
     <p class="mt-4">{{ species.summary }}</p>
     <p

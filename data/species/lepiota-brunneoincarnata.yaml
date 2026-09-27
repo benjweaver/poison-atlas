@@ -34,7 +34,6 @@ onset:
   text: >-
     Delayed: first symptoms 6 to 24 hours after eating, with deaths usually 4 to 7 days after. By
     the time people feel ill, the toxin has already been absorbed.
-  delayed: true
   sources:
     - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
     - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'

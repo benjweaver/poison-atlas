@@ -29,7 +29,6 @@ symptoms:
 onset:
   text: >-
     Often 1 to 2 days after contact, and sometimes up to a week.
-  delayed: true
   sources:
     - 'Poison ivy, poison oak, and poison sumac. Poison Control (National Capital Poison Center). https://www.poison.org/articles/poison-ivy-oak-and-sumac'
 atRisk:

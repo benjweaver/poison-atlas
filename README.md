@@ -8,9 +8,8 @@ and where it's native or introduced.
 
 > **Not an identification or foraging guide, and not medical advice.** Never
 > eat a wild plant or mushroom because of anything here, and don't take a
-> species' absence to mean it's safe. If someone may have been poisoned, call
-> poison control now (in the US, 1-800-222-1222) or your local emergency
-> number, even before symptoms start.
+> species' absence to mean it's safe. If someone may have been poisoned,
+> contact poison control.
 
 It's the sibling of [Venom Atlas](https://venom-atlas.benjweaver.dev), which
 maps animals that bite or sting, and it started from that site's code.
@@ -68,7 +67,6 @@ toxins: { text: …, sources: [...] }
 symptoms: { text: …, sources: [...] }
 onset: # optional: only where a source gives the timing
   text: Delayed: no symptoms for 6 to 24 hours, …
-  delayed: true # puts "don't wait for symptoms" on the page
   sources: [...]
 atRisk: { text: …, sources: [...] }
 processing: { text: Toxic raw. …, sources: [...] } # optional; never the method
@@ -128,14 +126,6 @@ On the map, native places are filled and introduced ones hatched orange, with
 record dots coloured to match. Places known only from a checklist are faint
 and dashed. Places where a species is only grown or kept aren't shown; a
 `cultivated` note says so instead.
-
-## Poison centres
-
-`data/poison-centres.yaml` holds a public poison line per country, each checked
-on the service's own site and dated. The site shows the one for the country on
-the map, or the region the browser's languages name, always with the country
-named. A centre that only takes calls from health professionals doesn't
-belong there; the public route does (NHS 111 in the UK).
 
 ## Theme, offline and icons
 

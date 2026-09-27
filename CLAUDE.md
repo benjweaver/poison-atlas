@@ -26,8 +26,8 @@ fails if a component colours text with a token it doesn't check.
 
 ## Safety
 
-This is not an identification or foraging guide, and the site says so. Every
-species page must keep that framing.
+This is not an identification or foraging guide, and the site says so: the
+safety note in the footer is on every page, and stays there.
 
 - **Never** write preparation, extraction or dosage information, or how to make
   something safe to eat. Where a species is eaten after traditional processing
@@ -35,9 +35,10 @@ species page must keep that framing.
   authoritative source, without the method.
 - Being missing from the atlas never means safe; don't write copy that implies
   it.
-- The safety note points to poison control, not just emergency numbers. Every
-  poison centre number shown is checked on the centre's own site and cited.
-- Say when symptoms are delayed (`onset.delayed`): with amatoxins or
+- It's not a medical resource, and shouldn't look like one: no phone numbers,
+  poison-centre lookups, or first-aid steps. The safety note says to contact
+  poison control, and that's all. (Matches Venom Atlas.)
+- Say in the onset text when symptoms are delayed: with amatoxins or
   orellanine, the dangerous window has passed by the time people feel ill.
 
 ## Data

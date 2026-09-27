@@ -32,7 +32,6 @@ symptoms:
 onset:
   text: >-
     24 to 48 hours after contact.
-  delayed: true
   sources:
     - 'Nasir S et al. Paederus beetles: the agent of human dermatitis. J Venom Anim Toxins Incl Trop Dis 2015. https://doi.org/10.1186/s40409-015-0004-0'
 atRisk:
