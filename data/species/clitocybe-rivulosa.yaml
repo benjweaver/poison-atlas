@@ -1,0 +1,49 @@
+name: Fool’s funnel
+scientificName: Clitocybe rivulosa
+group: fungus
+danger: 3
+summary: >-
+  A funnel mushroom full of muscarine, which floods the body with sweat, saliva, and tears.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+toxins:
+  text: >-
+    Muscarine, which overstimulates the nerves that control glands, the gut, and the heart.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Patocka J et al. Chemistry and toxicology of major bioactive substances in Inocybe mushrooms. Int J Mol Sci 2021. https://doi.org/10.3390/ijms22042218'
+symptoms:
+  text: >-
+    Headache, nausea, and vomiting, then heavy salivating, sweating, and tears, small pupils,
+    blurred vision, stomach cramps, diarrhea, and wheezing. A slow heart and falling blood
+    pressure can lead to shock; deaths are rare.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Patocka J et al. Chemistry and toxicology of major bioactive substances in Inocybe mushrooms. Int J Mol Sci 2021. https://doi.org/10.3390/ijms22042218'
+onset:
+  text: >-
+    Within 15 minutes to 2 hours.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+atRisk:
+  text: >-
+    Foragers who mistake it for an edible mushroom.
+  sources:
+    - 'Flament E, Guitton J, Gaulier JM, Gaillard Y. Human poisoning from poisonous higher fungi: focus on analytical toxicology and case reports in forensic toxicology. Pharmaceuticals 2020. https://doi.org/10.3390/ph13120454'
+    - 'Tuğcan et al. Mushroom poisoning: an updated review. Turk J Emerg Med 2025. https://doi.org/10.4103/tjem.tjem_129_24'
+habitat: >-
+  Lawns, meadows, and grassy places.
+taxonomy:
+  note: >-
+    Species Fungorum now places it in Collybia, as Collybia rivulosa; this atlas uses the name most
+    medical sources and GBIF still use.
+  source: 'Collybia rivulosa. Species Fungorum, record 847245. https://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=847245'
+regions:
+  - GB

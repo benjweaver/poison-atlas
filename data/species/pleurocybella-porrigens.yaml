@@ -1,0 +1,39 @@
+name: Angel wing
+scientificName: Pleurocybella porrigens
+group: fungus
+danger: 4
+summary: >-
+  A mushroom frequently eaten in Asia. In 2004 it killed 17 people in Japan, most of them dialysis
+  patients, through brain damage.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Nieminen P, Mustonen AM. Toxic potential of traditionally consumed mushroom species: a controversial continuum with many unanswered questions. Toxins 2020. https://doi.org/10.3390/toxins12100639'
+    - 'Watanabe N et al. A high-quality genome assembly of angel-wing mushroom Pleurocybella porrigens that causes acute encephalopathy. AMB Express 2025 (abstract). https://doi.org/10.1186/s13568-025-01995-2'
+toxicParts:
+  text: >-
+    The mushroom.
+  sources:
+    - 'Watanabe N et al. A high-quality genome assembly of angel-wing mushroom Pleurocybella porrigens that causes acute encephalopathy. AMB Express 2025 (abstract). https://doi.org/10.1186/s13568-025-01995-2'
+toxins:
+  text: >-
+    A lectin and two compounds, pleurocybelline and pleurocybellaziridine; the last is thought to
+    cause the brain damage.
+  sources:
+    - 'Watanabe N et al. A high-quality genome assembly of angel-wing mushroom Pleurocybella porrigens that causes acute encephalopathy. AMB Express 2025 (abstract). https://doi.org/10.1186/s13568-025-01995-2'
+symptoms:
+  text: >-
+    Acute encephalopathy: damage to the brain’s white matter (demyelination).
+  sources:
+    - 'Nieminen P, Mustonen AM. Toxic potential of traditionally consumed mushroom species: a controversial continuum with many unanswered questions. Toxins 2020. https://doi.org/10.3390/toxins12100639'
+    - 'Watanabe N et al. A high-quality genome assembly of angel-wing mushroom Pleurocybella porrigens that causes acute encephalopathy. AMB Express 2025 (abstract). https://doi.org/10.1186/s13568-025-01995-2'
+atRisk:
+  text: >-
+    People with chronic kidney failure on dialysis, who made up most of the 2004 deaths in Japan.
+  sources:
+    - 'Nieminen P, Mustonen AM. Toxic potential of traditionally consumed mushroom species: a controversial continuum with many unanswered questions. Toxins 2020. https://doi.org/10.3390/toxins12100639'
+    - 'Watanabe N et al. A high-quality genome assembly of angel-wing mushroom Pleurocybella porrigens that causes acute encephalopathy. AMB Express 2025 (abstract). https://doi.org/10.1186/s13568-025-01995-2'
+habitat: >-
+  Rotting conifer logs and stumps.
+regions:
+  - JP-15

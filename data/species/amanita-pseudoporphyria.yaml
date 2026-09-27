@@ -1,0 +1,46 @@
+name: Amanita pseudoporphyria
+scientificName: Amanita pseudoporphyria
+group: fungus
+danger: 4
+summary: >-
+  An amanita that causes acute kidney failure, and in 2022 the commonest cause of it in China’s
+  national poisoning survey.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2024. China CDC Weekly 2025. https://doi.org/10.46234/ccdcw2025.106'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
+toxins:
+  text: >-
+    Kidney toxins shared by its close relatives (section Roanokenses), which look much alike.
+  sources:
+    - 'Lai M et al. Development of loop-mediated isothermal amplification (LAMP) methods for rapid identification of nephrotoxic Amanita species. Mycobiology 2026 (abstract). https://doi.org/10.1080/12298093.2026.2657154'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2019. China CDC Weekly 2020. https://europepmc.org/article/PMC/PMC8392910'
+symptoms:
+  text: >-
+    Acute kidney failure. Three people in Guangxi died in 2020 after diagnosis and treatment came
+    late.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2024. China CDC Weekly 2025. https://doi.org/10.46234/ccdcw2025.106'
+atRisk:
+  text: >-
+    People who pick wild mushrooms in China.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2024. China CDC Weekly 2025. https://doi.org/10.46234/ccdcw2025.106'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+habitat: >-
+  Broadleaf and mixed forest.
+regions:
+  - CN-GX
+gbif:
+  include:
+    - code: CN-GX
+      reason: 'three people died of it in Guangxi in 2020'
+      source: 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'

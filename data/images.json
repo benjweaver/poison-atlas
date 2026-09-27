@@ -40,6 +40,20 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
+  "amanita-proxima": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Amanita_proxima_Dum%C3%A9e_512034_2014-11-29.jpg/960px-Amanita_proxima_Dum%C3%A9e_512034_2014-11-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Amanita_proxima_Dum%C3%A9e_512034_2014-11-29.jpg",
+    "artist": "This image was created by user Davide Puddu (Davide Puddu) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "amanita-pseudoporphyria": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Amanita_pseudoporphyria_09.jpg/960px-Amanita_pseudoporphyria_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Amanita_pseudoporphyria_09.jpg",
+    "artist": "Σ64",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
   "atropa-belladonna": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Atropa_belladonna_%2816627871072%29.jpg/960px-Atropa_belladonna_%2816627871072%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Atropa_belladonna_(16627871072).jpg",
@@ -100,6 +114,13 @@
     "page": "https://commons.wikimedia.org/wiki/File:Cicuta_virosa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-038_cropped.jpg",
     "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
     "license": "Public domain"
+  },
+  "clitocybe-rivulosa": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/2007-08-29_Clitocybe_rivulosa.jpg/960px-2007-08-29_Clitocybe_rivulosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2007-08-29_Clitocybe_rivulosa.jpg",
+    "artist": "Andreas Kunze",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   "colchicum-autumnale": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Illustration_Colchicum_autumnale0.jpg/960px-Illustration_Colchicum_autumnale0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -231,6 +252,13 @@
     "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
     "license": "Public domain"
   },
+  "inosperma-erubescens": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/2010-04-27_Inocybe_erubescens.jpg/960px-2010-04-27_Inocybe_erubescens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2010-04-27_Inocybe_erubescens.jpg",
+    "artist": "Andreas Kunze",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "laburnum-anagyroides": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Laburnum_anagyroides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Laburnum_anagyroides.jpg",
@@ -320,6 +348,13 @@
     "artist": "Jakec",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "pleurocybella-porrigens": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pleurocybella_050919low.jpg/960px-Pleurocybella_050919low.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pleurocybella_050919low.jpg",
+    "artist": "Strobilomyces",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   "rhododendron-ponticum": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Rhododendron_ponticum_ssp._baeticum_in_Cambarinho_Botanical_Reserve%2C_Portugal.JPG/960px-Rhododendron_ponticum_ssp._baeticum_in_Cambarinho_Botanical_Reserve%2C_Portugal.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

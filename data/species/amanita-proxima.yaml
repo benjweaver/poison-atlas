@@ -1,0 +1,53 @@
+name: Amanita proxima
+scientificName: Amanita proxima
+group: fungus
+danger: 3
+summary: >-
+  A pale amanita with a reddish-orange cup at its base, sometimes mistaken for the edible Amanita
+  ovoidea. It causes acute kidney failure.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Marquant E et al. Amanita proxima poisoning in a child. Arch Pediatr 2011 (abstract). https://doi.org/10.1016/j.arcped.2011.08.029'
+    - 'Mancini A et al. A rare case of acute renal failure related to Amanita proxima ingestion. G Ital Nefrol 2015 (abstract). https://europepmc.org/article/MED/26252264'
+toxicParts:
+  text: >-
+    The whole mushroom; a single large one has poisoned someone.
+  sources:
+    - 'Mancini A et al. A rare case of acute renal failure related to Amanita proxima ingestion. G Ital Nefrol 2015 (abstract). https://europepmc.org/article/MED/26252264'
+toxins:
+  text: >-
+    An allenic norleucine, which damages the kidney tubules.
+  sources:
+    - 'Mancini A et al. A rare case of acute renal failure related to Amanita proxima ingestion. G Ital Nefrol 2015 (abstract). https://europepmc.org/article/MED/26252264'
+symptoms:
+  text: >-
+    Nausea and vomiting, then acute kidney failure, sometimes with liver damage. Some patients
+    need dialysis; kidney function usually recovers within about ten days.
+  sources:
+    - 'Marquant E et al. Amanita proxima poisoning in a child. Arch Pediatr 2011 (abstract). https://doi.org/10.1016/j.arcped.2011.08.029'
+    - 'Mancini A et al. A rare case of acute renal failure related to Amanita proxima ingestion. G Ital Nefrol 2015 (abstract). https://europepmc.org/article/MED/26252264'
+onset:
+  text: >-
+    Stomach symptoms about 8 hours after eating; kidney failure follows, earlier than in webcap
+    poisoning.
+  delayed: true
+  sources:
+    - 'Mancini A et al. A rare case of acute renal failure related to Amanita proxima ingestion. G Ital Nefrol 2015 (abstract). https://europepmc.org/article/MED/26252264'
+atRisk:
+  text: >-
+    Foragers in southern France, where the syndrome was first described, and in Italy.
+  sources:
+    - 'Marquant E et al. Amanita proxima poisoning in a child. Arch Pediatr 2011 (abstract). https://doi.org/10.1016/j.arcped.2011.08.029'
+    - 'Mancini A et al. A rare case of acute renal failure related to Amanita proxima ingestion. G Ital Nefrol 2015 (abstract). https://europepmc.org/article/MED/26252264'
+lookalikes:
+  - name: Amanita ovoidea
+    scientificName: Amanita ovoidea
+    note: >-
+      It is sometimes mistaken for this edible amanita.
+    sources:
+      - 'Mancini A et al. A rare case of acute renal failure related to Amanita proxima ingestion. G Ital Nefrol 2015 (abstract). https://europepmc.org/article/MED/26252264'
+habitat: >-
+  Mediterranean woods and scrub.
+regions:
+  - FR
