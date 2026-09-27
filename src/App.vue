@@ -363,9 +363,11 @@ addEventListener('keydown', (e) => {
             <p class="text-xs text-(--muted)">
               {{ allSpecies.length }} poisonous species across {{ countryTotal }} countries
             </p>
-            <p class="mt-0.5 text-xs font-medium">
-              <AppIcon name="warning" small class="mr-1 inline align-[-1px]" />Not an identification
-              or foraging guide
+            <p class="mt-0.5 text-xs text-(--muted)">
+              Sister site:
+              <a href="https://venom-atlas.benjweaver.dev" class="text-(--ink) hover:underline"
+                >Venom Atlas</a
+              >
             </p>
           </div>
           <ThemeToggle />
