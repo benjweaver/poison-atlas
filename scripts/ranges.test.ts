@@ -1,28 +1,33 @@
 import { replaceRegions } from './ranges.ts'
 
 describe('replaceRegions', () => {
-  const file = `name: Adder
+  const file = `name: Hemlock
 summary: >-
-  A snake.
+  A plant.
 regions:
   - GB
   - FR
+gbif:
+  exclude:
+    - code: IE
 `
 
   it('replaces only the regions list', () => {
-    expect(replaceRegions(file, ['DE', 'GB'])).toBe(`name: Adder
-summary: >-
-  A snake.
-regions:
-  - DE
-  - GB
-`)
+    expect(replaceRegions(file, ['DE', 'GB'])).toBe(
+      file.replace('  - GB\n  - FR\n', '  - DE\n  - GB\n'),
+    )
   })
 
-  it('leaves fields after the list alone', () => {
-    const withTrailer = file + 'gbif:\n  exclude:\n    - IE\n'
-    expect(replaceRegions(withTrailer, ['GB'])).toContain(
-      'regions:\n  - GB\ngbif:\n  exclude:\n    - IE\n',
+  it('writes an introduced list after the native one, and updates it in place', () => {
+    const once = replaceRegions(file, ['GB'], ['US-CA', 'NZ'])
+    expect(once).toContain('regions:\n  - GB\nintroduced:\n  - US-CA\n  - NZ\ngbif:\n')
+    expect(replaceRegions(once, ['GB'], ['AU'])).toContain(
+      'regions:\n  - GB\nintroduced:\n  - AU\ngbif:\n',
     )
+  })
+
+  it('removes the introduced list when there is nothing introduced', () => {
+    const once = replaceRegions(file, ['GB'], ['NZ'])
+    expect(replaceRegions(once, ['GB'], [])).toBe(file.replace('  - GB\n  - FR\n', '  - GB\n'))
   })
 })

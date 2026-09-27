@@ -50,7 +50,7 @@ function toggle(group: Group) {
     <div
       class="flex flex-wrap gap-1.5 max-md:-mx-4 max-md:flex-nowrap max-md:overflow-x-auto max-md:px-4 max-md:py-0.5 max-md:[mask-image:linear-gradient(to_right,black_88%,transparent)] max-md:[scrollbar-width:none]"
       role="group"
-      aria-label="Filter by animal group"
+      aria-label="Filter by group"
     >
       <button
         v-for="group in available"

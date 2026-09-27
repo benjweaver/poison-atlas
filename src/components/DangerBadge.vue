@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 
-import { DANGER_LABELS, type Danger } from '@/data/taxonomy'
+import { DANGER_LABELS, DANGER_MEANINGS, type Danger } from '@/data/taxonomy'
 
 import InfoTip from './InfoTip.vue'
 
@@ -11,8 +11,9 @@ const props = defineProps<{ level: Danger; explain?: boolean }>()
 
 const help = computed(
   () =>
-    `Danger ${props.level} of 5: ${DANGER_LABELS[props.level].toLowerCase()}. ` +
-    `The scale runs from 1 (${DANGER_LABELS[1].toLowerCase()}) to 5 (${DANGER_LABELS[5].toLowerCase()}).`,
+    `Danger ${props.level} of 5, ${DANGER_LABELS[props.level].toLowerCase()}: ` +
+    `${DANGER_MEANINGS[props.level]}. The scale runs from 1 ` +
+    `(${DANGER_LABELS[1].toLowerCase()}) to 5 (${DANGER_LABELS[5].toLowerCase()}).`,
 )
 </script>
 

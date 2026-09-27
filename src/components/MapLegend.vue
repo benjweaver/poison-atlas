@@ -10,20 +10,24 @@ const props = defineProps<{
   records: boolean
   /** The species has places listed without any records. */
   unrecorded?: boolean
+  /** The species has introduced places, drawn hatched in orange. */
+  introduced?: boolean
   aquatic?: 'marine' | 'freshwater'
 }>()
 
-// Blue for animals that live in the water, green for land animals (as on the map).
+// Blue for species that live in the water, green for land ones (as on the map).
 const dot = computed(() => (props.aquatic ? 'var(--map-records)' : 'var(--map-records-land)'))
 const fill = computed(() => (props.aquatic ? 'var(--map-range)' : 'var(--map-range-land)'))
+// The map's hatching, as a swatch.
+const hatch = 'repeating-linear-gradient(-45deg, var(--map-introduced) 0 2px, transparent 2px 5px)'
 </script>
 
 <template>
   <div
     class="rounded-lg bg-(--surface)/90 px-3 py-2 text-[11px] text-(--muted) shadow-sm ring-1 ring-(--line) backdrop-blur"
   >
-    <template v-if="records">
-      <div class="flex flex-col gap-1">
+    <div v-if="range" class="flex flex-col gap-1">
+      <template v-if="records">
         <span class="inline-flex items-center gap-1.5">
           <span class="h-2.5 w-2.5 rounded-full" :style="{ background: dot }" />
           {{
@@ -31,28 +35,35 @@ const fill = computed(() => (props.aquatic ? 'var(--map-range)' : 'var(--map-ran
               ? 'Recorded at sea or on the shore'
               : aquatic === 'freshwater'
                 ? 'Recorded in rivers and lakes'
-                : 'Where it has been recorded'
+                : 'Recorded in the wild'
           }}
         </span>
-        <span class="inline-flex items-center gap-1.5">
-          <span class="h-3 w-3 rounded-sm opacity-40" :style="{ background: fill }" /> Places it's
-          found in
+        <span v-if="introduced" class="inline-flex items-center gap-1.5">
+          <span class="h-2.5 w-2.5 rounded-full" :style="{ background: 'var(--map-introduced)' }" />
+          Recorded where introduced
         </span>
-        <span v-if="unrecorded" class="inline-flex items-center gap-1.5">
-          <span class="h-3 w-3 rounded-sm border border-dashed" :style="{ borderColor: fill }" />
-          Known range, no records
-        </span>
-      </div>
-    </template>
-    <template v-else-if="range">
+      </template>
       <span class="inline-flex items-center gap-1.5">
-        <span class="h-3 w-3 rounded-sm opacity-70" :style="{ background: fill }" /> Where this
-        species lives
+        <span class="h-3 w-3 rounded-sm opacity-60" :style="{ background: fill }" /> Native
       </span>
-    </template>
+      <span v-if="introduced" class="inline-flex items-center gap-1.5">
+        <span
+          class="h-3 w-3 rounded-sm ring-1 ring-(--map-introduced) ring-inset"
+          :style="{ background: hatch }"
+        />
+        <InfoTip
+          text="Brought by people and now established in the wild (naturalised or invasive). Places where it's only grown or kept aren't shown."
+          >Introduced <span class="ml-1" aria-hidden="true">ⓘ</span></InfoTip
+        >
+      </span>
+      <span v-if="unrecorded" class="inline-flex items-center gap-1.5">
+        <span class="h-3 w-3 rounded-sm border border-dashed" :style="{ borderColor: fill }" />
+        Known range, no records
+      </span>
+    </div>
     <template v-else>
       <InfoTip
-        text="How many of the atlas's poisonous species live in each country. Tap a country to see them, and its states where they're listed."
+        text="How many of the atlas's poisonous species grow or live in each country, native or introduced. Tap a country to see them, and its states where they're listed."
         class="mb-1 font-medium text-(--ink)"
       >
         Species recorded <span class="ml-1 text-(--muted)" aria-hidden="true">ⓘ</span>

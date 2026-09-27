@@ -1,0 +1,4251 @@
+{
+  "regions": {
+    "ABT": {
+      "name": "Alberta",
+      "places": [
+        "CA-AB"
+      ],
+      "main": "CA-AB"
+    },
+    "AFG": {
+      "name": "Afghanistan",
+      "places": [
+        "AF"
+      ],
+      "main": "AF"
+    },
+    "AGE": {
+      "name": "Argentina Northeast",
+      "places": [
+        "AR-B",
+        "AR-C",
+        "AR-E",
+        "AR-H",
+        "AR-L",
+        "AR-N",
+        "AR-P",
+        "AR-S",
+        "AR-W",
+        "AR-X"
+      ]
+    },
+    "AGS": {
+      "name": "Argentina South",
+      "places": [
+        "AR-Q",
+        "AR-R",
+        "AR-U",
+        "AR-V",
+        "AR-Z"
+      ]
+    },
+    "AGW": {
+      "name": "Argentina Northwest",
+      "places": [
+        "AR-A",
+        "AR-D",
+        "AR-F",
+        "AR-G",
+        "AR-J",
+        "AR-K",
+        "AR-M",
+        "AR-T",
+        "AR-Y"
+      ]
+    },
+    "ALA": {
+      "name": "Alabama",
+      "places": [
+        "US-AL"
+      ],
+      "main": "US-AL"
+    },
+    "ALB": {
+      "name": "Albania",
+      "places": [
+        "AL"
+      ],
+      "main": "AL"
+    },
+    "ALD": {
+      "name": "Aldabra",
+      "places": []
+    },
+    "ALG": {
+      "name": "Algeria",
+      "places": [
+        "DZ"
+      ],
+      "main": "DZ"
+    },
+    "ALT": {
+      "name": "Altay",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "ALU": {
+      "name": "Aleutian Is.",
+      "places": [
+        "US-AK"
+      ]
+    },
+    "AMU": {
+      "name": "Amur",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "AND": {
+      "name": "Andaman Is.",
+      "places": [
+        "IN-AN"
+      ],
+      "main": "IN-AN"
+    },
+    "ANG": {
+      "name": "Angola",
+      "places": [
+        "AO"
+      ],
+      "main": "AO"
+    },
+    "ANT": {
+      "name": "Antarctica",
+      "places": [
+        "AQ"
+      ],
+      "main": "AQ"
+    },
+    "ARI": {
+      "name": "Arizona",
+      "places": [
+        "US-AZ"
+      ],
+      "main": "US-AZ"
+    },
+    "ARK": {
+      "name": "Arkansas",
+      "places": [
+        "US-AR"
+      ],
+      "main": "US-AR"
+    },
+    "ARU": {
+      "name": "Aruba",
+      "places": [
+        "AW"
+      ],
+      "main": "AW"
+    },
+    "ASC": {
+      "name": "Ascension",
+      "places": []
+    },
+    "ASK": {
+      "name": "Alaska",
+      "places": [
+        "US-AK"
+      ],
+      "main": "US-AK"
+    },
+    "ASP": {
+      "name": "Amsterdam-St.Paul Is.",
+      "places": []
+    },
+    "ASS": {
+      "name": "Assam",
+      "places": [
+        "IN-AS",
+        "IN-ML",
+        "IN-MN",
+        "IN-MZ",
+        "IN-NL",
+        "IN-TR"
+      ]
+    },
+    "ATP": {
+      "name": "Antipodean Is.",
+      "places": []
+    },
+    "AUT": {
+      "name": "Austria",
+      "places": [
+        "AT",
+        "LI"
+      ],
+      "main": "AT"
+    },
+    "AZO": {
+      "name": "Azores",
+      "places": []
+    },
+    "BAH": {
+      "name": "Bahamas",
+      "places": [
+        "BS"
+      ]
+    },
+    "BAL": {
+      "name": "Baleares",
+      "places": [
+        "ES"
+      ]
+    },
+    "BAN": {
+      "name": "Bangladesh",
+      "places": [
+        "BD",
+        "IN-TR"
+      ],
+      "main": "BD"
+    },
+    "BEN": {
+      "name": "Benin",
+      "places": [
+        "BJ"
+      ],
+      "main": "BJ"
+    },
+    "BER": {
+      "name": "Bermuda",
+      "places": [
+        "BM"
+      ],
+      "main": "BM"
+    },
+    "BGM": {
+      "name": "Belgium",
+      "places": [
+        "BE",
+        "LU"
+      ]
+    },
+    "BIS": {
+      "name": "Bismarck Archipelago",
+      "places": [
+        "PG"
+      ],
+      "main": "PG"
+    },
+    "BKN": {
+      "name": "Burkina",
+      "places": [
+        "BF"
+      ],
+      "main": "BF"
+    },
+    "BLR": {
+      "name": "Belarus",
+      "places": [
+        "BY"
+      ],
+      "main": "BY"
+    },
+    "BLT": {
+      "name": "Baltic States",
+      "places": [
+        "EE",
+        "LT",
+        "LV",
+        "RU"
+      ]
+    },
+    "BLZ": {
+      "name": "Belize",
+      "places": [
+        "BZ"
+      ],
+      "main": "BZ"
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "places": [
+        "BO"
+      ],
+      "main": "BO"
+    },
+    "BOR": {
+      "name": "Borneo",
+      "places": [
+        "BN",
+        "ID",
+        "MY"
+      ]
+    },
+    "BOT": {
+      "name": "Botswana",
+      "places": [
+        "BW"
+      ],
+      "main": "BW"
+    },
+    "BOU": {
+      "name": "Bouvet I.",
+      "places": []
+    },
+    "BRC": {
+      "name": "British Columbia",
+      "places": [
+        "CA-BC"
+      ],
+      "main": "CA-BC"
+    },
+    "BRY": {
+      "name": "Buryatiya",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "BUL": {
+      "name": "Bulgaria",
+      "places": [
+        "BG"
+      ],
+      "main": "BG"
+    },
+    "BUR": {
+      "name": "Burundi",
+      "places": [
+        "BI"
+      ],
+      "main": "BI"
+    },
+    "BZC": {
+      "name": "Brazil West-Central",
+      "places": [
+        "BR-DF",
+        "BR-GO",
+        "BR-MS",
+        "BR-MT"
+      ]
+    },
+    "BZE": {
+      "name": "Brazil Northeast",
+      "places": [
+        "BR-AL",
+        "BR-BA",
+        "BR-CE",
+        "BR-MA",
+        "BR-PB",
+        "BR-PE",
+        "BR-PI",
+        "BR-RN",
+        "BR-SE"
+      ]
+    },
+    "BZL": {
+      "name": "Brazil Southeast",
+      "places": [
+        "BR-ES",
+        "BR-MG",
+        "BR-RJ",
+        "BR-SP"
+      ]
+    },
+    "BZN": {
+      "name": "Brazil North",
+      "places": [
+        "BR-AC",
+        "BR-AM",
+        "BR-AP",
+        "BR-PA",
+        "BR-RO",
+        "BR-RR",
+        "BR-TO"
+      ]
+    },
+    "BZS": {
+      "name": "Brazil South",
+      "places": [
+        "BR-PR",
+        "BR-RS",
+        "BR-SC"
+      ]
+    },
+    "CAB": {
+      "name": "Cabinda",
+      "places": [
+        "AO",
+        "CD"
+      ]
+    },
+    "CAF": {
+      "name": "Central African Republic",
+      "places": [
+        "CF"
+      ],
+      "main": "CF"
+    },
+    "CAL": {
+      "name": "California",
+      "places": [
+        "US-CA"
+      ],
+      "main": "US-CA"
+    },
+    "CAY": {
+      "name": "Cayman Is.",
+      "places": [
+        "KY"
+      ]
+    },
+    "CBD": {
+      "name": "Cambodia",
+      "places": [
+        "KH"
+      ],
+      "main": "KH"
+    },
+    "CGS": {
+      "name": "Chagos Archipelago",
+      "places": [
+        "IO"
+      ]
+    },
+    "CHA": {
+      "name": "Chad",
+      "places": [
+        "TD"
+      ],
+      "main": "TD"
+    },
+    "CHC": {
+      "name": "China South-Central",
+      "places": [
+        "CN-CQ",
+        "CN-GZ",
+        "CN-HB",
+        "CN-SC",
+        "CN-YN"
+      ]
+    },
+    "CHH": {
+      "name": "Hainan",
+      "places": [
+        "CN-HI"
+      ],
+      "main": "CN-HI"
+    },
+    "CHI": {
+      "name": "Inner Mongolia",
+      "places": [
+        "CN-NM",
+        "CN-NX"
+      ],
+      "main": "CN-NM"
+    },
+    "CHM": {
+      "name": "Manchuria",
+      "places": [
+        "CN-HL",
+        "CN-JL",
+        "CN-LN"
+      ]
+    },
+    "CHN": {
+      "name": "China North-Central",
+      "places": [
+        "CN-BJ",
+        "CN-GS",
+        "CN-HE",
+        "CN-SD",
+        "CN-SN",
+        "CN-SX",
+        "CN-TJ"
+      ]
+    },
+    "CHQ": {
+      "name": "Qinghai",
+      "places": [
+        "CN-QH"
+      ],
+      "main": "CN-QH"
+    },
+    "CHS": {
+      "name": "China Southeast",
+      "places": [
+        "CN-AH",
+        "CN-FJ",
+        "CN-GD",
+        "CN-GX",
+        "CN-HA",
+        "CN-HN",
+        "CN-JS",
+        "CN-JX",
+        "CN-SH",
+        "CN-ZJ",
+        "HK",
+        "MO"
+      ]
+    },
+    "CHT": {
+      "name": "Tibet",
+      "places": [
+        "CN-XZ"
+      ],
+      "main": "CN-XZ"
+    },
+    "CHX": {
+      "name": "Xinjiang",
+      "places": [
+        "CN-XJ"
+      ],
+      "main": "CN-XJ"
+    },
+    "CKI": {
+      "name": "Cocos (Keeling) I.",
+      "places": []
+    },
+    "CLC": {
+      "name": "Chile Central",
+      "places": [
+        "CL"
+      ],
+      "main": "CL"
+    },
+    "CLM": {
+      "name": "Colombia",
+      "places": [
+        "CO"
+      ],
+      "main": "CO"
+    },
+    "CLN": {
+      "name": "Chile North",
+      "places": [
+        "CL"
+      ],
+      "main": "CL"
+    },
+    "CLS": {
+      "name": "Chile South",
+      "places": [
+        "CL"
+      ],
+      "main": "CL"
+    },
+    "CMN": {
+      "name": "Cameroon",
+      "places": [
+        "CM"
+      ],
+      "main": "CM"
+    },
+    "CNT": {
+      "name": "Connecticut",
+      "places": [
+        "US-CT"
+      ],
+      "main": "US-CT"
+    },
+    "CNY": {
+      "name": "Canary Is.",
+      "places": [
+        "ES"
+      ]
+    },
+    "COL": {
+      "name": "Colorado",
+      "places": [
+        "US-CO"
+      ],
+      "main": "US-CO"
+    },
+    "COM": {
+      "name": "Comoros",
+      "places": [
+        "KM",
+        "YT"
+      ]
+    },
+    "CON": {
+      "name": "Congo",
+      "places": [
+        "CG"
+      ],
+      "main": "CG"
+    },
+    "COO": {
+      "name": "Cook Is.",
+      "places": [
+        "CK"
+      ]
+    },
+    "COR": {
+      "name": "Corse",
+      "places": [
+        "FR"
+      ],
+      "main": "FR"
+    },
+    "COS": {
+      "name": "Costa Rica",
+      "places": [
+        "CR"
+      ],
+      "main": "CR"
+    },
+    "CPI": {
+      "name": "C. American Pacific Is.",
+      "places": []
+    },
+    "CPP": {
+      "name": "Cape Provinces",
+      "places": [
+        "ZA-EC",
+        "ZA-NC",
+        "ZA-WC"
+      ]
+    },
+    "CPV": {
+      "name": "Caprivi Strip",
+      "places": [
+        "NA"
+      ],
+      "main": "NA"
+    },
+    "CRL": {
+      "name": "Caroline Is.",
+      "places": [
+        "FM",
+        "PW"
+      ]
+    },
+    "CRZ": {
+      "name": "Crozet Is.",
+      "places": []
+    },
+    "CTA": {
+      "name": "Chita",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "CTM": {
+      "name": "Chatham Is.",
+      "places": [
+        "NZ"
+      ],
+      "main": "NZ"
+    },
+    "CUB": {
+      "name": "Cuba",
+      "places": [
+        "CU"
+      ],
+      "main": "CU"
+    },
+    "CVI": {
+      "name": "Cape Verde",
+      "places": [
+        "CV"
+      ]
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "places": [
+        "CY"
+      ],
+      "main": "CY"
+    },
+    "CZE": {
+      "name": "Czechoslovakia",
+      "places": [
+        "CZ",
+        "SK"
+      ]
+    },
+    "DEL": {
+      "name": "Delaware",
+      "places": [
+        "US-DE"
+      ],
+      "main": "US-DE"
+    },
+    "DEN": {
+      "name": "Denmark",
+      "places": [
+        "DK"
+      ],
+      "main": "DK"
+    },
+    "DJI": {
+      "name": "Djibouti",
+      "places": [
+        "DJ"
+      ],
+      "main": "DJ"
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "places": [
+        "DO"
+      ],
+      "main": "DO"
+    },
+    "DSV": {
+      "name": "Desventurados Is.",
+      "places": []
+    },
+    "EAI": {
+      "name": "East Aegean Is.",
+      "places": [
+        "GR",
+        "TR"
+      ]
+    },
+    "EAS": {
+      "name": "Easter Is.",
+      "places": []
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "places": [
+        "EC"
+      ],
+      "main": "EC"
+    },
+    "EGY": {
+      "name": "Egypt",
+      "places": [
+        "EG"
+      ],
+      "main": "EG"
+    },
+    "EHM": {
+      "name": "East Himalaya",
+      "places": [
+        "BT",
+        "IN-AR",
+        "IN-SK"
+      ]
+    },
+    "ELS": {
+      "name": "El Salvador",
+      "places": [
+        "SV"
+      ],
+      "main": "SV"
+    },
+    "EQG": {
+      "name": "Equatorial Guinea",
+      "places": [
+        "GA",
+        "GQ"
+      ],
+      "main": "GQ"
+    },
+    "ERI": {
+      "name": "Eritrea",
+      "places": [
+        "ER"
+      ],
+      "main": "ER"
+    },
+    "ETH": {
+      "name": "Ethiopia",
+      "places": [
+        "ET"
+      ],
+      "main": "ET"
+    },
+    "FAL": {
+      "name": "Falkland Is.",
+      "places": [
+        "FK"
+      ],
+      "main": "FK"
+    },
+    "FIJ": {
+      "name": "Fiji",
+      "places": [
+        "FJ"
+      ],
+      "main": "FJ"
+    },
+    "FIN": {
+      "name": "Finland",
+      "places": [
+        "AX",
+        "FI"
+      ],
+      "main": "FI"
+    },
+    "FLA": {
+      "name": "Florida",
+      "places": [
+        "US-FL"
+      ],
+      "main": "US-FL"
+    },
+    "FOR": {
+      "name": "Føroyar",
+      "places": [
+        "FO"
+      ]
+    },
+    "FRA": {
+      "name": "France",
+      "places": [
+        "FR",
+        "GG",
+        "JE",
+        "MC"
+      ],
+      "main": "FR"
+    },
+    "FRG": {
+      "name": "French Guiana",
+      "places": [
+        "GF"
+      ],
+      "main": "GF"
+    },
+    "GAB": {
+      "name": "Gabon",
+      "places": [
+        "GA"
+      ],
+      "main": "GA"
+    },
+    "GAL": {
+      "name": "Galápagos",
+      "places": [
+        "EC"
+      ]
+    },
+    "GAM": {
+      "name": "Gambia, The",
+      "places": [
+        "GM",
+        "SN"
+      ],
+      "main": "GM"
+    },
+    "GEO": {
+      "name": "Georgia",
+      "places": [
+        "US-GA"
+      ],
+      "main": "US-GA"
+    },
+    "GER": {
+      "name": "Germany",
+      "places": [
+        "DE"
+      ],
+      "main": "DE"
+    },
+    "GGI": {
+      "name": "Gulf of Guinea Is.",
+      "places": [
+        "GQ",
+        "ST"
+      ]
+    },
+    "GHA": {
+      "name": "Ghana",
+      "places": [
+        "GH"
+      ],
+      "main": "GH"
+    },
+    "GIL": {
+      "name": "Gilbert Is.",
+      "places": []
+    },
+    "GNB": {
+      "name": "Guinea-Bissau",
+      "places": [
+        "GW"
+      ],
+      "main": "GW"
+    },
+    "GNL": {
+      "name": "Greenland",
+      "places": [
+        "GL"
+      ],
+      "main": "GL"
+    },
+    "GRB": {
+      "name": "Great Britain",
+      "places": [
+        "GB",
+        "IM"
+      ],
+      "main": "GB"
+    },
+    "GRC": {
+      "name": "Greece",
+      "places": [
+        "GR"
+      ],
+      "main": "GR"
+    },
+    "GST": {
+      "name": "Gulf States",
+      "places": [
+        "AE",
+        "BH",
+        "QA"
+      ]
+    },
+    "GUA": {
+      "name": "Guatemala",
+      "places": [
+        "GT"
+      ],
+      "main": "GT"
+    },
+    "GUI": {
+      "name": "Guinea",
+      "places": [
+        "GN"
+      ],
+      "main": "GN"
+    },
+    "GUY": {
+      "name": "Guyana",
+      "places": [
+        "GY"
+      ],
+      "main": "GY"
+    },
+    "HAI": {
+      "name": "Haiti",
+      "places": [
+        "HT"
+      ],
+      "main": "HT"
+    },
+    "HAW": {
+      "name": "Hawaii",
+      "places": [
+        "US-HI"
+      ],
+      "main": "US-HI"
+    },
+    "HBI": {
+      "name": "Howland-Baker Is.",
+      "places": []
+    },
+    "HMD": {
+      "name": "Heard-McDonald Is.",
+      "places": [
+        "HM"
+      ],
+      "main": "HM"
+    },
+    "HON": {
+      "name": "Honduras",
+      "places": [
+        "HN"
+      ],
+      "main": "HN"
+    },
+    "HUN": {
+      "name": "Hungary",
+      "places": [
+        "HU"
+      ],
+      "main": "HU"
+    },
+    "ICE": {
+      "name": "Iceland",
+      "places": [
+        "IS"
+      ],
+      "main": "IS"
+    },
+    "IDA": {
+      "name": "Idaho",
+      "places": [
+        "US-ID"
+      ],
+      "main": "US-ID"
+    },
+    "ILL": {
+      "name": "Illinois",
+      "places": [
+        "US-IL"
+      ],
+      "main": "US-IL"
+    },
+    "IND": {
+      "name": "India",
+      "places": [
+        "IN-AP",
+        "IN-BR",
+        "IN-CH",
+        "IN-CT",
+        "IN-DH",
+        "IN-DL",
+        "IN-GA",
+        "IN-GJ",
+        "IN-HR",
+        "IN-JH",
+        "IN-KA",
+        "IN-KL",
+        "IN-MH",
+        "IN-MP",
+        "IN-OR",
+        "IN-PB",
+        "IN-PY",
+        "IN-RJ",
+        "IN-TG",
+        "IN-TN",
+        "IN-UP",
+        "IN-UT",
+        "IN-WB"
+      ]
+    },
+    "INI": {
+      "name": "Indiana",
+      "places": [
+        "US-IN"
+      ],
+      "main": "US-IN"
+    },
+    "IOW": {
+      "name": "Iowa",
+      "places": [
+        "US-IA"
+      ],
+      "main": "US-IA"
+    },
+    "IRE": {
+      "name": "Ireland",
+      "places": [
+        "GB",
+        "IE"
+      ]
+    },
+    "IRK": {
+      "name": "Irkutsk",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "IRN": {
+      "name": "Iran",
+      "places": [
+        "IR"
+      ],
+      "main": "IR"
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "places": [
+        "IQ"
+      ],
+      "main": "IQ"
+    },
+    "ITA": {
+      "name": "Italy",
+      "places": [
+        "IT",
+        "SM",
+        "VA"
+      ],
+      "main": "IT"
+    },
+    "IVO": {
+      "name": "Ivory Coast",
+      "places": [
+        "CI"
+      ],
+      "main": "CI"
+    },
+    "JAM": {
+      "name": "Jamaica",
+      "places": [
+        "JM"
+      ],
+      "main": "JM"
+    },
+    "JAP": {
+      "name": "Japan",
+      "places": [
+        "JP-01",
+        "JP-02",
+        "JP-03",
+        "JP-04",
+        "JP-05",
+        "JP-06",
+        "JP-07",
+        "JP-08",
+        "JP-09",
+        "JP-10",
+        "JP-11",
+        "JP-12",
+        "JP-13",
+        "JP-14",
+        "JP-15",
+        "JP-16",
+        "JP-17",
+        "JP-18",
+        "JP-19",
+        "JP-20",
+        "JP-21",
+        "JP-22",
+        "JP-23",
+        "JP-24",
+        "JP-25",
+        "JP-26",
+        "JP-27",
+        "JP-28",
+        "JP-29",
+        "JP-30",
+        "JP-31",
+        "JP-32",
+        "JP-33",
+        "JP-34",
+        "JP-35",
+        "JP-36",
+        "JP-37",
+        "JP-38",
+        "JP-39",
+        "JP-40",
+        "JP-41",
+        "JP-42",
+        "JP-43",
+        "JP-44",
+        "JP-45",
+        "JP-46",
+        "JP-47"
+      ]
+    },
+    "JAW": {
+      "name": "Jawa",
+      "places": [
+        "ID"
+      ],
+      "main": "ID"
+    },
+    "JNF": {
+      "name": "Juan Fernández Is.",
+      "places": []
+    },
+    "KAM": {
+      "name": "Kamchatka",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "KAN": {
+      "name": "Kansas",
+      "places": [
+        "US-KS"
+      ],
+      "main": "US-KS"
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "places": [
+        "KZ"
+      ],
+      "main": "KZ"
+    },
+    "KEG": {
+      "name": "Kerguelen",
+      "places": [
+        "TF"
+      ],
+      "main": "TF"
+    },
+    "KEN": {
+      "name": "Kenya",
+      "places": [
+        "KE"
+      ],
+      "main": "KE"
+    },
+    "KER": {
+      "name": "Kermadec Is.",
+      "places": []
+    },
+    "KGZ": {
+      "name": "Kirgizistan",
+      "places": [
+        "KG"
+      ],
+      "main": "KG"
+    },
+    "KHA": {
+      "name": "Khabarovsk",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "KOR": {
+      "name": "Korea",
+      "places": [
+        "KP",
+        "KR"
+      ]
+    },
+    "KRA": {
+      "name": "Krasnoyarsk",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "KRI": {
+      "name": "Kriti",
+      "places": [
+        "GR"
+      ],
+      "main": "GR"
+    },
+    "KRY": {
+      "name": "Krym",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "KTY": {
+      "name": "Kentucky",
+      "places": [
+        "US-KY"
+      ],
+      "main": "US-KY"
+    },
+    "KUR": {
+      "name": "Kuril Is.",
+      "places": [
+        "RU"
+      ]
+    },
+    "KUW": {
+      "name": "Kuwait",
+      "places": [
+        "KW"
+      ],
+      "main": "KW"
+    },
+    "KZN": {
+      "name": "Kazan-retto",
+      "places": []
+    },
+    "LAB": {
+      "name": "Labrador",
+      "places": [
+        "CA-NL"
+      ],
+      "main": "CA-NL"
+    },
+    "LAO": {
+      "name": "Laos",
+      "places": [
+        "LA"
+      ],
+      "main": "LA"
+    },
+    "LBR": {
+      "name": "Liberia",
+      "places": [
+        "LR"
+      ],
+      "main": "LR"
+    },
+    "LBS": {
+      "name": "Lebanon-Syria",
+      "places": [
+        "IL",
+        "LB",
+        "SY"
+      ]
+    },
+    "LBY": {
+      "name": "Libya",
+      "places": [
+        "LY"
+      ],
+      "main": "LY"
+    },
+    "LDV": {
+      "name": "Laccadive Is.",
+      "places": [
+        "IN-LD"
+      ]
+    },
+    "LEE": {
+      "name": "Leeward Is. AB Ant",
+      "places": [
+        "AG",
+        "AI",
+        "BL",
+        "GP",
+        "KN",
+        "MF",
+        "MS",
+        "SX",
+        "VG",
+        "VI"
+      ]
+    },
+    "LES": {
+      "name": "Lesotho",
+      "places": [
+        "LS"
+      ],
+      "main": "LS"
+    },
+    "LIN": {
+      "name": "Line Is.",
+      "places": [
+        "KI"
+      ]
+    },
+    "LOU": {
+      "name": "Louisiana",
+      "places": [
+        "US-LA"
+      ],
+      "main": "US-LA"
+    },
+    "LSI": {
+      "name": "Lesser Sunda Is.",
+      "places": [
+        "ID",
+        "TL"
+      ]
+    },
+    "MAG": {
+      "name": "Magadan",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "MAI": {
+      "name": "Maine",
+      "places": [
+        "US-ME"
+      ],
+      "main": "US-ME"
+    },
+    "MAN": {
+      "name": "Manitoba",
+      "places": [
+        "CA-MB"
+      ],
+      "main": "CA-MB"
+    },
+    "MAQ": {
+      "name": "Macquarie Is.",
+      "places": []
+    },
+    "MAS": {
+      "name": "Massachusetts",
+      "places": [
+        "US-MA"
+      ],
+      "main": "US-MA"
+    },
+    "MAU": {
+      "name": "Mauritius",
+      "places": [
+        "MU"
+      ],
+      "main": "MU"
+    },
+    "MCI": {
+      "name": "Mozambique Channel Is.",
+      "places": []
+    },
+    "MCS": {
+      "name": "Marcus I.",
+      "places": []
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "places": [
+        "MG"
+      ],
+      "main": "MG"
+    },
+    "MDR": {
+      "name": "Madeira",
+      "places": [
+        "PT"
+      ],
+      "main": "PT"
+    },
+    "MDV": {
+      "name": "Maldives",
+      "places": [
+        "MV"
+      ]
+    },
+    "MIC": {
+      "name": "Michigan",
+      "places": [
+        "US-MI"
+      ],
+      "main": "US-MI"
+    },
+    "MIN": {
+      "name": "Minnesota",
+      "places": [
+        "US-MN"
+      ],
+      "main": "US-MN"
+    },
+    "MLI": {
+      "name": "Mali",
+      "places": [
+        "ML"
+      ],
+      "main": "ML"
+    },
+    "MLW": {
+      "name": "Malawi",
+      "places": [
+        "MW"
+      ],
+      "main": "MW"
+    },
+    "MLY": {
+      "name": "Malaya",
+      "places": [
+        "MY",
+        "SG"
+      ],
+      "main": "MY"
+    },
+    "MNT": {
+      "name": "Montana",
+      "places": [
+        "US-MT"
+      ],
+      "main": "US-MT"
+    },
+    "MOL": {
+      "name": "Maluku",
+      "places": [
+        "ID"
+      ],
+      "main": "ID"
+    },
+    "MON": {
+      "name": "Mongolia",
+      "places": [
+        "MN"
+      ],
+      "main": "MN"
+    },
+    "MOR": {
+      "name": "Morocco",
+      "places": [
+        "MA"
+      ],
+      "main": "MA"
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "places": [
+        "MZ"
+      ],
+      "main": "MZ"
+    },
+    "MPE": {
+      "name": "Marion-Prince Edward Is.",
+      "places": [
+        "ZA-WC"
+      ],
+      "main": "ZA-WC"
+    },
+    "MRN": {
+      "name": "Marianas",
+      "places": [
+        "GU",
+        "MP"
+      ]
+    },
+    "MRQ": {
+      "name": "Marquesas",
+      "places": []
+    },
+    "MRS": {
+      "name": "Marshall Is.",
+      "places": []
+    },
+    "MRY": {
+      "name": "Maryland",
+      "places": [
+        "US-DC",
+        "US-MD"
+      ],
+      "main": "US-MD"
+    },
+    "MSI": {
+      "name": "Mississippi",
+      "places": [
+        "US-MS"
+      ],
+      "main": "US-MS"
+    },
+    "MSO": {
+      "name": "Missouri",
+      "places": [
+        "US-MO"
+      ],
+      "main": "US-MO"
+    },
+    "MTN": {
+      "name": "Mauritania",
+      "places": [
+        "MR"
+      ],
+      "main": "MR"
+    },
+    "MXC": {
+      "name": "Mexico Central",
+      "places": [
+        "MX-DIF",
+        "MX-MEX",
+        "MX-MOR",
+        "MX-PUE",
+        "MX-TLA"
+      ]
+    },
+    "MXE": {
+      "name": "Mexico Northeast",
+      "places": [
+        "MX-AGU",
+        "MX-CHH",
+        "MX-COA",
+        "MX-DUR",
+        "MX-GUA",
+        "MX-HID",
+        "MX-NLE",
+        "MX-QUE",
+        "MX-SLP",
+        "MX-TAM",
+        "MX-ZAC"
+      ]
+    },
+    "MXG": {
+      "name": "Mexico Gulf",
+      "places": [
+        "MX-VER"
+      ],
+      "main": "MX-VER"
+    },
+    "MXI": {
+      "name": "Mexican Pacific Is.",
+      "places": []
+    },
+    "MXN": {
+      "name": "Mexico Northwest",
+      "places": [
+        "MX-BCN",
+        "MX-BCS",
+        "MX-SIN",
+        "MX-SON"
+      ]
+    },
+    "MXS": {
+      "name": "Mexico Southwest",
+      "places": [
+        "MX-COL",
+        "MX-GRO",
+        "MX-JAL",
+        "MX-MIC",
+        "MX-NAY",
+        "MX-OAX"
+      ]
+    },
+    "MXT": {
+      "name": "Mexico Southeast",
+      "places": [
+        "MX-CAM",
+        "MX-CHP",
+        "MX-ROO",
+        "MX-TAB",
+        "MX-YUC"
+      ]
+    },
+    "MYA": {
+      "name": "Myanmar",
+      "places": [
+        "MM"
+      ],
+      "main": "MM"
+    },
+    "NAM": {
+      "name": "Namibia",
+      "places": [
+        "NA"
+      ],
+      "main": "NA"
+    },
+    "NAT": {
+      "name": "KwaZulu-Natal",
+      "places": [
+        "ZA-NL"
+      ],
+      "main": "ZA-NL"
+    },
+    "NBR": {
+      "name": "New Brunswick",
+      "places": [
+        "CA-NB"
+      ],
+      "main": "CA-NB"
+    },
+    "NCA": {
+      "name": "North Carolina",
+      "places": [
+        "US-NC"
+      ],
+      "main": "US-NC"
+    },
+    "NCB": {
+      "name": "Nicobar Is.",
+      "places": [
+        "IN-AN"
+      ]
+    },
+    "NCS": {
+      "name": "North Caucasus",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "NDA": {
+      "name": "North Dakota",
+      "places": [
+        "US-ND"
+      ],
+      "main": "US-ND"
+    },
+    "NEB": {
+      "name": "Nebraska",
+      "places": [
+        "US-NE"
+      ],
+      "main": "US-NE"
+    },
+    "NEP": {
+      "name": "Nepal",
+      "places": [
+        "NP"
+      ],
+      "main": "NP"
+    },
+    "NET": {
+      "name": "Netherlands",
+      "places": [
+        "NL"
+      ],
+      "main": "NL"
+    },
+    "NEV": {
+      "name": "Nevada",
+      "places": [
+        "US-NV"
+      ],
+      "main": "US-NV"
+    },
+    "NFK": {
+      "name": "Norfolk Is.",
+      "places": [
+        "NF"
+      ]
+    },
+    "NFL": {
+      "name": "Newfoundland",
+      "places": [
+        "CA-NL",
+        "PM"
+      ],
+      "main": "CA-NL"
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "places": [
+        "NG"
+      ],
+      "main": "NG"
+    },
+    "NGR": {
+      "name": "Niger",
+      "places": [
+        "NE"
+      ],
+      "main": "NE"
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "places": [
+        "NI"
+      ],
+      "main": "NI"
+    },
+    "NLA": {
+      "name": "Netherlands Antilles",
+      "places": [
+        "CW"
+      ]
+    },
+    "NNS": {
+      "name": "Nansei-shoto",
+      "places": [
+        "JP-47"
+      ],
+      "main": "JP-47"
+    },
+    "NOR": {
+      "name": "Norway",
+      "places": [
+        "NO"
+      ],
+      "main": "NO"
+    },
+    "NRU": {
+      "name": "Nauru",
+      "places": [
+        "NR"
+      ],
+      "main": "NR"
+    },
+    "NSC": {
+      "name": "Nova Scotia",
+      "places": [
+        "CA-NS"
+      ],
+      "main": "CA-NS"
+    },
+    "NSW": {
+      "name": "New South Wales",
+      "places": [
+        "AU-ACT",
+        "AU-NSW"
+      ],
+      "main": "AU-NSW"
+    },
+    "NTA": {
+      "name": "Northern Territory",
+      "places": [
+        "AU-NT"
+      ],
+      "main": "AU-NT"
+    },
+    "NUE": {
+      "name": "Niue",
+      "places": [
+        "NU"
+      ],
+      "main": "NU"
+    },
+    "NUN": {
+      "name": "Nunavut",
+      "places": [
+        "CA-NU"
+      ],
+      "main": "CA-NU"
+    },
+    "NWC": {
+      "name": "New Caledonia",
+      "places": [
+        "NC"
+      ],
+      "main": "NC"
+    },
+    "NWG": {
+      "name": "New Guinea",
+      "places": [
+        "ID",
+        "PG"
+      ]
+    },
+    "NWH": {
+      "name": "New Hampshire",
+      "places": [
+        "US-NH"
+      ],
+      "main": "US-NH"
+    },
+    "NWJ": {
+      "name": "New Jersey",
+      "places": [
+        "US-NJ"
+      ],
+      "main": "US-NJ"
+    },
+    "NWM": {
+      "name": "New Mexico",
+      "places": [
+        "US-NM"
+      ],
+      "main": "US-NM"
+    },
+    "NWT": {
+      "name": "Northwest Territories",
+      "places": [
+        "CA-NT"
+      ],
+      "main": "CA-NT"
+    },
+    "NWY": {
+      "name": "New York",
+      "places": [
+        "US-NY"
+      ],
+      "main": "US-NY"
+    },
+    "NZN": {
+      "name": "New Zealand North",
+      "places": [
+        "NZ"
+      ],
+      "main": "NZ"
+    },
+    "NZS": {
+      "name": "New Zealand South",
+      "places": [
+        "NZ"
+      ],
+      "main": "NZ"
+    },
+    "OFS": {
+      "name": "Free State",
+      "places": [
+        "ZA-FS"
+      ],
+      "main": "ZA-FS"
+    },
+    "OGA": {
+      "name": "Ogasawara-shoto",
+      "places": []
+    },
+    "OHI": {
+      "name": "Ohio",
+      "places": [
+        "US-OH"
+      ],
+      "main": "US-OH"
+    },
+    "OKL": {
+      "name": "Oklahoma",
+      "places": [
+        "US-OK"
+      ],
+      "main": "US-OK"
+    },
+    "OMA": {
+      "name": "Oman",
+      "places": [
+        "OM"
+      ],
+      "main": "OM"
+    },
+    "ONT": {
+      "name": "Ontario",
+      "places": [
+        "CA-ON"
+      ],
+      "main": "CA-ON"
+    },
+    "ORE": {
+      "name": "Oregon",
+      "places": [
+        "US-OR"
+      ],
+      "main": "US-OR"
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "places": [
+        "PK"
+      ],
+      "main": "PK"
+    },
+    "PAL": {
+      "name": "Palestine",
+      "places": [
+        "IL",
+        "JO",
+        "PS"
+      ]
+    },
+    "PAN": {
+      "name": "Panama",
+      "places": [
+        "PA"
+      ],
+      "main": "PA"
+    },
+    "PAR": {
+      "name": "Paraguay",
+      "places": [
+        "PY"
+      ],
+      "main": "PY"
+    },
+    "PEI": {
+      "name": "Prince Edward I.",
+      "places": [
+        "CA-PE"
+      ],
+      "main": "CA-PE"
+    },
+    "PEN": {
+      "name": "Pennsylvania",
+      "places": [
+        "US-PA"
+      ],
+      "main": "US-PA"
+    },
+    "PER": {
+      "name": "Peru",
+      "places": [
+        "PE"
+      ],
+      "main": "PE"
+    },
+    "PHI": {
+      "name": "Philippines",
+      "places": [
+        "PH"
+      ],
+      "main": "PH"
+    },
+    "PHX": {
+      "name": "Phoenix Is.",
+      "places": []
+    },
+    "PIT": {
+      "name": "Pitcairn Is.",
+      "places": [
+        "PN"
+      ]
+    },
+    "POL": {
+      "name": "Poland",
+      "places": [
+        "PL"
+      ],
+      "main": "PL"
+    },
+    "POR": {
+      "name": "Portugal",
+      "places": [
+        "PT"
+      ],
+      "main": "PT"
+    },
+    "PRM": {
+      "name": "Primorye",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "PUE": {
+      "name": "Puerto Rico",
+      "places": [
+        "PR"
+      ],
+      "main": "PR"
+    },
+    "QLD": {
+      "name": "Queensland",
+      "places": [
+        "AU-QLD"
+      ],
+      "main": "AU-QLD"
+    },
+    "QUE": {
+      "name": "Québec",
+      "places": [
+        "CA-QC"
+      ],
+      "main": "CA-QC"
+    },
+    "REU": {
+      "name": "Réunion",
+      "places": [
+        "RE"
+      ],
+      "main": "RE"
+    },
+    "RHO": {
+      "name": "Rhode I.",
+      "places": [
+        "US-RI"
+      ],
+      "main": "US-RI"
+    },
+    "ROD": {
+      "name": "Rodrigues",
+      "places": []
+    },
+    "ROM": {
+      "name": "Romania",
+      "places": [
+        "RO"
+      ],
+      "main": "RO"
+    },
+    "RUC": {
+      "name": "Central European Russia",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "RUE": {
+      "name": "East European Russia",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "RUN": {
+      "name": "North European Russia",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "RUS": {
+      "name": "South European Russia",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "RUW": {
+      "name": "Northwest European Russia",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "places": [
+        "RW"
+      ],
+      "main": "RW"
+    },
+    "SAK": {
+      "name": "Sakhalin",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "SAM": {
+      "name": "Samoa",
+      "places": [
+        "AS",
+        "WS"
+      ],
+      "main": "WS"
+    },
+    "SAR": {
+      "name": "Sardegna",
+      "places": [
+        "IT"
+      ],
+      "main": "IT"
+    },
+    "SAS": {
+      "name": "Saskatchewan",
+      "places": [
+        "CA-SK"
+      ],
+      "main": "CA-SK"
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "places": [
+        "SA",
+        "YE"
+      ],
+      "main": "SA"
+    },
+    "SCA": {
+      "name": "South Carolina",
+      "places": [
+        "US-SC"
+      ],
+      "main": "US-SC"
+    },
+    "SCI": {
+      "name": "Society Is.",
+      "places": [
+        "PF"
+      ]
+    },
+    "SCS": {
+      "name": "South China Sea",
+      "places": []
+    },
+    "SCZ": {
+      "name": "Santa Cruz Is.",
+      "places": []
+    },
+    "SDA": {
+      "name": "South Dakota",
+      "places": [
+        "US-SD"
+      ],
+      "main": "US-SD"
+    },
+    "SEL": {
+      "name": "Selvagens",
+      "places": []
+    },
+    "SEN": {
+      "name": "Senegal",
+      "places": [
+        "GM",
+        "SN"
+      ],
+      "main": "SN"
+    },
+    "SEY": {
+      "name": "Seychelles",
+      "places": [
+        "SC"
+      ]
+    },
+    "SGE": {
+      "name": "South Georgia",
+      "places": [
+        "GS"
+      ],
+      "main": "GS"
+    },
+    "SIC": {
+      "name": "Sicilia",
+      "places": [
+        "IT",
+        "MT"
+      ],
+      "main": "IT"
+    },
+    "SIE": {
+      "name": "Sierra Leone",
+      "places": [
+        "SL"
+      ],
+      "main": "SL"
+    },
+    "SIN": {
+      "name": "Sinai",
+      "places": [
+        "EG"
+      ],
+      "main": "EG"
+    },
+    "SOA": {
+      "name": "South Australia",
+      "places": [
+        "AU-SA"
+      ],
+      "main": "AU-SA"
+    },
+    "SOC": {
+      "name": "Socotra",
+      "places": [
+        "YE"
+      ],
+      "main": "YE"
+    },
+    "SOL": {
+      "name": "Solomon Is.",
+      "places": [
+        "PG",
+        "SB"
+      ]
+    },
+    "SOM": {
+      "name": "Somalia",
+      "places": [
+        "SO"
+      ]
+    },
+    "SPA": {
+      "name": "Spain",
+      "places": [
+        "AD",
+        "ES"
+      ],
+      "main": "ES"
+    },
+    "SRL": {
+      "name": "Sri Lanka",
+      "places": [
+        "LK"
+      ],
+      "main": "LK"
+    },
+    "SSA": {
+      "name": "South Sandwich Is.",
+      "places": []
+    },
+    "STH": {
+      "name": "St.Helena",
+      "places": [
+        "SH"
+      ],
+      "main": "SH"
+    },
+    "SUD": {
+      "name": "Sudan",
+      "places": [
+        "SD",
+        "SS"
+      ]
+    },
+    "SUL": {
+      "name": "Sulawesi",
+      "places": [
+        "ID"
+      ],
+      "main": "ID"
+    },
+    "SUM": {
+      "name": "Sumatera",
+      "places": [
+        "ID"
+      ],
+      "main": "ID"
+    },
+    "SUR": {
+      "name": "Surinam",
+      "places": [
+        "SR"
+      ],
+      "main": "SR"
+    },
+    "SVA": {
+      "name": "Svalbard",
+      "places": [
+        "NO"
+      ],
+      "main": "NO"
+    },
+    "SWC": {
+      "name": "Southwest Caribbean",
+      "places": []
+    },
+    "SWE": {
+      "name": "Sweden",
+      "places": [
+        "SE"
+      ],
+      "main": "SE"
+    },
+    "SWI": {
+      "name": "Switzerland",
+      "places": [
+        "CH",
+        "LI"
+      ],
+      "main": "CH"
+    },
+    "SWZ": {
+      "name": "Swaziland",
+      "places": [
+        "SZ"
+      ],
+      "main": "SZ"
+    },
+    "TAI": {
+      "name": "Taiwan",
+      "places": [
+        "TW"
+      ],
+      "main": "TW"
+    },
+    "TAN": {
+      "name": "Tanzania",
+      "places": [
+        "TZ"
+      ],
+      "main": "TZ"
+    },
+    "TAS": {
+      "name": "Tasmania",
+      "places": [
+        "AU-TAS"
+      ],
+      "main": "AU-TAS"
+    },
+    "TCI": {
+      "name": "Turks-Caicos Is.",
+      "places": [
+        "TC"
+      ]
+    },
+    "TCS": {
+      "name": "Transcaucasus",
+      "places": [
+        "AM",
+        "AZ",
+        "GE"
+      ]
+    },
+    "TDC": {
+      "name": "Tristan da Cunha",
+      "places": []
+    },
+    "TEN": {
+      "name": "Tennessee",
+      "places": [
+        "US-TN"
+      ],
+      "main": "US-TN"
+    },
+    "TEX": {
+      "name": "Texas",
+      "places": [
+        "US-TX"
+      ],
+      "main": "US-TX"
+    },
+    "THA": {
+      "name": "Thailand",
+      "places": [
+        "TH"
+      ],
+      "main": "TH"
+    },
+    "TKM": {
+      "name": "Turkmenistan",
+      "places": [
+        "TM"
+      ],
+      "main": "TM"
+    },
+    "TOG": {
+      "name": "Togo",
+      "places": [
+        "TG"
+      ],
+      "main": "TG"
+    },
+    "TOK": {
+      "name": "Tokelau-Manihiki",
+      "places": []
+    },
+    "TON": {
+      "name": "Tonga",
+      "places": [
+        "TO"
+      ]
+    },
+    "TRT": {
+      "name": "Trinidad-Tobago",
+      "places": [
+        "TT"
+      ],
+      "main": "TT"
+    },
+    "TUA": {
+      "name": "Tuamotu",
+      "places": []
+    },
+    "TUB": {
+      "name": "Tubuai Is.",
+      "places": []
+    },
+    "TUE": {
+      "name": "Turkey-in-Europe",
+      "places": [
+        "TR"
+      ],
+      "main": "TR"
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "places": [
+        "TN"
+      ],
+      "main": "TN"
+    },
+    "TUR": {
+      "name": "Turkey",
+      "places": [
+        "TR"
+      ],
+      "main": "TR"
+    },
+    "TUV": {
+      "name": "Tuvalu",
+      "places": [
+        "TV"
+      ]
+    },
+    "TVA": {
+      "name": "Tuva",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "TVL": {
+      "name": "Northern Provinces",
+      "places": [
+        "ZA-GT",
+        "ZA-LP",
+        "ZA-MP",
+        "ZA-NW"
+      ]
+    },
+    "TZK": {
+      "name": "Tadzhikistan",
+      "places": [
+        "TJ"
+      ],
+      "main": "TJ"
+    },
+    "UGA": {
+      "name": "Uganda",
+      "places": [
+        "UG"
+      ],
+      "main": "UG"
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "places": [
+        "MD",
+        "UA"
+      ],
+      "main": "UA"
+    },
+    "URU": {
+      "name": "Uruguay",
+      "places": [
+        "UY"
+      ],
+      "main": "UY"
+    },
+    "UTA": {
+      "name": "Utah",
+      "places": [
+        "US-UT"
+      ],
+      "main": "US-UT"
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "places": [
+        "UZ"
+      ],
+      "main": "UZ"
+    },
+    "VAN": {
+      "name": "Vanuatu",
+      "places": [
+        "VU"
+      ]
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "places": [
+        "VE"
+      ],
+      "main": "VE"
+    },
+    "VER": {
+      "name": "Vermont",
+      "places": [
+        "US-VT"
+      ],
+      "main": "US-VT"
+    },
+    "VIC": {
+      "name": "Victoria",
+      "places": [
+        "AU-VIC"
+      ],
+      "main": "AU-VIC"
+    },
+    "VIE": {
+      "name": "Vietnam",
+      "places": [
+        "VN"
+      ],
+      "main": "VN"
+    },
+    "VNA": {
+      "name": "Venezuelan Antilles",
+      "places": [
+        "VE"
+      ]
+    },
+    "VRG": {
+      "name": "Virginia",
+      "places": [
+        "US-VA"
+      ],
+      "main": "US-VA"
+    },
+    "WAK": {
+      "name": "Wake I.",
+      "places": []
+    },
+    "WAL": {
+      "name": "Wallis-Futuna Is.",
+      "places": [
+        "WF"
+      ]
+    },
+    "WAS": {
+      "name": "Washington",
+      "places": [
+        "US-WA"
+      ],
+      "main": "US-WA"
+    },
+    "WAU": {
+      "name": "Western Australia",
+      "places": [
+        "AU-WA"
+      ],
+      "main": "AU-WA"
+    },
+    "WDC": {
+      "name": "District of Columbia",
+      "places": [
+        "US-DC"
+      ],
+      "main": "US-DC"
+    },
+    "WHM": {
+      "name": "West Himalaya",
+      "places": [
+        "IN-HP",
+        "IN-JK",
+        "IN-LA",
+        "IN-UT",
+        "PK"
+      ]
+    },
+    "WIN": {
+      "name": "Windward Is.",
+      "places": [
+        "BB",
+        "DM",
+        "GD",
+        "LC",
+        "MQ",
+        "VC"
+      ]
+    },
+    "WIS": {
+      "name": "Wisconsin",
+      "places": [
+        "US-WI"
+      ],
+      "main": "US-WI"
+    },
+    "WSA": {
+      "name": "Western Sahara",
+      "places": [
+        "EH",
+        "MA"
+      ]
+    },
+    "WSB": {
+      "name": "West Siberia",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "WVA": {
+      "name": "West Virginia",
+      "places": [
+        "US-WV"
+      ],
+      "main": "US-WV"
+    },
+    "WYO": {
+      "name": "Wyoming",
+      "places": [
+        "US-WY"
+      ],
+      "main": "US-WY"
+    },
+    "XMS": {
+      "name": "Christmas I.",
+      "places": []
+    },
+    "YAK": {
+      "name": "Yakutskiya",
+      "places": [
+        "RU"
+      ],
+      "main": "RU"
+    },
+    "YEM": {
+      "name": "Yemen",
+      "places": [
+        "YE"
+      ],
+      "main": "YE"
+    },
+    "YUG": {
+      "name": "Yugoslavia",
+      "places": [
+        "BA",
+        "HR",
+        "ME",
+        "MK",
+        "RS",
+        "SI",
+        "XK"
+      ]
+    },
+    "YUK": {
+      "name": "Yukon",
+      "places": [
+        "CA-YT"
+      ],
+      "main": "CA-YT"
+    },
+    "ZAI": {
+      "name": "Zaïre",
+      "places": [
+        "CD"
+      ],
+      "main": "CD"
+    },
+    "ZAM": {
+      "name": "Zambia",
+      "places": [
+        "ZM"
+      ],
+      "main": "ZM"
+    },
+    "ZIM": {
+      "name": "Zimbabwe",
+      "places": [
+        "ZW"
+      ],
+      "main": "ZW"
+    }
+  },
+  "places": {
+    "AD": [
+      "SPA"
+    ],
+    "AE": [
+      "GST"
+    ],
+    "AF": [
+      "AFG"
+    ],
+    "AG": [
+      "LEE"
+    ],
+    "AI": [
+      "LEE"
+    ],
+    "AL": [
+      "ALB"
+    ],
+    "AM": [
+      "TCS"
+    ],
+    "AO": [
+      "ANG",
+      "CAB"
+    ],
+    "AQ": [
+      "ANT"
+    ],
+    "AR-A": [
+      "AGW"
+    ],
+    "AR-B": [
+      "AGE"
+    ],
+    "AR-C": [
+      "AGE"
+    ],
+    "AR-D": [
+      "AGW"
+    ],
+    "AR-E": [
+      "AGE"
+    ],
+    "AR-F": [
+      "AGW"
+    ],
+    "AR-G": [
+      "AGW"
+    ],
+    "AR-H": [
+      "AGE"
+    ],
+    "AR-J": [
+      "AGW"
+    ],
+    "AR-K": [
+      "AGW"
+    ],
+    "AR-L": [
+      "AGE"
+    ],
+    "AR-M": [
+      "AGW"
+    ],
+    "AR-N": [
+      "AGE"
+    ],
+    "AR-P": [
+      "AGE"
+    ],
+    "AR-Q": [
+      "AGS"
+    ],
+    "AR-R": [
+      "AGS"
+    ],
+    "AR-S": [
+      "AGE"
+    ],
+    "AR-T": [
+      "AGW"
+    ],
+    "AR-U": [
+      "AGS"
+    ],
+    "AR-V": [
+      "AGS"
+    ],
+    "AR-W": [
+      "AGE"
+    ],
+    "AR-X": [
+      "AGE"
+    ],
+    "AR-Y": [
+      "AGW"
+    ],
+    "AR-Z": [
+      "AGS"
+    ],
+    "AS": [
+      "SAM"
+    ],
+    "AT": [
+      "AUT"
+    ],
+    "AU-ACT": [
+      "NSW"
+    ],
+    "AU-NSW": [
+      "NSW"
+    ],
+    "AU-NT": [
+      "NTA"
+    ],
+    "AU-QLD": [
+      "QLD"
+    ],
+    "AU-SA": [
+      "SOA"
+    ],
+    "AU-TAS": [
+      "TAS"
+    ],
+    "AU-VIC": [
+      "VIC"
+    ],
+    "AU-WA": [
+      "WAU"
+    ],
+    "AW": [
+      "ARU"
+    ],
+    "AX": [
+      "FIN"
+    ],
+    "AZ": [
+      "TCS"
+    ],
+    "BA": [
+      "YUG"
+    ],
+    "BB": [
+      "WIN"
+    ],
+    "BD": [
+      "BAN"
+    ],
+    "BE": [
+      "BGM"
+    ],
+    "BF": [
+      "BKN"
+    ],
+    "BG": [
+      "BUL"
+    ],
+    "BH": [
+      "GST"
+    ],
+    "BI": [
+      "BUR"
+    ],
+    "BJ": [
+      "BEN"
+    ],
+    "BL": [
+      "LEE"
+    ],
+    "BM": [
+      "BER"
+    ],
+    "BN": [
+      "BOR"
+    ],
+    "BO": [
+      "BOL"
+    ],
+    "BR-AC": [
+      "BZN"
+    ],
+    "BR-AL": [
+      "BZE"
+    ],
+    "BR-AM": [
+      "BZN"
+    ],
+    "BR-AP": [
+      "BZN"
+    ],
+    "BR-BA": [
+      "BZE"
+    ],
+    "BR-CE": [
+      "BZE"
+    ],
+    "BR-DF": [
+      "BZC"
+    ],
+    "BR-ES": [
+      "BZL"
+    ],
+    "BR-GO": [
+      "BZC"
+    ],
+    "BR-MA": [
+      "BZE"
+    ],
+    "BR-MG": [
+      "BZL"
+    ],
+    "BR-MS": [
+      "BZC"
+    ],
+    "BR-MT": [
+      "BZC"
+    ],
+    "BR-PA": [
+      "BZN"
+    ],
+    "BR-PB": [
+      "BZE"
+    ],
+    "BR-PE": [
+      "BZE"
+    ],
+    "BR-PI": [
+      "BZE"
+    ],
+    "BR-PR": [
+      "BZS"
+    ],
+    "BR-RJ": [
+      "BZL"
+    ],
+    "BR-RN": [
+      "BZE"
+    ],
+    "BR-RO": [
+      "BZN"
+    ],
+    "BR-RR": [
+      "BZN"
+    ],
+    "BR-RS": [
+      "BZS"
+    ],
+    "BR-SC": [
+      "BZS"
+    ],
+    "BR-SE": [
+      "BZE"
+    ],
+    "BR-SP": [
+      "BZL"
+    ],
+    "BR-TO": [
+      "BZN"
+    ],
+    "BS": [
+      "BAH"
+    ],
+    "BT": [
+      "EHM"
+    ],
+    "BW": [
+      "BOT"
+    ],
+    "BY": [
+      "BLR"
+    ],
+    "BZ": [
+      "BLZ"
+    ],
+    "CA-AB": [
+      "ABT"
+    ],
+    "CA-BC": [
+      "BRC"
+    ],
+    "CA-MB": [
+      "MAN"
+    ],
+    "CA-NB": [
+      "NBR"
+    ],
+    "CA-NL": [
+      "LAB",
+      "NFL"
+    ],
+    "CA-NS": [
+      "NSC"
+    ],
+    "CA-NT": [
+      "NWT"
+    ],
+    "CA-NU": [
+      "NUN"
+    ],
+    "CA-ON": [
+      "ONT"
+    ],
+    "CA-PE": [
+      "PEI"
+    ],
+    "CA-QC": [
+      "QUE"
+    ],
+    "CA-SK": [
+      "SAS"
+    ],
+    "CA-YT": [
+      "YUK"
+    ],
+    "CD": [
+      "CAB",
+      "ZAI"
+    ],
+    "CF": [
+      "CAF"
+    ],
+    "CG": [
+      "CON"
+    ],
+    "CH": [
+      "SWI"
+    ],
+    "CI": [
+      "IVO"
+    ],
+    "CK": [
+      "COO"
+    ],
+    "CL": [
+      "CLC",
+      "CLN",
+      "CLS"
+    ],
+    "CM": [
+      "CMN"
+    ],
+    "CN-AH": [
+      "CHS"
+    ],
+    "CN-BJ": [
+      "CHN"
+    ],
+    "CN-CQ": [
+      "CHC"
+    ],
+    "CN-FJ": [
+      "CHS"
+    ],
+    "CN-GD": [
+      "CHS"
+    ],
+    "CN-GS": [
+      "CHN"
+    ],
+    "CN-GX": [
+      "CHS"
+    ],
+    "CN-GZ": [
+      "CHC"
+    ],
+    "CN-HA": [
+      "CHS"
+    ],
+    "CN-HB": [
+      "CHC"
+    ],
+    "CN-HE": [
+      "CHN"
+    ],
+    "CN-HI": [
+      "CHH"
+    ],
+    "CN-HL": [
+      "CHM"
+    ],
+    "CN-HN": [
+      "CHS"
+    ],
+    "CN-JL": [
+      "CHM"
+    ],
+    "CN-JS": [
+      "CHS"
+    ],
+    "CN-JX": [
+      "CHS"
+    ],
+    "CN-LN": [
+      "CHM"
+    ],
+    "CN-NM": [
+      "CHI"
+    ],
+    "CN-NX": [
+      "CHI"
+    ],
+    "CN-QH": [
+      "CHQ"
+    ],
+    "CN-SC": [
+      "CHC"
+    ],
+    "CN-SD": [
+      "CHN"
+    ],
+    "CN-SH": [
+      "CHS"
+    ],
+    "CN-SN": [
+      "CHN"
+    ],
+    "CN-SX": [
+      "CHN"
+    ],
+    "CN-TJ": [
+      "CHN"
+    ],
+    "CN-XJ": [
+      "CHX"
+    ],
+    "CN-XZ": [
+      "CHT"
+    ],
+    "CN-YN": [
+      "CHC"
+    ],
+    "CN-ZJ": [
+      "CHS"
+    ],
+    "CO": [
+      "CLM"
+    ],
+    "CR": [
+      "COS"
+    ],
+    "CU": [
+      "CUB"
+    ],
+    "CV": [
+      "CVI"
+    ],
+    "CW": [
+      "NLA"
+    ],
+    "CY": [
+      "CYP"
+    ],
+    "CZ": [
+      "CZE"
+    ],
+    "DE": [
+      "GER"
+    ],
+    "DJ": [
+      "DJI"
+    ],
+    "DK": [
+      "DEN"
+    ],
+    "DM": [
+      "WIN"
+    ],
+    "DO": [
+      "DOM"
+    ],
+    "DZ": [
+      "ALG"
+    ],
+    "EC": [
+      "ECU",
+      "GAL"
+    ],
+    "EE": [
+      "BLT"
+    ],
+    "EG": [
+      "EGY",
+      "SIN"
+    ],
+    "EH": [
+      "WSA"
+    ],
+    "ER": [
+      "ERI"
+    ],
+    "ES": [
+      "BAL",
+      "CNY",
+      "SPA"
+    ],
+    "ET": [
+      "ETH"
+    ],
+    "FI": [
+      "FIN"
+    ],
+    "FJ": [
+      "FIJ"
+    ],
+    "FK": [
+      "FAL"
+    ],
+    "FM": [
+      "CRL"
+    ],
+    "FO": [
+      "FOR"
+    ],
+    "FR": [
+      "COR",
+      "FRA"
+    ],
+    "GA": [
+      "EQG",
+      "GAB"
+    ],
+    "GB": [
+      "GRB",
+      "IRE"
+    ],
+    "GD": [
+      "WIN"
+    ],
+    "GE": [
+      "TCS"
+    ],
+    "GF": [
+      "FRG"
+    ],
+    "GG": [
+      "FRA"
+    ],
+    "GH": [
+      "GHA"
+    ],
+    "GL": [
+      "GNL"
+    ],
+    "GM": [
+      "GAM",
+      "SEN"
+    ],
+    "GN": [
+      "GUI"
+    ],
+    "GP": [
+      "LEE"
+    ],
+    "GQ": [
+      "EQG",
+      "GGI"
+    ],
+    "GR": [
+      "EAI",
+      "GRC",
+      "KRI"
+    ],
+    "GS": [
+      "SGE"
+    ],
+    "GT": [
+      "GUA"
+    ],
+    "GU": [
+      "MRN"
+    ],
+    "GW": [
+      "GNB"
+    ],
+    "GY": [
+      "GUY"
+    ],
+    "HK": [
+      "CHS"
+    ],
+    "HM": [
+      "HMD"
+    ],
+    "HN": [
+      "HON"
+    ],
+    "HR": [
+      "YUG"
+    ],
+    "HT": [
+      "HAI"
+    ],
+    "HU": [
+      "HUN"
+    ],
+    "ID": [
+      "BOR",
+      "JAW",
+      "LSI",
+      "MOL",
+      "NWG",
+      "SUL",
+      "SUM"
+    ],
+    "IE": [
+      "IRE"
+    ],
+    "IL": [
+      "LBS",
+      "PAL"
+    ],
+    "IM": [
+      "GRB"
+    ],
+    "IN-AN": [
+      "AND",
+      "NCB"
+    ],
+    "IN-AP": [
+      "IND"
+    ],
+    "IN-AR": [
+      "EHM"
+    ],
+    "IN-AS": [
+      "ASS"
+    ],
+    "IN-BR": [
+      "IND"
+    ],
+    "IN-CH": [
+      "IND"
+    ],
+    "IN-CT": [
+      "IND"
+    ],
+    "IN-DH": [
+      "IND"
+    ],
+    "IN-DL": [
+      "IND"
+    ],
+    "IN-GA": [
+      "IND"
+    ],
+    "IN-GJ": [
+      "IND"
+    ],
+    "IN-HP": [
+      "WHM"
+    ],
+    "IN-HR": [
+      "IND"
+    ],
+    "IN-JH": [
+      "IND"
+    ],
+    "IN-JK": [
+      "WHM"
+    ],
+    "IN-KA": [
+      "IND"
+    ],
+    "IN-KL": [
+      "IND"
+    ],
+    "IN-LA": [
+      "WHM"
+    ],
+    "IN-LD": [
+      "LDV"
+    ],
+    "IN-MH": [
+      "IND"
+    ],
+    "IN-ML": [
+      "ASS"
+    ],
+    "IN-MN": [
+      "ASS"
+    ],
+    "IN-MP": [
+      "IND"
+    ],
+    "IN-MZ": [
+      "ASS"
+    ],
+    "IN-NL": [
+      "ASS"
+    ],
+    "IN-OR": [
+      "IND"
+    ],
+    "IN-PB": [
+      "IND"
+    ],
+    "IN-PY": [
+      "IND"
+    ],
+    "IN-RJ": [
+      "IND"
+    ],
+    "IN-SK": [
+      "EHM"
+    ],
+    "IN-TG": [
+      "IND"
+    ],
+    "IN-TN": [
+      "IND"
+    ],
+    "IN-TR": [
+      "ASS",
+      "BAN"
+    ],
+    "IN-UP": [
+      "IND"
+    ],
+    "IN-UT": [
+      "IND",
+      "WHM"
+    ],
+    "IN-WB": [
+      "IND"
+    ],
+    "IO": [
+      "CGS"
+    ],
+    "IQ": [
+      "IRQ"
+    ],
+    "IR": [
+      "IRN"
+    ],
+    "IS": [
+      "ICE"
+    ],
+    "IT": [
+      "ITA",
+      "SAR",
+      "SIC"
+    ],
+    "JE": [
+      "FRA"
+    ],
+    "JM": [
+      "JAM"
+    ],
+    "JO": [
+      "PAL"
+    ],
+    "JP-01": [
+      "JAP"
+    ],
+    "JP-02": [
+      "JAP"
+    ],
+    "JP-03": [
+      "JAP"
+    ],
+    "JP-04": [
+      "JAP"
+    ],
+    "JP-05": [
+      "JAP"
+    ],
+    "JP-06": [
+      "JAP"
+    ],
+    "JP-07": [
+      "JAP"
+    ],
+    "JP-08": [
+      "JAP"
+    ],
+    "JP-09": [
+      "JAP"
+    ],
+    "JP-10": [
+      "JAP"
+    ],
+    "JP-11": [
+      "JAP"
+    ],
+    "JP-12": [
+      "JAP"
+    ],
+    "JP-13": [
+      "JAP"
+    ],
+    "JP-14": [
+      "JAP"
+    ],
+    "JP-15": [
+      "JAP"
+    ],
+    "JP-16": [
+      "JAP"
+    ],
+    "JP-17": [
+      "JAP"
+    ],
+    "JP-18": [
+      "JAP"
+    ],
+    "JP-19": [
+      "JAP"
+    ],
+    "JP-20": [
+      "JAP"
+    ],
+    "JP-21": [
+      "JAP"
+    ],
+    "JP-22": [
+      "JAP"
+    ],
+    "JP-23": [
+      "JAP"
+    ],
+    "JP-24": [
+      "JAP"
+    ],
+    "JP-25": [
+      "JAP"
+    ],
+    "JP-26": [
+      "JAP"
+    ],
+    "JP-27": [
+      "JAP"
+    ],
+    "JP-28": [
+      "JAP"
+    ],
+    "JP-29": [
+      "JAP"
+    ],
+    "JP-30": [
+      "JAP"
+    ],
+    "JP-31": [
+      "JAP"
+    ],
+    "JP-32": [
+      "JAP"
+    ],
+    "JP-33": [
+      "JAP"
+    ],
+    "JP-34": [
+      "JAP"
+    ],
+    "JP-35": [
+      "JAP"
+    ],
+    "JP-36": [
+      "JAP"
+    ],
+    "JP-37": [
+      "JAP"
+    ],
+    "JP-38": [
+      "JAP"
+    ],
+    "JP-39": [
+      "JAP"
+    ],
+    "JP-40": [
+      "JAP"
+    ],
+    "JP-41": [
+      "JAP"
+    ],
+    "JP-42": [
+      "JAP"
+    ],
+    "JP-43": [
+      "JAP"
+    ],
+    "JP-44": [
+      "JAP"
+    ],
+    "JP-45": [
+      "JAP"
+    ],
+    "JP-46": [
+      "JAP"
+    ],
+    "JP-47": [
+      "JAP",
+      "NNS"
+    ],
+    "KE": [
+      "KEN"
+    ],
+    "KG": [
+      "KGZ"
+    ],
+    "KH": [
+      "CBD"
+    ],
+    "KI": [
+      "LIN"
+    ],
+    "KM": [
+      "COM"
+    ],
+    "KN": [
+      "LEE"
+    ],
+    "KP": [
+      "KOR"
+    ],
+    "KR": [
+      "KOR"
+    ],
+    "KW": [
+      "KUW"
+    ],
+    "KY": [
+      "CAY"
+    ],
+    "KZ": [
+      "KAZ"
+    ],
+    "LA": [
+      "LAO"
+    ],
+    "LB": [
+      "LBS"
+    ],
+    "LC": [
+      "WIN"
+    ],
+    "LI": [
+      "AUT",
+      "SWI"
+    ],
+    "LK": [
+      "SRL"
+    ],
+    "LR": [
+      "LBR"
+    ],
+    "LS": [
+      "LES"
+    ],
+    "LT": [
+      "BLT"
+    ],
+    "LU": [
+      "BGM"
+    ],
+    "LV": [
+      "BLT"
+    ],
+    "LY": [
+      "LBY"
+    ],
+    "MA": [
+      "MOR",
+      "WSA"
+    ],
+    "MC": [
+      "FRA"
+    ],
+    "MD": [
+      "UKR"
+    ],
+    "ME": [
+      "YUG"
+    ],
+    "MF": [
+      "LEE"
+    ],
+    "MG": [
+      "MDG"
+    ],
+    "MK": [
+      "YUG"
+    ],
+    "ML": [
+      "MLI"
+    ],
+    "MM": [
+      "MYA"
+    ],
+    "MN": [
+      "MON"
+    ],
+    "MO": [
+      "CHS"
+    ],
+    "MP": [
+      "MRN"
+    ],
+    "MQ": [
+      "WIN"
+    ],
+    "MR": [
+      "MTN"
+    ],
+    "MS": [
+      "LEE"
+    ],
+    "MT": [
+      "SIC"
+    ],
+    "MU": [
+      "MAU"
+    ],
+    "MV": [
+      "MDV"
+    ],
+    "MW": [
+      "MLW"
+    ],
+    "MX-AGU": [
+      "MXE"
+    ],
+    "MX-BCN": [
+      "MXN"
+    ],
+    "MX-BCS": [
+      "MXN"
+    ],
+    "MX-CAM": [
+      "MXT"
+    ],
+    "MX-CHH": [
+      "MXE"
+    ],
+    "MX-CHP": [
+      "MXT"
+    ],
+    "MX-COA": [
+      "MXE"
+    ],
+    "MX-COL": [
+      "MXS"
+    ],
+    "MX-DIF": [
+      "MXC"
+    ],
+    "MX-DUR": [
+      "MXE"
+    ],
+    "MX-GRO": [
+      "MXS"
+    ],
+    "MX-GUA": [
+      "MXE"
+    ],
+    "MX-HID": [
+      "MXE"
+    ],
+    "MX-JAL": [
+      "MXS"
+    ],
+    "MX-MEX": [
+      "MXC"
+    ],
+    "MX-MIC": [
+      "MXS"
+    ],
+    "MX-MOR": [
+      "MXC"
+    ],
+    "MX-NAY": [
+      "MXS"
+    ],
+    "MX-NLE": [
+      "MXE"
+    ],
+    "MX-OAX": [
+      "MXS"
+    ],
+    "MX-PUE": [
+      "MXC"
+    ],
+    "MX-QUE": [
+      "MXE"
+    ],
+    "MX-ROO": [
+      "MXT"
+    ],
+    "MX-SIN": [
+      "MXN"
+    ],
+    "MX-SLP": [
+      "MXE"
+    ],
+    "MX-SON": [
+      "MXN"
+    ],
+    "MX-TAB": [
+      "MXT"
+    ],
+    "MX-TAM": [
+      "MXE"
+    ],
+    "MX-TLA": [
+      "MXC"
+    ],
+    "MX-VER": [
+      "MXG"
+    ],
+    "MX-YUC": [
+      "MXT"
+    ],
+    "MX-ZAC": [
+      "MXE"
+    ],
+    "MY": [
+      "BOR",
+      "MLY"
+    ],
+    "MZ": [
+      "MOZ"
+    ],
+    "NA": [
+      "CPV",
+      "NAM"
+    ],
+    "NC": [
+      "NWC"
+    ],
+    "NE": [
+      "NGR"
+    ],
+    "NF": [
+      "NFK"
+    ],
+    "NG": [
+      "NGA"
+    ],
+    "NI": [
+      "NIC"
+    ],
+    "NL": [
+      "NET"
+    ],
+    "NO": [
+      "NOR",
+      "SVA"
+    ],
+    "NP": [
+      "NEP"
+    ],
+    "NR": [
+      "NRU"
+    ],
+    "NU": [
+      "NUE"
+    ],
+    "NZ": [
+      "CTM",
+      "NZN",
+      "NZS"
+    ],
+    "OM": [
+      "OMA"
+    ],
+    "PA": [
+      "PAN"
+    ],
+    "PE": [
+      "PER"
+    ],
+    "PF": [
+      "SCI"
+    ],
+    "PG": [
+      "BIS",
+      "NWG",
+      "SOL"
+    ],
+    "PH": [
+      "PHI"
+    ],
+    "PK": [
+      "PAK",
+      "WHM"
+    ],
+    "PL": [
+      "POL"
+    ],
+    "PM": [
+      "NFL"
+    ],
+    "PN": [
+      "PIT"
+    ],
+    "PR": [
+      "PUE"
+    ],
+    "PS": [
+      "PAL"
+    ],
+    "PT": [
+      "MDR",
+      "POR"
+    ],
+    "PW": [
+      "CRL"
+    ],
+    "PY": [
+      "PAR"
+    ],
+    "QA": [
+      "GST"
+    ],
+    "RE": [
+      "REU"
+    ],
+    "RO": [
+      "ROM"
+    ],
+    "RS": [
+      "YUG"
+    ],
+    "RU": [
+      "ALT",
+      "AMU",
+      "BLT",
+      "BRY",
+      "CTA",
+      "IRK",
+      "KAM",
+      "KHA",
+      "KRA",
+      "KRY",
+      "KUR",
+      "MAG",
+      "NCS",
+      "PRM",
+      "RUC",
+      "RUE",
+      "RUN",
+      "RUS",
+      "RUW",
+      "SAK",
+      "TVA",
+      "WSB",
+      "YAK"
+    ],
+    "RW": [
+      "RWA"
+    ],
+    "SA": [
+      "SAU"
+    ],
+    "SB": [
+      "SOL"
+    ],
+    "SC": [
+      "SEY"
+    ],
+    "SD": [
+      "SUD"
+    ],
+    "SE": [
+      "SWE"
+    ],
+    "SG": [
+      "MLY"
+    ],
+    "SH": [
+      "STH"
+    ],
+    "SI": [
+      "YUG"
+    ],
+    "SK": [
+      "CZE"
+    ],
+    "SL": [
+      "SIE"
+    ],
+    "SM": [
+      "ITA"
+    ],
+    "SN": [
+      "GAM",
+      "SEN"
+    ],
+    "SO": [
+      "SOM"
+    ],
+    "SR": [
+      "SUR"
+    ],
+    "SS": [
+      "SUD"
+    ],
+    "ST": [
+      "GGI"
+    ],
+    "SV": [
+      "ELS"
+    ],
+    "SX": [
+      "LEE"
+    ],
+    "SY": [
+      "LBS"
+    ],
+    "SZ": [
+      "SWZ"
+    ],
+    "TC": [
+      "TCI"
+    ],
+    "TD": [
+      "CHA"
+    ],
+    "TF": [
+      "KEG"
+    ],
+    "TG": [
+      "TOG"
+    ],
+    "TH": [
+      "THA"
+    ],
+    "TJ": [
+      "TZK"
+    ],
+    "TL": [
+      "LSI"
+    ],
+    "TM": [
+      "TKM"
+    ],
+    "TN": [
+      "TUN"
+    ],
+    "TO": [
+      "TON"
+    ],
+    "TR": [
+      "EAI",
+      "TUE",
+      "TUR"
+    ],
+    "TT": [
+      "TRT"
+    ],
+    "TV": [
+      "TUV"
+    ],
+    "TW": [
+      "TAI"
+    ],
+    "TZ": [
+      "TAN"
+    ],
+    "UA": [
+      "UKR"
+    ],
+    "UG": [
+      "UGA"
+    ],
+    "US-AK": [
+      "ALU",
+      "ASK"
+    ],
+    "US-AL": [
+      "ALA"
+    ],
+    "US-AR": [
+      "ARK"
+    ],
+    "US-AZ": [
+      "ARI"
+    ],
+    "US-CA": [
+      "CAL"
+    ],
+    "US-CO": [
+      "COL"
+    ],
+    "US-CT": [
+      "CNT"
+    ],
+    "US-DC": [
+      "MRY",
+      "WDC"
+    ],
+    "US-DE": [
+      "DEL"
+    ],
+    "US-FL": [
+      "FLA"
+    ],
+    "US-GA": [
+      "GEO"
+    ],
+    "US-HI": [
+      "HAW"
+    ],
+    "US-IA": [
+      "IOW"
+    ],
+    "US-ID": [
+      "IDA"
+    ],
+    "US-IL": [
+      "ILL"
+    ],
+    "US-IN": [
+      "INI"
+    ],
+    "US-KS": [
+      "KAN"
+    ],
+    "US-KY": [
+      "KTY"
+    ],
+    "US-LA": [
+      "LOU"
+    ],
+    "US-MA": [
+      "MAS"
+    ],
+    "US-MD": [
+      "MRY"
+    ],
+    "US-ME": [
+      "MAI"
+    ],
+    "US-MI": [
+      "MIC"
+    ],
+    "US-MN": [
+      "MIN"
+    ],
+    "US-MO": [
+      "MSO"
+    ],
+    "US-MS": [
+      "MSI"
+    ],
+    "US-MT": [
+      "MNT"
+    ],
+    "US-NC": [
+      "NCA"
+    ],
+    "US-ND": [
+      "NDA"
+    ],
+    "US-NE": [
+      "NEB"
+    ],
+    "US-NH": [
+      "NWH"
+    ],
+    "US-NJ": [
+      "NWJ"
+    ],
+    "US-NM": [
+      "NWM"
+    ],
+    "US-NV": [
+      "NEV"
+    ],
+    "US-NY": [
+      "NWY"
+    ],
+    "US-OH": [
+      "OHI"
+    ],
+    "US-OK": [
+      "OKL"
+    ],
+    "US-OR": [
+      "ORE"
+    ],
+    "US-PA": [
+      "PEN"
+    ],
+    "US-RI": [
+      "RHO"
+    ],
+    "US-SC": [
+      "SCA"
+    ],
+    "US-SD": [
+      "SDA"
+    ],
+    "US-TN": [
+      "TEN"
+    ],
+    "US-TX": [
+      "TEX"
+    ],
+    "US-UT": [
+      "UTA"
+    ],
+    "US-VA": [
+      "VRG"
+    ],
+    "US-VT": [
+      "VER"
+    ],
+    "US-WA": [
+      "WAS"
+    ],
+    "US-WI": [
+      "WIS"
+    ],
+    "US-WV": [
+      "WVA"
+    ],
+    "US-WY": [
+      "WYO"
+    ],
+    "UY": [
+      "URU"
+    ],
+    "UZ": [
+      "UZB"
+    ],
+    "VA": [
+      "ITA"
+    ],
+    "VC": [
+      "WIN"
+    ],
+    "VE": [
+      "VEN",
+      "VNA"
+    ],
+    "VG": [
+      "LEE"
+    ],
+    "VI": [
+      "LEE"
+    ],
+    "VN": [
+      "VIE"
+    ],
+    "VU": [
+      "VAN"
+    ],
+    "WF": [
+      "WAL"
+    ],
+    "WS": [
+      "SAM"
+    ],
+    "XK": [
+      "YUG"
+    ],
+    "YE": [
+      "SAU",
+      "SOC",
+      "YEM"
+    ],
+    "YT": [
+      "COM"
+    ],
+    "ZA-EC": [
+      "CPP"
+    ],
+    "ZA-FS": [
+      "OFS"
+    ],
+    "ZA-GT": [
+      "TVL"
+    ],
+    "ZA-LP": [
+      "TVL"
+    ],
+    "ZA-MP": [
+      "TVL"
+    ],
+    "ZA-NC": [
+      "CPP"
+    ],
+    "ZA-NL": [
+      "NAT"
+    ],
+    "ZA-NW": [
+      "TVL"
+    ],
+    "ZA-WC": [
+      "CPP",
+      "MPE"
+    ],
+    "ZM": [
+      "ZAM"
+    ],
+    "ZW": [
+      "ZIM"
+    ]
+  }
+}

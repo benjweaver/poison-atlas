@@ -14,6 +14,7 @@
     "validate": "tsx scripts/validate.ts",
     "images": "tsx scripts/sync-images.ts",
     "boundaries": "tsx scripts/build-boundaries.ts",
+    "tdwg": "tsx scripts/build-tdwg.ts",
     "new": "tsx scripts/new-species.ts",
     "typecheck": "vue-tsc -b",
     "test": "vitest run",

@@ -1,19 +1,28 @@
-// Reads the country lists in GBIF checklist distributions.
+// Reads GBIF checklist distributions: published statements of "this species
+// occurs in this country", and whether it's native or introduced there.
 //
 // Occurrence records follow people: Papua New Guinea, much of Africa and parts
 // of South Asia are thinly recorded, so a species can be missing from a place
-// it certainly lives. Checklists fill that gap. They are published statements
-// of "this species occurs in this country", from expert databases (the
-// Catalogue of Life carries the Reptile Database's ranges; WoRMS covers marine
-// species). GBIF serves them as text, e.g.
+// it certainly lives. Checklists fill that gap, and they say what records
+// can't: whether a population is native or introduced.
 //
-//   "Angola, Botswana, Cameroon (Adamaoua [HR 35: 191]), N/S Democratic
-//    Republic of the Congo (Zaire), Eswatini (Swaziland), ..."
+//   - Plants: the World Checklist of Vascular Plants (WCVP) gives native or
+//     introduced status for every "botanical country" (scripts/tdwg.ts). It is
+//     the only source used for plants.
+//   - Everything else: native-range checklists (the Catalogue of Life, which
+//     carries the Reptile Database's ranges, and WoRMS for marine species),
+//     often as text such as
 //
-// which this turns into country codes.
+//       "Angola, Botswana, Cameroon (Adamaoua [HR 35: 191]), N/S Democratic
+//        Republic of the Congo (Zaire), Eswatini (Swaziland), ..."
+//
+//     and alien-species registers (GRIIS, DAISIE, WRiMS), which say where it
+//     was introduced. A register only ever decides a place's status; it never
+//     lists a place on its own, because registers include casual escapes.
+import type { Status } from './tdwg.ts'
 
 /**
- * The only checklists trusted for native range. An allowlist, because GBIF
+ * Native-range checklists trusted to add countries. An allowlist, because GBIF
  * mixes range statements with things that aren't: species-name registers
  * (Norway's lists every species with a Norwegian name, cone snails included),
  * taxonomy databases (Sweden's Dyntaxa) and catalogues that are careless about
@@ -23,13 +32,18 @@ const TRUSTED_SOURCES = [
   /Catalogue of Life/i, // including national editions (South Africa's)
   /^World Register of Marine Species/i, // not WRiMS, its introduced-species register
   /Reptile Database/i,
+  /Amphibian Species of the World/i,
+  /AmphibiaWeb/i,
+  /FishBase/i,
   /herpetofauna/i, // national reptile and amphibian lists (Mexico's)
 ]
-/** Alien and invasive-species registers list where a species was introduced
- *  or turned up, not where it lives (they're why a rattlesnake would otherwise
- *  be "in Belgium"). Checked first, so "alien herpetofauna of Belgium" is out. */
-const ALIEN_SOURCES = /alien|introduced|invasive|non-native|exotic/i
-const NOT_NATIVE = new Set(['INTRODUCED', 'INVASIVE', 'NATURALISED', 'MANAGED', 'VAGRANT'])
+/** Alien and invasive-species registers: where a species was introduced or
+ *  turned up. Checked first, so "alien herpetofauna of Belgium" is one. */
+const ALIEN_SOURCES = /alien|introduced|invasive|non-native|exotic|\bWRiMS\b/i
+const WCVP = /World Checklist of Vascular Plants/i
+const INTRODUCED = new Set(['INTRODUCED', 'INVASIVE', 'NATURALISED'])
+/** Kept, not wild (MANAGED), or passing through (VAGRANT): neither native nor introduced. */
+const NOT_ESTABLISHED = new Set(['MANAGED', 'VAGRANT'])
 const NOT_PRESENT = new Set(['ABSENT', 'EXCLUDED', 'DOUBTFUL', 'IRREGULAR'])
 
 /** One entry from GBIF's /species/{key}/distributions. */
@@ -37,17 +51,20 @@ export interface Distribution {
   source?: string
   country?: string
   locality?: string
+  locationId?: string
   status?: string
   establishmentMeans?: string
 }
 
-/**
- * Countries where trusted checklists say a species is native, from either
- * ISO-coded entries or free-text country lists.
- */
-export interface ChecklistCountries extends ParsedCountries {
-  /** Country → the checklist(s) that list it, for citing on the site. */
-  sources: Record<string, string[]>
+export interface Checklists {
+  /** Country → native-range checklists listing it there. */
+  native: Record<string, string[]>
+  /** Country → registers or checklists saying it was introduced there. */
+  introduced: Record<string, string[]>
+  /** Plants: WCVP's status in each botanical country (WGSRPD level 3). */
+  wcvp: Record<string, Status>
+  /** Pieces of text that named no known country, for spotting gaps in the aliases. */
+  unmatched: string[]
 }
 
 /** "South African National Species Checklist (Catalogue of Life in …)" → the part before the bracket. */
@@ -55,33 +72,55 @@ export function sourceName(source: string): string {
   return source.replace(/\s*\(.*$/, '').trim()
 }
 
-export function checklistCountries(
+/**
+ * What a species' checklists say. For plants only WCVP counts: other plant
+ * checklists mix native and garden records, and WCVP covers the world.
+ */
+export function readChecklists(
   entries: Distribution[],
   names: Record<string, string>,
-): ChecklistCountries {
-  const sources: Record<string, Set<string>> = {}
+  { plant = false } = {},
+): Checklists {
+  const native: Record<string, Set<string>> = {}
+  const introduced: Record<string, Set<string>> = {}
+  const wcvp: Record<string, Status> = {}
   const unmatched: string[] = []
-  const add = (code: string, source: string) =>
-    (sources[code] ??= new Set()).add(sourceName(source))
+  const add = (into: Record<string, Set<string>>, code: string, source: string) =>
+    (into[code] ??= new Set()).add(sourceName(source))
   for (const e of entries) {
     const source = e.source ?? ''
-    if (ALIEN_SOURCES.test(source) || !TRUSTED_SOURCES.some((re) => re.test(source))) continue
     if (e.status && NOT_PRESENT.has(e.status)) continue
-    if (e.establishmentMeans && NOT_NATIVE.has(e.establishmentMeans)) continue
+    if (e.establishmentMeans && NOT_ESTABLISHED.has(e.establishmentMeans)) continue
+    if (plant) {
+      const region = e.locationId?.match(/^TDWG:([A-Z]{3})$/)?.[1]
+      if (!WCVP.test(source) || !region) continue
+      const status: Status =
+        e.establishmentMeans && INTRODUCED.has(e.establishmentMeans) ? 'introduced' : 'native'
+      // Listed both ways (it happens with varieties): native wins.
+      if (wcvp[region] !== 'native') wcvp[region] = status
+      continue
+    }
+    const alien = ALIEN_SOURCES.test(source)
+    const isIntroduced = alien || (!!e.establishmentMeans && INTRODUCED.has(e.establishmentMeans))
+    if (!isIntroduced && !TRUSTED_SOURCES.some((re) => re.test(source))) continue
+    // A register's own "native" entry (a native species it tracks) isn't an introduction.
+    if (alien && e.establishmentMeans === 'NATIVE') continue
+    const into = isIntroduced ? introduced : native
     if (e.country && /^[A-Z]{2}$/.test(e.country)) {
-      add(e.country, source)
-    } else if (e.locality) {
+      add(into, e.country, source)
+    } else if (e.locality && !isIntroduced) {
       const parsed = parseCountries(e.locality, names)
-      parsed.codes.forEach((c) => add(c, source))
+      parsed.codes.forEach((c) => add(native, c, source))
       unmatched.push(...parsed.unmatched)
     }
   }
-  const codes = Object.keys(sources).sort()
-  return {
-    codes,
-    unmatched,
-    sources: Object.fromEntries(codes.map((c) => [c, [...sources[c]].sort()])),
-  }
+  const sorted = (record: Record<string, Set<string>>) =>
+    Object.fromEntries(
+      Object.keys(record)
+        .sort()
+        .map((c) => [c, [...record[c]].sort()]),
+    )
+  return { native: sorted(native), introduced: sorted(introduced), wcvp, unmatched }
 }
 
 // Names checklists use that Natural Earth doesn't (older or regional names).

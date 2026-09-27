@@ -7,6 +7,8 @@ export interface RegionProps {
   wikidata?: string
   /** On a species' range: false where it's known without any records. */
   recorded?: boolean
+  /** On a species' range: true where it was introduced rather than native. */
+  introduced?: boolean
   continent?: string
   count?: number
 }
@@ -59,8 +61,11 @@ export async function loadWater(): Promise<{ rivers: Water; lakes: Water } | nul
     : null
 }
 
-/** Grid cells where an aquatic species has been recorded: record count, and the territory the dot belongs to (null in open ocean). */
-export type RecordPoints = FeatureCollection<Point, { n: number; code: string | null }>
+/** Grid cells where a species has been recorded: record count, the territory the dot belongs to (null in open ocean), and whether it was introduced there. */
+export type RecordPoints = FeatureCollection<
+  Point,
+  { n: number; code: string | null; introduced?: boolean }
+>
 
 const records = new Map<string, Promise<RecordPoints | null>>()
 

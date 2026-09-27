@@ -5,9 +5,10 @@
 //   countries      every country, shaded by how many species live there
 //   subdivisions   the selected country's states/provinces, shaded the same way
 //   lakes, rivers  major fresh water, for context
-//   range          where the selected species lives, drawn over both
-//   records        for aquatic species, dots where it has actually been
-//                  recorded — the sea or river, not the whole country
+//   range          where the selected species lives, drawn over both: native
+//                  places filled, introduced ones hatched
+//   records        dots where it has actually been recorded, coloured by
+//                  whether it's native or introduced there
 //
 // Everything it shows comes in through props, and clicks go out as a `select`
 // event. It holds no app state of its own, so App.vue stays the one place that
@@ -16,6 +17,7 @@ import {
   Map as MapLibre,
   NavigationControl,
   setWorkerUrl,
+  type ExpressionSpecification,
   type GeoJSONSource,
   type MapMouseEvent,
 } from 'maplibre-gl'
@@ -87,12 +89,31 @@ function palette() {
     land: v('--map-land'),
     border: v('--map-border'),
     heat: [1, 2, 3, 4, 5].map((i) => v(`--heat-${i}`)),
-    // Water species keep the blues; land species get the greens.
+    // Water species keep the blues; land species get the greens. Introduced
+    // places and their dots are orange either way.
     range: v(props.aquatic ? '--map-range' : '--map-range-land'),
+    introduced: v('--map-introduced'),
     selected: v('--map-selected'),
     water: v('--map-water'),
     records: v(props.aquatic ? '--map-records' : '--map-records-land'),
   }
+}
+
+// Introduced places are hatched, so they differ from native ones by pattern as
+// well as colour (orange and green look alike to many colour-blind people).
+// MapLibre patterns are images; this one is drawn here, in the theme's colour.
+const HATCH = 'introduced-hatch'
+function hatch(color: string): { width: number; height: number; data: Uint8Array } {
+  const size = 12 // at pixelRatio 2: a 6px repeat
+  const data = new Uint8Array(size * size * 4)
+  const [r, g, b] = [1, 3, 5].map((i) => parseInt(color.slice(i, i + 2), 16))
+  for (let y = 0; y < size; y++) {
+    for (let x = 0; x < size; x++) {
+      // A diagonal stripe, 3 of every 12 pixels wide.
+      if ((x + y) % size < 3) data.set([r, g, b, 255], (y * size + x) * 4)
+    }
+  }
+  return { width: size, height: size, data }
 }
 
 function heatPaint(c: ReturnType<typeof palette>, dimmed: boolean) {
@@ -133,16 +154,37 @@ function applyPalette() {
   // water species (the land isn't where it lives), lighter for a land one.
   const opacity = !props.records ? 0.55 : props.aquatic ? 0.12 : 0.28
   // Places known without records (checklists, review) are fainter and dashed.
-  map.setPaintProperty('range-fill', 'fill-opacity', [
+  const fillOpacity: ExpressionSpecification = [
     'case',
     ['==', ['get', 'recorded'], false],
     opacity * 0.5,
     opacity,
+  ]
+  map.setPaintProperty('range-fill', 'fill-opacity', fillOpacity)
+  if (map.hasImage(HATCH)) map.updateImage(HATCH, hatch(c.introduced))
+  else map.addImage(HATCH, hatch(c.introduced), { pixelRatio: 2 })
+  // The hatching is sparser than a fill, so it stays stronger to read as much.
+  map.setPaintProperty('range-introduced-fill', 'fill-opacity', [
+    'case',
+    ['==', ['get', 'recorded'], false],
+    Math.min(1, opacity * 1.6),
+    Math.min(1, opacity * 2.4),
   ])
-  map.setPaintProperty('range-unrecorded-line', 'line-color', c.range)
+  map.setPaintProperty('range-introduced-line', 'line-color', c.introduced)
+  map.setPaintProperty('range-unrecorded-line', 'line-color', [
+    'case',
+    ['==', ['get', 'introduced'], true],
+    c.introduced,
+    c.range,
+  ])
   map.setPaintProperty('lakes-fill', 'fill-color', c.water)
   map.setPaintProperty('rivers-line', 'line-color', c.water)
-  map.setPaintProperty('records-circle', 'circle-color', c.records)
+  map.setPaintProperty('records-circle', 'circle-color', [
+    'case',
+    ['==', ['get', 'introduced'], true],
+    c.introduced,
+    c.records,
+  ])
   map.setPaintProperty('records-circle', 'circle-stroke-color', c.ocean)
   map.setPaintProperty('range-line', 'line-color', c.range)
   map.setPaintProperty('selected-line', 'line-color', c.selected)
@@ -240,7 +282,15 @@ onMounted(() => {
           id: 'range-fill',
           type: 'fill',
           source: 'range',
+          filter: ['!=', ['get', 'introduced'], true],
           paint: { 'fill-color': c.range, 'fill-opacity': 0.55 },
+        },
+        {
+          id: 'range-introduced-fill',
+          type: 'fill',
+          source: 'range',
+          filter: ['==', ['get', 'introduced'], true],
+          paint: { 'fill-pattern': HATCH, 'fill-opacity': 0.9 },
         },
         {
           id: 'countries-line',
@@ -258,8 +308,15 @@ onMounted(() => {
           id: 'range-line',
           type: 'line',
           source: 'range',
-          filter: ['!=', ['get', 'recorded'], false],
+          filter: ['all', ['!=', ['get', 'recorded'], false], ['!=', ['get', 'introduced'], true]],
           paint: { 'line-color': c.range, 'line-width': 1.2 },
+        },
+        {
+          id: 'range-introduced-line',
+          type: 'line',
+          source: 'range',
+          filter: ['all', ['!=', ['get', 'recorded'], false], ['==', ['get', 'introduced'], true]],
+          paint: { 'line-color': c.introduced, 'line-width': 1.2 },
         },
         {
           id: 'range-unrecorded-line',
@@ -273,7 +330,7 @@ onMounted(() => {
           type: 'circle',
           source: 'records',
           paint: {
-            'circle-color': c.records,
+            'circle-color': ['case', ['==', ['get', 'introduced'], true], c.introduced, c.records],
             // Faint for a single record, solid where records pile up, so a
             // state full of dots still shows where the hotspots are.
             'circle-opacity': [
@@ -319,6 +376,13 @@ onMounted(() => {
     },
   })
   map.addControl(new NavigationControl({ showCompass: false }), 'top-right')
+  // The introduced-places pattern is drawn on demand, the first time a layer
+  // asks for it; applyPalette() redraws it when the theme changes.
+  map.on('styleimagemissing', (e: { id: string }) => {
+    if (e.id === HATCH && !map!.hasImage(HATCH)) {
+      map!.addImage(HATCH, hatch(palette().introduced), { pixelRatio: 2 })
+    }
+  })
 
   map.on('load', () => {
     ready = true

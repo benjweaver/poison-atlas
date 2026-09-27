@@ -1,14 +1,16 @@
 import {
   diffRegions,
+  FUNGUS_RULES,
   minRecords,
-  proposeRegions,
+  propose,
+  recordedPlaces,
   regionsFromCells,
-  withChecklist,
   type GbifCounts,
 } from './gbif-range.ts'
+import type { TdwgMap } from './tdwg.ts'
 
-// Shaped like the real western diamondback data: thousands of records in the
-// US and Mexico, two stray ones in Canada.
+// Shaped like real rattlesnake data: thousands of records in the US and
+// Mexico, two stray ones in Canada.
 const rattler: GbifCounts = {
   total: 28_000,
   countries: { US: 25_000, MX: 2_998, CA: 2 },
@@ -23,50 +25,54 @@ describe('minRecords', () => {
   })
 })
 
-describe('proposeRegions', () => {
+describe('recordedPlaces', () => {
   it('lists subdivided countries by state and drops sparse records', () => {
     // CA has 2 and US-FL 4 records, below the minimum of 5.
-    expect(proposeRegions(rattler)).toEqual(['MX-SON', 'US-AR', 'US-AZ', 'US-TX'])
+    expect(recordedPlaces(rattler)).toEqual(['MX-SON', 'US-AR', 'US-AZ', 'US-TX'])
   })
 
   it('keeps a well-sampled species in a thinly recorded country', () => {
-    // The adder problem: Belarus is a tiny share of the records, but real.
-    const adder: GbifCounts = {
+    // 120,000 records from Britain and the Netherlands; Belarus is a tiny
+    // share of them, but real.
+    const counts: GbifCounts = {
       total: 120_000,
       countries: { GB: 80_000, NL: 39_900, BY: 90, IE: 3 },
       subdivisions: {},
     }
-    expect(proposeRegions(adder)).toEqual(['BY', 'GB', 'NL'])
-  })
-
-  it('lists other countries whole', () => {
-    const adder: GbifCounts = { total: 1000, countries: { GB: 600, FR: 400 }, subdivisions: {} }
-    expect(proposeRegions(adder)).toEqual(['FR', 'GB'])
+    expect(recordedPlaces(counts)).toEqual(['BY', 'GB', 'NL'])
   })
 
   it('falls back to the country when no state has enough records', () => {
     const counts: GbifCounts = { total: 50, countries: { US: 50 }, subdivisions: { 'US-TX': 1 } }
-    expect(proposeRegions(counts)).toEqual(['US'])
+    expect(recordedPlaces(counts)).toEqual(['US'])
   })
 
   it("doesn't list a big country whole on a few scattered records", () => {
-    // The yellow-bellied sea snake: 8 US records, 2 in California, none in a
-    // state with enough to count. Listing "US" would put it in South Carolina.
     const counts: GbifCounts = {
       total: 2178,
       countries: { US: 8, MX: 443 },
       subdivisions: { 'US-CA': 2, 'MX-SIN': 120 },
     }
-    expect(proposeRegions(counts)).toEqual(['MX-SIN'])
+    expect(recordedPlaces(counts)).toEqual(['MX-SIN'])
   })
 
-  it('applies manual excludes, including a whole country', () => {
-    expect(proposeRegions(rattler, { exclude: ['US-AR', 'MX'] })).toEqual(['US-AZ', 'US-TX'])
+  it('applies exclusions, including a whole country', () => {
+    expect(recordedPlaces(rattler, { exclude: ['US-AR', 'MX'] })).toEqual(['US-AZ', 'US-TX'])
   })
 
-  it('applies manual includes, and a country include replaces its states', () => {
-    expect(proposeRegions(rattler, { include: ['US-NM'] })).toContain('US-NM')
-    expect(proposeRegions(rattler, { include: ['MX'] })).toEqual(['MX', 'US-AR', 'US-AZ', 'US-TX'])
+  it('asks more of fungus places known only from iNaturalist photos', () => {
+    const counts: GbifCounts = {
+      total: 20_000,
+      countries: { GB: 12_000, US: 7_000, MX: 9, CL: 40 },
+      subdivisions: { 'US-CA': 6_900, 'MX-JAL': 9 },
+    }
+    // Mexico's 9 records are all iNaturalist photos; Chile's 40 include specimens.
+    const inat: GbifCounts = {
+      total: 9_000,
+      countries: { GB: 6_000, US: 3_000, MX: 9, CL: 5 },
+      subdivisions: { 'US-CA': 2_950, 'MX-JAL': 9 },
+    }
+    expect(recordedPlaces(counts, {}, FUNGUS_RULES, inat)).toEqual(['CL', 'GB', 'US-CA'])
   })
 })
 
@@ -94,13 +100,79 @@ describe('regionsFromCells', () => {
   })
 })
 
-describe('withChecklist', () => {
-  it('adds checklist countries GBIF has no records for', () => {
-    // The box jellyfish: records in Queensland and Indonesia; a checklist adds PNG.
-    expect(withChecklist(['AU-QLD', 'ID'], ['PG', 'ID'])).toEqual(['AU-QLD', 'ID', 'PG'])
+describe('propose', () => {
+  const none = { native: {}, introduced: {}, wcvp: {} }
+
+  describe('for animals and fungi', () => {
+    it('makes a place introduced where a register says so and no native checklist disagrees', () => {
+      const checklists = {
+        ...none,
+        native: { BR: ['Catalogue of Life'], GY: ['Catalogue of Life'] },
+        introduced: { AU: ['GRIIS Australia'], BR: ['Some alien list'] },
+      }
+      expect(propose(['AU-QLD', 'BR-AM', 'CO'], checklists, {})).toEqual({
+        // GY is from its checklist alone; BR-AM's native checklist outranks the register.
+        native: ['BR-AM', 'CO', 'GY'],
+        introduced: ['AU-QLD'],
+        unlisted: [],
+      })
+    })
+
+    it('never adds a place from a register alone, or a big country from any checklist', () => {
+      const checklists = {
+        ...none,
+        native: { US: ['Catalogue of Life'] },
+        introduced: { NZ: ['GRIIS'] },
+      }
+      expect(propose(['MX-SON'], checklists, {})).toEqual({
+        native: ['MX-SON'],
+        introduced: [],
+        unlisted: [],
+      })
+    })
+
+    it('lets a cited include add a place or settle its status, and exclusions win over data', () => {
+      const result = propose(['US-FL', 'US-TX', 'JP-47'], none, {
+        overrides: {
+          exclude: ['JP'],
+          include: [
+            { code: 'US-FL', introduced: true },
+            { code: 'PR', introduced: true },
+          ],
+        },
+      })
+      expect(result).toEqual({ native: ['US-TX'], introduced: ['PR', 'US-FL'], unlisted: [] })
+    })
   })
 
-  it('never lists a big country whole, and respects exclusions', () => {
-    expect(withChecklist(['MX-SON'], ['US', 'MX', 'BE'], { exclude: ['BE'] })).toEqual(['MX-SON'])
+  describe('for plants', () => {
+    const tdwg: TdwgMap = {
+      regions: {
+        GRB: { name: 'Great Britain', places: ['GB'], main: 'GB' },
+        FRA: { name: 'France', places: ['FR'], main: 'FR' },
+        ALA: { name: 'Alabama', places: ['US-AL'], main: 'US-AL' },
+        MXN: { name: 'Mexico Northwest', places: ['MX-BCN', 'MX-SON'] },
+      },
+      places: { GB: ['GRB'], FR: ['FRA'], 'US-AL': ['ALA'], 'MX-BCN': ['MXN'], 'MX-SON': ['MXN'] },
+    }
+    const wcvp = { GRB: 'native', FRA: 'native', ALA: 'introduced', MXN: 'introduced' } as const
+
+    it("takes WCVP's status, adds the places it establishes, and leaves out the rest", () => {
+      expect(
+        propose(['GB', 'MX-SON', 'US-GA', 'US'], { ...none, wcvp }, { plant: true, tdwg }),
+      ).toEqual({
+        native: ['FR', 'GB'],
+        // Mexico Northwest is several states: only the one with records is listed.
+        introduced: ['MX-SON', 'US-AL'],
+        unlisted: [
+          { code: 'US-GA', why: 'not in WCVP here: garden plants or casual escapes?' },
+          { code: 'US', why: 'records not tied to a state' },
+        ],
+      })
+    })
+
+    it('needs the botanical-country map', () => {
+      expect(() => propose([], none, { plant: true })).toThrow(/tdwg/)
+    })
   })
 })

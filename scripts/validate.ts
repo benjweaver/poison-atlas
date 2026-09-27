@@ -2,7 +2,7 @@
 // Stricter than the build: a species without a credited photo, or whose range
 // was never checked against GBIF, fails here. So CI catches a forgotten
 // `npm run images` or `npm run ranges` while local dev keeps working.
-import { DataError, loadSpecies } from './species-loader.ts'
+import { DataError, loadPoisonCentres, loadSpecies } from './species-loader.ts'
 
 try {
   const species = loadSpecies()
@@ -18,7 +18,8 @@ try {
       .map((s) => `${s.slug}: no record grid — run: npm run ranges`),
   ]
   if (problems.length) throw new DataError(problems)
-  console.log(`✓ ${species.length} species valid`)
+  const centres = loadPoisonCentres()
+  console.log(`✓ ${species.length} species and ${Object.keys(centres).length} poison centres valid`)
 } catch (e) {
   console.error(e instanceof DataError ? e.message : e)
   process.exit(1)

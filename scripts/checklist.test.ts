@@ -1,4 +1,4 @@
-import { checklistCountries, normalizeName, parseCountries } from './checklist.ts'
+import { normalizeName, parseCountries, readChecklists } from './checklist.ts'
 
 const names = Object.fromEntries(
   Object.entries({
@@ -53,8 +53,8 @@ describe('parseCountries', () => {
   })
 })
 
-describe('checklistCountries', () => {
-  it('uses native checklists and ignores alien-species registers', () => {
+describe('readChecklists', () => {
+  it('reads native range from trusted checklists, and introductions from registers', () => {
     const entries = [
       { source: 'Catalogue of Life', locality: 'Angola, N Namibia' },
       {
@@ -62,35 +62,53 @@ describe('checklistCountries', () => {
         country: 'ZA',
       },
       { source: 'Checklist of alien herpetofauna of Belgium', country: 'BE' },
-      { source: 'Some national checklist', country: 'CM', establishmentMeans: 'INTRODUCED' },
+      { source: 'Global Register of Introduced and Invasive Species - Australia', country: 'AU' },
+      { source: 'WRiMS', country: 'GR', establishmentMeans: 'INTRODUCED' },
       { source: 'Integrated Taxonomic Information System (ITIS)', locality: 'Africa' },
     ]
-    const result = checklistCountries(entries, names)
-    expect(result.codes).toEqual(['AO', 'NA', 'ZA'])
+    const result = readChecklists(entries, names)
     // Each country keeps its source, for citing on the site.
-    expect(result.sources).toEqual({
+    expect(result.native).toEqual({
       AO: ['Catalogue of Life'],
       NA: ['Catalogue of Life'],
       ZA: ['South African National Species Checklist'],
     })
+    expect(result.introduced).toEqual({
+      AU: ['Global Register of Introduced and Invasive Species - Australia'],
+      BE: ['Checklist of alien herpetofauna of Belgium'],
+      GR: ['WRiMS'],
+    })
   })
 
-  it('ignores name registers and taxonomy databases', () => {
+  it('ignores name registers, taxonomy databases, and kept or passing populations', () => {
     const entries = [
       { country: 'NO' }, // no source: a species-name register
       { source: 'Dyntaxa. Svensk taxonomisk databas', country: 'SE' },
-      {
-        source: 'Catálogo Taxonômico da Fauna do Brasil',
-        country: 'GB',
-        establishmentMeans: 'NATIVE',
-      },
       { source: 'Catalogue of Life', locality: 'Angola' },
+      { source: 'Flora e Funga do Brasil', country: 'BR', establishmentMeans: 'MANAGED' },
+      { source: 'Catalogue of Life', country: 'CM', status: 'DOUBTFUL' },
+    ]
+    const result = readChecklists(entries, names)
+    expect(result.native).toEqual({ AO: ['Catalogue of Life'] })
+    expect(result.introduced).toEqual({})
+  })
+
+  it('reads plants from WCVP alone, by botanical country', () => {
+    const wcvp = 'The World Checklist of Vascular Plants (WCVP)'
+    const entries = [
+      { source: wcvp, locationId: 'TDWG:GRB', locality: 'Great Britain' },
       {
-        source: 'World Register of Marine Species',
-        country: 'GR',
+        source: wcvp,
+        locationId: 'TDWG:ALA',
+        locality: 'Alabama',
         establishmentMeans: 'INTRODUCED',
       },
+      { source: 'Catalogue of Life', locality: 'Angola' },
+      { source: 'Global Register of Introduced and Invasive Species - Belgium', country: 'BE' },
     ]
-    expect(checklistCountries(entries, names).codes).toEqual(['AO'])
+    const result = readChecklists(entries, names, { plant: true })
+    expect(result.wcvp).toEqual({ GRB: 'native', ALA: 'introduced' })
+    expect(result.native).toEqual({})
+    expect(result.introduced).toEqual({})
   })
 })

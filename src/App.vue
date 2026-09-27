@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import poisonCentres from 'virtual:poison-centres'
 import allSpecies from 'virtual:species'
 import { computed, defineAsyncComponent, reactive, ref, shallowRef, watch, watchEffect } from 'vue'
 
@@ -6,6 +7,7 @@ import FilterBar from '@/components/FilterBar.vue'
 import InfoTip from '@/components/InfoTip.vue'
 import MapLegend from '@/components/MapLegend.vue'
 import PlaceNav from '@/components/PlaceNav.vue'
+import PoisonHelp from '@/components/PoisonHelp.vue'
 import SpeciesCard from '@/components/SpeciesCard.vue'
 import SpeciesDetail from '@/components/SpeciesDetail.vue'
 import AppIcon from '@/components/AppIcon.vue'
@@ -20,11 +22,13 @@ import {
   type RecordPoints,
   type Regions,
 } from '@/lib/geo'
+import { helpFor, languageRegion } from '@/lib/poison-help'
 import {
   countryOf,
   countsByCountry,
   countsBySubdivision,
   isSubdivision,
+  placesOf,
   speciesIn,
   type Match,
 } from '@/lib/regions'
@@ -61,10 +65,17 @@ loadCountries()
 // ── Filtering ─────────────────────────────────────────────────────────────
 const available = GROUPS.filter((g) => allSpecies.some((s) => s.group === g))
 
+// Names, and also what a species is mistaken for and its toxins: searching
+// "wild garlic" finds the plants people pick instead of it.
 function matchesQuery(s: Species, q: string): boolean {
   if (!q) return true
   const needle = q.toLowerCase()
-  return s.name.toLowerCase().includes(needle) || s.scientificName.toLowerCase().includes(needle)
+  return [
+    s.name,
+    s.scientificName,
+    s.toxins.text,
+    ...(s.lookalikes ?? []).flatMap((l) => [l.name, l.scientificName]),
+  ].some((text) => text.toLowerCase().includes(needle))
 }
 
 const filtering = computed(() => !!(view.groups.length || view.query || view.minDanger > 1))
@@ -109,7 +120,7 @@ const listed = computed<Match[]>(() =>
     ? speciesIn(filtered.value, view.region)
     : [...filtered.value]
         .sort((a, b) => b.danger - a.danger || a.name.localeCompare(b.name))
-        .map((species) => ({ species, countryWide: false })),
+        .map((species) => ({ species, countryWide: false, introduced: false })),
 )
 
 // ── Selected species ──────────────────────────────────────────────────────
@@ -122,12 +133,13 @@ watch(
   [selectedSpecies, countries],
   async ([species, all]) => {
     if (!species || !all) return (range.value = null)
-    const codes = new Set(species.regions)
-    const needed = [...new Set(species.regions.filter(isSubdivision).map(countryOf))]
+    const codes = new Set(placesOf(species))
+    const needed = [...new Set([...codes].filter(isSubdivision).map(countryOf))]
     const subs = await Promise.all(needed.map(loadSubdivisions))
     if (selectedSpecies.value !== species) return
     subs.forEach(remember)
     const unrecorded = new Set(species.unrecorded ?? [])
+    const introduced = new Set(species.introduced ?? [])
     range.value = {
       type: 'FeatureCollection',
       features: [all, ...subs].flatMap(
@@ -136,7 +148,11 @@ watch(
             .filter((f) => codes.has(f.properties.code))
             .map((f) => ({
               ...f,
-              properties: { ...f.properties, recorded: !unrecorded.has(f.properties.code) },
+              properties: {
+                ...f.properties,
+                recorded: !unrecorded.has(f.properties.code),
+                introduced: introduced.has(f.properties.code),
+              },
             })) ?? [],
       ),
     }
@@ -153,12 +169,25 @@ watch(
     if (!species?.records) return
     const grid = await loadRecords(species.slug)
     if (selectedSpecies.value !== species || !grid) return
-    // A dot is drawn only if its territory is in the species' list (or it's
+    // A dot is drawn only if its territory is in the species' lists (or it's
     // on the high seas), so the dots and the places listed always agree. A
-    // country listed whole covers dots tagged with any of its states.
-    const listed = new Set(species.regions)
-    const shown = (code: string | null) => !code || listed.has(code) || listed.has(code.slice(0, 2))
-    records.value = { ...grid, features: grid.features.filter((f) => shown(f.properties.code)) }
+    // country listed whole covers dots tagged with any of its states. Dots
+    // where it was introduced are coloured as such.
+    const listed = new Set(placesOf(species))
+    const introduced = new Set(species.introduced ?? [])
+    const has = (set: Set<string>, code: string) => set.has(code) || set.has(countryOf(code))
+    records.value = {
+      ...grid,
+      features: grid.features
+        .filter((f) => !f.properties.code || has(listed, f.properties.code))
+        .map((f) => ({
+          ...f,
+          properties: {
+            ...f.properties,
+            introduced: !!f.properties.code && has(introduced, f.properties.code),
+          },
+        })),
+    }
   },
   { immediate: true },
 )
@@ -201,19 +230,15 @@ const DESCRIPTION =
   'harm people who eat, touch, or breathe them, by country and state, with a source for ' +
   'every claim. Not an identification or foraging guide.'
 const NOUNS: Record<Group, [string, string] | null> = {
-  snake: ['snake', 'snakes'],
-  lizard: ['lizard', 'lizards'],
-  spider: ['spider', 'spiders'],
-  scorpion: ['scorpion', 'scorpions'],
-  centipede: ['centipede', 'centipedes'],
-  insect: ['insect', 'insects'],
-  jellyfish: ['jellyfish', 'jellyfish'],
-  mollusc: ['mollusc', 'molluscs'],
+  plant: ['plant', 'plants'],
+  fungus: ['fungus', 'fungi'],
+  amphibian: ['amphibian', 'amphibians'],
   fish: ['fish', 'fish'],
-  mammal: ['mammal', 'mammals'],
+  reptile: ['reptile', 'reptiles'],
+  insect: ['insect', 'insects'],
   other: null,
 }
-// "12 snakes, 5 spiders, and 3 scorpions": the three biggest groups.
+// "12 plants, 5 fungi, and 3 amphibians": the three biggest groups.
 function breakdown(species: Species[]): string {
   const counts = new Map<Group, number>()
   for (const s of species) counts.set(s.group, (counts.get(s.group) ?? 0) + 1)
@@ -260,6 +285,12 @@ const stepOutLabel = computed(() => {
 })
 
 const countryTotal = countsByCountry(allSpecies).size
+
+// Where to call: the poison centre for the country open on the map, or else
+// for the region the browser's languages name.
+const help = computed(() =>
+  helpFor(country.value ?? languageRegion(navigator.languages), poisonCentres, regionName),
+)
 
 // Optional support payments (a Stripe Payment Link, pay what you want). The
 // support links stay hidden until Poison Atlas has a link of its own.
@@ -318,6 +349,7 @@ addEventListener('keydown', (e) => {
         :range="!!range"
         :records="!!records"
         :unrecorded="!!selectedSpecies?.unrecorded?.length"
+        :introduced="!!selectedSpecies?.introduced?.length"
         :aquatic="selectedSpecies?.aquatic"
         class="absolute top-3 left-3 max-w-[calc(100%-4.5rem)] md:top-auto md:bottom-8 md:max-w-none"
       />
@@ -334,6 +366,10 @@ addEventListener('keydown', (e) => {
             </h1>
             <p class="text-xs text-(--muted)">
               {{ allSpecies.length }} poisonous species across {{ countryTotal }} countries
+            </p>
+            <p class="mt-0.5 text-xs font-medium">
+              <AppIcon name="warning" small class="mr-1 inline align-[-1px]" />Not an identification
+              or foraging guide
             </p>
           </div>
           <ThemeToggle />
@@ -362,7 +398,9 @@ addEventListener('keydown', (e) => {
           v-if="selectedSpecies"
           :species="selectedSpecies"
           :region-name="regionName"
+          :help="help"
           @region="selectRegion"
+          @species="view.species = $event"
         />
 
         <template v-else>
@@ -396,17 +434,21 @@ addEventListener('keydown', (e) => {
           </p>
 
           <ul class="-mx-2 space-y-1">
-            <li v-for="{ species, countryWide } in listed" :key="species.slug">
+            <li v-for="{ species, countryWide, introduced } in listed" :key="species.slug">
               <SpeciesCard
                 :species="species"
                 :country-wide="countryWide"
+                :introduced="introduced"
                 @open="view.species = species.slug"
               />
             </li>
           </ul>
         </template>
         <!-- Phones pin a one-line version of this; here's the whole note. -->
-        <p class="mt-6 text-[11px] leading-snug text-(--muted) md:hidden">{{ SAFETY_NOTE }}</p>
+        <div class="mt-6 space-y-1 text-[11px] leading-snug text-(--muted) md:hidden">
+          <p>{{ SAFETY_NOTE }}</p>
+          <PoisonHelp :help="help" />
+        </div>
       </div>
 
       <!-- Phones: one line pinned to the bottom of the screen, so the safety note
@@ -417,6 +459,7 @@ addEventListener('keydown', (e) => {
         class="sticky bottom-0 z-20 border-t border-(--line) bg-(--surface) px-4 py-1.5 text-[11px] leading-snug text-(--muted) md:static md:py-2"
       >
         <p class="max-md:hidden">{{ SAFETY_NOTE }}</p>
+        <PoisonHelp :help="help" class="max-md:hidden" />
         <div class="flex flex-wrap items-center justify-between gap-x-3 md:mt-1">
           <InfoTip :text="SAFETY_NOTE" class="md:hidden">
             <span class="inline-flex items-center gap-1 whitespace-nowrap"

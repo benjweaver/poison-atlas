@@ -1,18 +1,36 @@
 import type { Species } from '@/data/schema'
 
-import { countsByCountry, countsBySubdivision, presenceIn, speciesIn } from './regions'
+import {
+  countsByCountry,
+  countsBySubdivision,
+  introducedIn,
+  presenceIn,
+  speciesIn,
+} from './regions'
 
-function species(slug: string, regions: string[], danger: Species['danger'] = 3): Species {
+const claim = { text: '', sources: ['https://example.org'] }
+function species(
+  slug: string,
+  regions: string[],
+  danger: Species['danger'] = 3,
+  introduced?: string[],
+): Species {
   return {
     slug,
     name: slug,
     scientificName: slug,
-    group: 'snake',
+    group: 'plant',
     danger,
     summary: '',
-    venom: '',
+    exposure: { routes: ['eaten'], sources: ['https://example.org'] },
+    toxicParts: claim,
+    toxins: claim,
+    symptoms: claim,
+    onset: claim,
+    atRisk: claim,
     habitat: '',
     regions,
+    introduced,
   }
 }
 
@@ -55,5 +73,28 @@ describe('counts', () => {
     const counts = countsBySubdivision(all, ['MX-SON', 'MX-CHH'])
     expect(counts.get('MX-SON')).toBe(1)
     expect(counts.get('MX-CHH')).toBe(1)
+  })
+})
+
+describe('introduced places', () => {
+  // Native in Guyana; introduced in Queensland and Florida, and across Puerto Rico.
+  const toad = species('toad', ['GY'], 3, ['AU-QLD', 'US-FL', 'PR'])
+
+  it('finds a species where it was introduced, and says so', () => {
+    expect(presenceIn(toad, 'AU-QLD')).toBe('listed')
+    expect(speciesIn([toad], 'US-FL')[0]).toMatchObject({ introduced: true })
+    expect(speciesIn([toad], 'GY')[0]).toMatchObject({ introduced: false })
+  })
+
+  it('calls a country introduced only when every part of it listed is', () => {
+    expect(introducedIn(toad, 'AU')).toBe(true)
+    const mixed = species('mixed', ['US-TX'], 3, ['US-FL'])
+    expect(introducedIn(mixed, 'US')).toBe(false)
+    expect(introducedIn(mixed, 'US-FL')).toBe(true)
+  })
+
+  it('counts introduced places on the map too', () => {
+    expect(countsByCountry([toad]).get('US')).toBe(1)
+    expect(countsBySubdivision([toad], ['AU-QLD', 'AU-NSW']).get('AU-QLD')).toBe(1)
   })
 })
