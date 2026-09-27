@@ -2115,6 +2115,60 @@
       "record": 292458
     }
   },
+  "amanita-subjunquillea": {
+    "key": 7241999,
+    "name": "Amanita subjunquillea",
+    "fetched": "2026-09-27",
+    "total": 67,
+    "countries": {
+      "JP": 50,
+      "KR": 9,
+      "CN": 6,
+      "RU": 2
+    },
+    "subdivisions": {
+      "JP-12": 18,
+      "JP-10": 7,
+      "JP-01": 3,
+      "JP-28": 3,
+      "JP-14": 3,
+      "JP-04": 3,
+      "CN-HE": 2,
+      "CN-HA": 2,
+      "JP-20": 2,
+      "JP-15": 2,
+      "JP-09": 2,
+      "CN-SC": 1,
+      "CN-BJ": 1,
+      "JP-34": 1,
+      "JP-03": 1,
+      "JP-27": 1,
+      "JP-25": 1
+    },
+    "unmapped": {},
+    "inat": {
+      "total": 15,
+      "countries": {
+        "JP": 7,
+        "CN": 6,
+        "RU": 2
+      },
+      "subdivisions": {
+        "CN-HE": 2,
+        "CN-HA": 2,
+        "JP-10": 2,
+        "JP-01": 2,
+        "CN-SC": 1,
+        "CN-BJ": 1
+      }
+    },
+    "checklist": {},
+    "introduced": {},
+    "fungorum": {
+      "name": "Amanita subjunquillea",
+      "record": 279259
+    }
+  },
   "amanita-verna": {
     "key": 5240320,
     "name": "Amanita verna",
@@ -6223,6 +6277,43 @@
       "WAS": "introduced",
       "WVA": "introduced",
       "WIS": "introduced"
+    }
+  },
+  "cordierites-frondosus": {
+    "key": 3490002,
+    "name": "Cordierites frondosus",
+    "fetched": "2026-09-27",
+    "total": 49,
+    "countries": {
+      "AU": 21,
+      "JP": 20,
+      "TW": 4,
+      "BT": 3,
+      "LA": 1
+    },
+    "subdivisions": {
+      "AU-VIC": 20,
+      "JP-14": 7,
+      "JP-45": 4,
+      "JP-08": 2,
+      "JP-27": 2,
+      "JP-12": 2,
+      "AU-NSW": 1,
+      "JP-26": 1,
+      "JP-29": 1,
+      "JP-25": 1
+    },
+    "unmapped": {},
+    "inat": {
+      "total": 0,
+      "countries": {},
+      "subdivisions": {}
+    },
+    "checklist": {},
+    "introduced": {},
+    "fungorum": {
+      "name": "Ameghiniella frondosa",
+      "record": 858415
     }
   },
   "cortinarius-orellanus": {

@@ -51,6 +51,9 @@ regions:
   - AT
   - AU-SA
   - BE
+  - CN-GZ
+  - CN-HE
+  - CN-YN
   - DE
   - DK
   - ES
@@ -60,3 +63,14 @@ regions:
   - NL
   - SE
   - UA
+gbif:
+  include:
+    - code: CN-GZ
+      reason: 'found in poisoning incidents in Guizhou in 2020'
+      source: 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
+    - code: CN-HE
+      reason: 'poisoned six people in Hebei in 2020'
+      source: 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
+    - code: CN-YN
+      reason: 'first recorded in Yunnan in 2021 poisoning investigations'
+      source: 'Li H et al. Mushroom poisoning outbreaks: China, 2021. China CDC Weekly 2022. https://europepmc.org/article/PMC/PMC8796718'

@@ -1,0 +1,43 @@
+name: Gyromitra venenata
+scientificName: Gyromitra venenata
+group: fungus
+danger: 3
+summary: >-
+  A false morel described from southwest China in 2020, after it poisoned people in Yunnan and
+  Guizhou, the first gyromitrin poisonings reported in China since 2000.
+exposure:
+  routes: [eaten]
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
+toxicParts:
+  text: >-
+    The whole mushroom.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
+toxins:
+  text: >-
+    Gyromitrins, hydrazine toxins that block the brain’s calming GABA signals.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
+    - 'Lagrange, Vernoux. Warning on false or true morels and button mushrooms with potential toxicity linked to hydrazinic toxins: an update. Toxins 2020. https://doi.org/10.3390/toxins12080482'
+symptoms:
+  text: >-
+    A nervous-system poisoning that blocks GABA; false morel poisonings can bring seizures and
+    liver damage.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
+    - 'Lagrange, Vernoux. Warning on false or true morels and button mushrooms with potential toxicity linked to hydrazinic toxins: an update. Toxins 2020. https://doi.org/10.3390/toxins12080482'
+atRisk:
+  text: >-
+    People who pick false morels: four patients were poisoned in Yunnan and Guizhou.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
+photo: none
+habitat: >-
+  Conifer forest.
+regions:
+  - CN-GZ
+  - CN-YN
+gbif:
+  manual: true
+  source: 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'

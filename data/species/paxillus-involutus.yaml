@@ -50,6 +50,7 @@ regions:
   - CA-ON
   - CA-QC
   - CH
+  - CN-NM
   - CZ
   - DE
   - DK
@@ -88,6 +89,9 @@ introduced:
   - NZ
 gbif:
   include:
+    - code: CN-NM
+      reason: 'killed one person in Inner Mongolia in 2020'
+      source: 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
     - code: AU-VIC
       introduced: true
       reason: 'native to the Northern Hemisphere; introduced elsewhere'

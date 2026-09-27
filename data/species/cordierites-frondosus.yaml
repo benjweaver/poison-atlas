@@ -1,0 +1,71 @@
+name: Cordierites frondosus
+scientificName: Cordierites frondosus
+group: fungus
+danger: 1
+summary: >-
+  A dark, frilly jelly fungus of East Asia that looks like edible wood ear. Eaten, it makes the
+  skin burn in sunlight.
+exposure:
+  routes: [eaten, sunlight]
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2019. China CDC Weekly 2020. https://europepmc.org/article/PMC/PMC8392910'
+toxicParts:
+  text: >-
+    The whole fungus.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+toxins:
+  text: >-
+    Photosensitizing compounds; eating it makes the skin react to sunlight.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2019. China CDC Weekly 2020. https://europepmc.org/article/PMC/PMC8392910'
+symptoms:
+  text: >-
+    Photosensitive dermatitis: a sunburn-like rash on skin exposed to light.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2019. China CDC Weekly 2020. https://europepmc.org/article/PMC/PMC8392910'
+atRisk:
+  text: >-
+    People who gather wood ear mushrooms: it has poisoned people in Yunnan, Guizhou, and
+    Chongqing.
+  sources:
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+    - 'Li H et al. Mushroom poisoning outbreaks: China, 2019. China CDC Weekly 2020. https://europepmc.org/article/PMC/PMC8392910'
+lookalikes:
+  - name: Wood ear
+    scientificName: Auricularia
+    note: >-
+      It looks like edible Auricularia, and has been eaten mixed in with it.
+    sources:
+      - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
+      - 'Li H et al. Mushroom poisoning outbreaks: China, 2024. China CDC Weekly 2025. https://doi.org/10.46234/ccdcw2025.106'
+habitat: >-
+  Dead wood of broadleaf trees.
+taxonomy:
+  note: >-
+    Species Fungorum now names it Ameghiniella frondosa; this atlas uses the name China's poisoning
+    reports use.
+  source: 'Ameghiniella frondosa. Species Fungorum, record 858415. https://www.speciesfungorum.org/Names/NamesRecord.asp?RecordID=858415'
+regions:
+  - AU-VIC
+  - BT
+  - CN-CQ
+  - CN-GZ
+  - CN-YN
+  - JP-14
+  - JP-45
+  - TW
+gbif:
+  include:
+    - code: CN-YN
+      reason: 'poisoned people in Yunnan in 2019 and 2024'
+      source: 'Li H et al. Mushroom poisoning outbreaks: China, 2019. China CDC Weekly 2020. https://europepmc.org/article/PMC/PMC8392910'
+    - code: CN-GZ
+      reason: 'poisoned people in Guizhou in 2019'
+      source: 'Li H et al. Mushroom poisoning outbreaks: China, 2019. China CDC Weekly 2020. https://europepmc.org/article/PMC/PMC8392910'
+    - code: CN-CQ
+      reason: 'poisoned three people in Chongqing in 2022'
+      source: 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
