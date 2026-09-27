@@ -46,7 +46,11 @@ atRisk:
   sources:
     - 'Wu S et al. Mushroom poisoning deaths and prevention practices in Hunan, 2014–2023. PLoS One 2025. https://doi.org/10.1371/journal.pone.0326107'
     - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
-photo: none
+photo:
+  file: amanita-rimosa.jpg
+  credit: 'Hunan CDC, in Wu et al., PLOS One 2025, fig. 4 (cropped)'
+  license: CC BY 4.0
+  source: https://doi.org/10.1371/journal.pone.0326107
 habitat: >-
   Broadleaf and mixed forest.
 regions:

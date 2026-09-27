@@ -25,12 +25,26 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
+  "amanita-exitialis": {
+    "src": "/photos/amanita-exitialis.jpg",
+    "page": "https://doi.org/10.3390/genes12121907",
+    "artist": "Zhong et al., Genes 2021, fig. 1 (cropped)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "amanita-fuliginea": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Amanita_fuliginea_Hongo_803897.jpg/960px-Amanita_fuliginea_Hongo_803897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Amanita_fuliginea_Hongo_803897.jpg",
     "artist": "This image was created by user lxjfx at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "amanita-fuligineoides": {
+    "src": "/photos/amanita-fuligineoides.jpg",
+    "page": "https://doi.org/10.1371/journal.pone.0182131",
+    "artist": "Thongbai et al., PLOS One 2017, fig. 3C (cropped)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
   },
   "amanita-muscaria": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Amanita_muscaria_Aberystwyth_2023.jpg/960px-Amanita_muscaria_Aberystwyth_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -73,6 +87,13 @@
     "artist": "Σ64",
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "amanita-rimosa": {
+    "src": "/photos/amanita-rimosa.jpg",
+    "page": "https://doi.org/10.1371/journal.pone.0326107",
+    "artist": "Hunan CDC, in Wu et al., PLOS One 2025, fig. 4 (cropped)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
   },
   "amanita-subjunquillea": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Tamagotakemodoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",

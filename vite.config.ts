@@ -70,13 +70,14 @@ export default defineConfig({
           {
             // Photos come from Wikimedia's and iNaturalist's CDNs, as opaque
             // (no-CORS) responses. Commons serves thumbnails from either
-            // Wikimedia host, depending on when the file was synced.
+            // Wikimedia host, depending on when the file was synced. A few are
+            // kept with the site, in /photos/.
             urlPattern: ({ url }) =>
               [
                 'upload.wikimedia.org',
                 'thumb.wikimedia.org',
                 'inaturalist-open-data.s3.amazonaws.com',
-              ].includes(url.hostname),
+              ].includes(url.hostname) || url.pathname.startsWith('/photos/'),
             handler: 'CacheFirst',
             options: {
               cacheName: 'photos',

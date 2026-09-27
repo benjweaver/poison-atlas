@@ -46,7 +46,11 @@ atRisk:
   sources:
     - 'Li H et al. Mushroom poisoning outbreaks: China, 2022. China CDC Weekly 2023. https://doi.org/10.46234/ccdcw2023.009'
     - 'Li H et al. Mushroom poisoning outbreaks: China, 2020. China CDC Weekly 2021. https://europepmc.org/article/PMC/PMC8392932'
-photo: none
+photo:
+  file: amanita-exitialis.jpg
+  credit: 'Zhong et al., Genes 2021, fig. 1 (cropped)'
+  license: CC BY 4.0
+  source: https://doi.org/10.3390/genes12121907
 habitat: >-
   Broadleaf and mixed forest.
 regions:

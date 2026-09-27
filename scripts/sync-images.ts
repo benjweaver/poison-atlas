@@ -14,12 +14,12 @@
 //
 // Results go to data/images.json, which is committed: builds never hit the
 // network, and the credits shown on the site are reviewable in a diff.
-import { readFileSync, writeFileSync } from 'node:fs'
-import { basename } from 'node:path'
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
+import { basename, join } from 'node:path'
 
 import { parse } from 'yaml'
 
-import { speciesSchema, type SpeciesImage } from '../src/data/schema.ts'
+import { PHOTO_LICENSES, speciesSchema, type SpeciesImage } from '../src/data/schema.ts'
 import { IMAGES_FILE, readImages, speciesFiles } from './species-loader.ts'
 
 // Wikimedia asks API clients to identify themselves:
@@ -172,10 +172,10 @@ async function commonsInfo(files: string[]): Promise<Map<string, SpeciesImage>> 
 }
 
 // The licences iNaturalist offers that allow reuse on this site (no NC or ND).
-const INAT_LICENSES: Record<string, { name: string; url: string }> = {
-  cc0: { name: 'CC0 1.0', url: 'https://creativecommons.org/publicdomain/zero/1.0/' },
-  'cc-by': { name: 'CC BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/' },
-  'cc-by-sa': { name: 'CC BY-SA 4.0', url: 'https://creativecommons.org/licenses/by-sa/4.0/' },
+const INAT_LICENSES: Record<string, keyof typeof PHOTO_LICENSES> = {
+  cc0: 'CC0 1.0',
+  'cc-by': 'CC BY 4.0',
+  'cc-by-sa': 'CC BY-SA 4.0',
 }
 const INAT_PHOTO = /^inaturalist:(\d+)$/
 
@@ -198,8 +198,8 @@ async function inaturalistInfo(observation: string): Promise<SpeciesImage | unde
     src: photo.url.replace('/square.', '/large.'),
     page: `https://www.inaturalist.org/observations/${observation}`,
     artist: results[0].user.name || results[0].user.login,
-    license: license.name,
-    licenseUrl: license.url,
+    license,
+    licenseUrl: PHOTO_LICENSES[license],
   }
 }
 
@@ -221,6 +221,7 @@ const images = readImages()
 let failures = 0
 
 const wanted: { slug: string; title: string; scientificName: string; photo?: string }[] = []
+const PHOTOS_DIR = join(import.meta.dirname, '..', 'public', 'photos')
 for (const file of speciesFiles()) {
   const slug = basename(file, '.yaml')
   if (only.length ? !only.includes(slug) : !all && images[slug]) continue
@@ -235,16 +236,32 @@ for (const file of speciesFiles()) {
     delete images[slug]
     continue
   }
+  const { photo } = species.data
+  // A photo kept with the site needs no lookup, only its file.
+  if (typeof photo === 'object') {
+    if (!existsSync(join(PHOTOS_DIR, photo.file))) {
+      console.warn(`✗ ${slug}: public/photos/${photo.file} doesn't exist`)
+      failures++
+      continue
+    }
+    images[slug] = {
+      src: `/photos/${photo.file}`,
+      page: photo.source,
+      artist: photo.credit,
+      license: photo.license,
+      licenseUrl: PHOTO_LICENSES[photo.license],
+    }
+    console.log(`✓ ${slug}: public/photos/${photo.file} (${photo.license}, ${photo.credit})`)
+    continue
+  }
   wanted.push({
     slug,
     title: species.data.wikipedia ?? species.data.scientificName,
     scientificName: species.data.scientificName,
-    photo: species.data.photo,
+    photo,
   })
 }
 
-// Which file each species uses: the one named in its file, else its article's
-// lead image, else a Commons search on its scientific name.
 // iNaturalist photos are looked up one observation at a time.
 const inaturalist = new Map<string, SpeciesImage | undefined>()
 for (const w of wanted) {
@@ -252,6 +269,8 @@ for (const w of wanted) {
   if (observation) inaturalist.set(w.slug, await inaturalistInfo(observation))
 }
 const onCommons = wanted.filter((w) => !inaturalist.has(w.slug))
+// Which file each species uses: the one named in its file, else its article's
+// lead image, else a Commons search on its scientific name.
 const leads = await leadImages(onCommons.filter((w) => !w.photo).map((w) => w.title))
 const chosen = new Map<string, string>()
 for (const w of onCommons) {

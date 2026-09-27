@@ -42,7 +42,11 @@ atRisk:
     People who pick wild mushrooms: five people in Fujian were poisoned by it in June 2021.
   sources:
     - 'Li H et al. Mushroom poisoning outbreaks: China, 2021. China CDC Weekly 2022. https://europepmc.org/article/PMC/PMC8796718'
-photo: none
+photo:
+  file: amanita-fuligineoides.jpg
+  credit: 'Thongbai et al., PLOS One 2017, fig. 3C (cropped)'
+  license: CC BY 4.0
+  source: https://doi.org/10.1371/journal.pone.0182131
 habitat: >-
   Broadleaf and mixed forest.
 regions:

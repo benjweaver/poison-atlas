@@ -58,6 +58,25 @@ export type Lookalike = z.infer<typeof lookalike>
 
 const noRepeats = <T>(list: T[]) => new Set(list).size === list.length
 
+// The licences a photo on this site may carry: attribution at most, no NC or ND.
+export const PHOTO_LICENSES = {
+  'CC0 1.0': 'https://creativecommons.org/publicdomain/zero/1.0/',
+  'CC BY 4.0': 'https://creativecommons.org/licenses/by/4.0/',
+  'CC BY-SA 4.0': 'https://creativecommons.org/licenses/by-sa/4.0/',
+} as const
+
+// A photo kept in public/photos/, cropped from a figure in an openly licensed
+// paper. `credit` names the photographer, or the authors when the figure
+// doesn't, and says it was cropped; `source` is the paper.
+const localPhoto = z
+  .object({
+    file: z.string().regex(/^[a-z0-9-]+\.(jpg|png|webp)$/, 'a file name in public/photos/'),
+    credit: z.string().min(1),
+    license: z.enum(Object.keys(PHOTO_LICENSES) as [keyof typeof PHOTO_LICENSES]),
+    source: z.url(),
+  })
+  .strict()
+
 export const speciesSchema = z
   .object({
     name: z.string().min(1),
@@ -102,10 +121,12 @@ export const speciesSchema = z
     size: z.string().optional(),
     // Wikipedia article title used to find a photo. Defaults to scientificName.
     wikipedia: z.string().optional(),
-    // A specific Wikimedia Commons file to use instead, an iNaturalist
-    // observation ("inaturalist:61089458") whose photo is CC0, CC BY or
-    // CC BY-SA, or "none" when no freely licensed photo exists.
-    photo: z.string().optional(),
+    // A specific Wikimedia Commons file to use instead ("Crotalus atrox 1.jpg"),
+    // an iNaturalist observation ("inaturalist:61089458") whose photo is CC0,
+    // CC BY or CC BY-SA, or "none" when no freely licensed photo exists. Or,
+    // where neither has one, a photo in public/photos/ taken from an openly
+    // licensed paper's figure, with its credit and the paper it came from.
+    photo: z.union([z.string(), localPhoto]).optional(),
     // Where it's native. Written by `npm run ranges`, like `introduced`.
     regions: z.array(regionCode).min(1),
     // Where it's been introduced and established (naturalised or invasive).
@@ -147,7 +168,8 @@ export type SpeciesFile = z.infer<typeof speciesSchema>
 // author and licence — the free licences it's used under require attribution.
 export const imageSchema = z
   .object({
-    src: z.url(),
+    // A full URL, or a path under /photos/ for a photo kept with the site.
+    src: z.union([z.url(), z.string().regex(/^\/photos\/[a-z0-9-]+\.(jpg|png|webp)$/)]),
     page: z.url(),
     artist: z.string(),
     license: z.string(),
