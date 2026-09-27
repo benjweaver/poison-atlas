@@ -180,6 +180,13 @@ introduced:
   - UA
   - UY
   - UZ
+  - VA
   - VN
   - ZA-NL
   - ZA-WC
+gbif:
+  include:
+    - code: VA
+      introduced: true
+      reason: 'research-grade iNaturalist records inside Vatican City, 2017–2023, including the Vatican Gardens; naturalised in Italy'
+      source: 'iNaturalist research-grade observations of Phytolacca americana in Vatican City. https://www.inaturalist.org/observations?place_id=9213&quality_grade=research&taxon_name=Phytolacca%20americana'

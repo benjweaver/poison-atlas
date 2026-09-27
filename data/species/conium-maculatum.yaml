@@ -139,6 +139,7 @@ regions:
   - SA
   - SE
   - SK
+  - SM
   - TJ
   - TM
   - TN
@@ -239,3 +240,6 @@ gbif:
       introduced: true
       reason: 'a weed in most regions of NSW; WCVP lists only Tasmania in Australia'
       source: 'Hemlock (Conium maculatum). NSW WeedWise, NSW Department of Primary Industries. https://weeds.dpi.nsw.gov.au/Weed/Hemlock'
+    - code: SM
+      reason: 'listed as present in the current flora of San Marino, with records before and after 1966'
+      source: 'Alessandrini A et al. Flora vascolare della Repubblica di San Marino (lista aggiornata e annotata). Quad. Studi Nat. Romagna 54 suppl.: 5–116 (2022). https://www.ssnr.it/54s-2.pdf'
