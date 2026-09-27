@@ -78,6 +78,8 @@ export function readGbif(): Record<string, GbifEntry> {
 }
 
 export function speciesFiles(): string[] {
+  // Git doesn't keep empty directories, so a checkout with no species has none.
+  if (!existsSync(SPECIES_DIR)) return []
   return readdirSync(SPECIES_DIR)
     .filter((f) => f.endsWith('.yaml'))
     .sort()
